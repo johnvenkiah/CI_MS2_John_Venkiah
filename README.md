@@ -1,6 +1,10 @@
 # Musical Minds
 
-PICTURE OF MOCKUP
+## Music theory learning fun for beginners
+
+![PICTURE OF MOCKUP](#)
+
+[LINK TO DEPLOYED SITE](#)
 
 ## Contents
 
@@ -34,243 +38,163 @@ PICTURE OF MOCKUP
 
 15. Acnowledgements
 
+## Strategy Plane
 
+### Project Goals
 
-## Project Goals
+The goal of this project is to create a web application for children or beginners to learn the basics of music theory. It is also a personal goal for me to implement JavaScript for the first time.
 
-The main goal of this project is to give my own artist website, a completely new design, both for the purpose of gaining a new website that is beautiful, responsive and updated, but also as means of projecting what I have learnt so far concerning HTML and CSS. In this website, users can listen to or buy my music, watch videos, learn more about me, sign up for a newsletter or contact me.
+### User Goals
 
-[Here is the link to the deployed website:](https://johnvenkiah.github.io/CI_MS1_John_Venkiah/)
+Users who visit this site want to learn basic music theory and have fun doing it. It is as simple as that!
 
-## User Goals
+### User Experience
 
-The design and content should ultimately invite users to want to book me as a musician, buy my music or follow me on social media. Users should be able to navigate easily, feeling a visual consistency throughout the whole website. The main element on that specific page should be clear, and the most important navigational links should be visible from everywhere, in the same place.
+The user should see straight away that the content of this web application is simple; lots of space and a user-friendly but elegant design makes it attracive for both children and adults.
 
-Users using screen readers should also be able to feel welcome thanks to correct arla-labelling and alt attributes for images.
+Target Audience
 
-## User Stories
+* Children
+* People with learning difficulties
+* Beginners or parents
 
-# As a user of this website I would like to:
+### User Stories
 
-1. Learn about musician John Venkiah
-2. Understand all content
-3. Listen to John’s music
-4. Watch John’s music videos
-5. Be able to view this page correctly on a tablet or smartphone
-6. Feel that the content appeals to me and the design is intuitive
-7. Have access to relevant content while viewing with a screen reader
-8. Be able to contact John for bookings, etc
-9. Have the possibility to sign up for a newsletter
-10. Access John’s press info
-11. See any news or updates
-12. View and/or download artist images
+#### As a user of this website I would like to:
 
-# As a returning user I would also like to:
+1. Be able to play a quiz which teaches tone names, symbols, clefs and note lengths
+2. Be able to hear the tone in question, and find out if the question was answered correctly or not
+3. Be able to play tones on a piano on the screen and see which tone is being played
+4. Read a few pages on basic music theory with learning material for the quiz
+5. Be presented with a friendly user interface
+6. Get in touch with the site owner
 
-13. Find specific music I heard and hear it again or purchase it
-14. Find out more about John Venkiah and his music
-15. See any news or updates
-16. Be able to contact John for bookings, etc
+### Site owner goals/user requirements and expectations
 
-## Site owner goals
+This website does not return profit or anything else anything to the site owner, so the benefit will end on the users side, unless the user decides to contact the owner.
 
-These are in this specific case equal to my own goals, but to be more specific as a site owner, I would like to:
+1. Users should feel welcome when entering the website
+2. Users should easily be able to navigate through the contents of the website
+3. Users should find it easy and fun to play the music quiz
+4. Users should have a page where they can play keys and see the note on a stave
+5. Users should be able to contact the owner should they wish
 
-1. Gain more followers
-2. Make it easier for fans to listen to my music
-3. Gain a good image and reputation for potential collaborators with a well designed website
-4.  Urge visitors to want to contact me and make the contact process easy
-5.  Make everyone feel welcome and be able to access the relevant content of the site
+## Scope
 
-## User requirements and expectations
+The website should have five pages:
 
-# Users should:
+1. Home
 
-* Receive a high quality user experience design while navigating within this website.
-* Be able to view or experience the website and its contents with different devices, screen sizes or a screen reader while still maintaining this high quality.
-* Never feel confused about any content, images or links.
-* Be able to find the song, video or album they are looking for.
+Here, the user is given three main options;
+    * To play a quiz
+    * To learn about music theory
+    * To play the piano and see the notes played
+Users can also contact the website owner at the top right of the page.
 
-## Design choice
+2. Quiz
 
-As I have just released a new album, with cover-art that I am fond of, I thought that I should be inspired by that design. I found free fonts that were as similar as possible to the fonts used (due to copyright could not use the same ones) and color-coded active text with the same orange color as on the cover. I also added a black background and consistent white text, as I like dark themes in general.
+Here users can play a simple game where they are presented with notes or musical symbols and have to answer correctly to get a point. Users have to answer as many questions correctly in one minute.
 
-![Fonts I have used:](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/features/main_logo.png?raw=true)
-![Barlow Sans and Source Sans from Google Fonts](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/features/nav_bar)
+3. Learn
 
-I also thought that good images that cover the whole background make a big impact on users, so I chose images that I like, with different ones on each page. This also make the users aware of the page they are on.
+On this page, users will find the sites main text and picture content; here are the basic blocks of learning music theory; the notes, in treble and bass clef, the different clefs, note lengths, accidentals and rests.
 
-A navigation bar at the top is visible and fixed on all pages, which includes the website name at the top left, and Home, Listen, Videos, Bio and Get in Touch links.
+4. Play
 
-On the right hand side, there are icons with links to Spotify, Facebook, YouTube and Instagram.
+This mainly a piano and a stave above. When the user clicks a key, they can see how the note looks on the stave and can hear it being played.
 
-Text or icons that is hovered over has a darker shade of orange than pages that are active, or the submit button, which insinuates that the links are clickable.
+5. Contact
 
-I also used a translucent grey for mid-level elements to create a feeling of three-dimensionality and transparence.
+On the Contact page, users can fill in a simple contact form to get in touch. They can also see the email adress.
 
-![Fonts I have used:](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/features/main_logo.png?raw=true)
+## Structure
 
-I also used easily recognisable icons from Font Awesome for social media and music service-links that follow the same color scheme.
+## Skeleton
 
-Structure
+### Wireframes
 
-The website structure is basic, where the header, footer and social media navigational bars are always visible, and the main content of the page navigated to is central.
+## Surface
 
-Home - The main content is the new album, almost in the middle, with a short description urging the user to listen to my new album
+### Design choices
 
-Listen - Here, the main content is a scrollable element containing embedded web-players of different albums or playlists with my music. Below each one are four icons, to my music on different music services.
+## Technologies used
 
-Videos - Several embedded videos from YouTube fill out the main content of this page, with live concerts and music videos that I have been a part of.
+- [Github](https://github.com/)
 
-Get in touch - This is a web form in which users can enter their name, email, a message and subscribe to a newsletter.
+- [Gitpod](https://gitpod.com/)
 
-Wireframes
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
-I created wireframes for the five different pages, for smartphone, tablet and computer screens, you can view them [here](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/tree/master/docs/wireframes)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-![Wireframe for contact.html](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/wireframes/wireframes_contact_desktop.png?raw=true)
-
-I picture the website as part mini-gallery, so the different pages also are pro photographs, as this also gives an artistic impression.
-
-My wireframes evolved over time and I wanted each page to be a full photo, with a indicator urging the user to scroll down to the page content, which I found more appealing visually.
-
-I also later decided to use a menu bar for small screens, as a hamburger icon is so widely used and also to make use of CSS as much as possible.
-
-The main logo retains the full width of the screen on all pages.
-
-![The home page](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/wireframes/wireframes_home_desktop.png?raw=true)
-
-# Home
-
-Here, it is clear what the focus is - my new album. No other main content is visible, but all the menu elements are there, both social media and website navigation. A nice colourful picture fills the rest of the screen.
-
-The idea is the same on tablet and smartphone, and due to the single hero image of the cd cover, the home page doesn't get crowded. A menu icon to the top right, which I eventually removed from the design.
-
-# Listen
-
-Here is a grid filled with links to music you can listen to both right there in the window but also whole albums or singles that are links to listen to on the preferred media. The grid should also contain short info about the music.
-
-For smaller screens, the grid of music is resized to fit smaller screens, and has one element per row. The user can see the social media icons upon loading and at the very bottom of the page.
-
-# Videos
-
-Here, users can watch carefully chosen videos with my music.
-I wanted the user to see a full screen video as soon as they click the videos link, if watching on a large screen, while the video aspect ratio remains the same. This means that when using a smaller screen, thte user sees several videos when scrolling, which is what I was after.
-
-# About
-
-I later renamed this page About, which I preferred. Here is basic info about my life as a musician and background. Also, some images nicely placed within the content.
-
-# Contact
-
-On this page, I put a simple form, where users can enter their name, email address, write a short message and sign up for newsletters. Here is also links to my press material for bookings, etc.
-
-On large screens, the form will take up one side of the page while there is an image on the other. On smartphone screens, the form will fill the whole page.
-
-Technologies used
-
-- ![Github](https://github.com/)
-
-- ![Gitpod](https://gitpod.com/)
-
-- ![HTML5](https://en.wikipedia.org/wiki/HTML5)
-
-- ![CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Features
 
-# Existing features
+### Existing features
 
-1. Navigation bar
+1.
 
-A nav bar at the top of the page, to match most user expectations. Here you can navigate between the pages "Home, "Listen", "Videos", "About" and "Contact". This dissapears as users scroll down to the main content of some pages.
+2.
 
-2. Side/bottom bar with social media links
+3.
 
-Well known icons for Spotify, Facebook, Instagram and YouTube that are visible throughout the whole website.
+4.
 
-3. Footer
+5.
 
-Simple footer with copyright information.
+### Features to be implemented
 
-4. CD-cover as hero image as a center item of the screen with slight zoom animation when hovering. A colourful image fills the rest of the screen.
+1.
 
-5. Contact Form on [Contact]()
+2.
 
+3.
 
 ## Validation
 
-The site passed most validation and only had an alert about my aria-label for bckground picture. [Here](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/tree/master/docs/validation) are the results.
+### Testing of User Stories
 
-# Testing of User Stories
+| Feature       | Action            | Expected result   | Actual result    |
+ -------------- | :---------------- | ----------------- | ---------------- |
 
-    - I think the user will have enough to read, but maybe the site needs a updates section, so content feels new.
 
-    [Mobile View of about](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/Responsivity/desktop_about_2.png)
-
-    -  I also think that all users can understand all content, due to the fact that I have added aria-labels and titles as much as I can.
-
-    -  My music is there to listen to, there is more than enough!
-
-    _ Pages are viewed correctly on different screen sizes. [Mockup](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/docs/mockup/mockup_3.png) I have tested all functions on all screensizes.
-
-    - The content appeals to me with pictures and music, all it needs is a news feed.
-
-    - One can easily contact med for bookings on the form.
-
-    _ My press info is available for download as a PDF-file.
-
-    - News or updates are missing still.
-
-    Images are downloadable but more to come!
 
 ## Deployment
 
-Pasted from Tara Rhoseyns Github:
+### GitHub Pages
 
-Deployment
-GitHub Pages
-This website has been deployed using GitHub pages. To do the same...
+This website has been deployed using GitHub pages.
 
-Log into your GitHub account and find the repository.
-Click on 'Settings' in the repository.
-Click 'Pages' in the left-hand menu once you're in Settings.
-Click 'Source'.
-Click the dropdown menu which says 'None', then select 'Master Branch'.
-Wait for page to refresh automatically.
-Under GitHub pages you can now find a link to the published live website.
-Forking the GitHub Repository
-By forking this GitHub repository you are making a copy of the original to view or make changes without affecting the original. You can do this by following these steps...
+To deploy a page yourself, do the following:
 
-Log into your GitHub account and find the repository.
-Click 'Fork' (last button on the top right of the repository page).
-You will then have a copy of the repository in your own GitHub account.
-Making a Local Clone
-Log into your GitHub account and find the repository.
-Click on the 'Code' button (next to 'Add file').
-To clone the repository using HTTPS, under clone with HTTPS, copy the link.
-Then open Git Bash.
-Change the current working directory to where you want the cloned directory to be made.
-In your IDE's terminal type 'git clone' followed by the URL you copied.
-Press Enter.
-Your local clone will now be made.
+1. Access your GitHub account and find the relevant repository.
+2. Click 'Settings' in the repository.
+3. In Settings, click 'Pages' in the left-hand menu.
+4. Click 'Source'.
+5. In the dropdown menu displaying 'None', select 'Master Branch' or 'Main'6.
+6. Allow the page some time to deploy your website.
+7. At the top of Github Pages you will see a link to your live website.
+
+### Forking the GitHub Repository
+
+To make a clone, or 'Fork' this repository, follow the steps below.
+
+1. Access your GitHub account and find the relevant repository.
+2. Click on 'Fork' on the top right of the page.
+3. You will find a copy of the repository in your own Github account.
+
+## Making a Local Clone
+
+1. Access your GitHub account and find the relevant repository.
+2. Click the 'Code' button next to 'Add file'.
+3. To clone the repository using HTTPS, under clone with HTTPS, copy the link.
+4. Open Git Bash.
+5. Access the directory you want the clone to be have.
+6. In your IDE's terminal type 'git clone' and the paste the URL you copied.
+7. Press Enter.
+8. You now have a local clone.
 
 ## Acnowledgements
 
-
-https://stackoverflow.com/questions/2861247/center-aligning-a-fixed-position-div
-
-Kyle:
-https://www.youtube.com/watch?v=9zBsdzdE4sM
-
-Traversy Media
-
-https://www.youtube.com/watch?v=-qOe8lBAChE
-
-Responsive Video:
-
-https://medium.com/@tylerduprey_52451/a-perfect-video-container-with-css-37fd454c5eb5
-
 The tutors at Code Institute
-
-And of course my wonderful Mentor Mo, has guided me wonderfully.
