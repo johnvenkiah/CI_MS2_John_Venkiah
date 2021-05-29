@@ -121,6 +121,26 @@ Wireframes were made for both mobile device, tablet and desktop versions of the 
 
 ### Design choices
 
+## Features
+
+### Existing features
+
+This page consists of Five pages, each a feature in itself. As this is a page directed mostly to younger people, navigational links are limited on all pages, so the user can focus on that pages content. If the link is not visible, all the user needs to do is click home.
+
+The Home page has three big buttons, each a main feature of the site. Quiz, Learn and Play. Due to the simple nature of this site, there is little more here to distract, only the main logo and a contact link at the top.
+
+The "quiz" page features two boxes, a questions-box and an answers-box. In the questions-box, a question and a picture will greet the user and they can then input their answer in the answers-box below. There, there is a text input and a submit button. The user gets points for answering correctly store in the top left corner and in the top right corner a timer keeps track of the clock, ticking down from 1 minute.
+
+The "play" page has two features, a miniature piano and a stave showing both the bass clef and treble clef. When the user clicks a key, the relevant note displays on the stave. The correct note is also heard when clicking it.
+
+On the "learn" page, users can start learning the very basics of music theory from the beginning. Here, they learn the clefs, the stave, note names, and more. Pictures and text go hand in hand to teach the user the knowledge Which later can be tested in the quiz.
+
+Finally, the "contact" page contains a simple form, where the user can fill in their name, email address and query, which they can send by clicking the submit-button.
+
+### Features to be implemented
+
+This is a basic web application but could be expanded with all kinds of sections and functions. For example, there could be a play-by-ear section, where notes are played and the user has to answer which note. There could also be a chords-section, introducing chords and their uses in music. i am sure this platform will be expanded in the future.
+
 ## Technologies used
 
 - [Github](https://github.com/)
@@ -132,32 +152,6 @@ Wireframes were made for both mobile device, tablet and desktop versions of the 
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-
-## Features
-
-This page consists of Five pages, each a feature in itself.
-
-The Home page 
-
-### Existing features
-
-1.
-
-2.
-
-3.
-
-4.
-
-5.
-
-### Features to be implemented
-
-1.
-
-2.
-
-3.
 
 ## Validation
 
