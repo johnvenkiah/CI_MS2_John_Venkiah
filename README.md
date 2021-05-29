@@ -113,6 +113,10 @@ On the Contact page, users can fill in a simple contact form to get in touch. Th
 
 ### Wireframes
 
+Wireframes were made for both mobile device, tablet and desktop versions of the website. They can all be viewed [here](#).
+
+![Images of wireframes](#)
+
 ## Surface
 
 ### Design choices
@@ -130,6 +134,10 @@ On the Contact page, users can fill in a simple contact form to get in touch. Th
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Features
+
+This page consists of Five pages, each a feature in itself.
+
+The Home page 
 
 ### Existing features
 
