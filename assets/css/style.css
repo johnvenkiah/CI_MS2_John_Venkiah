@@ -5,7 +5,7 @@
   border: none;
 }
 
-h1 {
+#main-logo {
   font-size: 2em;
   margin: 20px auto;
 }
@@ -42,6 +42,58 @@ body {
   display: inline-block;
   text-align: center;
   line-height: 80px;
-  background-color: red;
+  background-color: rgb(233, 147, 50);
   text-decoration: none;
+}
+
+/* Quiz Page */
+
+.main-logo-small {
+ font-size: 1rem;
+ text-align: left;
+ width: 50%;
+}
+
+#header-quiz {
+  background-color: blueviolet;
+  top: 0;
+  width: 100%;
+  height: 60px;
+}
+
+#navbar-quiz {
+  right: 10px;
+  width: 50%;
+  float: right;
+  position: fixed;
+  top: 0;
+}
+
+#navbar-quiz li {
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  padding: 15px;
+}
+
+#staff {
+  background-color: burlywood;
+  display: inline-block;
+  width: 85%;
+  height: 100%;
+  padding: 15px;
+}
+
+#empty-staff {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+#treble-clef {
+  position: absolute;
+  left: 20%;
+  height: 10%;
+  margin-left: -10%;
+  mix-blend-mode: multiply;
 }
