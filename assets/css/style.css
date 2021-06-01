@@ -40,6 +40,7 @@ body {
 #button-container {
   background-color: rgba(233, 147, 50, 0.3);
   width: 75%;
+  max-width: 500px;
   border-radius: 4px;
   padding: 0 15px 15px;
   margin: 10% auto 0;
@@ -89,15 +90,20 @@ footer a {
 }
 
 #quiz-box {
-  margin: 20px;
+  margin: 20px auto;
+  width: 95%;
+  max-width: 500px;
+  text-align: center;
 }
 
 #score {
   float: left;
+  left: 20%;
 }
 
 #clock {
   float: right;
+  right: 20%;
 }
 
 #score, #clock {
@@ -107,9 +113,10 @@ footer a {
 #staffbox {
   clear: both;
   position: relative;
-  width: 95%;
   height: 50%;
   padding: 15px;
+  width: 95%;
+  max-width: 500px;
   background-color:rgb(224, 204, 182);
   text-align: center;
   border-radius: 4px;
@@ -122,22 +129,23 @@ footer a {
 }
 
 #answer-input {
-  margin: 25px auto;
+  margin: 10% auto 0;
   border-radius: 4px;
   background-color:rgb(224, 204, 182);
   display: block;
   height: 25px;
   width: 40%;
-
+  max-width: 200px;
 }
 
 #submit-button {
-  margin: 25px auto;
+  margin: 3% auto 10%;
   border-radius: 4px;
   display: block;
   width: 40%;
   background-color: rgba(233, 147, 50, 0.6);
   height: 25px;
+  max-width: 200px;
 }
 
 /* learn.html */
