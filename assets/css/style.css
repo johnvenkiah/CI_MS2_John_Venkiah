@@ -140,6 +140,18 @@ footer a {
   height: 25px;
 }
 
+/* learn.html */
+
+.learn-text {
+  font-size: 0.9rem;
+  line-height: 1.5rem;;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  text-align: justify;
+  padding: 15px;
+  color:rgb(224, 204, 182)
+}
+
 /* Hamnburger Menu */
 
 li {
@@ -166,6 +178,8 @@ a {
   display: none;
   margin-top: -7px;
   background-color: transparent;
+  position: fixed;
+  right: 15px;
 }
 
 .bar {
