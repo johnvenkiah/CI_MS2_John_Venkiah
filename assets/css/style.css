@@ -165,6 +165,7 @@ a {
 .hamburger {
   display: none;
   margin-top: -7px;
+  background-color: transparent;
 }
 
 .bar {
