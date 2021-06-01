@@ -16,15 +16,19 @@ body {
   height: 100%;
   width: 100%;
   color:rgb(233, 147, 50);
+  
   background:
       #2a2a2a
+      url(../images/wallpaper_notes.jpeg)
       center center / cover
       no-repeat
       fixed;
+  background-blend-mode: color-burn;
 }
 
 .subheading-home {
   font-size: 1em;
+  margin-top: 10%;
 }
 
 .paragraph {
@@ -36,19 +40,31 @@ body {
   background-color: lightblue;
   width: 75%;
   padding: 0 15px 15px;
-  margin: 0 auto;
+  margin: 15% auto 0;
 }
 
 #button-container > a {
   margin: 15px auto 0 auto;
   border-radius: 5px;
   width: 100%;
-  height: 80px;
+  height: 10%;
   display: inline-block;
   text-align: center;
   line-height: 80px;
   background-color: rgb(233, 147, 50);
   text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  height: 7%;
+  bottom: 0;
+  width: 100%;
+  background-color: burlywood;
+}
+
+footer a {
+  bottom: 0;
 }
 
 /* Quiz Page */
