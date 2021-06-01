@@ -106,11 +106,48 @@ footer a {
   color:rgb(233, 147, 50);
 }
 
+#quiz-box {
+  margin: 10px;
+}
+
+#score {
+  float: left;
+}
+
+#clock {
+  float: right;
+}
+
 #staffbox {
-  background-color:saddlebrown;
-  color: black;
-  display: inline-block;
+  clear: both;
   position: relative;
-  width: 85%;
+  width: 95%;
+  height: 50%;
   padding: 15px;
+  background-color:rgb(224, 204, 182);
+  text-align: center;
+  border-radius: 4px;
+  margin: 15px auto;
+}
+
+#staffbox > img {
+  width: 100%;
+  height: 100%;
+}
+
+#answer-input {
+  margin: 25px auto;
+  border-radius: 4px;
+  background-color:rgb(224, 204, 182);
+  display: block;
+  width: 40%;
+
+}
+
+#submit-button {
+  margin: 25px auto;
+  border-radius: 4px;
+  display: block;
+  width: 40%;
+  background-color: rgba(233, 147, 50, 0.6);
 }
