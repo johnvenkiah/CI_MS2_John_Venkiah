@@ -84,8 +84,8 @@ footer a {
 }
 
 .subheading-other {
-  font-size: 1.1em;
-  margin: 20px;
+  font-size: 1em;
+  margin: 20px auto 20px;
 }
 
 #quiz-box {
@@ -144,12 +144,26 @@ footer a {
 
 .learn-text {
   font-size: 0.9rem;
-  line-height: 1.5rem;;
+  line-height: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
   text-align: justify;
   padding: 15px;
   color:rgb(224, 204, 182)
+}
+
+.learn-image {
+  width: 85%;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.learn-image-2 {
+  width: 95%;
+  height: 100%;
+  margin: 15px auto;
+  border-radius: 3px;
+  background-color:rgb(224, 204, 182);
 }
 
 /* Hamnburger Menu */
