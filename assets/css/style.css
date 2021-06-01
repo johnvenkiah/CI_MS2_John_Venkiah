@@ -172,11 +172,10 @@ footer a {
   background:rgb(224, 204, 182);
   position: absolute;
   display: flex;
-
-  height: 15%;
+  height: 14%;
   width: 4%;
   left: 3%;
-  bottom: 35%;
+  top: 49%;
 }
 
 /* learn.html */
