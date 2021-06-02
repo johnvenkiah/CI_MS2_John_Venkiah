@@ -106,7 +106,7 @@ function playNote(key) {
     })
 }
 
-function displayNote() {
+function displayNot() {
     let notesDisplayed = [
         'c-3.png',
         'c-sharp-3.png',
@@ -134,13 +134,11 @@ function displayNote() {
         'c-5.png',
     ]
 
-    indexOf(notesPlayed) = indexOf(key);
+    indexOf(notesDisplayed) = indexOf(key);
 
     document.getElementById('staffbox').innerHTML = `
-    <img src='assets/images/quiz/${notesDisplayed[i]} alt="An empty staff"></img>
+    <img src='assets/images/quiz/${notesDisplayed([0])} alt=${notesDisplayed.valueOf}></img>
     `;
 }
 
-if (playNote = true) {
-    displayNote();
-}
+displayNot() = playNote();
