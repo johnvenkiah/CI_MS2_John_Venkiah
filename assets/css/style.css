@@ -155,27 +155,7 @@ footer a {
 /* play.html */
 
 #piano-container {
-  background-color:rgba(224, 204, 182, 0.6);
-  height: auto;
-  width: 95%;
-  margin: 0 auto;
-}
-
-#piano {
-  top: 0;
-  width: 100%;
-  display: flex;
-  margin: 0 auto;
-}
-
-#c1 {
-  background:rgb(224, 204, 182);
-  position: absolute;
-  display: flex;
-  height: 14%;
-  width: 4%;
-  left: 3%;
-  top: 49%;
+  
 }
 
 /* learn.html */
