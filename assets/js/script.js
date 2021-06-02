@@ -92,11 +92,13 @@ document.addEventListener('keydown', e => {
  * Play note function,
  */
 function playNote(key) {
-    const noteAudio  = document.getElementById(key.dataset.note)
+    let noteAudio  = document.getElementById(key.dataset.note)
     noteAudio.currentTime = 0
     noteAudio.play()
     key.classList.add('active')
-    key.addEventListener('mouseup', () => {
+
+    let keyOff = ('mouseup' || 'keyup')
+    key.addEventListener(keyOff, () => {
         key.classList.remove('active')
     })
 }
