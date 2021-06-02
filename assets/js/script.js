@@ -107,5 +107,33 @@ function playNote(key) {
 }
 
 function displayNote(notes) {
-    let notesDisplayed = 
+    let notesDisplayed = [
+        'c-3.png',
+        'c-sharp-3.png',
+        'd-3.png',
+        'd-sharp-3.png',
+        'e-3.png',
+        'f-3.png',
+        'f-sharp-3.png',
+        'g-3.png',
+        'g-sharp-3.png',
+        'a-3.png',
+        'a-sharp-3.png',
+        'c-4-treble.png',
+        'c-sharp-4-treble.png',
+        'd-4.png',
+        'd-sharp-4.png',
+        'e-4.png',
+        'f-4.png',
+        'f-sharp-4.png',
+        'g-4.png',
+        'g-sharp-4.png',
+        'a-4.png',
+        'a-sharp-4.png',
+        'b-4.png',
+        'c-5.png',
+    ]
 }
+
+
+<img src="assets/images/quiz/stave-empty.png" alt="An empty staff"></img>
