@@ -154,8 +154,38 @@ footer a {
 
 /* play.html */
 
+#play-box {
+  margin: 20px auto;
+  display: flex;
+  width: 95%;
+  max-width: 500px;
+  text-align: center;
+}
+
 #piano-container {
-  
+  display: flex;
+  height: 400px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.key {
+  height: calc(var(--width) * 5);
+  width: var(--width);
+}
+
+.white {
+  --width: 7.14%;
+  background-color: rgb(224, 204, 182);
+  border: 1px solid #2a2a2a;
+}
+
+.black {
+  --width: 4.28%;
+  margin-left: -2.14%;
+  margin-right: -2.14%;
+  background-color: #2a2a2a;
+  z-index: 2;
 }
 
 /* learn.html */

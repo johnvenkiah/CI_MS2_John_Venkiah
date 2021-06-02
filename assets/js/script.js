@@ -1,3 +1,9 @@
+/**
+ * Navbar and hamburger menu:
+ * The HTML below is inserted within the header
+ * element on the pages with the class "navbar".
+ */
+
 let navBar = `
 <nav class="navbar">
     <a href="index.html" class="nav-logo">
