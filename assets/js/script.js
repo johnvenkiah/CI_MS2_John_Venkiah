@@ -75,7 +75,7 @@ const blackKeys = document.querySelectorAll('.key.black')
 Arrow function to minimize written code. */
 
 keys.forEach(key => {
-    key.addEventListener('click', () => playNote(key))
+    key.addEventListener('mousedown', () => playNote(key))
 })
 
 document.addEventListener('keydown', e => {
@@ -96,7 +96,7 @@ function playNote(key) {
     noteAudio.currentTime = 0
     noteAudio.play()
     key.classList.add('active')
-    document.addEventListener('mouseup', () => {
+    key.addEventListener('mouseup', () => {
         key.classList.remove('active')
     })
 }
