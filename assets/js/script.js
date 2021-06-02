@@ -56,10 +56,12 @@ navLink.forEach(n => n.addEventListener("click", closeMenu));
 function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
+
+    e.stopPropagation();
 }
 
 /**
- * The piano, which responds to user input. Borrowed some code here from Kyle at
+ * The piano, which responds to user input. Borrowed most of this code from Kyle at
  * Web Dev Simplified through this great video: https://youtu.be/vjco5yKZpU8
  */
 
@@ -96,9 +98,14 @@ function playNote(key) {
     noteAudio.currentTime = 0
     noteAudio.play()
     key.classList.add('active')
-
-    let keyOff = ('mouseup' || 'keyup')
-    key.addEventListener(keyOff, () => {
+    key.addEventListener('keyup', () => {
         key.classList.remove('active')
     })
+    key.addEventListener('mouseup', () => {
+        key.classList.remove('active')
+    })
+}
+
+function displayNote(notes) {
+    let notesDisplayed = 
 }
