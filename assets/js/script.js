@@ -94,51 +94,63 @@ document.addEventListener('keydown', e => {
  * Play note function,
  */
 function playNote(key) {
-    let noteAudio  = document.getElementById(key.dataset.note)
+    const noteAudio  = document.getElementById(key.dataset.note)
     noteAudio.currentTime = 0
     noteAudio.play()
     key.classList.add('active')
-    key.addEventListener('keyup', () => {
-        key.classList.remove('active')
-    })
-    key.addEventListener('mouseup', () => {
+    noteAudio.addEventListener('ended', () => {
         key.classList.remove('active')
     })
 }
 
-function displayNot() {
-    let notesDisplayed = [
-        'c-3.png',
-        'c-sharp-3.png',
-        'd-3.png',
-        'd-sharp-3.png',
-        'e-3.png',
-        'f-3.png',
-        'f-sharp-3.png',
-        'g-3.png',
-        'g-sharp-3.png',
-        'a-3.png',
-        'a-sharp-3.png',
-        'c-4-treble.png',
-        'c-sharp-4-treble.png',
-        'd-4.png',
-        'd-sharp-4.png',
-        'e-4.png',
-        'f-4.png',
-        'f-sharp-4.png',
-        'g-4.png',
-        'g-sharp-4.png',
-        'a-4.png',
-        'a-sharp-4.png',
-        'b-4.png',
-        'c-5.png',
-    ]
+// function displayNote() {
+//     let notesDisplayed = [
+//         'c-3.png',
+//         'c-sharp-3.png',
+//         'd-3.png',
+//         'd-sharp-3.png',
+//         'e-3.png',
+//         'f-3.png',
+//         'f-sharp-3.png',
+//         'g-3.png',
+//         'g-sharp-3.png',
+//         'a-3.png',
+//         'a-sharp-3.png',
+//         'c-4-treble.png',
+//         'c-sharp-4-treble.png',
+//         'd-4.png',
+//         'd-sharp-4.png',
+//         'e-4.png',
+//         'f-4.png',
+//         'f-sharp-4.png',
+//         'g-4.png',
+//         'g-sharp-4.png',
+//         'a-4.png',
+//         'a-sharp-4.png',
+//         'b-4.png',
+//         'c-5.png',
+//     ]
 
-    indexOf(notesDisplayed) = indexOf(key);
 
-    document.getElementById('staffbox').innerHTML = `
-    <img src='assets/images/quiz/${notesDisplayed([0])} alt=${notesDisplayed.valueOf}></img>
-    `;
+
+//     document.getElementById('staffbox').innerHTML = `
+//     <img src='assets/images/quiz/${notesDisplayed([0])} alt=${notesDisplayed.valueOf}></img>
+//     `;
+// }
+
+
+
+// QUIZ
+
+function playQuiz() {
+
+    for 
+    
+    document.getElementById('submit-button').innerHTML `
+    <button id="answer-button-1">A</button>
+    <button id="answer-button-2">F</button>
+    <button id="answer-button-3">Gb</button>
+    <button id="answer-button-4">C</button>
+`
+    document.getElementById('clock').
 }
-
-displayNot() = playNote();
