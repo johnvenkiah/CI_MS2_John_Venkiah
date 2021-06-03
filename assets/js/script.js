@@ -145,9 +145,9 @@ function playNote(key) {
 function playQuiz() {
     
     document.getElementById('submit-button').innerHTML = `
-    <button id="answer-button-1">A</button>
-    <button id="answer-button-2">F</button>
-    <button id="answer-button-3">Gb</button>
-    <button id="answer-button-4">C</button>
+    <button id="answer-button-1">Alternative 1</button>
+    <button id="answer-button-2">Alternative 2</button>
+    <button id="answer-button-3">Alternative 3</button>
+    <button id="answer-button-4">Alternative 4</button>
 `;
 }

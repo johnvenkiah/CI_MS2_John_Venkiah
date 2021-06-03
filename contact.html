@@ -1,1 +1,49 @@
-<h1>Contact</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Musical Minds | Contact</title>
+</head>
+
+<body>
+  <header class="header">
+  </header>
+  <div id="contact-wrapper">
+    <div id="form-div">
+      <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
+        <h2 class="subheading-other">
+          Contact
+        </h2>
+        <label for="name">
+          Name
+        </label>
+        <input id="name" class="input" name="entered-name" type="text" required>
+
+        <label for="email">
+          Email Address
+        </label>
+        <input type="email" id="email" class="input" name="email_address" required>
+
+        <textarea name="message" id="textarea" class="input" aria-label="Leave a message here"
+          placeholder="Write a message here" rows="4">
+                </textarea>
+
+        <label for="newsletter">
+          Check the box to recieve updates!
+        </label>
+        <input type="checkbox" id="newsletter" name="wants_news" value="yes">
+
+        <input class="submit-button" type="submit" value="Send">
+      </form>
+    </div>
+    <script src="assets/js/script.js">
+    </script>
+</body>
+
+</html>
