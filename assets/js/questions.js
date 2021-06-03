@@ -521,10 +521,10 @@
   },
   {
     "question": "Name this symbol!",
-    "image": "quarter-rest.png",
+    "image": "quarter rest.png",
     "wrong-1": "Half-note rest",
-    "wrong-2": "8th-rest",
-    "wrong-3": "16th-rest",
+    "wrong-2": "8th rest",
+    "wrong-3": "16th rest",
     "correct": "Quarter-note rest"
   },
   {
@@ -538,18 +538,18 @@
   {
     "question": "Name this symbol!",
     "image": "wholenote-rest.png",
-    "wrong-1": "8th-rest",
-    "wrong-2": "5th-rest",
+    "wrong-1": "8th rest",
+    "wrong-2": "5th rest",
     "wrong-3": "F",
     "correct": "Whole-note rest"
   },
   {
     "question": "Name the duration of this note!",
     "image": "wholenote.png",
-    "wrong-1": "3rd-rest",
-    "wrong-2": "16th-rest",
-    "wrong-3": "F",
-    "correct": "Whole-note rest"
+    "wrong-1": "3rd rest",
+    "wrong-2": "16th rest",
+    "wrong-3": "3rd rest",
+    "correct": "Whole-note"
   },
 ]
 
