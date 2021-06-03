@@ -287,5 +287,37 @@
     "wrong-3": "G",
     "correct": "E"
   },
+  {
+    "question": "Name this note!",
+    "image": "e-5.png",
+    "wrong-1": "C",
+    "wrong-2": "F",
+    "wrong-3": "Ab",
+    "correct": "E"
+  },
+  {
+    "question": "Name this note!",
+    "image": "e-flat-3.png",
+    "wrong-1": "F",
+    "wrong-2": "A",
+    "wrong-3": "A#",
+    "correct": "Eb"
+  },
+  {
+    "question": "Name this note!",
+    "image": "e-flat-4.png",
+    "wrong-1": "B",
+    "wrong-2": "Ab",
+    "wrong-3": "C",
+    "correct": "Eb"
+  },
+  {
+    "question": "Name this note!",
+    "image": "e-flat-4.png",
+    "wrong-1": "B",
+    "wrong-2": "Ab",
+    "wrong-3": "C",
+    "correct": "Eb"
+  },
 ]
 

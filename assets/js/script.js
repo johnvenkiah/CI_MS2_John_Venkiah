@@ -143,14 +143,11 @@ function playNote(key) {
 // QUIZ
 
 function playQuiz() {
-
-    for 
     
-    document.getElementById('submit-button').innerHTML `
+    document.getElementById('submit-button').innerHTML = `
     <button id="answer-button-1">A</button>
     <button id="answer-button-2">F</button>
     <button id="answer-button-3">Gb</button>
     <button id="answer-button-4">C</button>
-`
-    document.getElementById('clock').
+`;
 }
