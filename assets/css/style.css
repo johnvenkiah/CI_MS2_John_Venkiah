@@ -199,6 +199,11 @@ footer a {
 
 /* learn.html */
 
+#container-learn {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .learn-text {
   font-size: 0.9rem;
   line-height: 1.5rem;
