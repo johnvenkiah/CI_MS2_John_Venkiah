@@ -40,19 +40,25 @@
         </label>
         <input type="checkbox" id="checkbox" name="wants_news" value="yes">
 
-        <input onclick='sendEmail()' class="submit-button" type="submit" value="Send">
+        <input onclick="sendEmail()" class="submit-button" type="submit" value="Send">
       </form>
     </div>
   </div>
 </main>
 <script src="assets/js/script.js"></script>
 <script src="assets/js/contact.js"></script>
+
+<!-- Sweet Alert custom alert box -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 <script type="text/javascript">
-(function() {
-emailjs.init("user_xdb9Fr0JUjCoYFOs4hiu4");
-})();
-</script>
+  (function() {
+    emailjs.init("user_xdb9Fr0JUjCoYFOs4hiu4");
+  })();
+  </script>
+<!-- <script> User ID - user_xdb9Fr0JUjCoYFOs4hiu4 </script>
+  <script>Access Token - 1bbf495c008cd49b4330cf0a98bf5273 </script> -->
 </body>
 
 </html>

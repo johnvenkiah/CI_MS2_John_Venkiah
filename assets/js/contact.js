@@ -1,12 +1,38 @@
 function sendEmail() {
-  let inputValues = {
-    from_name: document.getElementById('name').value,
-    from_email: document.getElementById('email').value,
-    message: document.getElementById('textarea').value,
-  };
+  let from_name = (document.datatype.name);
+  let from_email = (document.datatype.email);
+  let message = (document.datatype.name);
+  let submit = document.querySelector('submit-button');
 
-  emailjs.send('service_a1l6eg6', 'template_to8xzwq', inputValues)
-  .then (function(res) {
-    console.log("The email was sent", res.status);
+  submit.addEventListener('click', (e) => {
+    e.preventDefault()
+
+    if(from_name.value == "" || from_email.value == "" || message.value == "") {
+      inputEmpty();
+    }
   })
 }
+
+sendEmail()
+
+function successPopup() {
+swal({
+  title: "Email sent!",
+  text: "We will reply shortly!",
+  icon: "success",
+  button: "OK",
+});
+}
+
+successPopup()
+
+function errorPopup() {
+  swal({
+    title: "Oops!",
+    text: " You forgot to enter some info!",
+    icon: "error",
+    button: "OK",
+  });
+  }
+  
+  successPopup()
