@@ -1,7 +1,7 @@
 function sendEmail() {
-  let from_name = (document.datatype.name);
+  let from_name = (document.dataType.name);
   let from_email = (document.datatype.email);
-  let message = (document.datatype.name);
+  let message = (document.dataType.name);
   let submit = document.querySelector('submit-button');
 
   submit.addEventListener('click', (e) => {
