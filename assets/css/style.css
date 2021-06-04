@@ -142,16 +142,6 @@ footer a {
   max-width: 200px;
 }
 
-.submit-button {
-  margin: 3% auto 10%;
-  border-radius: 4px;
-  display: block;
-  width: 40%;
-  background-color: rgba(233, 147, 50, 0.6);
-  height: 25px;
-  max-width: 200px;
-}
-
 /* play.html */
 
 #play-box {
@@ -305,24 +295,39 @@ a {
   margin: 0 auto;
   position: relative;
   width: 85%;
-  max-width: 300px;
+  max-width: 600px;
   height: 60%;
   position: relative;
   display: inline-block;
   text-align: center;
 }
 
-#form-div input {
+#form-div .input {
   position: relative;
   margin: 8% auto;
   display: inline-block;
   width: 100%;
-  height: 100%;
+  height: 25px;
 }
 
 textarea {
   margin: 0 auto;
   width: 100%;
+}
+
+#checkbox {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.submit-button {
+  margin: 10% auto 10%;
+  border-radius: 4px;
+  display: block;
+  width: 40%;
+  background-color: rgba(233, 147, 50, 0.6);
+  height: 25px;
+  max-width: 200px;
 }
 
 /* Media Query */
