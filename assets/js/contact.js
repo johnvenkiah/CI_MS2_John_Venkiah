@@ -1,38 +1,24 @@
-function sendEmail() {
-  let from_name = (document.dataType.name);
-  let from_email = (document.datatype.email);
-  let message = (document.dataType.name);
-  let submit = document.querySelector('submit-button');
+let contactForm = document.querySelector('#contact-form');
 
-  submit.addEventListener('click', (e) => {
-    e.preventDefault()
+contactForm.addEventListener('#submit', validateForm);
 
-    if(from_name.value == "" || from_email.value == "" || message.value == "") {
-      inputEmpty();
-    }
-  })
-}
+let errorMsg = document.querySelector('#error-msg');
 
-sendEmail()
-
-function successPopup() {
-swal({
-  title: "Email sent!",
-  text: "We will reply shortly!",
-  icon: "success",
-  button: "OK",
-});
-}
-
-successPopup()
-
-function errorPopup() {
-  swal({
-    title: "Oops!",
-    text: " You forgot to enter some info!",
-    icon: "error",
-    button: "OK",
-  });
+function validateForm(event) {
+  event.preventDefault();
+  let username = document.querySelector('#name').value;
+  let email = document.querySelector('#email').value;
+  let allowedEmail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  if (username = "" || email !== allowedEmail) {
+    submitForm();
   }
+  else {
+    errorMsg.innerHTML = `
+    Please fill in a valid Email adress and a name!
+  `;
+  }
+}
+
+function submitForm() {
   
-  successPopup()
+}

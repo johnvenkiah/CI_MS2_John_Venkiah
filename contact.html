@@ -13,6 +13,7 @@
   <header class="header">
   </header>
   <main>
+    <p id="error-msg"></p>
   <div id="contact-wrapper">
     <div id="form-div">
       <form class="contact-form" method="POST" action="/">
@@ -22,12 +23,12 @@
         <label for="name">
           Name
         </label>
-        <input id="name" class="input" name="entered-name" type="text" required>
+        <input id="name" class="input" name="entered-name" type="text">
 
         <label for="email">
           Email Address
         </label>
-        <input type="email" id="email" class="input" name="email_address" required>
+        <input type="email" id="email" class="input" name="email_address">
         
         <label for="message">Message</label>
         <textarea name="message" id="textarea" aria-label="Leave a message here" cols="30" rows="4"></textarea>
@@ -37,16 +38,13 @@
         </label>
         <input type="checkbox" id="checkbox" name="wants_news" value="yes">
 
-        <input onclick="sendEmail()" class="submit-button" type="submit" value="Send">
+        <input id="submit" type="submit" value="Send">
       </form>
     </div>
   </div>
 </main>
 <script src="assets/js/script.js"></script>
 <script src="assets/js/contact.js"></script>
-
-<!-- Sweet Alert custom alert box -->
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 <script type="text/javascript">

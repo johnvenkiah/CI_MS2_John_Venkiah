@@ -324,7 +324,7 @@ textarea {
   margin-left: 2%;
 }
 
-.submit-button {
+#submit {
   margin: 10% auto 10%;
   border-radius: 4px;
   display: block;
