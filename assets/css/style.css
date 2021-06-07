@@ -302,17 +302,21 @@ a {
   text-align: center;
 }
 
-#form-div .input {
+#form-div .input, textarea {
   position: relative;
-  margin: 8% auto;
+  margin: 5% auto 10%;
   display: inline-block;
   width: 100%;
+  border-radius: 4px;
+}
+
+#form-div .input {
   height: 25px;
 }
 
 textarea {
-  margin: 0 auto;
   width: 100%;
+  margin: 5% auto;
 }
 
 #checkbox {
