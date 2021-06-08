@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/nav.js"></script>
+  <script defer src="assets/js/contact.js"></script>
   <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
   <title>Musical Minds | Contact</title>
 </head>
@@ -17,7 +19,7 @@
     <p id="error-msg"></p>
   <div id="contact-wrapper">
     <div id="form-div">
-      <form class="contact-form" method="POST" action="/">
+      <form class="contact-form">
         <h2 class="subheading-other">
           Contact
         </h2>
@@ -39,13 +41,11 @@
         </label>
         <input type="checkbox" id="checkbox" name="wants_news" value="yes">
 
-        <input id="submit" type="submit" value="Send">
+        <input id="submit" type="submit" value="Send" onclick="validateForm(event)">
       </form>
     </div>
   </div>
 </main>
-<script src="assets/js/script.js"></script>
-<script src="assets/js/contact.js"></script>
 <!-- <script> User ID - user_xdb9Fr0JUjCoYFOs4hiu4 </script>
   <script>Access Token - 1bbf495c008cd49b4330cf0a98bf5273 </script> -->
 </body>
