@@ -132,6 +132,12 @@ footer a {
   height: 100%;
 }
 
+#answers-box {
+  display: block;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+}
+
 #answer-input {
   margin: 10% auto 0;
   border-radius: 4px;
@@ -139,6 +145,16 @@ footer a {
   display: block;
   height: 25px;
   width: 40%;
+  max-width: 200px;
+}
+
+.quiz-button {
+  margin: 5% 2% 10%;
+  border-radius: 4px;
+  display: inline-block;
+  width: 35%;
+  background-color: rgba(233, 147, 50, 0.6);
+  height: 25px;
   max-width: 200px;
 }
 
