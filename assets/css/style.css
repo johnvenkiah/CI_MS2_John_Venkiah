@@ -96,6 +96,7 @@ footer a {
 #quiz-box {
   margin: 20px auto;
   width: 95%;
+  height: 100%;
   max-width: 500px;
   text-align: center;
 }
@@ -136,6 +137,7 @@ footer a {
   display: block;
   grid-template-columns: 2;
   grid-template-rows: 2;
+  width: 100%;
 }
 
 #answer-input {
