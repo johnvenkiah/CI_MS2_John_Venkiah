@@ -16,7 +16,6 @@
   <header class="header">
   </header>
   <main>
-    <p id="sent-msg"></p>
   <div id="contact-wrapper">
     <div id="form-div">
       <form class="contact-form">
@@ -41,7 +40,8 @@
         </label>
         <input type="checkbox" id="checkbox" name="wants_news" value="yes">
 
-        <input id="submit" type="submit" value="Send" onclick="validateForm(event)">
+        <button id="submit" type="submit" value="Send" onclick="validateForm(event)">Send</button>
+        <p id="sent-msg"></p>
       </form>
     </div>
   </div>
