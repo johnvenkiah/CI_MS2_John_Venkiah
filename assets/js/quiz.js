@@ -3,7 +3,7 @@
 var playButton = document.querySelector('.quiz-button');
 var answersBox = document.querySelector('#answers-box');
 var staffBox = document.querySelector('#staffbox');
-let questionsRandom = Math.floor(Math.random() * questions.length);
+var questionsRandom = Math.floor(Math.random() * questions.length);
 
 function randomAnswer(min, max) {
     min = Math.ceil(3);
@@ -14,10 +14,10 @@ function randomAnswer(min, max) {
 function playQuiz() {
     
     answersBox.innerHTML = `
-    <button class="quiz-button" id="answer-1">${questions[questionsRandom][randomAnswer]}</button>
+    <button class="quiz-button" id="answer-1">${questions[questionsRandom][randomAnswer.value]}</button>
     <button class="quiz-button" id="answer-2">${questions[questionsRandom[randomAnswer]]}</button>
     <button class="quiz-button" id="answer-3">${questions[questionsRandom[randomAnswer]]}</button>
-    <button class="quiz-button" id="answer-4">${questions[questionsRandom[randomAnswer]]}</button>
+    <button class="quiz-button" id="answer-4">${questions[questionsRandom][randomAnswer.value]}</button>
     `;
 
     newQuestion();
@@ -25,7 +25,7 @@ function playQuiz() {
 
 function newQuestion() {
     staffBox.innerHTML = `
-    <img src="assets/images/quiz/${questions[questionsRandom[1]]}" alt="Current question">
+    <img src="assets/images/quiz/${questions[questionsRandom].image}" alt="Current question">
     `
 
 }
