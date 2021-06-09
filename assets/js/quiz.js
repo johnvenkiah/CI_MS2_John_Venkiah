@@ -14,9 +14,9 @@ function randomAnswer(min, max) {
 function playQuiz() {
     
     answersBox.innerHTML = `
-    <button class="quiz-button" id="answer-1">${questions[questionsRandom]('wrong-1')}</button>
-    <button class="quiz-button" id="answer-2">${questions[questionsRandom]('wrong-2')}</button>
-    <button class="quiz-button" id="answer-3">${questions[questionsRandom]('wrong-3')}</button>
+    <button class="quiz-button" id="answer-1">${questions[questionsRandom].a}</button>
+    <button class="quiz-button" id="answer-2">${questions[questionsRandom].b}</button>
+    <button class="quiz-button" id="answer-3">${questions[questionsRandom].c}</button>
     <button class="quiz-button" id="answer-4">${questions[questionsRandom].correct}</button>
     `;
 
