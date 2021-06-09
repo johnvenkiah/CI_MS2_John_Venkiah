@@ -1,4 +1,5 @@
-[
+var questions = [
+  
   {
     "question": "Name this symbol!",
     "image": "8th-rest.png",
