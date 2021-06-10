@@ -8,13 +8,12 @@ function playQuiz() {
     
     // start timer, score = 0
 
-    removeOld();
     newQuestion();
 }
 
 function newQuestion() {
 
-    removeOld();
+    answersBox.innerHTML="";
 
     var questionsRandom = Math.floor(Math.random() * questions.length);
 
@@ -43,8 +42,4 @@ function newQuestion() {
             i++;
         }
     }
-}
-
-function removeOld() {
-    answersBox.innerHTML="";
 }
