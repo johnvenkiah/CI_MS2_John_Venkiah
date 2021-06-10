@@ -44,6 +44,6 @@ function newQuestion() {
     }
 }
 
-function submitAnswer(event) {
-    if 
-}
+// function submitAnswer(event) {
+//     if 
+// }
