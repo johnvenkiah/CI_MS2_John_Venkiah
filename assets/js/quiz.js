@@ -43,3 +43,7 @@ function newQuestion() {
         }
     }
 }
+
+function submitAnswer(event) {
+    if 
+}
