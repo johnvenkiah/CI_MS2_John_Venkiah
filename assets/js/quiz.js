@@ -57,4 +57,5 @@ function incrementScore() {
     document.getElementById("current-score").innerText = (currentScore + 10);
     
     document.getElementById("current-score").setAttribute("style", "color: green;");
+
 }
