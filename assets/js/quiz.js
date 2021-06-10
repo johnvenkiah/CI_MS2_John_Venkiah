@@ -4,12 +4,6 @@ var playButton = document.querySelector('#play-button')
 var answersBox = document.querySelector('#answers-box');
 var staffBox = document.querySelector('#staffbox');
 
-// function randomAnswer(min, max) {
-//     min = Math.ceil(3);
-//     max = Math.floor(7);
-//     return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
-//   }
-
 function playQuiz() {
     
     // start timer, score = 0
@@ -40,8 +34,9 @@ function newQuestion() {
         random = Math.floor(Math.random() * buttons.length);
 
         if (buttons[random] !="selected") {
-            
-            answersBox.innerHTML = buttons[random];
+
+            answersBefore = answersBox.innerHTML
+            answersBox.innerHTML = answersBefore + buttons[random];
             buttons[random] = "selected";
             i++;
         }
