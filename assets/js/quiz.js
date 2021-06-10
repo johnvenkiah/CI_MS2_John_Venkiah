@@ -4,8 +4,11 @@ let playButton = document.querySelector('#play-button')
 let answersBox = document.querySelector('#answers-box');
 let staffBox = document.querySelector('#staffbox');
 let subheadingsQuiz = document.querySelector('#quiz-headings');
+// let currentScore = parseInt(document.querySelector('#current-score').innerText);
 
 function playQuiz() {
+
+    currentScore = 0;
     
     // start timer, score = 0
 
@@ -44,8 +47,14 @@ function newQuestion() {
             i++;
         }
     }
+
+    document.getElementById("answer-4").addEventListener('click', incrementScore);
 }
 
-// function submitAnswer(event) {
-//     if 
-// }
+function incrementScore() {
+
+    let currentScore = parseInt(document.getElementById("current-score").innerText);
+    document.getElementById("current-score").innerText = (currentScore + 10);
+    
+    document.getElementById("current-score").setAttribute("style", "color: green;");
+}
