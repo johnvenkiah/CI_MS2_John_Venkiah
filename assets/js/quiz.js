@@ -8,11 +8,13 @@ function playQuiz() {
     
     // start timer, score = 0
 
-
+    removeOld();
     newQuestion();
 }
 
 function newQuestion() {
+
+    removeOld();
 
     var questionsRandom = Math.floor(Math.random() * questions.length);
 
@@ -36,9 +38,13 @@ function newQuestion() {
         if (buttons[random] !="selected") {
 
             answersBefore = answersBox.innerHTML
-            answersBox.innerHTML = answersBefore + buttons[random];
+            answersBox.insertAdjacentHTML('beforeend', buttons[random]);
             buttons[random] = "selected";
             i++;
         }
     }
+}
+
+function removeOld() {
+    answersBox.innerHTML="";
 }
