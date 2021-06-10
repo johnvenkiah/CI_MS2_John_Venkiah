@@ -3,7 +3,6 @@
 var playButton = document.querySelector('#play-button')
 var answersBox = document.querySelector('#answers-box');
 var staffBox = document.querySelector('#staffbox');
-var questionsRandom = Math.floor(Math.random() * questions.length);
 
 // function randomAnswer(min, max) {
 //     min = Math.ceil(3);
@@ -20,6 +19,9 @@ function playQuiz() {
 }
 
 function newQuestion() {
+
+    var questionsRandom = Math.floor(Math.random() * questions.length);
+
     staffBox.innerHTML = `
     <img src="assets/images/quiz/${questions[questionsRandom].image}" alt="Current question">
     `;
@@ -39,7 +41,7 @@ function newQuestion() {
 
         if (buttons[random] !="selected") {
             
-            answersBox.innerHTML = (buttons[random]);
+            answersBox.innerHTML = buttons[random];
             buttons[random] = "selected";
             i++;
         }
