@@ -1,8 +1,9 @@
 // QUIZ
 
-var playButton = document.querySelector('#play-button')
-var answersBox = document.querySelector('#answers-box');
-var staffBox = document.querySelector('#staffbox');
+let playButton = document.querySelector('#play-button')
+let answersBox = document.querySelector('#answers-box');
+let staffBox = document.querySelector('#staffbox');
+let subheadingsQuiz = document.querySelector('#quiz-headings');
 
 function playQuiz() {
     
@@ -20,6 +21,7 @@ function newQuestion() {
     staffBox.innerHTML = `
     <img src="assets/images/quiz/${questions[questionsRandom].image}" alt="Current question">
     `;
+    subheadingsQuiz.innerHTML = `<h2 class="subheading-other">${questions[questionsRandom].question}</h2>`;
 
     var buttons = new Array();
     buttons[0] = `<button onclick="newQuestion()" class="quiz-button" id="answer-1">${questions[questionsRandom].a}</button>`;
@@ -27,8 +29,8 @@ function newQuestion() {
     buttons[2] = `<button onclick="newQuestion()" class="quiz-button" id="answer-3">${questions[questionsRandom].c}</button>`;
     buttons[3] = `<button onclick="newQuestion()" class="quiz-button" id="answer-4">${questions[questionsRandom].correct}</button>`;
 
-    var i = 0;
-    var random;
+    let i = 0;
+    let random;
 
     while (i < buttons.length) {
 
@@ -36,7 +38,7 @@ function newQuestion() {
 
         if (buttons[random] !="selected") {
 
-            answersBefore = answersBox.innerHTML
+            answersBefore = answersBox.innerHTML;
             answersBox.insertAdjacentHTML('beforeend', buttons[random]);
             buttons[random] = "selected";
             i++;

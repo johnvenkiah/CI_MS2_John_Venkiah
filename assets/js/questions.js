@@ -522,7 +522,7 @@ var questions = [
   },
   {
     question: "Name this symbol!",
-    image: "quarter rest.png",
+    image: "quarter-rest.png",
     a: "Half-note rest",
     b: "8th rest",
     c: "16th rest",
