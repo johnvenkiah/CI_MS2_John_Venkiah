@@ -81,7 +81,7 @@ function startTimer(callback) {
     }
 
     const countDown = function() {
-        sec--;           
+        sec = sec - 1;           
         if(sec === 0) {
             setTimeout(callback(), 1000);
         }
