@@ -13,7 +13,6 @@ function playQuiz() {
     }
 
     currentScore = 0;
-    // start timer, score = 0
 
     newQuestion();
     let daTimer = startTimer(endGameModal);
@@ -70,14 +69,11 @@ function startTimer(callback) {
  
     const secElement = document.querySelector('#seconds');
     const minElement = document.querySelector('#minutes');
- 
-    function refresh(secElement, minElement, sec, min) {
-        secElement.innerText = display(sec);
-        minElement.innerText = displayTwo(min);    
-    }
 
-    function displayTwo(number) {
-        return number
+    minElement.innerText = min;
+ 
+    function refresh(secElement, sec) {
+        secElement.innerText = display(sec);
     }
 
     function display(number) {
@@ -85,13 +81,13 @@ function startTimer(callback) {
     }
 
     const countDown = function() {
-        sec = sec - 1;           
+        sec--;           
         if(sec === 0) {
             setTimeout(callback(), 1000);
         }
-        refresh(secElement, minElement, sec, min)
+        refresh(secElement, sec)
     }
    
-    refresh(secElement, minElement, sec, min)
+    refresh(secElement, sec)
     return setInterval(countDown, 1000);
 }
