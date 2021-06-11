@@ -7,13 +7,16 @@ let subheadingsQuiz = document.querySelector('#quiz-headings');
 // let currentScore = parseInt(document.querySelector('#current-score').innerText);
 
 function playQuiz() {
+    function endGameModal() {
+        console.log('Game ended!', daTimer);
+        clearInterval(daTimer)
+    }
 
     currentScore = 0;
-    
     // start timer, score = 0
 
     newQuestion();
-    startTimer();
+    let daTimer = startTimer(endGameModal);
 }
 
 function newQuestion() {
@@ -61,26 +64,34 @@ function incrementScore() {
 
 }
 
-function startTimer() {
-
-    setInterval(countDown, 1000);
-
-    document.querySelector('#seconds').innerText = 20;
-    document.querySelector('#minutes').innerText = 00;
-
-    function countDown() {
-
-        let seconds = parseInt(document.getElementById('seconds').innerText);           
-
-        if (seconds !== 0) {
-            document.getElementById('seconds').innerText--;
-            // setTimeout(countDown, 1000);
-            if (seconds < 11) {
-                document.getElementById('seconds').innerText = '0' + seconds;
-                document.getElementById('seconds').innerText--;
-            };
-        } else {
-            endGameModal();
-        }; 
+function startTimer(callback) {
+    let sec = 10;
+    let min = 0;
+ 
+    const secEl = document.querySelector('#seconds');
+    const minEl = document.querySelector('#minutes');
+ 
+    function refresh(secEl, minEl, sec, min) {
+        secEl.innerText = display(sec);
+        minEl.innerText = displayTwo(min);    
     }
+
+    function displayTwo(number) {
+        return number
+    }
+
+    function display(number) {
+        return number < 10 ? `0${number}` : number 
+    }
+
+    const countDown = function() {
+        sec = sec - 1;           
+        if(sec === 0) {
+            setTimeout(callback(), 1000);
+        }
+        refresh(secEl, minEl, sec, min)
+    }
+   
+    refresh(secEl, minEl, sec, min)
+    return setInterval(countDown, 1000);
 }
