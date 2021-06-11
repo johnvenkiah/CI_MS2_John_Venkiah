@@ -65,7 +65,7 @@ function incrementScore() {
 }
 
 function startTimer(callback) {
-    let sec = 10;
+    let sec = 60;
     let min = 0;
  
     const secEl = document.querySelector('#seconds');
