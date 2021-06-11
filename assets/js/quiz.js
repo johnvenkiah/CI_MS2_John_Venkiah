@@ -13,6 +13,7 @@ function playQuiz() {
     // start timer, score = 0
 
     newQuestion();
+    startTimer();
 }
 
 function newQuestion() {
@@ -58,4 +59,25 @@ function incrementScore() {
     
     document.getElementById("current-score").setAttribute("style", "color: green;");
 
+}
+
+function startTimer() {
+
+    setTimeout(countDown, 1000);
+    document.querySelector('#seconds').innerText = 60;
+
+    document.querySelector('#minutes').innerText = 0;
+
+    function countDown() {
+
+        let seconds = parseInt(document.querySelector('#seconds').innerText);
+
+        if (seconds !== 0) {
+            document.getElementById('seconds').innerText--;
+            setTimeout(countDown, 1000);
+        } else {
+            endGameModal();
+        };
+
+    }
 }
