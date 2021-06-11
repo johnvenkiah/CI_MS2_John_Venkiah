@@ -55,22 +55,26 @@ function newQuestion() {
 function incrementScore() {
 
     let currentScore = parseInt(document.getElementById("current-score").innerText);
-    document.getElementById("current-score").innerText = (currentScore + 10);
+    document.getElementById('current-score').innerText = (currentScore + 10);
     
-    document.getElementById("current-score").setAttribute("style", "color: green;");
+    document.getElementById('current-score').setAttribute("style", "color: green;");
 
 }
 
 function startTimer() {
 
     setTimeout(countDown, 1000);
-    document.querySelector('#seconds').innerText = 60;
 
-    document.querySelector('#minutes').innerText = 0;
+    document.querySelector('#seconds').innerText = 20;
+    document.querySelector('#minutes').innerText = 00;
 
     function countDown() {
 
-        let seconds = parseInt(document.querySelector('#seconds').innerText);
+        let seconds = parseInt(document.getElementById('seconds').innerText);
+
+        if (seconds < 10) {
+            seconds.innerText = '0' + seconds;
+        };
 
         if (seconds !== 0) {
             document.getElementById('seconds').innerText--;
@@ -78,6 +82,5 @@ function startTimer() {
         } else {
             endGameModal();
         };
-
     }
 }
