@@ -65,15 +65,15 @@ function incrementScore() {
 }
 
 function startTimer(callback) {
-    let sec = 60;
+    let sec = 10;
     let min = 0;
  
-    const secEl = document.querySelector('#seconds');
-    const minEl = document.querySelector('#minutes');
+    const secElement = document.querySelector('#seconds');
+    const minElement = document.querySelector('#minutes');
  
-    function refresh(secEl, minEl, sec, min) {
-        secEl.innerText = display(sec);
-        minEl.innerText = displayTwo(min);    
+    function refresh(secElement, minElement, sec, min) {
+        secElement.innerText = display(sec);
+        minElement.innerText = displayTwo(min);    
     }
 
     function displayTwo(number) {
@@ -89,9 +89,9 @@ function startTimer(callback) {
         if(sec === 0) {
             setTimeout(callback(), 1000);
         }
-        refresh(secEl, minEl, sec, min)
+        refresh(secElement, minElement, sec, min)
     }
    
-    refresh(secEl, minEl, sec, min)
+    refresh(secElement, minElement, sec, min)
     return setInterval(countDown, 1000);
 }
