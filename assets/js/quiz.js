@@ -13,23 +13,25 @@ function playQuiz() {
         console.log('Game ended!');
 
         modalHtml = `
-            <div id="modal-container>
+            <div id="modal-container">
                 <div id="modal-window">
-                    <h2>Well Done!</h2>
-                    <h3>You scored ${currentScore}!</h3>
-                    ${playButton}
-                    <button>Close</button>
+                    <h2 class="subheading-other">Well Done!</h2>
+                    <h3 class="subheading-other">You scored ${document.getElementById('current-score').innerText}!</h3>
+                    <button onclick="playQuiz()" id="play-button" class="quiz-button">Play Again</button>
+                    <button id="close-button">Close</button>
                 </div>
             </div>
         `;
 
-        document.getElementsByTagName('main').innerHTML = modalHtml;
+        // let mainElement = document.getElementsByTagName('main'[0]);
+        document.body.innerHTML = modalHtml;
+        // console.log(mainElement.innerHTML);
 
-        let modalContainer = document.getElementById('modal-container');
-        let modalWindow = document.getElementById('modal-window');
+        // let modalContainer = document.querySelector('#modal-container');
+        // let modalWindow = document.querySelector('#modal-window');
         
-        modalContainer.setAttribute('style', 'width: 100%; height: 100%; background-color: white; opacity: 50%;');
-        modalWindow.setAttribute('style', 'width: 85%; max-width: 600px; height: 60%; background-color: gray;');
+        // modalContainer.setAttribute('style', 'width: 100%; height: 100%; background-color: white; opacity: 50%;');
+        // modalWindow.setAttribute('style', 'width: 85%; max-width: 600px; height: 60%; background-color: gray;');
 
 
         clearInterval(time)
