@@ -28,6 +28,13 @@ body {
   background-blend-mode: color-burn;
 }
 
+#modal-container {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 50%;
+}
+
 .subheading-home {
   font-size: 1em;
   margin-top: 10%;
