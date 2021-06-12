@@ -34,23 +34,23 @@ body {
   width: 100vw;
   height: 100vh;
   position: fixed;
-  background-color: white;
-  opacity: 50%;
+  background-color:rgba(224, 204, 182, .7);
+  /* opacity: 0.7; */
 }
 
 #modal-window {
   width: 85vw;
   max-width: 600px;
-  height: 60vh;
-  padding: auto;
-  margin: 25% auto;
-  background-color: gray;
-  opacity: 100%;
-  z-index: 3;
+  height: 50vh;
+  padding-top: 20%;
+  margin: 30% auto;
+  background-color: #2a2a2ac4;
+  border-radius: 4px;
+  box-shadow: 2px 1px 7px black;
 }
 
 #close-button {
-  margin: 5% 2% 10%;
+  margin: 10% 2% 10%;
   border-radius: 4px;
   display: inline-block;
   width: 35%;
