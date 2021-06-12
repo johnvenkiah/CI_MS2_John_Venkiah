@@ -23,16 +23,9 @@ function playQuiz() {
             </div>
         `;
 
-        // let mainElement = document.getElementsByTagName('main'[0]);
-        document.body.innerHTML = modalHtml;
-        // console.log(mainElement.innerHTML);
+        modalDiv = document.getElementById('modal-div');
 
-        // let modalContainer = document.querySelector('#modal-container');
-        // let modalWindow = document.querySelector('#modal-window');
-        
-        // modalContainer.setAttribute('style', 'width: 100%; height: 100%; background-color: white; opacity: 50%;');
-        // modalWindow.setAttribute('style', 'width: 85%; max-width: 600px; height: 60%; background-color: gray;');
-
+        modalDiv.innerHTML = modalHtml;
 
         clearInterval(time)
     }

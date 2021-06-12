@@ -33,7 +33,7 @@ body {
 #modal-container {
   width: 100vw;
   height: 100vh;
-  position: fixed;
+  position: absolute;
   background-color:rgba(224, 204, 182, .7);
   /* opacity: 0.7; */
 }
@@ -44,9 +44,11 @@ body {
   height: 45vh;
   padding-top: 20%;
   margin: 45% auto;
-  background-color: #2a2a2ac4;
+  background-color: #2a2a2ae5;
   border-radius: 4px;
   box-shadow: 2px 1px 7px black;
+  position: relative;
+  z-index: 1;
 }
 
 #close-button {
