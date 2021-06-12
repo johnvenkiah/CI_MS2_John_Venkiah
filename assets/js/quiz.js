@@ -4,18 +4,21 @@ let playButton = document.querySelector('#play-button')
 let answersBox = document.querySelector('#answers-box');
 let staffBox = document.querySelector('#staffbox');
 let subheadingsQuiz = document.querySelector('#quiz-headings');
-// let currentScore = parseInt(document.querySelector('#current-score').innerText);
 
 function playQuiz() {
+    
+    let time = startTimer(endGameModal);
+
     function endGameModal() {
-        console.log('Game ended!', daTimer);
-        clearInterval(daTimer)
+        console.log('Game ended!');
+
+        
+        clearInterval(time)
     }
 
     currentScore = 0;
 
     newQuestion();
-    let daTimer = startTimer(endGameModal);
 }
 
 function newQuestion() {
@@ -63,17 +66,17 @@ function incrementScore() {
 
 }
 
-function startTimer(callback) {
-    let sec = 10;
-    let min = 0;
+function startTimer(callBack) {
+    let seconds = 10;
+    let minutes = 0;
  
     const secElement = document.querySelector('#seconds');
     const minElement = document.querySelector('#minutes');
 
-    minElement.innerText = min;
+    minElement.innerText = minutes;
  
-    function refresh(secElement, sec) {
-        secElement.innerText = display(sec);
+    function refresh(secElement, seconds) {
+        secElement.innerText = display(seconds);
     }
 
     function display(number) {
@@ -81,13 +84,13 @@ function startTimer(callback) {
     }
 
     const countDown = function() {
-        sec = sec - 1;           
-        if(sec === 0) {
-            setTimeout(callback(), 1000);
+        seconds--;           
+        if(seconds === 0) {
+            setTimeout(callBack(), 1000);
         }
-        refresh(secElement, sec)
+        refresh(secElement, seconds)
     }
    
-    refresh(secElement, sec)
+    refresh(secElement, seconds)
     return setInterval(countDown, 1000);
 }
