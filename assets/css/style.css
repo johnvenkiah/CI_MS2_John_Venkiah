@@ -42,6 +42,7 @@ body {
   width: 85vw;
   max-width: 600px;
   height: 45vh;
+  max-height: 350px;
   padding-top: 20%;
   margin: 45% auto;
   background-color: #2a2a2ae5;

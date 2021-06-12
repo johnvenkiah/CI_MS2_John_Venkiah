@@ -18,7 +18,7 @@ function playQuiz() {
                     <h2>Well Done!</h2>
                     <h3 class="subheading-other">You scored ${document.getElementById('current-score').innerText}!</h3>
                     <button onclick="playQuiz(), removeModal()" id="play-button" class="quiz-button">Play Again</button>
-                    <button id="close-button"><a href="quiz.html">Close</a></button>
+                    <a href="quiz.html"><button id="close-button">Close</button></a>
                 </div>
             </div>
         `;
