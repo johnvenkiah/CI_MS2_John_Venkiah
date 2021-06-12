@@ -41,9 +41,9 @@ body {
 #modal-window {
   width: 85vw;
   max-width: 600px;
-  height: 50vh;
+  height: 45vh;
   padding-top: 20%;
-  margin: 30% auto;
+  margin: 45% auto;
   background-color: #2a2a2ac4;
   border-radius: 4px;
   box-shadow: 2px 1px 7px black;
