@@ -12,18 +12,18 @@ function playQuiz() {
     function endGameModal() {
         console.log('Game ended!');
 
-        modalHtml = `
+        var modalHtml = `
             <div id="modal-container">
                 <div id="modal-window">
                     <h2>Well Done!</h2>
                     <h3 class="subheading-other">You scored ${document.getElementById('current-score').innerText}!</h3>
-                    <button onclick="playQuiz()" id="play-button" class="quiz-button">Play Again</button>
-                    <button id="close-button" onclick="removeModal()">Close</button>
+                    <button onclick="playQuiz(), removeModal()" id="play-button" class="quiz-button">Play Again</button>
+                    <button id="close-button"><a href="quiz.html">Close</a></button>
                 </div>
             </div>
         `;
 
-        modalDiv = document.getElementById('modal-div');
+        var modalDiv = document.getElementById('modal-div');
 
         modalDiv.innerHTML = modalHtml;
 
@@ -107,4 +107,9 @@ function startTimer(callBack) {
    
     refresh(secElement, seconds)
     return setInterval(countDown, 1000);
+}
+
+function removeModal() {
+    console.log('straldge')
+    document.getElementById('modal-div').innerHTML = "";
 }
