@@ -74,6 +74,10 @@ function newQuestion() {
 function incrementScore() {
 
     points = points + 10;
+    updateScore();
+}
+
+function updateScore() {
     currentScore.innerText = "Score: " + points;
 }
 
@@ -81,7 +85,8 @@ function startTimer(callBack) {
     let seconds = 10;
     let minutes = 0;
     points = 0;
-    currentScore.innerText = "Score: " + points;
+    
+    updateScore();
  
     const secElement = document.querySelector('#seconds');
     const minElement = document.querySelector('#minutes');
