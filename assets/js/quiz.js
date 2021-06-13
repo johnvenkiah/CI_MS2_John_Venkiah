@@ -4,19 +4,22 @@ let playButton = document.querySelector('#play-button')
 let answersBox = document.querySelector('#answers-box');
 let staffBox = document.querySelector('#staffbox');
 let subheadingsQuiz = document.querySelector('#quiz-headings');
+let currentScore = document.querySelector('#score');
+let points;
 
 function playQuiz() {
     
     let time = startTimer(endGameModal);
 
     function endGameModal() {
+
         console.log('Game ended!');
 
         var modalHtml = `
             <div id="modal-container">
                 <div id="modal-window">
                     <h2>Well Done!</h2>
-                    <h3 class="subheading-other">You scored ${document.getElementById('current-score').innerText}!</h3>
+                    <h3 class="subheading-other">You scored ${points}!</h3>
                     <button onclick="playQuiz(), removeModal()" id="play-button" class="quiz-button">Play Again</button>
                     <a href="quiz.html"><button id="close-button">Close</button></a>
                 </div>
@@ -29,8 +32,6 @@ function playQuiz() {
 
         clearInterval(time)
     }
-
-    currentScore = 0;
 
     newQuestion();
 }
@@ -61,7 +62,6 @@ function newQuestion() {
 
         if (buttons[random] !="selected") {
 
-            answersBefore = answersBox.innerHTML;
             answersBox.insertAdjacentHTML('beforeend', buttons[random]);
             buttons[random] = "selected";
             i++;
@@ -73,16 +73,15 @@ function newQuestion() {
 
 function incrementScore() {
 
-    let currentScore = parseInt(document.getElementById("current-score").innerText);
-    document.getElementById('current-score').innerText = (currentScore + 10);
-    
-    document.getElementById('current-score').setAttribute("style", "color: green;");
-
+    points = points + 10;
+    currentScore.innerText = "Score: " + points;
 }
 
 function startTimer(callBack) {
     let seconds = 10;
     let minutes = 0;
+    points = 0;
+    currentScore.innerText = "Score: " + points;
  
     const secElement = document.querySelector('#seconds');
     const minElement = document.querySelector('#minutes');
