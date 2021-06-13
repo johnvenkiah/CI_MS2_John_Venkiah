@@ -9,7 +9,7 @@ let points;
 
 function playQuiz() {
     
-    let time = startTimer(endGameModal);
+    let resetTimer = startTimer(endGameModal);
 
     function endGameModal() {
 
@@ -30,7 +30,7 @@ function playQuiz() {
 
         modalDiv.innerHTML = modalHtml;
 
-        clearInterval(time)
+        clearInterval(resetTimer)
     }
 
     newQuestion();
@@ -85,20 +85,18 @@ function startTimer(callBack) {
     let seconds = 10;
     let minutes = 0;
     points = 0;
-    
-    updateScore();
  
     const secElement = document.querySelector('#seconds');
     const minElement = document.querySelector('#minutes');
 
     minElement.innerText = minutes;
  
-    function refresh(secElement, seconds) {
+    function updateTimer(secElement, seconds) {
         secElement.innerText = display(seconds);
     }
 
     function display(number) {
-        return number < 10 ? `0${number}` : number 
+        return number < 10 ? `0${number}` : number
     }
 
     const countDown = function() {
@@ -106,14 +104,14 @@ function startTimer(callBack) {
         if(seconds === 0) {
             setTimeout(callBack(), 1000);
         }
-        refresh(secElement, seconds)
+        updateTimer(secElement, seconds)
     }
-   
-    refresh(secElement, seconds)
+
+    updateScore();
+    updateTimer(secElement, seconds)
     return setInterval(countDown, 1000);
 }
 
 function removeModal() {
-    console.log('straldge')
     document.getElementById('modal-div').innerHTML = "";
 }
