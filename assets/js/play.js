@@ -14,8 +14,14 @@ const blackKeys = document.querySelectorAll('.key.black')
 /* Add event listener function when keys are clicked to play note function. */
 
 keys.forEach(key => {
-
     key.addEventListener('mousedown', () => playNote(key))
+    key.addEventListener('mouseup', () => releaseNote(key))
+    
+//     {
+
+//     key.classList.remove('active')
+//     console.log('straldge')
+// })
 })
 
 document.addEventListener('keydown', event => {
@@ -28,22 +34,27 @@ document.addEventListener('keydown', event => {
     if (whiteKeyIndex > -1) playNote(whiteKeys[whiteKeyIndex])
     if (blackKeyIndex > -1) playNote(blackKeys[blackKeyIndex])
 
+    document.addEventListener('keyup', releaseNote(key))
 })
 
 /**
  * Play note function,
  */
 function playNote(key) {
-
+    // preventDefault()
     const noteAudio = document.getElementById(key.dataset.note)
     noteAudio.currentTime = 0
     noteAudio.play()
     key.classList.add('active')
-    key.addEventListener('mouseup', () => {
 
-        key.classList.remove('active')
-        console.log('straldge')
-    })
+
+}
+
+// key.addEventListener('mouseup', releaseNote())
+
+function releaseNote(key) {
+    key.classList.remove('active')
+    console.log('rabb')
 }
 
 function displayNote() {
