@@ -231,7 +231,6 @@ footer a {
 .key {
   height: calc(var(--width) * 5);
   width: var(--width);
-  user-select: none;
 }
 
 .white {

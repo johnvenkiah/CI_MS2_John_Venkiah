@@ -15,50 +15,39 @@ const blackKeys = document.querySelectorAll('.key.black')
 
 keys.forEach(key => {
     key.addEventListener('mousedown', () => playNote(key))
-    // key.addEventListener('touchstart', () => playNote(key), {passive: true})
     key.addEventListener('mouseup', () => releaseNote(key))
-    document.addEventListener('keyup', () => releaseNote(key))
-//     {
 
-//     key.classList.remove('active')
-//     console.log('straldge')
-// })
+    document.addEventListener('keyup', () => releaseNote(key))
 })
 
 document.addEventListener('keydown', event => {
 
     if (event.repeat) return
+
     const key = event.key
     const whiteKeyIndex = WHITE_KEYS.indexOf(key)
     const blackKeyIndex = BLACK_KEYS.indexOf(key)
 
     if (whiteKeyIndex > -1) playNote(whiteKeys[whiteKeyIndex])
     if (blackKeyIndex > -1) playNote(blackKeys[blackKeyIndex])
-
 })
 
 /**
  * Play note function,
  */
 function playNote(key) {
-    // preventDefault()
     const noteAudio = document.getElementById(key.dataset.note)
     noteAudio.currentTime = 0
     noteAudio.play()
     key.classList.add('active')
-
-
 }
-
-// key.addEventListener('mouseup', releaseNote())
 
 function releaseNote(key) {
     key.classList.remove('active')
-    console.log('rabb')
 }
 
 function displayNote() {
-    let notesDisplayed = [
+    let notesArray = [
         'c-3.png',
         'c-sharp-3.png',
         'd-3.png',
@@ -86,8 +75,9 @@ function displayNote() {
     ]
 
     let staffBoxPlay = document.getElementById('staffbox')
+    let showNote = 
 
     staffBoxPlay.innerHTML = `
-     <img src='assets/images/quiz/${notesDisplayed([0])} alt=${notesDisplayed.valueOf}></img>
+     <img src='assets/images/quiz/${notesArray([0])} alt=${notesArray.valueOf}></img>
      `;
 }
