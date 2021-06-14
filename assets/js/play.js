@@ -15,6 +15,7 @@ const blackKeys = document.querySelectorAll('.key.black')
 
 keys.forEach(key => {
     key.addEventListener('mousedown', () => playNote(key))
+    key.addEventListener('touchstart', () => playNote(key), {passive: true})
     key.addEventListener('mouseup', () => releaseNote(key))
     
 //     {
@@ -35,6 +36,7 @@ document.addEventListener('keydown', event => {
     if (blackKeyIndex > -1) playNote(blackKeys[blackKeyIndex])
 
     document.addEventListener('keyup', releaseNote(key))
+    document.addEventListener('touchend', releaseNote(key), {passive: true})
 })
 
 /**
