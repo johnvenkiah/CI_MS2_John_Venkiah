@@ -11,6 +11,8 @@ const keys = document.querySelectorAll('.key')
 const whiteKeys = document.querySelectorAll('.key.white')
 const blackKeys = document.querySelectorAll('.key.black')
 
+let staffBoxPlay = document.getElementById('staffbox')
+
 /* Add event listener function when keys are clicked to play note function. */
 
 keys.forEach(key => {
@@ -40,6 +42,7 @@ function playNote(key) {
     noteAudio.currentTime = 0
     noteAudio.play()
     key.classList.add('active')
+    displayNote()
 }
 
 function releaseNote(key) {
@@ -74,10 +77,10 @@ function displayNote() {
         'c-5.png',
     ]
 
-    let staffBoxPlay = document.getElementById('staffbox')
-    let showNote = 
-
-    staffBoxPlay.innerHTML = `
-     <img src='assets/images/quiz/${notesArray([0])} alt=${notesArray.valueOf}></img>
+    let currentNote = `
+     <img src='assets/images/quiz/${notesArray[1]}' alt='${notesArray[1]}'></img>
      `;
+     console.log(currentNote)
+
+    staffBoxPlay.innerHTML = currentNote
 }
