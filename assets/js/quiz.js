@@ -42,9 +42,10 @@ function newQuestion() {
 
     var questionsRandom = Math.floor(Math.random() * questions.length);
 
-    staffBox.innerHTML = `
-    <img src="assets/images/quiz/${questions[questionsRandom].image}" alt="Current question">
-    `;
+    staffQuiz = document.getElementById('staff-quiz')
+
+    staffQuiz.src = 'assets/images/quiz/' + questions[questionsRandom].image
+
     subheadingsQuiz.innerHTML = `<h2 class="subheading-other">${questions[questionsRandom].question}</h2>`;
 
     var buttons = [];
@@ -82,7 +83,7 @@ function updateScore() {
 }
 
 function startTimer(callBack) {
-    let seconds = 10;
+    let seconds = 60;
     let minutes = 0;
     points = 0;
  
