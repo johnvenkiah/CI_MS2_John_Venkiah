@@ -11,7 +11,7 @@ function playQuiz() {
     
     let resetTimer = startTimer(endGameModal);
     let paragraph = document.querySelector('.paragraph')
-    paragraph.remove()
+    paragraph.innerHTML = ""
 
     function endGameModal() {
 
@@ -87,7 +87,7 @@ function updateScore() {
 }
 
 function startTimer(callBack) {
-    let seconds = 60;
+    let seconds = 5;
     let minutes = 0;
     points = 0;
  
