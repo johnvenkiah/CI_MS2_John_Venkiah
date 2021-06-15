@@ -7,7 +7,7 @@
 let navBar = `
 <nav class="navbar">
     <a href="index.html" class="nav-logo">
-        <h1>Musical Minds</h1>
+        <h1 class="subheading-other">Musical Minds</h1>
     </a>
     <ul class="nav-menu">
         <li class="nav-item">

@@ -42,21 +42,23 @@ function newQuestion() {
 
     answersBox.innerHTML="";
 
-    var questionsRandom = Math.floor(Math.random() * questions.length);
+    let questionsRandom = Math.floor(Math.random() * questions.length);
 
     let staffQuiz = document.getElementById('staff-quiz')
-
     staffQuiz.src = 'assets/images/quiz/' + questions[questionsRandom].image
 
     let quizHeadings = document.querySelector('.subheading-other')
-
     quizHeadings.innerHTML = questions[questionsRandom].question
 
-    var buttons = [];
-    buttons[0] = `<button onclick="newQuestion()" class="quiz-button" id="answer-1">${questions[questionsRandom].a}</button>`;
-    buttons[1] = `<button onclick="newQuestion()" class="quiz-button" id="answer-2">${questions[questionsRandom].b}</button>`;
-    buttons[2] = `<button onclick="newQuestion()" class="quiz-button" id="answer-3">${questions[questionsRandom].c}</button>`;
-    buttons[3] = `<button onclick="newQuestion()" class="quiz-button" id="answer-4">${questions[questionsRandom].correct}</button>`;
+    let buttonsHtml = `<button onclick="newQuestion()" class="quiz-button"`;
+    let buttonsEndHtml = `</button>`
+
+    let buttons = [];
+
+    buttons[0] = buttonsHtml + '>' + questions[questionsRandom].a + buttonsEndHtml;
+    buttons[1] = buttonsHtml + '>' + questions[questionsRandom].b + buttonsEndHtml;
+    buttons[2] = buttonsHtml + '>' + questions[questionsRandom].c + buttonsEndHtml;
+    buttons[3] = buttonsHtml + ' id="answer-4">' + questions[questionsRandom].correct + buttonsEndHtml;
 
     let i = 0;
     let random;
@@ -73,7 +75,7 @@ function newQuestion() {
         }
     }
 
-    document.getElementById("answer-4").addEventListener('click', incrementScore);
+    document.getElementById('answer-4').addEventListener('click', incrementScore);
 }
 
 function incrementScore() {
