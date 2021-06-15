@@ -10,6 +10,8 @@ let points;
 function playQuiz() {
     
     let resetTimer = startTimer(endGameModal);
+    let paragraph = document.querySelector('.paragraph')
+    paragraph.remove()
 
     function endGameModal() {
 
@@ -42,11 +44,13 @@ function newQuestion() {
 
     var questionsRandom = Math.floor(Math.random() * questions.length);
 
-    staffQuiz = document.getElementById('staff-quiz')
+    let staffQuiz = document.getElementById('staff-quiz')
 
     staffQuiz.src = 'assets/images/quiz/' + questions[questionsRandom].image
 
-    subheadingsQuiz.innerHTML = `<h2 class="subheading-other">${questions[questionsRandom].question}</h2>`;
+    let quizHeadings = document.querySelector('.subheading-other')
+
+    quizHeadings.innerHTML = questions[questionsRandom].question
 
     var buttons = [];
     buttons[0] = `<button onclick="newQuestion()" class="quiz-button" id="answer-1">${questions[questionsRandom].a}</button>`;
