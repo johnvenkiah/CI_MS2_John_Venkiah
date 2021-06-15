@@ -87,7 +87,7 @@ function updateScore() {
 }
 
 function startTimer(callBack) {
-    let seconds = 5;
+    let seconds = 60;
     let minutes = 0;
     points = 0;
  
