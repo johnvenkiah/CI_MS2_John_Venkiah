@@ -12,7 +12,7 @@ let notesObj = {
     'dsharp3': 'd-sharp-3.png',
     'e3': 'e-3.png',
     'f3': 'f-3.png',
-    'f': 'f-sharp-3.png',
+    'fsharp3': 'f-sharp-3.png',
     'g3': 'g-3.png',
     'gsharp3': 'g-sharp-3.png',
     'a3': 'a-3.png',
