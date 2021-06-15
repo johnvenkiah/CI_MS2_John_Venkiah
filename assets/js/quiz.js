@@ -47,7 +47,7 @@ function newQuestion() {
     `;
     subheadingsQuiz.innerHTML = `<h2 class="subheading-other">${questions[questionsRandom].question}</h2>`;
 
-    var buttons = new Array();
+    var buttons = [];
     buttons[0] = `<button onclick="newQuestion()" class="quiz-button" id="answer-1">${questions[questionsRandom].a}</button>`;
     buttons[1] = `<button onclick="newQuestion()" class="quiz-button" id="answer-2">${questions[questionsRandom].b}</button>`;
     buttons[2] = `<button onclick="newQuestion()" class="quiz-button" id="answer-3">${questions[questionsRandom].c}</button>`;
