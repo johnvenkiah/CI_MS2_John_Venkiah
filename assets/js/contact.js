@@ -36,7 +36,7 @@ function validateForm(event) {
     Please enter a valid email-address and a name!
   `;
     console.log('Form not sent!');
-    sentMsg.setAttribute("style", "color: red; background-color: lightpink;");
+    sentMsg.setAttribute("style", "color: darkred; background-color: lightpink;");
     return;
   }
 }

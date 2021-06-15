@@ -24,7 +24,7 @@
 
 body {
   text-align: center;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+  font-family: "Courier New";
   font-weight: lighter;
   height: 100%;
   width: 100%;
@@ -37,6 +37,11 @@ body {
       no-repeat
       fixed;
   background-blend-mode: color-burn;
+}
+
+button {
+  font-family: inherit;
+  font-weight: bold;
 }
 
 /* MODAL FOR END GAME, QUIZ */
@@ -129,7 +134,7 @@ footer a {
 .subheading-other {
   font-size: 1.3em;
   /* font-weight:100; */
-  margin: 8% auto;
+  margin: 5% auto;
 }
 
 /* Quiz Page */
@@ -394,6 +399,9 @@ textarea {
 
 #sent-msg {
   padding: 10px;
+  margin-bottom: 3%;
+  font-size: 0.8em;
+  border-radius: 4px;
 }
 
 /* Media Query */
