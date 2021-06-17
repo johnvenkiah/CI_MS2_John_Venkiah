@@ -19,6 +19,7 @@
 
 .material-icons-outlined {
   font-family: 'Material Icons';
+  font-size: 1.5em;
 }
 
 #main-logo {
@@ -50,40 +51,6 @@ button {
   color: #2a2a2a;
 }
 
-/* MODAL FOR END GAME, QUIZ */
-
-#modal-container {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  background-color:rgba(224, 204, 182, .7);
-  z-index: 1;
-}
-
-#modal-window {
-  width: 85vw;
-  max-width: 600px;
-  height: 45vh;
-  max-height: 350px;
-  padding-top: 12%;
-  margin: 45% auto;
-  background-color: #2a2a2ae5;
-  border-radius: 4px;
-  box-shadow: 2px 1px 7px black;
-  position: relative;
-  z-index: 1;
-}
-
-#close-button {
-  margin: 10% 2% 10%;
-  border-radius: 4px;
-  display: inline-block;
-  width: 35%;
-  background-color: rgba(231, 213, 191, 0.6);
-  height: 35px;
-  max-width: 200px;
-}
-
 .subheading-home {
   font-size: 1.1em;
   margin-top: 10%;
@@ -96,32 +63,36 @@ button {
 }
 
 #button-container {
-  background-color: rgba(218, 160, 84, .1);
-  width: 85%;
+  background: radial-gradient(black 1%, transparent, transparent);
+  /* background-color: rgba(218, 160, 84, .1); */
+  width: 90%;
   max-width: 500px;
   border-radius: 7px;
   padding: 0 5% 5%;
-  margin: 10% auto 0;
+  margin: 3% auto 0;
   box-shadow: inset;
 }
 
 a {
-  color: #2a2a2a;
+  /* color: #2a2a2a; */
 }
 
 #button-container > a {
   margin: 6% auto 0;
   border-radius: 5px;
   width: 100%;
-  height: 10%;
   display: inline-block;
-  font-size: 1.2em;
-  text-align: center;
-  line-height: 80px;
-  /* background-image: linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%); */
-  background-image: linear-gradient(rgb(150, 166, 170) 0%, rgb(124, 138, 141) 100%);
+  padding: 5%;
+  font-family: 'Grandstander', cursive;
+  font-size: 1.4em;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgb(222, 255, 77);
+  border-bottom: 1px solid rgb(42, 63, 19);
+  line-height: 1.1em;
+  background: linear-gradient(rgba(183, 212, 78, .7), rgba(110, 141, 0, .7));
   box-shadow:2px 1px 5px black;
   text-decoration: none;
+  color:rgb(224, 204, 182);
 }
 
 footer {
@@ -209,6 +180,40 @@ footer a {
   display: inline-block;
   width: 35%;
   background-color: rgb(150, 166, 170);
+  height: 35px;
+  max-width: 200px;
+}
+
+/* MODAL FOR END GAME, QUIZ */
+
+#modal-container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color:rgba(224, 204, 182, .7);
+  z-index: 1;
+}
+
+#modal-window {
+  width: 85vw;
+  max-width: 600px;
+  height: 45vh;
+  max-height: 350px;
+  padding-top: 12%;
+  margin: 45% auto;
+  background-color: #2a2a2ae5;
+  border-radius: 4px;
+  box-shadow: 2px 1px 7px black;
+  position: relative;
+  z-index: 1;
+}
+
+#close-button {
+  margin: 10% 2% 10%;
+  border-radius: 4px;
+  display: inline-block;
+  width: 35%;
+  background-color: rgba(231, 213, 191, 0.6);
   height: 35px;
   max-width: 200px;
 }
