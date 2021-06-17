@@ -22,8 +22,8 @@ function playQuiz() {
                 <div id="modal-window">
                     <h2>Well Done!</h2>
                     <h3 class="subheading-other">You scored ${points}!</h3>
-                    <button onclick="playQuiz(), removeModal()" id="play-button" class="quiz-button">Play Again</button>
-                    <a href="quiz.html"><button id="close-button">Close</button></a>
+                    <button onclick="playQuiz(), removeModal()" class="play-quiz-button button quiz-button">Play Again</button>
+                    <a href="quiz.html"><button class="button close-button">Close</button></a>
                 </div>
             </div>
         `;
@@ -50,7 +50,7 @@ function newQuestion() {
     let quizHeadings = document.querySelector('.subheading-other')
     quizHeadings.innerHTML = questions[questionsRandom].question
 
-    let buttonsHtml = `<button onclick="newQuestion()" class="quiz-button"`;
+    let buttonsHtml = `<button onclick="newQuestion()" class="button quiz-button"`;
     let buttonsEndHtml = `</button>`
 
     let buttons = [];
@@ -89,7 +89,7 @@ function updateScore() {
 }
 
 function startTimer(callBack) {
-    let seconds = 60;
+    let seconds = 10;
     let minutes = 0;
     points = 0;
  

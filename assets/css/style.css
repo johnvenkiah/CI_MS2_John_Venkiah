@@ -4,10 +4,10 @@
   padding: 0;
   border: none;
   box-sizing: border-box;
-  animation: fade-out .4s, fade-in .4s;
+  /* animation: fade-out .4s, fade-in .4s; */
 }
 
-@keyframes fade-out {
+/* @keyframes fade-out {
   from { opacity: 1; }
   to   { opacity: 0; }
 }
@@ -15,7 +15,7 @@
 @keyframes fade-in {
   from { opacity: 0; }
   to   { opacity: 1; }
-}
+} */
 
 .material-icons-outlined {
   font-family: 'Material Icons';
@@ -29,6 +29,7 @@
 }
 
 body {
+  overflow: hidden;
   text-align: center;
   font-family: 'Newsreader', serif;
   text-shadow: 2px 2px 7px black;
@@ -73,11 +74,40 @@ button {
   box-shadow: inset;
 }
 
-a {
-  /* color: #2a2a2a; */
+.button {
+  margin: 6% auto 0;
+  border-radius: 5px;
+  padding: 5%;
+  font-family: 'Grandstander', cursive;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgb(222, 255, 77);
+  border-bottom: 1px solid rgb(42, 63, 19);
+  background: linear-gradient(rgba(183, 212, 78, .7), rgba(110, 141, 0, .7));
+  box-shadow:2px 1px 5px black;
+  text-decoration: none;
+  color:rgb(224, 204, 182);
+  transition: .2s ease-in-out, all;
 }
 
-#button-container > a {
+.button:hover {
+  /* transition: background-color 2s; */
+  transform: scale(1.015);
+  background: linear-gradient(rgba(183, 202, 113, 0.5), rgba(110, 141, 0, 0.4));
+}
+
+.button:active {
+  border-top: 1px solid rgb(42, 63, 19);
+  background: linear-gradient(rgba(114, 133, 49, 0.7), rgba(116, 148, 0, 0.7));
+}
+
+.button-home {
+  display: inline-block;
+  width: 100%;
+  line-height: 1.1em;
+  font-size: 1.4em;
+}
+
+/* #button-container > a {
   margin: 6% auto 0;
   border-radius: 5px;
   width: 100%;
@@ -93,7 +123,7 @@ a {
   box-shadow:2px 1px 5px black;
   text-decoration: none;
   color:rgb(224, 204, 182);
-}
+} */
 
 footer {
   position: absolute;
@@ -176,11 +206,8 @@ footer a {
 
 .quiz-button {
   margin: 5% 5% 10%;
-  border-radius: 4px;
   display: inline-block;
   width: 35%;
-  background-color: rgb(150, 166, 170);
-  height: 35px;
   max-width: 200px;
 }
 
@@ -208,14 +235,9 @@ footer a {
   z-index: 1;
 }
 
-#close-button {
-  margin: 10% 2% 10%;
-  border-radius: 4px;
-  display: inline-block;
-  width: 35%;
-  background-color: rgba(231, 213, 191, 0.6);
-  height: 35px;
-  max-width: 200px;
+.close-button {
+  border-top: 1px solid rgb(196, 179, 161);
+  background: linear-gradient(rgba(144, 151, 121, 0.7), rgba(83, 85, 74, 0.7));
 }
 
 /* play.html */
