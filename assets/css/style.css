@@ -17,17 +17,22 @@
   to   { opacity: 1; }
 }
 
+.material-icons-outlined {
+  font-family: 'Material Icons';
+}
+
 #main-logo {
+  font-family: 'Grandstander', cursive;
   font-size: 2em;
   margin: 20px auto;
 }
 
 body {
   text-align: center;
-  font-family: "Courier New";
-  font-weight: lighter;
-  height: 100%;
-  width: 100%;
+  font-family: 'Newsreader', serif;
+  text-shadow: 2px 2px 7px black;
+  height: 100vh;
+  width: 100vw;
   color:rgb(218, 160, 84);
   
   background:
@@ -40,8 +45,9 @@ body {
 }
 
 button {
-  font-family: inherit;
+  font-family: 'Grandstander', cursive;
   font-weight: bold;
+  color: #2a2a2a;
 }
 
 /* MODAL FOR END GAME, QUIZ */
@@ -112,7 +118,9 @@ a {
   font-size: 1.2em;
   text-align: center;
   line-height: 80px;
-  background-color: rgb(150, 166, 170);
+  /* background-image: linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%); */
+  background-image: linear-gradient(rgb(150, 166, 170) 0%, rgb(124, 138, 141) 100%);
+  box-shadow:2px 1px 5px black;
   text-decoration: none;
 }
 
@@ -260,7 +268,6 @@ footer a {
 .learn-text {
   font-size: 0.9rem;
   line-height: 1.5rem;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
   text-align: justify;
   padding: 15px;
