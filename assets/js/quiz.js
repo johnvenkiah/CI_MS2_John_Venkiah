@@ -7,6 +7,11 @@ let subheadingsQuiz = document.querySelector('#quiz-headings');
 let currentScore = document.querySelector('#current-score');
 let points;
 
+let soundGameStart = document.getElementById('sound-start-game');
+let soundGameEnd = document.getElementById('sound-finish-game');
+let soundCorrect = document.getElementById('sound-correct-answer');
+let soundWrong = document.getElementById('sound-wrong-answer');
+
 function playQuiz() {
     
     let resetTimer = startTimer(endGameModal);
