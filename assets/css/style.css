@@ -19,7 +19,6 @@
 }
 
 body {
-  /* overflow: hidden; */
   text-align: center;
   font-family: 'Newsreader', serif;
   text-shadow: 2px 2px 7px black;
@@ -69,12 +68,12 @@ body {
   box-shadow:2px 1px 5px black;
   text-decoration: none;
   color:rgb(224, 204, 182);
-  transition: opacity .2s ease-in-out;
+  transition: transform .2s, opacity .2s ease-in-out;
 }
 
 .button:hover {
   opacity: .8;
-  transform: scale(1.01);
+  transform: scale(1.02);
 }
 
 .button:active {
@@ -222,8 +221,8 @@ footer a {
 
 .close-button:active {
   border-top: 1px solid rgb(60, 63, 46);
-  border-bottom: 1px solid rgb(191, 196, 161);
-  background: linear-gradient(rgba(107, 110, 90, 0.7), rgba(144, 151, 121, 0.7));
+  border-bottom: 1px solid rgb(116, 119, 99);
+  background: linear-gradient(rgba(107, 110, 90, 0.7), rgba(120, 126, 99, 0.7));
 
 }
 

@@ -60,25 +60,26 @@ document.addEventListener('keydown', event => {
  * Play note function,
  */
 function playNote(key) {
-    const noteAudio = document.getElementById(key.dataset.note)
-    noteAudio.currentTime = 0
-    noteAudio.play()
+    const noteAudio = document.getElementById(key.dataset.note);
+    noteAudio.currentTime = 0;
+    noteAudio.volume = 0.5;
+    noteAudio.play();
 
-    key.classList.add('active')
-    displayNote(key)
+    key.classList.add('active');
+    displayNote(key);
 }
 
 function releaseNote(key) {
-    key.classList.remove('active')
+    key.classList.remove('active');
 }
 
 function displayNote(key) {
 
-    const note = key.dataset.note
-    const notePath = notesObj[note]
+    const note = key.dataset.note;
+    const notePath = notesObj[note];
     
-    let staff = document.getElementById('staff')
-    staff.src = 'assets/images/quiz/' + notePath
+    let staff = document.getElementById('staff');
+    staff.src = 'assets/images/quiz/' + notePath;
 
     // Sean helped me here
 }
