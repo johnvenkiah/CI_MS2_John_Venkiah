@@ -12,6 +12,11 @@ let soundGameEnd = document.getElementById('sound-finish-game');
 let soundCorrect = document.getElementById('sound-correct-answer');
 let soundWrong = document.getElementById('sound-wrong-answer');
 
+soundGameStart.volume = 0.3;
+soundGameEnd.volume = 0.3;
+soundCorrect.volume = 0.3;
+soundWrong.volume = 0.3;
+
 function playQuiz() {
     
     soundGameStart.play();
@@ -86,7 +91,7 @@ function newQuestion() {
         item.addEventListener('click', event => {
             if (event.target == correct) {
                 soundCorrect.currentTime = 0;
-                soundCorrect.play(), incrementScore;
+                soundCorrect.play(), incrementScore();
             }
             else {
                 soundWrong.currentTime = 0;
