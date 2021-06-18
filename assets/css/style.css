@@ -26,6 +26,7 @@
   font-family: 'Grandstander', cursive;
   font-size: 2em;
   margin: 20px auto;
+  color:rgb(110, 141, 0);
 }
 
 body {
@@ -126,6 +127,13 @@ footer a {
   font-size: 1.3em;
   /* font-weight:100; */
   margin: 5% auto;
+}
+
+.main-logo-other-pages {
+  font-family: 'Grandstander', cursive;
+  font-size: 1.5em;
+  margin: 5% auto;
+  color:rgb(110, 141, 0);
 }
 
 /* Quiz Page */
