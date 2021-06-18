@@ -7,15 +7,9 @@
   /* animation: fade-out .4s, fade-in .4s; */
 }
 
-/* @keyframes fade-out {
-  from { opacity: 1; }
-  to   { opacity: 0; }
+a::before::after {
+  color: none;
 }
-
-@keyframes fade-in {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-} */
 
 .material-icons-outlined {
   font-family: 'Material Icons';
@@ -47,12 +41,6 @@ body {
   background-blend-mode: color-burn;
 }
 
-button {
-  font-family: 'Grandstander', cursive;
-  font-weight: bold;
-  color: #2a2a2a;
-}
-
 .subheading-home {
   font-size: 1.1em;
   margin-top: 10%;
@@ -66,7 +54,6 @@ button {
 
 #button-container {
   background: radial-gradient(black 1%, transparent, transparent);
-  /* background-color: rgba(218, 160, 84, .1); */
   width: 90%;
   max-width: 500px;
   border-radius: 7px;
@@ -81,24 +68,24 @@ button {
   padding: 5% 0;
   font-family: 'Grandstander', cursive;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
-  border-top: 1px solid rgb(222, 255, 77);
+  border-top: 1px solid rgb(176, 202, 61);
   border-bottom: 1px solid rgb(42, 63, 19);
-  background: linear-gradient(rgba(183, 212, 78, .7), rgba(110, 141, 0, .7));
+  background: linear-gradient(rgba(110, 141, 0, .7), rgba(76, 97, 0, 0.7));
   box-shadow:2px 1px 5px black;
   text-decoration: none;
   color:rgb(224, 204, 182);
-  transition: .2s ease-in-out, all;
+  transition: opacity .4s, transform .3s ease-in-out;
 }
 
 .button:hover {
-  /* transition: background-color 2s; */
+  opacity: .8;
   transform: scale(1.015);
-  background: linear-gradient(rgba(191, 211, 118, 0.6), rgba(134, 172, 0, 0.5));
 }
 
 .button:active {
   border-top: 1px solid rgb(42, 63, 19);
-  background: linear-gradient(rgba(114, 133, 49, 0.7), rgba(116, 148, 0, 0.7));
+  border-bottom: 1px solid rgb(104, 119, 38);
+  background: linear-gradient(rgba(114, 133, 49, 0.7), rgba(82, 99, 23, 0.7));
 }
 
 .button-home {
@@ -197,7 +184,7 @@ footer a {
 .quiz-button {
   margin: 5% 5% 10%;
   display: inline-flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   width: 35%;
   height: 23%;
@@ -215,9 +202,9 @@ footer a {
 }
 
 #modal-window {
-  width: 85vw;
+  width: 90vw;
   max-width: 600px;
-  height: 40vh;
+  height: 35vh;
   max-height: 350px;
   padding-top: 12%;
   margin: 45% auto;
