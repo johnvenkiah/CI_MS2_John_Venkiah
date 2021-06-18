@@ -14,12 +14,13 @@ let soundWrong = document.getElementById('sound-wrong-answer');
 
 function playQuiz() {
     
+    soundGameStart.play();
     let resetTimer = startTimer(endGameModal);
     let paragraph = document.querySelector('.paragraph')
     paragraph.innerHTML = ""
 
     function endGameModal() {
-
+        soundGameEnd.play();
         console.log('Game ended!');
 
         var modalHtml = `
@@ -79,14 +80,52 @@ function newQuestion() {
             i++;
         }
     }
+    let correct = document.getElementById('answer-4');
 
-    document.getElementById('answer-4').addEventListener('click', incrementScore);
+    document.querySelectorAll('.quiz-button').forEach(item => {
+        item.addEventListener('click', event => {
+            if (event.target == correct) {
+                soundCorrect.currentTime = 0;
+                soundCorrect.play(), incrementScore;
+            }
+            else {
+                soundWrong.currentTime = 0;
+                soundWrong.play();
+            }
+        })
+      })
+
+    // document.body.addEventListener('click', event => {
+    //     if (event.target !== correct && event.target !== rightOrWrong) {
+    //       return
+    //     }
+    //     else if (event.target !== correct) {
+    //         soundWrong.play()
+    //     }
+    //     else {
+    //         soundCorrect.play(), incrementScore
+    //     }
+    //   })
+
+    // rightOrWrong[0].addEventListener('click', correctOrNot);
+
+    // function correctOrNot() {
+    //     if (rightOrWrong.id !== 'answer-4') {
+    //         soundWrong.play();
+    //     } else {
+    //         incrementScore()
+    //     }
+    // }
+    
+
+    // if (incrementScore = false) soundWrong.play();
 }
 
 function incrementScore() {
 
     points = points + 10;
     updateScore();
+    soundCorrect.play();
 }
 
 function updateScore() {

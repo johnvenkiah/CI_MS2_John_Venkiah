@@ -60,7 +60,6 @@ document.addEventListener('keydown', event => {
  * Play note function,
  */
 function playNote(key) {
-    // console.log(key)
     const noteAudio = document.getElementById(key.dataset.note)
     noteAudio.currentTime = 0
     noteAudio.play()
@@ -81,5 +80,5 @@ function displayNote(key) {
     let staff = document.getElementById('staff')
     staff.src = 'assets/images/quiz/' + notePath
 
-    // sean helped me
+    // Sean helped me here
 }
