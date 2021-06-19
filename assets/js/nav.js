@@ -6,7 +6,7 @@
 
 let navBar = `
 <nav class="navbar">
-    <a href="index.html" class="nav-logo">
+    <a href="index.html">
         <h1 class="main-logo-other-pages">Musical Minds</h1>
     </a>
     <ul class="nav-menu">

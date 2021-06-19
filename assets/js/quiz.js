@@ -12,10 +12,10 @@ let soundGameEnd = document.getElementById('sound-finish-game');
 let soundCorrect = document.getElementById('sound-correct-answer');
 let soundWrong = document.getElementById('sound-wrong-answer');
 
-soundGameStart.volume = 0.2;
-soundGameEnd.volume = 0.2;
-soundCorrect.volume = 0.2;
-soundWrong.volume = 0.2;
+soundGameStart.volume = 0.1;
+soundGameEnd.volume = 0.1;
+soundCorrect.volume = 0.1;
+soundWrong.volume = 0.1;
 
 function playQuiz() {
     
