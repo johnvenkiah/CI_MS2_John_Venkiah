@@ -267,7 +267,7 @@ footer a {
   width: 90%;
   height: 100vh;
   background-color: rgb(110, 141, 0);
-  margin: 3% auto 0;
+  margin: 65px auto 0;
 }
 
 #banner-learn {
@@ -275,6 +275,9 @@ footer a {
   max-width: 600px;
   background-color: rgb(224, 204, 182);
   position: fixed;
+  top: 65px;
+  z-index: 2;
+  margin: 0 auto;
 }
 
 #youtube-logo {
@@ -285,12 +288,13 @@ footer a {
 
 
 #learn-text {
+  position: relative;
   margin-top: 60px;
   font-size: 0.9rem;
   line-height: 1.5rem;
   font-weight: 100;
   text-align: justify;
-  padding: 15px;
+  padding: 50px 10px 0;
   color:rgb(224, 204, 182)
 }
 
@@ -325,6 +329,8 @@ a {
 
 .navbar {
   display: flex;
+  position: fixed;  /**/
+  top: 0;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
