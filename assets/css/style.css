@@ -241,15 +241,15 @@ footer a {
 .key {
   height: 100%;
   width: var(--width);
-  border-radius: 4px;
 }
 
 .white {
-  --width: 7.14%;
+  --width: 6.66%;
   background-color: rgb(224, 204, 182);
-  border: 1px solid #2a2a2a;
-  border-left: 1px solid #4b453d;
+  border-radius: 0 0 4px 4px;
   border-right: 1px solid white;
+  border-top: 1px solid #2a2a2a;
+  border-left: 1px solid #4b453d;
 }
 
 .white.active {
@@ -262,6 +262,7 @@ footer a {
   margin-left: -2.14%;
   margin-right: -2.14%;
   background-color: #2a2a2a;
+  border-radius: 2px;
   border-bottom: 8px solid black;
   z-index: 1;
 }
