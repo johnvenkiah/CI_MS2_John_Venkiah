@@ -119,14 +119,6 @@ footer a {
 }
 
 /* Quiz Page */
-/* 
-.main-logo-small {
- font-size: 1rem;
- text-align: left;
- margin: 10px auto 0 10px;
- position: absolute;
- width: 50%;
-} */
 
 #quiz-box {
   margin: 0 auto;
@@ -272,10 +264,28 @@ footer a {
 
 #container-learn {
   max-width: 600px;
-  margin: 0 auto;
+  width: 90%;
+  height: 100vh;
+  background-color: rgb(110, 141, 0);
+  margin: 3% auto 0;
 }
 
-.learn-text {
+#banner-learn {
+  width: 90%;
+  max-width: 600px;
+  background-color: rgb(224, 204, 182);
+  position: fixed;
+}
+
+#youtube-logo {
+  width: 15%;
+  height: 100%;
+  padding: 5px;
+}
+
+
+#learn-text {
+  margin-top: 60px;
   font-size: 0.9rem;
   line-height: 1.5rem;
   font-weight: 100;
@@ -283,6 +293,8 @@ footer a {
   padding: 15px;
   color:rgb(224, 204, 182)
 }
+
+/*
 
 .learn-image {
   width: 85%;
@@ -296,7 +308,7 @@ footer a {
   margin: 15px auto;
   border-radius: 3px;
   background-color:rgb(224, 204, 182);
-}
+} */
 
 /* Hamnburger Menu */
 
@@ -365,12 +377,6 @@ a {
 .nav-link:hover{
   color:rgb(218, 160, 84);
 }
-
-/* .nav-logo {
-  font-size: 0.8rem;
-  font-weight: 500;
-  color:rgb(218, 160, 84);
-} */
 
 /* contact.html */
 
