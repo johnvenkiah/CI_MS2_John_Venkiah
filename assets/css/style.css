@@ -107,8 +107,7 @@ footer a {
 
 .subheading-other {
   font-size: 1.3em;
-  /* font-weight:100; */
-  margin: 5% auto;
+  margin: 70px auto;
 }
 
 .main-logo-other-pages {
@@ -266,7 +265,7 @@ footer a {
   max-width: 600px;
   width: 90%;
   height: 100vh;
-  background-color: rgb(110, 141, 0);
+  background-color: #1a1a1a;
   margin: 70px auto 0;
 }
 
@@ -288,7 +287,6 @@ footer a {
   padding: 5px;
 }
 
-
 #learn-text {
   position: relative;
   margin-top: 60px;
@@ -298,6 +296,46 @@ footer a {
   text-align: justify;
   padding: 50px 10px 0;
   color:rgb(224, 204, 182)
+}
+
+#videos-section {
+
+}
+
+article {
+  padding: 5px;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  line-height: 1.5em;
+  border-radius: 4px;
+  background-color: none;
+  transition: background-color .2s ease-in-out;
+}
+
+article:hover {
+  background-color: #222;
+  transform: scale(1.01);
+}
+
+.video-info {
+  padding: 0 10px;
+}
+
+article h3 {
+  font-size: 1em;
+  font-family: 'Grandstander', cursive;
+  color: rgb(104, 119, 38);
+}
+
+article p {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.thumbn {
+  border-radius: 4px;
+  height: 100px;
 }
 
 /*
