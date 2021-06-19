@@ -234,18 +234,22 @@ footer a {
   max-width: 800px;
   width: 95%;
   margin: 0 auto;
-  background-color: blue;
+  border-radius: 1%;
+  border-top: 3px solid rgb(173, 0, 0);
 }
 
 .key {
   height: 100%;
   width: var(--width);
+  border-radius: 4px;
 }
 
 .white {
   --width: 7.14%;
   background-color: rgb(224, 204, 182);
   border: 1px solid #2a2a2a;
+  border-left: 1px solid #4b453d;
+  border-right: 1px solid white;
 }
 
 .white.active {
@@ -258,6 +262,7 @@ footer a {
   margin-left: -2.14%;
   margin-right: -2.14%;
   background-color: #2a2a2a;
+  border-bottom: 8px solid black;
   z-index: 1;
 }
 
