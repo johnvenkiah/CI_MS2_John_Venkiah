@@ -6,31 +6,31 @@
 const KEYS = ['a', 'w', 's', 'e', 'd', 'f', 't', 'g', 'y', 'h', 'u', 'j', 'k', 'o', 'l', 'p', ';', "'", '[']
 
 let notesObj = {
-    'c3': 'c-3.png',
-    'csharp3': 'c-sharp-3.png',
-    'd3': 'd-3.png',
-    'dsharp3': 'd-sharp-3.png',
-    'e3': 'e-3.png',
-    'f3': 'f-3.png',
-    'fsharp3': 'f-sharp-3.png',
-    'g3': 'g-3.png',
-    'gsharp3': 'g-sharp-3.png',
-    'a3': 'a-3.png',
-    'asharp3': 'a-sharp-3.png',
-    'b3': 'b-3.png',
-    'c4': 'c-4-treble.png',
-    'csharp4': 'c-sharp-4-treble.png',
-    'd4': 'd-4.png',
-    'dsharp4': 'd-sharp-4.png',
-    'e4': 'e-4.png',
-    'f4': 'f-4.png',
-    'fsharp4': 'f-sharp-4.png',
-    'g4': 'g-4.png',
-    'gsharp4': 'g-sharp-4.png',
-    'a4': 'a-4.png',
-    'asharp4': 'a-sharp-4.png',
-    'b4': 'b-4.png',
-    'c5': 'c-5.png',
+    'c3': 'c3_play.png',
+    'csharp3': 'csharp_dflat3_play.png',
+    'd3': 'd3_play.png',
+    'dsharp3': 'dsharp_eflat3_play.png',
+    'e3': 'e3_play.png',
+    'f3': 'f3_play.png',
+    'fsharp3': 'fsharp_gflat3_play.png',
+    'g3': 'g3_play.png',
+    'gsharp3': 'gsharp_aflat3_play.png',
+    'a3': 'a3_play.png',
+    'asharp3': 'asharp_bflat3_play.png',
+    'b3': 'b3_play.png',
+    'c4': 'c4_play.png',
+    'csharp4': 'csharp_dflat4_play.png',
+    'd4': 'd4_play.png',
+    'dsharp4': 'dsharp_eflat4_play.png',
+    'e4': 'e4_play.png',
+    'f4': 'f4_play.png',
+    'fsharp4': 'fsharp_gflat4_play.png',
+    'g4': 'g4_play.png',
+    'gsharp4': 'gsharp_aflat4_play.png',
+    'a4': 'a4_play.png',
+    'asharp4': 'asharp_bflat4_play.png',
+    'b4': 'b4_play.png',
+    'c5': 'c5_play.png',
 }
 
 //Create a variable for all keys
@@ -79,7 +79,7 @@ function displayNote(key) {
     const notePath = notesObj[note];
     
     let staff = document.getElementById('staff');
-    staff.src = 'assets/images/quiz/' + notePath;
+    staff.src = 'assets/images/play/' + notePath;
 
     // Sean helped me here
 }
