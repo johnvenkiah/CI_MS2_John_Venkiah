@@ -15,7 +15,7 @@ fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=
     console.log(data);
 
     mainVideo(vidId, vidTitle);
-    videosList();
+    videosList(data);
 })
 
 function mainVideo(vidId, vidTitle) {
@@ -26,15 +26,31 @@ function mainVideo(vidId, vidTitle) {
 
 }
 
-function videosList() {
-  let vidListHtml = `<article>
-    <img class="thumbn" src="assets/images/learn/thumbn_videos/thumb1.webp"></img>
+function videosList(data) {
+
+  data.items.forEach(item => {
+    let thumbNail = item.snippet.thumbnails.medium.url;
+
+    // let i = 0; i < items.length; i++;
+
+    vidsListHtml = `<article>
+    <img class="thumbn" src="${thumbNail}"></img>
     <div class="video-info">
       <h3>Title</h3>
       <p>Description</p>
     </div>
-  </article>`
+  </article>`;
 
-  let videosContainer = document.querySelector('#videos-section');
-  videosContainer.innerHTML = vidListHtml;
+    // document.createElement
+    
+    let emptyDiv = document.querySelector('#empty-div');
+    document.querySelector('#videos-section').insertAdjacentHTML('afterBegin', vidsListHtml);
+    // let vidListHtml = ;
+
+  })
+
+  // let videosContainer =
+  
+  // videosContainer.append(vidListHtml);
+
   }
