@@ -268,8 +268,9 @@ footer a {
 #container-learn {
   max-width: 600px;
   width: 90%;
-  height: 100vh;
-  background-color: #1a1a1a;
+  /* height: 100vh; */
+  background-color: rgba(0, 0, 0, .4);
+  box-shadow: 1px 1px 4px black;
   margin: 70px auto 0;
 }
 
@@ -304,18 +305,14 @@ footer a {
 
 iframe {
   width: 100%;
-}
-
-#videos-section {
-
+  height: 100%;
 }
 
 article {
-  padding: 5px;
-  display: flex;
-  text-align: left;
-  align-items: center;
-  line-height: 1.5em;
+  padding: 10px;
+  display: inline-block;
+  text-align: justify;
+  line-height: 1.3em;
   border-radius: 4px;
   background-color: none;
   transition: background-color .2s ease-in-out;
@@ -326,24 +323,22 @@ article:hover {
   transform: scale(1.01);
 }
 
-.video-info {
-  padding: 0 10px;
-}
-
 article h3 {
   font-size: 1em;
   font-family: 'Grandstander', cursive;
   color: rgb(104, 119, 38);
+  padding: 10px 0;
 }
 
 article p {
   font-size: 0.9em;
   color: #666;
+  padding: 10px 0;
 }
 
 .thumbn {
   border-radius: 4px;
-  height: 100px;
+  width: 100%;
 }
 
 /*

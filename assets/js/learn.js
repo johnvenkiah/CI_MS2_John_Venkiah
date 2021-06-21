@@ -30,14 +30,15 @@ function videosList(data) {
 
   data.items.forEach(item => {
     let thumbNail = item.snippet.thumbnails.medium.url;
+    let title = item.snippet.title;
+    let description = item.snippet.description;
 
     // let i = 0; i < items.length; i++;
 
     vidsListHtml = `<article>
+    <h3>${title}</h3>
     <img class="thumbn" src="${thumbNail}"></img>
-    <div class="video-info">
-      <h3>Title</h3>
-      <p>Description</p>
+      <p>${description}</p>
     </div>
   </article>`;
 
