@@ -32,7 +32,7 @@ function playQuiz() {
             <div id="modal-container">
                 <div id="modal-window">
                     <h2>Well Done!</h2>
-                    <h3 class="subheading-other">You scored ${points}!</h3>
+                    <h3>You scored ${points}!</h3>
                     <button onclick="playQuiz(), removeModal()" class="play-quiz-button button quiz-button">Play Again</button>
                     <a href="quiz.html"><button class="button quiz-button close-button">Close</button></a>
                 </div>
