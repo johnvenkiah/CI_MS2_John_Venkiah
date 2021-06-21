@@ -4,7 +4,7 @@
 
 ![PICTURE OF MOCKUP](#)
 
-[LINK TO DEPLOYED SITE](#)
+[LINK TO DEPLOYED SITE](https://johnvenkiah.github.io/CI_MS2_John_Venkiah/)
 
 ## Contents
 
@@ -62,16 +62,22 @@ Target Audience
 
 #### As a user of this website I would like to:
 
-1. Be able to play a quiz which teaches tone names, symbols, clefs and note lengths
-2. Be able to hear the tone in question, and find out if the question was answered correctly or not
-3. Be able to play tones on a piano on the screen and see which tone is being played
-4. Read a few pages on basic music theory with learning material for the quiz
-5. Be presented with a friendly user interface
+1. Be able to play a quiz on note names, symbols, clefs and note lengths
+2. Get points if I answer a question right
+3. See a timer ticking down from one minute
+4. See an end game screen alerting me of my score
+5. Be able to choose to close the end game screen or play again
+6. Be able to play notes on a piano on the screen and see which tone is being played
+7. Also be able to play the notes on the computer keyboard
+8. Find resources to learn the basics of music theory
+5. Be presented with a well designed, user-friendly interface
 6. Get in touch with the site owner
 
 ### Site owner goals/user requirements and expectations
 
-This website does not return profit or anything else anything to the site owner, so the benefit will end on the users side, unless the user decides to contact the owner.
+The main goal is to create a web app that can be used for amusement but also in the early stages of music education.
+
+
 
 1. Users should feel welcome when entering the website
 2. Users should easily be able to navigate through the contents of the website
@@ -105,7 +111,7 @@ This mainly a piano and a stave above. When the user clicks a key, they can see 
 
 5. Contact
 
-On the Contact page, users can fill in a simple contact form to get in touch. They can also see the email adress.
+On the Contact page, users can fill in a simple contact form to get in touch.
 
 ## Structure
 
@@ -139,19 +145,29 @@ Finally, the "contact" page contains a simple form, where the user can fill in t
 
 ### Features to be implemented
 
-This is a basic web application but could be expanded with all kinds of sections and functions. For example, there could be a play-by-ear section, where notes are played and the user has to answer which note. There could also be a chords-section, introducing chords and their uses in music. i am sure this platform will be expanded in the future.
+This is a basic web application but could be expanded with all kinds of sections and functions. For example, there could be a play-by-ear section, where notes are played and the user has to answer which note. There could also be a chords-section, introducing chords and their uses in music. I am sure this platform will be expanded in the future.
 
 ## Technologies used
 
-- [Github](https://github.com/)
-
-- [Gitpod](https://gitpod.com/)
+### Languages
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+### Applications, Libraries and Platforms
+
+- [Google Fonts](https://fonts.google.com/) - Were used for all fonts and icons in this project.
+
+- [Git](https://git-scm.com/) - Version control system used to commit and push to Github via Gitpod.
+
+- [Github](https://github.com/) - The projects repository and all its branches were commited, pushed and deployed to Github.
+
+- [Gitpod](https://gitpod.com/) - All code was written and tested with the Gitpod web-based IDE.
+
+- [Balsamiq](https://balsamiq.com/wireframes/) - Balsamiq Wireframes was used to create wireframe images of the website which you can view [here](#).
 
 ## Validation
 
@@ -199,4 +215,4 @@ To make a clone, or 'Fork' this repository, follow the steps below.
 
 ## Acnowledgements
 
-The tutors at Code Institute
+The tutors at Code Institute, especially John and Sean, gave me very good advice.
