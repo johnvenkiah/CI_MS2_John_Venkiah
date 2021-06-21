@@ -12,17 +12,17 @@ fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=
     document.querySelector('#learn-text').innerText = data;
     var vidId = data.items[0].id.videoId;
     var vidTitle = data.items[0].snippet.title;
-    console.log(data);
+    // console.log(data);
 
     mainVideo(vidId, vidTitle);
     videosList(data);
-})
+  })
 
 function mainVideo(vidId, vidTitle) {
   let mainVidHtml = `<iframe src="https://www.youtube.com/embed/${vidId}" title="${vidTitle}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
 
-    document.querySelector('#main-video').innerHTML = mainVidHtml;
-    console.log(vidId);
+  document.querySelector('#main-video').innerHTML = mainVidHtml;
+  // console.log(vidId);
 
 }
 
@@ -32,26 +32,30 @@ function videosList(data) {
     let thumbNail = item.snippet.thumbnails.medium.url;
     let title = item.snippet.title;
     let description = item.snippet.description;
+    let id = item.id.videoId;
 
     // let i = 0; i < items.length; i++;
 
-    vidsListHtml = `<article>
-    <h3>${title}</h3>
+    vidsListHtml = `<article class="vid-article" data-id="${id}">
+    <h3 id="vid-title">${title}</h3>
     <img class="thumbn" src="${thumbNail}"></img>
       <p>${description}</p>
     </div>
   </article>`;
 
-    // document.createElement
-    
-    let emptyDiv = document.querySelector('#empty-div');
-    document.querySelector('#videos-section').insertAdjacentHTML('afterBegin', vidsListHtml);
-    // let vidListHtml = ;
+    let videosSection = document.querySelector('#videos-section')
+    videosSection.insertAdjacentHTML('afterBegin', vidsListHtml);
 
+  });
+
+  let articles = document.querySelectorAll('.vid-article');
+
+  articles.forEach(article => {
+    article.addEventListener('click', function() {
+      currentVidId = article.dataset.id
+      // vidTitle = item.snippet.title;
+      mainVideo(currentVidId);
   })
+})
 
-  // let videosContainer =
-  
-  // videosContainer.append(vidListHtml);
-
-  }
+}
