@@ -2,20 +2,19 @@ let KEY = 'AIzaSyDvqQZEbIUH5AC7YGcWfaaGK6hIiN8S9Tg';
 
 let navbar = document.querySelector('.navbar')
 
-navbar.style.boxShadow = '2px 0 4px #2a2a2a'
-// let options = {
-//   part: 'snippet',
-//   key: KEY,
-//   maxResults: 15
-// }
+navbar.style.boxShadow = '2px 0 4px #2a2a2a';
+
+let options = {
+  part: 'snippet',
+  key: KEY,
+  maxResults: 10
+}
 
 fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=music%20theory%20beginners%20piano%20sight%20reading&relevanceLanguage=en&key=${KEY}`)
   .then(response => response.json())
   .then(data => {
-    // document.querySelector('#learn-text').innerText = data;
     var vidId = data.items[0].id.videoId;
     var vidTitle = data.items[0].snippet.title;
-    // console.log(data);
 
     mainVideo(vidId, vidTitle);
     videosList(data);

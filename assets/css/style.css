@@ -11,6 +11,8 @@
   font-size: 1.5em;
 }
 
+/* index.html  */
+
 #main-logo {
   font-family: 'Grandstander', cursive;
   font-size: 2em;
@@ -90,24 +92,32 @@ body {
   font-size: 1.4em;
 }
 
-footer {
-  position: absolute;
-  height: 7%;
-  bottom: 0;
-  width: 100%;
+#contact-link {
+  display: block;
+  margin: 5% auto 0;
 }
 
-footer a {
-  color:rgb(218, 160, 84);
-  text-decoration: none;
-  /* margin-top: 50%; */
+footer {
+  position: fixed;
+  height: 5%;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(transparent, #1a1a1a);
+}
+
+.footer-text {
+  position: relative;
+  font-size: .7em;
+  top: 10px;
+  color: #666
 }
 
 /* On several pages */
 
 .subheading-other {
   font-size: 1.3em;
-  margin: 60px auto;
+  margin: 70px auto;
+  color:rgb(218, 160, 84);
 }
 
 .main-logo-other-pages {
@@ -273,7 +283,7 @@ footer a {
 #container-learn {
   max-width: 600px;
   width: 90%;
-  margin: 70px auto 0;
+  margin: 70px auto 15px;
 }
 
 #banner-learn {
@@ -301,10 +311,12 @@ footer a {
   width: 100%;
   height: 0;
   position: sticky;
+  border-radius: 4px;
   top: 70px;
   margin: 0;
   padding-top: 56.25%;
-  z-index: 2;
+  z-index: 1;
+  box-shadow: 2px 2px 4px black;
 }
 
 iframe {
@@ -350,23 +362,8 @@ article p {
 .thumbn {
   border-radius: 4px;
   width: 100%;
+  box-shadow: 2px 2px 4px black;
 }
-
-/*
-
-.learn-image {
-  width: 85%;
-  margin-top: 20px;
-  border-radius: 3px;
-}
-
-.learn-image-2 {
-  width: 95%;
-  height: 100%;
-  margin: 15px auto;
-  border-radius: 3px;
-  background-color:rgb(224, 204, 182);
-} */
 
 /* Hamnburger Menu */
 
@@ -474,7 +471,7 @@ a {
 }
 
 #form-div .input {
-  height: 25px;
+  height: 30px;
 }
 
 textarea {
