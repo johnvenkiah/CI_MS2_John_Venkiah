@@ -3,7 +3,7 @@
 let playButton = document.querySelector('#play-button')
 let answersBox = document.querySelector('#answers-box');
 let staffBox = document.querySelector('.staffbox');
-let subheadingsQuiz = document.querySelector('#quiz-headings');
+let subheadingsQuiz = document.querySelector('.subheading-other');
 let currentScore = document.querySelector('#current-score');
 let points;
 
@@ -23,6 +23,8 @@ function playQuiz() {
     let resetTimer = startTimer(endGameModal);
     let paragraph = document.querySelector('.paragraph')
     paragraph.innerHTML = ""
+
+    subheadingsQuiz.setAttribute('style', 'margin-top: 200px;');
 
     function endGameModal() {
         soundGameEnd.play();
