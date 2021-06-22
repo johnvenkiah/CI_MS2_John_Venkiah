@@ -178,7 +178,7 @@ footer {
 .quiz-button {
   margin: 5% 5% 5%;
   height: 50px;
-  width: 35%;
+  width: 38%;
   max-width: 200px;
 }
 
@@ -194,12 +194,11 @@ footer {
 }
 
 #modal-window {
-  width: 90vw;
+  width: 90%;
   max-width: 600px;
-  /* height: 35vh; */
   max-height: 350px;
-  padding-top: 8%;
-  margin: 50% auto;
+  padding: 8%;
+  margin: 55% auto;
   background-color: #2a2a2ae5;
   border-radius: 4px;
   box-shadow: 2px 1px 7px black;
@@ -208,7 +207,7 @@ footer {
 }
 
 #greeting {
-  
+
 }
 
 #modal-window h2, h3 {
