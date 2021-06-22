@@ -133,7 +133,7 @@ footer {
   margin: 0 auto;
   width: 95%;
   height: 100%;
-  max-width: 500px;
+  max-width: 455px;
   text-align: center;
 }
 
@@ -573,14 +573,8 @@ textarea {
     padding: 3%;
   }
 
-  #score, #clock {
-    position: absolute;
-    top: 30%;
-    width: 20%;
-  }
-
   .staffbox {
-    position: absolute;
+    /* position: absolute; */
     width: 450px;
     top: 35%;
     left: 50%;
