@@ -2,7 +2,7 @@
 
 let playButton = document.querySelector('#play-button')
 let answersBox = document.querySelector('#answers-box');
-let staffBox = document.querySelector('#staffbox');
+let staffBox = document.querySelector('.staffbox');
 let subheadingsQuiz = document.querySelector('#quiz-headings');
 let currentScore = document.querySelector('#current-score');
 let points;

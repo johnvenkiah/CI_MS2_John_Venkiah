@@ -39,12 +39,12 @@ body {
 
 .subheading-home {
   font-size: 1.1em;
-  margin-top: 5%;
+  margin: 5% auto 5%;
 }
 
 .paragraph {
   font-size: .9em;
-  margin: 5% auto 0;
+  margin: 0 auto;
   line-height: 1.5em;
 }
 
@@ -116,7 +116,7 @@ footer {
 
 .subheading-other {
   font-size: 1.3em;
-  margin: 70px auto;
+  margin: 70px auto 40px;
   color:rgb(218, 160, 84);
 }
 
@@ -151,7 +151,7 @@ footer {
   margin: 15px auto;
 }
 
-#staffbox {
+.staffbox {
   clear: both;
   position: relative;
   height: 145px;
@@ -229,6 +229,55 @@ footer {
 }
 
 /* play.html */
+
+#subheading-play {
+  margin-bottom: 10px;
+}
+
+.kb-keys {
+  border-radius: 4px;
+  margin: 2px;
+  position: relative;
+}
+
+.white-kb-keys {
+  position: relative;
+  bottom: 0;
+}
+
+.kb-keys span {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  border-radius: 4px;
+  margin: 8px 1px 0;
+}
+
+.black-kb-keys span {
+  color: rgb(224, 204, 182);
+  border: 2px solid black;
+  background-color: #1a1a1a;
+  margin: 0 1px;
+}
+
+.white-kb-keys span {
+  color: #1a1a1a;
+  border-right: 2px solid white;
+  border-top: 2px solid #2a2a2a;
+  border-left: 2px solid #4b453d;
+  border-bottom: 2px solid #4b453d;
+  width: 19px;
+  background-color: rgb(224, 204, 182);
+  margin-bottom: 0;
+}
+
+span.space-right {
+  margin-right: 12px;
+}
+
+.stfbx-play {
+
+}
 
 #piano-container {
   position: relative;

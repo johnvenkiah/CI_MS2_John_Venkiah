@@ -36,7 +36,7 @@ let notesObj = {
 //Create a variable for all keys
 const keys = document.querySelectorAll('.key')
 
-let staffBoxPlay = document.getElementById('staffbox')
+let staffBoxPlay = document.querySelector('.staffbox')
 
 keys.forEach(key => {
 
