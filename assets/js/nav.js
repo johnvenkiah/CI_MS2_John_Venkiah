@@ -14,10 +14,10 @@ let navBar = `
             <a href="index.html" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
-            <a href="play.html" class="nav-link">Play</a>
+            <a href="quiz.html" class="nav-link">Quiz</a>
         </li>
         <li class="nav-item">
-            <a href="quiz.html" class="nav-link">Quiz</a>
+            <a href="play.html" class="nav-link">Play</a>
         </li>
         <li class="nav-item">
             <a href="learn.html" class="nav-link">Learn</a>

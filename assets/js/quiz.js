@@ -99,31 +99,6 @@ function newQuestion() {
             }
         })
       })
-
-    // document.body.addEventListener('click', event => {
-    //     if (event.target !== correct && event.target !== rightOrWrong) {
-    //       return
-    //     }
-    //     else if (event.target !== correct) {
-    //         soundWrong.play()
-    //     }
-    //     else {
-    //         soundCorrect.play(), incrementScore
-    //     }
-    //   })
-
-    // rightOrWrong[0].addEventListener('click', correctOrNot);
-
-    // function correctOrNot() {
-    //     if (rightOrWrong.id !== 'answer-4') {
-    //         soundWrong.play();
-    //     } else {
-    //         incrementScore()
-    //     }
-    // }
-    
-
-    // if (incrementScore = false) soundWrong.play();
 }
 
 function incrementScore() {
