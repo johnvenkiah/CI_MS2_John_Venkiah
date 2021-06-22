@@ -46,6 +46,7 @@ body {
   font-size: .9em;
   margin: 0 auto;
   line-height: 1.5em;
+  width: 90%;
 }
 
 #button-container {
@@ -60,7 +61,7 @@ body {
 .button {
   margin: 6% auto 0;
   border-radius: 5px;
-  padding: 5% 0;
+  /* padding: 5% 0; */
   justify-content: space-around;
   font-size: 1em;
   font-family: 'Grandstander', cursive;
@@ -367,6 +368,7 @@ span.space-right {
 
 iframe {
   height: 100%;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -540,6 +542,56 @@ textarea {
 }
 
 /* Media Query */
+
+@media only screen and (min-width: 769px) {
+
+  #button-container {
+    max-width: 70%;
+    display: inline-block;
+  }
+
+  .button-home {
+    width: 150px;
+    padding: 20px;
+    margin: 15px;
+  }
+
+  .subheading-other {
+    margin: 100px;
+  }
+
+  .subheading-other p {
+    margin: 40px auto;
+  }
+
+  #modal-window {
+    margin: 20% auto;
+    padding: 3%;
+  }
+
+  .staffbox {
+    width: 400px;
+    height: 200px;
+    margin: 30px auto;
+  }
+
+  .paragraph {
+    margin: 30px auto;
+  }
+
+  #banner-learn {
+    padding: 50px;
+  }
+
+  #form-div h2 {
+    margin-bottom: 60px;
+  }
+
+  #form-div .button {
+    padding: 10px;
+  }
+
+}
 
 @media only screen and (max-width: 768px) {
   .nav-menu {
