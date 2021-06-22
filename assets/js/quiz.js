@@ -28,10 +28,24 @@ function playQuiz() {
         soundGameEnd.play();
         console.log('Game ended!');
 
+        let endGreetings = {
+            notgood: 'Aw, too bad...',
+            ok: 'That went ok!',
+            good: 'Nice try!',
+            great: 'Well done!',
+            excellent: 'Wow, outstanding!'
+        };
+
+        let endGreeting = points > 250 ? endGreetings.excellent
+                        : points > 170 ? endGreetings.great
+                        : points > 110 ? endGreetings.good
+                        : points > 60 ? endGreetings.ok
+                        : endGreetings.notgood;
+
         var modalHtml = `
             <div id="modal-container">
                 <div id="modal-window">
-                    <h2>Well Done!</h2>
+                    <h2 id="greeting">${endGreeting}</h2>
                     <h3>You scored ${points}!</h3>
                     <button onclick="playQuiz(), removeModal()" class="play-quiz-button button quiz-button">Play Again</button>
                     <a href="quiz.html"><button class="button quiz-button close-button">Close</button></a>
