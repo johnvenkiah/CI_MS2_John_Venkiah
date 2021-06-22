@@ -39,7 +39,7 @@ body {
 
 .subheading-home {
   font-size: 1.1em;
-  margin: 5% auto 5%;
+  margin: 10% auto 5%;
 }
 
 .paragraph {
@@ -399,7 +399,6 @@ article h3 {
 
 article p {
   font-size: 0.9em;
-  /* color: #666; */
   padding: 10px 0;
 }
 
@@ -407,6 +406,7 @@ article p {
   border-radius: 4px;
   width: 100%;
   box-shadow: 2px 2px 4px black;
+  cursor: pointer;
 }
 
 /* Hamnburger Menu */
@@ -548,7 +548,7 @@ textarea {
       width: 100%;
       border-radius: 10px;
       text-align: center;
-      transition: 0.3s;
+      transition: 0.15s;
   }
 
   .nav-menu.active {

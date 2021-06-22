@@ -49,12 +49,11 @@ function mobileMenu() {
 
 // So hamburger closes when link is clicked
 
-let navLink = document.querySelectorAll(".nav-link");
+let navLinks = document.querySelectorAll(".nav-link");
 
-navLink.forEach(n => n.addEventListener("click", closeMenu));
+navLinks.forEach(link => link.addEventListener("click", closeMenu));
 
 function closeMenu() {
-    e.stopPropagation();
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
