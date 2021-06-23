@@ -1,32 +1,53 @@
 let KEY = 'AIzaSyDvqQZEbIUH5AC7YGcWfaaGK6hIiN8S9Tg';
-
 let navbar = document.querySelector('.navbar');
 
 navbar.style.boxShadow = '2px 0 4px #2a2a2a';
 
-const myImage = document.querySelector('img');
+(function() {
+  var cors_api_host = 'cors-anywhere.herokuapp.com';
+  var cors_api_url = 'https://' + cors_api_host + '/';
+  var slice = [].slice;
+  var origin = window.location.protocol + '//' + window.location.host;
+  var open = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function() {
+      var args = slice.call(arguments);
+      var targetOrigin = /^https?:\/\/([^\/]+)/i.exec(args[1]);
+      if (targetOrigin && targetOrigin[0].toLowerCase() !== origin &&
+          targetOrigin[1] !== cors_api_host) {
+          args[1] = cors_api_url + args[1];
+      }
+      return open.apply(this, args);
+  };
+  console.log('cors setup complete');
+})();
 
-let myHeaders = new Headers();
-myHeaders.append('Accept', `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=music%20theory%20beginners%20piano%20sight%20reading&relevanceLanguage=en&key=${KEY}`);
+//   let myHeaders = new Headers();
+// myHeaders.append('Accept', `${cors_api_url}https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=music%20theory%20beginners%20piano%20sight%20reading&relevanceLanguage=en&key=${KEY}`);
 
-const myInit = {
-  method: 'GET',
-  headers: myHeaders,
-  mode: 'cors',
-  cache: 'default',
-  origin: '*'
-};
+// const myInit = {
+//   method: 'GET',
+//   headers: myHeaders,
+//   mode: 'cors',
+//   cache: 'default',
+//   origin: '*'
+// };
 
 let myRequest = new Request(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=music%20theory%20beginners%20piano%20sight%20reading&relevanceLanguage=en&key=${KEY}`);
 
-fetch(myRequest, myInit).then(response => response.json())
-.then(data => {
-  var vidId = data.items[0].id.videoId;
-  var vidTitle = data.items[0].snippet.title;   // fix this so title shows for each video
+fetch(myRequest)
+  .then(response => response.json())
+  .then(data => {
+    var vidId = data.items[0].id.videoId;
+    var vidTitle = data.items[0].snippet.title;   // fix this so title shows for each video
+    
+    mainVideo(vidId, vidTitle);
+    videosList(data);
+    
+  })
+  .catch((e) => {
+    console.error('error', e);
+  })
 
-  mainVideo(vidId, vidTitle);
-  videosList(data);
-});
 
 function mainVideo(vidId, vidTitle) {
   let mainVidHtml = `<iframe src="https://www.youtube.com/embed/${vidId}" title="${vidTitle}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
