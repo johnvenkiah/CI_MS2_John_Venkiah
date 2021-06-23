@@ -552,5 +552,4 @@ var questions = [
     c: "3rd rest",
     correct: "Whole-note"
   },
-]
-
+];

@@ -3,7 +3,7 @@
  * Web Dev Simplified through this great video: https://youtu.be/vjco5yKZpU8
  */
 
-const KEYS = ['a', 'w', 's', 'e', 'd', 'f', 't', 'g', 'y', 'h', 'u', 'j', 'k', 'o', 'l', 'p', ';', "'", '[']
+const KEYS = ['a', 'w', 's', 'e', 'd', 'f', 't', 'g', 'y', 'h', 'u', 'j', 'k', 'o', 'l', 'p', ';', "'", '['];
 
 let notesObj = {
     'c3': 'c3_play.png',
@@ -31,30 +31,28 @@ let notesObj = {
     'asharp4': 'asharp_bflat4_play.png',
     'b4': 'b4_play.png',
     'c5': 'c5_play.png',
-}
+};
 
 //Create a variable for all keys
-const keys = document.querySelectorAll('.key')
-
-let staffBoxPlay = document.querySelector('.staffbox')
+const keys = document.querySelectorAll('.key');
 
 keys.forEach(key => {
 
-    key.addEventListener('mousedown', () => playNote(key))
-    key.addEventListener('mouseup', () => releaseNote(key))
-    document.addEventListener('keyup', () => releaseNote(key))
-})
+    key.addEventListener('mousedown', () => playNote(key));
+    key.addEventListener('mouseup', () => releaseNote(key));
+    document.addEventListener('keyup', () => releaseNote(key));
+});
 
 document.addEventListener('keydown', event => {
 
-    if (event.repeat) return
+    if (event.repeat) return;
 
-    const key = event.key
-    const keyIndex = KEYS.indexOf(key)
+    const key = event.key;
+    const keyIndex = KEYS.indexOf(key);
 
-    if (keyIndex > -1) playNote(keys[keyIndex])
+    if (keyIndex > -1) playNote(keys[keyIndex]);
 
-})
+});
 
 /**
  * Play note function,

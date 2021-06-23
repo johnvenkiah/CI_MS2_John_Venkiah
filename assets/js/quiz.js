@@ -1,9 +1,6 @@
 // QUIZ
 
-let playButton = document.querySelector('#play-button')
 let answersBox = document.querySelector('#answers-box');
-let staffBox = document.querySelector('.staffbox');
-// let subheadingsQuiz = document.querySelector('.subheading-other');
 let currentScore = document.querySelector('#current-score');
 let points;
 
@@ -21,10 +18,8 @@ function playQuiz() {
     
     soundGameStart.play();
     let resetTimer = startTimer(endGameModal);
-    let paragraph = document.querySelector('.paragraph')
-    paragraph.innerHTML = ""
-
-    // subheadingsQuiz.setAttribute('style', 'margin-top: 200px;');
+    let paragraph = document.querySelector('.paragraph');
+    paragraph.innerHTML = "";
 
     function endGameModal() {
         soundGameEnd.play();
@@ -59,7 +54,7 @@ function playQuiz() {
 
         modalDiv.innerHTML = modalHtml;
 
-        clearInterval(resetTimer)
+        clearInterval(resetTimer);
     }
 
     newQuestion();
@@ -71,14 +66,14 @@ function newQuestion() {
 
     let questionsRandom = Math.floor(Math.random() * questions.length);
 
-    let staffQuiz = document.getElementById('staff-quiz')
-    staffQuiz.src = 'assets/images/quiz/' + questions[questionsRandom].image
+    let staffQuiz = document.getElementById('staff-quiz');
+    staffQuiz.src = 'assets/images/quiz/' + questions[questionsRandom].image;
 
-    let quizHeadings = document.querySelector('.subheading-other')
-    quizHeadings.innerHTML = questions[questionsRandom].question
+    let quizHeadings = document.querySelector('.subheading-other');
+    quizHeadings.innerHTML = questions[questionsRandom].question;
 
     let buttonsHtml = `<button onclick="newQuestion()" class="button quiz-button"`;
-    let buttonsEndHtml = `</button>`
+    let buttonsEndHtml = `</button>`;
 
     let buttons = [];
 
@@ -107,14 +102,15 @@ function newQuestion() {
         item.addEventListener('click', event => {
             if (event.target == correct) {
                 soundCorrect.currentTime = 0;
-                soundCorrect.play(), incrementScore();
+                soundCorrect.play();
+                incrementScore();
             }
             else {
                 soundWrong.currentTime = 0;
                 soundWrong.play();
             }
-        })
-      })
+        });
+      });
 }
 
 function incrementScore() {
@@ -143,7 +139,7 @@ function startTimer(callBack) {
     }
 
     function display(number) {
-        return number < 10 ? `0${number}` : number
+        return number < 10 ? `0${number}` : number;
     }
 
     const countDown = function() {
@@ -151,11 +147,11 @@ function startTimer(callBack) {
         if(seconds === 0) {
             setTimeout(callBack(), 1000);
         }
-        updateTimer(secElement, seconds)
-    }
+        updateTimer(secElement, seconds);
+    };
 
     updateScore();
-    updateTimer(secElement, seconds)
+    updateTimer(secElement, seconds);
     return setInterval(countDown, 1000);
 }
 
