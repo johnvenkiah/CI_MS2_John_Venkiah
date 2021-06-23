@@ -18,8 +18,8 @@ function playQuiz() {
     
     soundGameStart.play();
     let resetTimer = startTimer(endGameModal);
-    let paragraph = document.querySelector('.paragraph');
-    paragraph.innerHTML = "";
+    let quizHeadings = document.querySelector('.subheading-other');
+    quizHeadings.innerHTML = "";
 
     function endGameModal() {
         soundGameEnd.play();
@@ -69,8 +69,9 @@ function newQuestion() {
     let staffQuiz = document.getElementById('staff-quiz');
     staffQuiz.src = 'assets/images/quiz/' + questions[questionsRandom].image;
 
-    let quizHeadings = document.querySelector('.subheading-other');
-    quizHeadings.innerHTML = questions[questionsRandom].question;
+    let currentQuestion = document.querySelector('.paragraph');
+    currentQuestion.innerHTML = questions[questionsRandom].question;
+    
 
     let buttonsHtml = `<button onclick="newQuestion()" class="button quiz-button"`;
     let buttonsEndHtml = `</button>`;
