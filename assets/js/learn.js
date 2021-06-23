@@ -4,6 +4,16 @@ let navbar = document.querySelector('.navbar');
 
 navbar.style.boxShadow = '2px 0 4px #2a2a2a';
 
+// const fetchedReports = fetch(`https://api.weatherunlocked.com/api/snowreport/${resort.id}`)
+//     .then((snowRes) => snowRes.json())
+//     .then ((snowReport) => {
+//         resort.snowReport = snowReport;
+//         return snowReport;
+//     }).catch(error => { 
+//       throw(error);
+//     })
+// fetchedReports.then() // continue from here dont fetch inside another fetch
+
 // let options = {
 //   part: 'snippet',
 //   key: KEY,

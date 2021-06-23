@@ -60,7 +60,7 @@ body {
 .button {
   margin: 6% auto 0;
   border-radius: 5px;
-  /* padding: 5% 0; */
+  padding: 5% 0;
   justify-content: space-around;
   font-size: 1em;
   font-family: 'Grandstander', cursive;
@@ -588,6 +588,10 @@ textarea {
     left: 50%;
     margin-left: -20%;
     width: 40%;
+  }
+
+  .quiz-button {
+    padding: 0;
   }
 
   .paragraph {
