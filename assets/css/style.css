@@ -568,13 +568,21 @@ textarea {
     margin: 40px auto;
   }
 
+  #contact-link {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 70px;
+  width: 100px;
+  left: 50%;
+  margin-left: -50px;
+  }
+
   #modal-window {
     margin: 20% auto;
     padding: 3%;
   }
 
   .staffbox {
-    /* position: absolute; */
     width: 450px;
     top: 35%;
     left: 50%;
