@@ -3,7 +3,7 @@
 let answersBox = document.querySelector('#answers-box');
 let currentScore = document.querySelector('#current-score');
 let points;
-
+let currentQuestion = document.querySelector('.paragraph');
 let soundGameStart = document.getElementById('sound-start-game');
 let soundGameEnd = document.getElementById('sound-finish-game');
 let soundCorrect = document.getElementById('sound-correct-answer');
@@ -15,7 +15,7 @@ soundCorrect.volume = 0.1;
 soundWrong.volume = 0.1;
 
 function playQuiz() {
-    
+    currentQuestion.style.fontSize = '1.3em'
     soundGameStart.play();
     let resetTimer = startTimer(endGameModal);
     let quizHeadings = document.querySelector('.subheading-other');
@@ -51,9 +51,7 @@ function playQuiz() {
         `;
 
         var modalDiv = document.getElementById('modal-div');
-
         modalDiv.innerHTML = modalHtml;
-
         clearInterval(resetTimer);
     }
 
@@ -69,7 +67,6 @@ function newQuestion() {
     let staffQuiz = document.getElementById('staff-quiz');
     staffQuiz.src = 'assets/images/quiz/' + questions[questionsRandom].image;
 
-    let currentQuestion = document.querySelector('.paragraph');
     currentQuestion.innerHTML = questions[questionsRandom].question;
     
 
