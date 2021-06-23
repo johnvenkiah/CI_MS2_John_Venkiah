@@ -13,7 +13,8 @@ const myInit = {
   method: 'GET',
   headers: myHeaders,
   mode: 'cors',
-  cache: 'default'
+  cache: 'default',
+  origin: '*'
 };
 
 let myRequest = new Request(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=music%20theory%20beginners%20piano%20sight%20reading&relevanceLanguage=en&key=${KEY}`);

@@ -622,9 +622,7 @@ textarea {
   #banner-learn {
     padding: 50px;
     position: fixed;
-    width: 30%;
-    left: 50%;
-    margin-left: -15%;
+    width: 100%;
   }
 
   #form-div .button {
