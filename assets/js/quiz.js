@@ -18,8 +18,6 @@ function playQuiz() {
     currentQuestion.style.fontSize = '1.3em'
     soundGameStart.play();
     let resetTimer = startTimer(endGameModal);
-    let quizHeadings = document.querySelector('.subheading-other');
-    quizHeadings.innerHTML = "";
 
     function endGameModal() {
         soundGameEnd.play();

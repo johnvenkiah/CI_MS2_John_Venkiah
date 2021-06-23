@@ -578,8 +578,19 @@ textarea {
   }
 
   #modal-window {
-    margin: 20% auto;
+    position: absolute;
+    width: 500px;
+    z-index: 1;
+    left: 50%;
+    margin-left: -250px;
+    height: 300px;
+    top: 50%;
+    margin-top: -150px;
     padding: 3%;
+  }
+
+  #modal-window h2, h3 {
+    padding: 5px 0 40px;
   }
 
   .staffbox {
