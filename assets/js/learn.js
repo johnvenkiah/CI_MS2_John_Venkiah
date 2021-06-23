@@ -3,9 +3,10 @@ let navbar = document.querySelector('.navbar');
 
 navbar.style.boxShadow = '2px 0 4px #2a2a2a';
 
+var cors_api_host = 'cors-anywhere.herokuapp.com';
+var cors_api_url = 'https://' + cors_api_host + '/';
+
 (function() {
-  var cors_api_host = 'cors-anywhere.herokuapp.com';
-  var cors_api_url = 'https://' + cors_api_host + '/';
   var slice = [].slice;
   var origin = window.location.protocol + '//' + window.location.host;
   var open = XMLHttpRequest.prototype.open;
@@ -44,8 +45,8 @@ fetch(myRequest)
     videosList(data);
     
   })
-  .catch((e) => {
-    console.error('error', e);
+  .catch((err) => {
+    console.error('Error: ', err);
   })
 
 
