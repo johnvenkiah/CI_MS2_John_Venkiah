@@ -1,7 +1,7 @@
 let KEY = 'AIzaSyDvqQZEbIUH5AC7YGcWfaaGK6hIiN8S9Tg';
 let navbar = document.querySelector('.navbar');
 
-navbar.style.boxShadow = '2px 0 4px #2a2a2a';
+// navbar.style.boxShadow = '2px 0 4px #2a2a2a';
 
 // var cors_api_host = 'cors-anywhere.herokuapp.com';
 // var cors_api_url = 'https://' + cors_api_host + '/';
