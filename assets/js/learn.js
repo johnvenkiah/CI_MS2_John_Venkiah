@@ -56,7 +56,7 @@ function videosList(data) {
     // let i = 0; i < items.length; i++;
 
     let vidsListHtml = `<article class="vid-article" data-id="${id}">
-    <h3 id="vid-title">${title}</h3>
+    <h3 id="vid-title" class="smaller-green-text">${title}</h3>
     <img class="thumbn" src="${thumbNail}"></img>
       <p>${description}</p>
     </div>
