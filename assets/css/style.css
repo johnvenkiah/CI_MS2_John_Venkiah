@@ -174,9 +174,6 @@ footer {
 }
 
 #answers-box {
-  justify-content: space-around;
-  grid-template-columns: 2;
-  grid-template-rows: 2;
   width: 100%;
 }
 
@@ -639,6 +636,41 @@ textarea {
   #youtube-logo {
     width: 130px;
   }
+
+}
+
+@media only screen and (min-height: 680px) and (max-width: 768px){
+    #button-container {
+        padding-top: 15%;
+    }
+    #contact-link {
+        bottom: 70px;
+    }
+
+    .staffbox {
+        margin: 15% auto;
+    }
+
+    #modal-window {
+        max-width: 450px;
+        padding: 5%;
+    }
+
+    .quiz-button {
+        padding: 0;
+    }
+
+    #answers-box {
+        padding-top: 10%;
+    }
+
+    #form-div button {
+        padding: 2% 0; 
+    }
+
+    #subheading-play, .subheading-other {
+        margin-bottom: 15%;
+    }
 
 }
 
