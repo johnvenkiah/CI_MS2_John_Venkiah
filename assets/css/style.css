@@ -463,6 +463,10 @@ a {
   text-align: center;
 }
 
+#form-div .subheading-other {
+    margin-bottom: 10%;
+}
+
 #form-div .input, textarea {
   position: relative;
   margin: 5% auto 10%;
@@ -487,6 +491,7 @@ textarea {
 }
 
 #form-div button {
+    margin-top: 2%;
   width: 30%;
 }
 
@@ -495,6 +500,7 @@ textarea {
   margin-top: 5%;
   font-size: 0.8em;
   border-radius: 4px;
+  text-shadow: none;
 }
 
 /* Media Query */
