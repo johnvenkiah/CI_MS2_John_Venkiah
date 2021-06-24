@@ -161,7 +161,7 @@ footer {
   position: relative;
   height: 145px;
   width: 305px;
-  max-width: 500px;
+  max-width: 100vw;
   background-color:rgb(224, 204, 182);
   text-align: center;
   border-radius: 4px;
@@ -285,7 +285,7 @@ span.space-right {
   height: 25vh;
   max-width: 800px;
   width: 95%;
-  margin: 0 auto;
+  margin: 5% auto;
   border-radius: 1%;
   border-top: 3px solid rgb(173, 0, 0);
 }
@@ -499,7 +499,7 @@ a {
 /* contact.html */
 
 #form-div {
-  margin: 0 auto;
+  margin: 10% auto 0;
   position: relative;
   width: 85%;
   max-width: 600px;
