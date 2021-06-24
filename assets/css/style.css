@@ -93,8 +93,12 @@ body {
 }
 
 #contact-link {
-  display: block;
-  margin: 5% auto 0;
+  position: absolute;
+  margin: 0 auto;
+  bottom: 35px;
+  width: 100px;
+  left: 50%;
+  margin-left: -50px;
   color: rgb(218, 160, 84);
 }
 
@@ -570,12 +574,7 @@ textarea {
   }
 
   #contact-link {
-  position: absolute;
-  margin: 0 auto;
-  bottom: 70px;
-  width: 100px;
-  left: 50%;
-  margin-left: -50px;
+    bottom: 70px;
   }
 
   #modal-window {
