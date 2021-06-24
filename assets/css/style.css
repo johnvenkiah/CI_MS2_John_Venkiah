@@ -417,7 +417,7 @@ article p {
   cursor: pointer;
 }
 
-/* Hamnburger Menu */
+/* Hamburger Menu */
 
 li {
     list-style: none;
@@ -437,10 +437,7 @@ a {
   width: 100%;
   height: 70px;
   background: linear-gradient(#1a1a1a, transparent);
-  /* background: #2a2a2a url(../images/wallpaper_notes.jpeg);
-  background-size: cover;
-  background-blend-mode: color-burn;
-  justify-content: space-between; */
+  justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
   z-index: 2;
