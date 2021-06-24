@@ -4,7 +4,7 @@
 
 ![PICTURE OF MOCKUP](#)
 
-[LINK TO DEPLOYED SITE](https://johnvenkiah.github.io/CI_MS2_John_Venkiah/)
+[Click here](https://johnvenkiah.github.io/CI_MS2_John_Venkiah/) to visit the deployed site.
 
 ## Contents
 
