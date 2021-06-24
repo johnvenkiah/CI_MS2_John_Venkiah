@@ -22,4 +22,5 @@
    "files.autoSave": "off",
    "workbench.colorTheme": "Gitpod Dark",
    "editor.defaultFormatter": "HookyQR.beautify",
+   "workbench.hover.delay": 2500,
 }

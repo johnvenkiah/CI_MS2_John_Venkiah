@@ -22,6 +22,8 @@ var cors_api_url = 'https://' + cors_api_host + '/';
   console.log('cors setup complete');
 })();
 
+
+
 let myRequest = new Request(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=music%20theory%20beginners%20piano%20sight%20reading&relevanceLanguage=en&key=${KEY}`);
 
 fetch(myRequest)
