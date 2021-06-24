@@ -566,8 +566,12 @@ textarea {
     margin: 20px;
   }
 
+  #answers-box .play-quiz-button {
+      margin-top: 50px;
+  }
+
   .subheading-other {
-    margin: 150px;
+    margin-top: 150px;
   }
 
   .subheading-other p {
@@ -690,18 +694,22 @@ textarea {
 
 /* for animation */
 
-.hamburger.active .bar:nth-child(2) {
-  opacity: 0;
-}
+    .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+    }
 
-.hamburger.active .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
+    .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    }
 
-.hamburger.active .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-}
+    .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    }
 
+    /* Hide keyboard shortcuts for mobile screens */
 
+    .kb-keys {
+        display: none;
+    }
 
 }
