@@ -4,16 +4,13 @@ function touchDevice() {
            ( navigator.msMaxTouchPoints > 0 );
 }
 
-let newParagraph = '!'; 
+let paragraph = document.querySelector('.paragraph');
+let paragraphHtml = paragraph.innerHTML;
 
-if( touchDevice() ) {
-    var img = "<img src=" + src + " height='100'/>";;
+if(touchDevice() ) {
+    paragraphHtml = paragraphHtml.substr(0, 52);
+    paragraph.innerHTML = paragraphHtml + '!';
 }
-else {
-    var img = "";
-}
-
-document.getElementById('GFG').innerHTML = img;
 
 /**
  * The piano, which responds to user input. Borrowed most of this code from Kyle at
