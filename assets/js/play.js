@@ -1,3 +1,20 @@
+function touchDevice() {
+    return ( 'ontouchstart' in window ) || 
+           ( navigator.maxTouchPoints > 0 ) ||
+           ( navigator.msMaxTouchPoints > 0 );
+}
+
+let newParagraph = '!'; 
+
+if( touchDevice() ) {
+    var img = "<img src=" + src + " height='100'/>";;
+}
+else {
+    var img = "";
+}
+
+document.getElementById('GFG').innerHTML = img;
+
 /**
  * The piano, which responds to user input. Borrowed most of this code from Kyle at
  * Web Dev Simplified through this great video: https://youtu.be/vjco5yKZpU8
