@@ -663,6 +663,12 @@ textarea {
 
 }
 
+@media only screen and (max-height: 768px) and (min-width: 1024px) {
+    .button-home {
+        width: 26%;
+    }
+}
+
 @media only screen and (min-height: 680px) and (max-width: 768px) {
     #button-container {
         padding-top: 15%;
