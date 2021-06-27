@@ -6,12 +6,12 @@ function touchDevice() {
 
 let paragraph = document.querySelector('.paragraph');
 let paragraphHtml = paragraph.innerHTML;
-let kbKeys = document.getElementsByTagName('span');
+let kbKeys = document.querySelectorAll('.kb-keys');
 
 if(touchDevice()) {
     paragraphHtml = paragraphHtml.substr(0, 52);
     paragraph.innerHTML = paragraphHtml + '!';
-    while (kbKeys.length > 0) kbKeys[0].remove();
+    kbKeys.forEach(kbKey => kbKey.remove());
 }
 
 /**
