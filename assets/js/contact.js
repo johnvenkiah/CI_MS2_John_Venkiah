@@ -43,7 +43,6 @@ function validateForm(event) {
   `;
     console.log('Form not sent!');
     sentMsg.setAttribute("style", "color: darkred; background-color: lightpink;");
-    return;
   }
   clearText();
 }
