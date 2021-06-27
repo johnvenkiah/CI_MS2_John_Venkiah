@@ -110,7 +110,7 @@ footer {
 .footer-text {
     position: relative;
     font-size: .7em;
-    top: 10px;
+    /* top: 10px; */
     color: #666
 }
 
@@ -508,6 +508,14 @@ textarea {
     font-size: 0.9em;
     border-radius: 4px;
     text-shadow: none;
+    visibility: hidden;
+}
+
+#emailjs-logo {
+    width: 70px;
+    border-radius: 2px;
+    margin: 0 5px 0 5px;
+    vertical-align: middle;
 }
 
 /* Media Query */
@@ -731,11 +739,4 @@ textarea {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-
-    /* Hide keyboard shortcuts for mobile screens */
-
-    .kb-keys {
-        display: none;
-    }
-
 }

@@ -31,7 +31,7 @@ function validateForm(event) {
   if (from_name.value !== "" && from_email.value.match(allowedEmail)) {
       emailjs.init("user_xdb9Fr0JUjCoYFOs4hiu4");
       emailjs.sendForm('gmail_jvenkiah', 'musical_minds', contactForm);
-      sentMsg.setAttribute("style", "color: green; background-color: azure;");
+      sentMsg.setAttribute('style', 'color: green; background-color: azure; visibility: visible;');
       sentMsg.innerHTML = `
         Thanks ${from_name.value}, your message has been sent.
       `;
@@ -42,7 +42,7 @@ function validateForm(event) {
     Name and email required!
   `;
     console.log('Form not sent!');
-    sentMsg.setAttribute("style", "color: darkred; background-color: lightpink;");
+    sentMsg.setAttribute('style', 'color: darkred; background-color: lightpink; visibility: visible;');
   }
   clearText();
 }
