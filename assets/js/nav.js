@@ -39,22 +39,33 @@ header.innerHTML = navBar;
 
 let hamburger = document.querySelector(".hamburger");
 let navMenu = document.querySelector(".nav-menu");
+let wrapper = document.querySelector('.wrapper-content');
 
 hamburger.addEventListener("click", mobileMenu);
+
+window.addEventListener('click', event => {
+    if (!hamburger.contains(event.target) && (!navMenu.contains(event.target))) {
+    closeMenu();
+  }
+});
 
 function mobileMenu() {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
 }
 
+// if (mobileMenu()) {
+//     console.log('tonk');
+//     document.addEventListener('click', closeMenu());
+// }
 // So hamburger closes when link is clicked
 
 let navLinks = document.querySelectorAll(".nav-link");
 
 navLinks.forEach(link => link.addEventListener("click", closeMenu));
-document.querySelector('#container-learn').addEventListener("click", closeMenu);
 
 function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
+    
 }
