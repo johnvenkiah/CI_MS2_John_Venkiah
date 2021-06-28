@@ -580,6 +580,28 @@ textarea {
 
 /* Media Query */
 
+@media only screen and (min-height: 1025px) {
+    #quiz-box {
+        margin: 10% auto;
+    }
+    .staffbox {
+        margin: 20% auto;
+    }
+
+    #form-div {
+        margin-top: 15%;
+    }
+
+    #form-div .input, textarea {
+        margin: 7% auto 12%;
+    }
+
+    #form-div .button {
+        margin-bottom: 7%;
+    }
+
+}
+
 @media only screen and (min-width: 768px) {
 
     #main-logo {
