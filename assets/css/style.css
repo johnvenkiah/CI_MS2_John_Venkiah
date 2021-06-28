@@ -339,6 +339,7 @@ span.space-right {
 /* learn.html */
 
 #container-learn {
+    width: 96%;
     margin: 70px auto 15px;
 }
 
@@ -788,4 +789,15 @@ textarea {
         margin: 2% auto;
     }
 
+    #form-div {
+        margin-top: 2%;
+    }
+
+    #form-div .input {
+        margin: 1.5% auto 4%;
+    }
+
+    textarea {
+        margin-bottom: 2%;
+    }
 }
