@@ -68,10 +68,10 @@ function buttonAnimation(target) {
         });
           document.querySelector('#answer-4').animate([
             { boxShadow: 'none' },
-            { boxShadow: '0 0 4px green', transform: 'scale(1.1)'},
-            { boxShadow: 'none' }
+            { boxShadow: '0 0 4px green', transform: 'scale(1.6)'},
+            { transform: 'scale(1.5)' }
         ], {
-            duration: 200,
+            duration: 300,
         });
 }
 
@@ -138,7 +138,7 @@ function incrementScore() {
     document.querySelector('#current-score').animate([
         { color: 'rgb(218, 160, 84)' },
         { color: 'rgb(224, 204, 182)',
-            transform: 'scale(1.1)',
+            transform: 'scale(1.3)',
             textShadow: '0 0 4px rgb(76, 97, 0)'
         },
         { color: 'rgb(218, 160, 84)' }
