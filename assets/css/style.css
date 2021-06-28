@@ -585,8 +585,12 @@ textarea {
         margin: 10% auto;
     }
     .staffbox {
-        margin: 20% auto;
+        margin: 15% auto;
     }
+    #answers-box {
+        margin-top: 10%;
+    }
+
 
     #form-div {
         margin-top: 15%;
