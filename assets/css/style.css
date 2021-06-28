@@ -904,4 +904,30 @@ textarea {
         padding: 1%;
         width: 135px;
     }
+    #subheading-play {
+        margin-bottom: 1%;
+    }
+
+    #piano-container {
+        margin: 10px auto 0;
+        height: 30vh;
+    }
+
+    #banner-learn {
+        padding: 0;
+        position: relative;
+    }
+
+    #main-video {
+        top: 150px;
+        width: 50%;
+        padding-top: 28.12%;
+        left: 0;
+    }
+
+    #videos-section {
+        top: 150px;
+        right: 3%;
+        width: 40%;
+    }
 }
