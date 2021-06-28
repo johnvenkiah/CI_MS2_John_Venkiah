@@ -16,40 +16,38 @@
 <body>
     <header class="header">
     </header>
-    <div class="wrapper-content">
-        <main>
-            <div id="contact-wrapper">
-                <h2 class="subheading-other">
-                    Contact
-                </h2>
-                <p class="paragraph">Send us a message via the form below and we'll be in touch as soon as possible!</p>
-                <div id="form-div">
-                    <form class="contact-form">
-                        <label for="name">
-                            Name
-                        </label>
-                        <input id="name" class="input" name="from_name" type="text">
+    <main>
+        <div id="contact-wrapper">
+            <h2 class="subheading-other">
+                Contact
+            </h2>
+            <p class="paragraph">Send us a message via the form below and we'll be in touch as soon as possible!</p>
+            <div id="form-div">
+                <form class="contact-form">
+                    <label for="name">
+                        Name
+                    </label>
+                    <input id="name" class="input" name="from_name" type="text">
 
-                        <label for="email">
-                            Email Address
-                        </label>
-                        <input type="email" id="email" class="input" name="from_email">
+                    <label for="email">
+                        Email Address
+                    </label>
+                    <input type="email" id="email" class="input" name="from_email">
 
-                        <label for="message">Message</label>
-                        <textarea name="message" id="textarea" aria-label="Leave a message here" cols="30"
-                            rows="4"></textarea>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="textarea" aria-label="Leave a message here" cols="30"
+                        rows="4"></textarea>
 
-                        <button class="button" type="submit" value="Send" onclick="validateForm(event)">Send</button>
-                        <p id="sent-msg"></p>
-                    </form>
-                </div>
+                    <button class="button" type="submit" value="Send" onclick="validateForm(event)">Send</button>
+                    <p id="sent-msg"></p>
+                </form>
             </div>
-        </main>
-        <footer>
-            <p class="footer-text">Powered by <img id="emailjs-logo" src="assets/images/footer_images/emailjs_logo.jpg"
-                    alt="EmailJS logo"> © 2021 John Venkiah</p>
-        </footer>
-    </div>
+        </div>
+    </main>
+    <footer>
+        <p class="footer-text">Powered by <img id="emailjs-logo" src="assets/images/footer_images/emailjs_logo.jpg"
+                alt="EmailJS logo"> © 2021 John Venkiah</p>
+    </footer>
     <script src="assets/js/nav.js"></script>
     <script src="assets/js/contact.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
