@@ -86,8 +86,8 @@ function newQuestion() {
 
     currentQuestion.innerHTML = questions[questionsRandom].question;
     
-
-    let buttonsHtml = `<button onclick="newQuestion()" class="button quiz-button"`;
+    let buttonsHtml = `<button class="button quiz-button"`;
+    // let buttonsHtml = `<button onclick="newQuestion()" class="button quiz-button"`;
     let buttonsEndHtml = `</button>`;
 
     let buttons = [];
@@ -115,6 +115,7 @@ function newQuestion() {
 
     document.querySelectorAll('.quiz-button').forEach(button => {
         button.addEventListener('click', event => {
+            setTimeout(newQuestion, 400);
             if (event.target == correct) {
                 soundCorrect.currentTime = 0;
                 incrementScore();
