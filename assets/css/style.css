@@ -671,7 +671,7 @@ textarea {
     }
 }
 
-@media only screen and (min-height: 680px) and (max-width: 768px) {
+@media only screen and (min-height: 680px) and (max-width: 450px) {
     #button-container {
         padding-top: 15%;
     }
@@ -697,15 +697,22 @@ textarea {
         padding-top: 10%;
     }
 
-    #form-div button {
-        padding: 2% 0;
+    #form-div .input {
+        margin-bottom: 13%;
     }
 
-    #subheading-play,
-    .subheading-other {
+    #form-div button {
+        padding: 3% 0;
+        margin: 8% auto;
+    }
+
+    #subheading-play, .subheading-other {
         margin-bottom: 15%;
     }
 
+    #contact-wrapper .subheading-other {
+        margin-bottom: 15%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
