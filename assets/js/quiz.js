@@ -56,22 +56,22 @@ function playQuiz() {
     newQuestion();
 }
 
-function buttonAnimation() {
-    document.getElementById("answers-box").animate([
+function buttonAnimation(target) {
+    target.animate([
             // keyframes
             { boxShadow: 'none' },
-            { boxShadow: '0 0 4px red' },
+            { boxShadow: '0 0 6px red' },
             { boxShadow: 'none' }
         ], {
             // timing options
             duration: 500
         });
-          document.getElementById("answer-4").animate([
-            { fontSize: 'initial' },
-            { fontSize: '1.5em' },
-            { fontSize: 'initial' }
+          document.querySelector('#answer-4').animate([
+            { boxShadow: 'none' },
+            { boxShadow: '0 0 4px green', transform: 'scale(1.1)'},
+            { boxShadow: 'none' }
         ], {
-            duration: 200
+            duration: 200,
         });
 }
 
@@ -124,7 +124,7 @@ function newQuestion() {
             else {
                 soundWrong.currentTime = 0;
                 soundWrong.play();
-                buttonAnimation();
+                buttonAnimation(button);
             }
         });
       });
@@ -134,8 +134,15 @@ function incrementScore() {
 
     points = points + 10;
     updateScore();
-    // currentScore.setAttribute('style', 'color: green; font-size: 1.2rem;');
-    // currentScore.style.transition = 'all .2s ease-in';
+
+    document.querySelector('#current-score').animate([
+        { color: 'rgb(218, 160, 84)' },
+        { color: 'rgb(224, 204, 182)', textShadow: '0 0 4px rgb(76, 97, 0)'},
+        { color: 'rgb(218, 160, 84)' }
+    ], {
+        duration: 500
+    });
+
     soundCorrect.play();
 }
 
