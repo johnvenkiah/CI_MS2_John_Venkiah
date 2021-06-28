@@ -52,6 +52,7 @@ function mobileMenu() {
 let navLinks = document.querySelectorAll(".nav-link");
 
 navLinks.forEach(link => link.addEventListener("click", closeMenu));
+document.querySelector('#container-learn').addEventListener("click", closeMenu);
 
 function closeMenu() {
     hamburger.classList.remove("active");

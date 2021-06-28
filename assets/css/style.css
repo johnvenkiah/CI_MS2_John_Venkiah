@@ -285,7 +285,6 @@ h3 {
 /* learn.html */
 
 #container-learn {
-    width: 96%;
     margin: 70px auto 15px;
 }
 
@@ -339,6 +338,7 @@ iframe {
 }
 
 article {
+    width: 100%;
     padding: 10px;
     display: inline-block;
     text-align: justify;
