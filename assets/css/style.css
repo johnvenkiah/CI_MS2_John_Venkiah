@@ -771,7 +771,8 @@ textarea {
         width: 45%;
         margin: 2%;
     }
-    .subheading-other {
+
+    #subheading-play, .subheading-other {
         margin: 60px auto 20px;
     }
     #quiz-headings p {
@@ -781,6 +782,10 @@ textarea {
     .quiz-button {
         height: auto;
         padding: 2% 0;
+    }
+
+    .staffbox {
+        margin: 2% auto;
     }
 
 }
