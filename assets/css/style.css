@@ -334,7 +334,9 @@ iframe {
 }
 
 #videos-section {
-    padding: 5% 0;
+    background-color: rgba(60, 66, 50, 0.1);
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px solid black;
 }
 
 article {
@@ -345,7 +347,7 @@ article {
     line-height: 1.3em;
     border-radius: 4px;
     background-color: none;
-    transition: background-color .2s ease-in-out;
+    transition: all.2s ease-in-out;
 }
 
 article:hover {
@@ -648,22 +650,19 @@ textarea {
         top: 250px;
         width: 60%;
         padding-top: 33.75%;
-        margin: 3%;
+        margin-left: 3%;
     }
 
     #videos-section {
         width: 30%;
         position: absolute;
-        display: inline-flex;
-        flex-wrap: wrap;
         right: 3%;
-        top: 20%;
+        top: 250px;
     }
 
     #youtube-logo {
         width: 130px;
     }
-
 }
 
 @media only screen and (min-height: 680px) and (max-width: 450px) {
