@@ -56,6 +56,25 @@ function playQuiz() {
     newQuestion();
 }
 
+function buttonAnimation() {
+    document.getElementById("answers-box").animate([
+            // keyframes
+            { boxShadow: 'none' },
+            { boxShadow: '0 0 4px red' },
+            { boxShadow: 'none' }
+        ], {
+            // timing options
+            duration: 500
+        });
+          document.getElementById("answer-4").animate([
+            { fontSize: 'initial' },
+            { fontSize: '1.5em' },
+            { fontSize: 'initial' }
+        ], {
+            duration: 200
+        });
+}
+
 function newQuestion() {
 
     answersBox.innerHTML="";
@@ -94,16 +113,17 @@ function newQuestion() {
     }
     let correct = document.getElementById('answer-4');
 
-    document.querySelectorAll('.quiz-button').forEach(item => {
-        item.addEventListener('click', event => {
+    document.querySelectorAll('.quiz-button').forEach(button => {
+        button.addEventListener('click', event => {
             if (event.target == correct) {
                 soundCorrect.currentTime = 0;
-                soundCorrect.play();
                 incrementScore();
+
             }
             else {
                 soundWrong.currentTime = 0;
                 soundWrong.play();
+                buttonAnimation();
             }
         });
       });
@@ -113,6 +133,8 @@ function incrementScore() {
 
     points = points + 10;
     updateScore();
+    // currentScore.setAttribute('style', 'color: green; font-size: 1.2rem;');
+    // currentScore.style.transition = 'all .2s ease-in';
     soundCorrect.play();
 }
 

@@ -80,7 +80,7 @@ body {
 .button:active {
     border-top: 1px solid rgb(42, 63, 19);
     border-bottom: 1px solid rgb(104, 119, 38);
-    background-image: linear-gradient(rgba(114, 133, 49, .7), rgba(82, 99, 23, .7));
+    background-image: linear-gradient(rgb(116, 150, 5), rgb(77, 99, 0));
 }
 
 .button-home {
@@ -149,8 +149,7 @@ footer {
     right: 20%;
 }
 
-#score,
-#clock {
+#score, #clock {
     margin: 15px auto;
 }
 
