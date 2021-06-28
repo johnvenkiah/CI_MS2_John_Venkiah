@@ -453,7 +453,7 @@ a:hover {
 /* contact.html */
 
 #contact-wrapper .subheading-other {
-    margin-bottom: 8%;
+    margin-bottom: 3%;
 }
 
 #contact-wrapper p {
@@ -505,10 +505,12 @@ textarea {
 #sent-msg {
     padding: 10px;
     margin-top: 5%;
+    color: black;
     font-size: 0.9em;
     border-radius: 4px;
     text-shadow: none;
     visibility: hidden;
+    transition: all .4s ease-in-out;
 }
 
 #emailjs-logo {
