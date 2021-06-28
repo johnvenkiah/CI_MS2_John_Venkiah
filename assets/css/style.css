@@ -871,4 +871,37 @@ textarea {
         padding: 2%;
         width: 23%;
     }
+
+    .subheading-other {
+        margin: 10% auto 0;
+    }
+
+    .paragraph {
+        margin: 5px auto 0;
+    }
+
+    #quiz-box {
+        max-width: 90%;
+    }
+
+    .staffbox {
+        width: 30%;
+        height: 20%;
+        margin: 0 auto 0 -15%;
+    }
+
+    #answers-box {
+        height: 20%;
+        width: 100%;
+    }
+
+    #answers-box .play-quiz-button {
+        margin-top: 3%;
+    }
+
+    .quiz-button {
+        margin: 3%;
+        padding: 1%;
+        width: 135px;
+    }
 }
