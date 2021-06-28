@@ -363,6 +363,7 @@ article:hover {
 article p {
     font-size: 1em;
     padding: 10px 0;
+    overflow-wrap: break-word;
 }
 
 .thumbn {
@@ -522,14 +523,13 @@ textarea {
 
 /* Media Query */
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
 
     #main-logo {
         margin: 35px auto;
     }
 
     #button-container {
-        max-width: 70%;
         display: inline-block;
         margin: 9%;
     }
@@ -586,7 +586,7 @@ textarea {
     }
 
     .paragraph {
-        margin: 30px auto;
+        margin: 3% auto;
     }
 
     .kb-keys {
@@ -648,6 +648,7 @@ textarea {
         top: 250px;
         width: 60%;
         padding-top: 33.75%;
+        margin: 3%;
     }
 
     #videos-section {
@@ -655,20 +656,14 @@ textarea {
         position: absolute;
         display: inline-flex;
         flex-wrap: wrap;
-        right: 20px;
-        top: 122px;
+        right: 3%;
+        top: 20%;
     }
 
     #youtube-logo {
         width: 130px;
     }
 
-}
-
-@media only screen and (max-height: 768px) and (min-width: 1024px) {
-    .button-home {
-        width: 26%;
-    }
 }
 
 @media only screen and (min-height: 680px) and (max-width: 450px) {
