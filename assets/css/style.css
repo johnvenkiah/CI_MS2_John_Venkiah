@@ -101,16 +101,16 @@ body {
 
 footer {
     position: fixed;
-    height: 5%;
+    height: 7%;
     bottom: 0;
     width: 100%;
-    background: linear-gradient(transparent, #1a1a1a);
+    background: linear-gradient(transparent, black);
 }
 
 .footer-text {
     position: relative;
     font-size: .7em;
-    /* top: 10px; */
+    top: 50%;
     color: #666
 }
 
@@ -513,7 +513,7 @@ textarea {
     transition: all .4s ease-in-out;
 }
 
-#emailjs-logo {
+.footer-logo {
     width: 70px;
     border-radius: 2px;
     margin: 0 5px 0 5px;
