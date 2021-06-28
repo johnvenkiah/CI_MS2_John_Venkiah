@@ -144,6 +144,12 @@ footer {
     left: 20%;
 }
 
+#current-score {
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 1% 0;
+}
+
 #clock {
     float: right;
     right: 20%;

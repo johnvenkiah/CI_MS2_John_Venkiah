@@ -137,10 +137,13 @@ function incrementScore() {
 
     document.querySelector('#current-score').animate([
         { color: 'rgb(218, 160, 84)' },
-        { color: 'rgb(224, 204, 182)', textShadow: '0 0 4px rgb(76, 97, 0)'},
+        { color: 'rgb(224, 204, 182)',
+            transform: 'scale(1.1)',
+            textShadow: '0 0 4px rgb(76, 97, 0)'
+        },
         { color: 'rgb(218, 160, 84)' }
     ], {
-        duration: 500
+        duration: 300
     });
 
     soundCorrect.play();
