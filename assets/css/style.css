@@ -763,3 +763,24 @@ textarea {
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+@media only screen and (max-height: 560px) {
+    .button-home {
+        padding: 5%;
+        font-size: 1.2em;
+        width: 45%;
+        margin: 2%;
+    }
+    .subheading-other {
+        margin: 60px auto 20px;
+    }
+    #quiz-headings p {
+        line-height: 1rem;
+    }
+
+    .quiz-button {
+        height: auto;
+        padding: 2% 0;
+    }
+
+}
