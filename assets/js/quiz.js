@@ -69,7 +69,7 @@ function buttonAnimation(target) {
           document.querySelector('#answer-4').animate([
             { boxShadow: 'none' },
             { boxShadow: '0 0 4px green', transform: 'scale(1.6)'},
-            { transform: 'scale(1.5)' }
+            { transform: 'scale(1)' }
         ], {
             duration: 300,
         });
@@ -135,12 +135,9 @@ function incrementScore() {
     points = points + 10;
     updateScore();
 
-    document.querySelector('#current-score').animate([
+    document.querySelector('#score').animate([
         { color: 'rgb(218, 160, 84)' },
-        { color: 'rgb(224, 204, 182)',
-            transform: 'scale(1.3)',
-            textShadow: '0 0 4px rgb(76, 97, 0)'
-        },
+        { color: 'white', transform: 'scale(1.3)', textShadow: '0 0 3px rgb(110, 141, 0)'},
         { color: 'rgb(218, 160, 84)' }
     ], {
         duration: 300
