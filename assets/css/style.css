@@ -578,7 +578,7 @@ textarea {
     vertical-align: middle;
 }
 
-/* Media Query */
+/* Media Queries */
 
 @media only screen and (min-height: 1025px) {
     #quiz-box {
@@ -821,5 +821,29 @@ textarea {
 
     textarea {
         margin-bottom: 2%;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (min-height: 802px) {
+    #button-container {
+        max-width: none;
+        margin: 7% auto 0;
+    }
+
+    #quiz-box {
+        margin: 0 auto;
+    }
+
+    .staffbox {
+        margin: 1% auto 1% -225px;
+    }
+
+    #piano-container {
+        margin: 1%;
+        max-width: 1200px;
+    }
+
+    #form-div {
+        margin: 0 auto;
     }
 }
