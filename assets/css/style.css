@@ -153,11 +153,11 @@ footer {
     left: 20%;
 }
 
-#current-score {
+/* #current-score {
     position: absolute;
     margin: 0 auto;
     padding: 0 1% 0;
-}
+} */
 
 #clock {
     float: right;
@@ -246,6 +246,46 @@ h3 {
 
 #subheading-play {
     margin-bottom: 10px;
+}
+
+.kb-keys {
+    padding: 3px;
+    margin: 2px;
+    position: relative;
+}
+
+.white-kb-keys {
+    bottom: 0;
+}
+
+.kb-keys span {
+    position: relative;
+    display: inline-block;
+    border-radius: 4px;
+    border-top: 2px solid #2a2a2a;
+    border-left: 2px solid #4b453d;
+    border-bottom: 2px solid #4b453d;
+    width: 30px;
+    padding: 5px;
+    margin: 8px 1px 0;
+    text-shadow: none;
+}
+
+.black-kb-keys span {
+    color: rgb(224, 204, 182);
+    border-right: 2px solid rgb(168, 150, 112);
+    background-color: #1a1a1a;
+    margin: 0 1px;
+}
+
+.white-kb-keys span {
+    color: #1a1a1a;
+    border-right: 2px solid white;
+    background-color: rgb(224, 204, 182);
+}
+
+span.space-right {
+    margin-right: 20px;
 }
 
 #piano-container {
@@ -450,7 +490,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 2;
+    z-index: 3;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -603,46 +643,6 @@ textarea {
 
     .paragraph {
         margin: 3% auto;
-    }
-
-    .kb-keys {
-        padding: 3px;
-        margin: 2px;
-        position: relative;
-    }
-
-    .white-kb-keys {
-        bottom: 0;
-    }
-
-    .kb-keys span {
-        position: relative;
-        display: inline-block;
-        border-radius: 4px;
-        border-top: 2px solid #2a2a2a;
-        border-left: 2px solid #4b453d;
-        border-bottom: 2px solid #4b453d;
-        width: 30px;
-        padding: 5px;
-        margin: 8px 1px 0;
-        text-shadow: none;
-    }
-
-    .black-kb-keys span {
-        color: rgb(224, 204, 182);
-        border-right: 2px solid rgb(168, 150, 112);
-        background-color: #1a1a1a;
-        margin: 0 1px;
-    }
-
-    .white-kb-keys span {
-        color: #1a1a1a;
-        border-right: 2px solid white;
-        background-color: rgb(224, 204, 182);
-    }
-
-    span.space-right {
-        margin-right: 20px;
     }
 
     #piano-container {
