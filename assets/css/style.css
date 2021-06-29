@@ -899,18 +899,18 @@ textarea {
         width: 40%;
         height: 30%;
         left: 50%;
-        margin: 0 auto 0 -20%;
+        margin: 5% auto 2% -20%;
     }
-    /*
+    
 
     #quiz-box .staffbox {
-        width: 50%;
-        height: 65%;
+        width: 40%;
+        height: 30%;
         left: 50%;
-        margin: 0 auto 0 -25%;
+        margin: 0 auto 0 -20%;
     }
 
-    */
+   
 
     #answers-box {
         height: 20%;
@@ -946,6 +946,7 @@ textarea {
     #piano-container {
         margin: 2% auto 5%;
         height: 30vh;
+        bottom: 17px;
     }
 
     #banner-learn {
