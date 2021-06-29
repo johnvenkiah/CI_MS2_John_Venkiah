@@ -966,7 +966,20 @@ textarea {
         background: transparent;
     }
 
+    footer {
+        height: 14%;
+    }
+
     .footer-text {
         top: 30%;
+    }
+
+    #contact-link {
+        position: relative;
+        display: block;
+        margin: 3% auto;
+        bottom: 23px;
+        width: 100px;
+        left: 0%;
     }
 }
