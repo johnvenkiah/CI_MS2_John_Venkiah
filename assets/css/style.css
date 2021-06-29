@@ -802,7 +802,7 @@ textarea {
     }
 }
 
-@media only screen and (min-height: 1025px) {
+@media only screen and (min-height: 1025px) and (max-width: 1024px) {
     #quiz-box {
         margin: 10% auto;
     }
@@ -834,12 +834,18 @@ textarea {
         margin: 7% auto 0;
     }
 
+    .button-home {
+        width: 20%;
+        margin: 3%;
+        padding: 3%;
+    }
+
     #quiz-box {
         margin: 0 auto;
     }
 
     .staffbox {
-        margin: 1% auto 1% -225px;
+        /* margin: 1% auto 1% -225px; */
     }
 
     #piano-container {
@@ -849,6 +855,24 @@ textarea {
 
     #form-div {
         margin: 0 auto;
+    }
+
+    #main-video {
+        position: sticky;
+        display: inline-block;
+        width: 60%;
+        vertical-align: top;
+        padding-top: 33.75%;
+        left: 0;
+        margin: 50px 3px 0 0;
+    }
+
+    #videos-section {
+        margin: 50px 0 0 3px;
+        display: inline-block;
+        position: relative;
+        width: 35%;
+        background-color:rgba(60, 63, 46, 0.9)
     }
 }
 
