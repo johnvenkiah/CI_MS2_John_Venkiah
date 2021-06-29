@@ -920,7 +920,6 @@ textarea {
 
     .quiz-button {
         margin: 2%;
-        padding: 1%;
         width: 80px;
     }
 
@@ -932,9 +931,13 @@ textarea {
         position: fixed;
     }
 
-    /* #modal-window {
-        margin: 8% auto;
-    } */
+    #modal-window {
+        height: 180px;
+        width: 350px;
+        top: 50%;
+        margin-top: -90px;
+        padding: 5%;
+    }
 
     #subheading-play {
         margin-bottom: 1%;
@@ -971,6 +974,7 @@ textarea {
     .nav-menu {
         flex-direction: row;
         border-radius: 0;
+        top: 18%;
     }
 
     .navbar {
@@ -979,7 +983,6 @@ textarea {
 
     .hamburger {
         margin-top: 0;
-        right: 7px;
     }
 
     footer {
