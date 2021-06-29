@@ -949,22 +949,33 @@ textarea {
         bottom: 17px;
     }
 
+    #container-learn {
+        margin-top: 40px;
+    }
+
     #banner-learn {
-        padding: 0;
-        position: fixed;
+        padding: 10px;
+    }
+
+    #learn-description {
+        padding: 7px 0;
     }
 
     #main-video {
-        top: 150px;
+        position: sticky;
+        display: inline-block;
         width: 50%;
+        vertical-align: top;
         padding-top: 28.12%;
         left: 0;
+        margin: 50px 0;
     }
 
     #videos-section {
-        top: 150px;
-        right: 3%;
-        width: 40%;
+        margin: 50px 0;
+        display: inline-block;
+        position: relative;
+        width: 45%;
         background-color:rgba(60, 63, 46, 0.9)
     }
 
