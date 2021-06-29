@@ -872,22 +872,37 @@ textarea {
         width: 23%;
     }
 
-    .subheading-other {
-        margin: 10% auto 0;
+    .subheading-other, #subheading-play {
+        margin: 5% auto 0;
+        position: relative;
+        width: 30%;
     }
 
     .paragraph {
-        margin: 5px auto 0;
+        margin: 2% auto 0;
     }
 
     #quiz-box {
+        position: absolute;
         max-width: 90%;
+        left: 50%;
+        margin-left: -45%;
+        top: 25%;
+        height: 50%;
     }
 
     .staffbox {
-        width: 30%;
-        height: 20%;
-        margin: 0 auto 0 -15%;
+        width: 40%;
+        height: 35%;
+        left: 50%;
+        margin: 0 auto 0 -20%;
+    }
+
+    #quiz-box .staffbox {
+        width: 50%;
+        height: 65%;
+        left: 50%;
+        margin: 0 auto 0 -25%;
     }
 
     #answers-box {
@@ -895,21 +910,27 @@ textarea {
         width: 100%;
     }
 
-    #answers-box .play-quiz-button {
-        margin-top: 3%;
-    }
-
     .quiz-button {
         margin: 3%;
         padding: 1%;
-        width: 135px;
+        width: 90px;
     }
+
+    .play-quiz-button {
+        width: 140px;
+        margin-top: 3%;
+    }
+
+    #modal-window {
+        margin: 10% auto;
+    }
+
     #subheading-play {
         margin-bottom: 1%;
     }
 
     #piano-container {
-        margin: 10px auto 0;
+        margin: 2% auto 5%;
         height: 30vh;
     }
 
@@ -939,5 +960,13 @@ textarea {
     .nav-menu {
         flex-direction: row;
         border-radius: 0;
+    }
+
+    .navbar {
+        background: transparent;
+    }
+
+    .footer-text {
+        top: 30%;
     }
 }
