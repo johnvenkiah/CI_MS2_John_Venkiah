@@ -980,11 +980,12 @@ textarea {
     }
 
     #sent-msg {
-        margin-bottom: 5%;
+        margin: 5% auto 10%;
     }
 
     .nav-menu {
         flex-direction: row;
+        justify-content: space-around;
         border-radius: 0;
         top: 18%;
     }
