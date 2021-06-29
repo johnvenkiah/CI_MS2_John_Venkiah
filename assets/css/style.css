@@ -935,4 +935,9 @@ textarea {
     #sent-msg {
         margin-bottom: 5%;
     }
+
+    .nav-menu {
+        flex-direction: row;
+        border-radius: 0;
+    }
 }
