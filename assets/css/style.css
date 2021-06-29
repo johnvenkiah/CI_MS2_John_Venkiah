@@ -968,11 +968,11 @@ textarea {
         vertical-align: top;
         padding-top: 28.12%;
         left: 0;
-        margin: 50px 0;
+        margin: 50px 3px 0 0;
     }
 
     #videos-section {
-        margin: 50px 0;
+        margin: 50px 0 0 3px;
         display: inline-block;
         position: relative;
         width: 45%;
