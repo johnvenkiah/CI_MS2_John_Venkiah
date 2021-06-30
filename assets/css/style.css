@@ -738,6 +738,11 @@ textarea {
 /* Landscape mode for medium-sized tablets */
 
 @media only screen and (min-width: 1024px) and (min-height: 768px) {
+
+    #contact-link {
+        bottom: 70px;
+    }
+
     .subheading-other {
         margin: 120px auto 50px;
     }
@@ -763,8 +768,6 @@ textarea {
     #form-div .input, textarea {
         margin: 2% auto 7%;
     }
-
-
 }
 
 /* For tablet screens in portrait mode */
@@ -799,7 +802,7 @@ textarea {
     }
 
     #contact-link {
-        bottom: 70px;
+        bottom: 7%;
     }
 
     #modal-window {
@@ -904,7 +907,7 @@ textarea {
     }
 
     #piano-container {
-        margin: 1%;
+        margin: 2%;
         max-width: 1200px;
     }
 
