@@ -758,7 +758,7 @@ textarea {
     }
 
     .subheading-other {
-        margin: 120px auto 50px;
+        margin: 110px auto 50px;
     }
 
     .quiz-button {
@@ -770,8 +770,8 @@ textarea {
     }
 
     .staffbox {
-        width: 450px;
-        height: 230px;
+        width: 380px;
+        height: 180px;
     }
 
     #piano-container {
@@ -927,7 +927,6 @@ textarea {
     }
 
     #piano-container {
-        margin: 2%;
         max-width: 1200px;
     }
 
