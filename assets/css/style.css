@@ -36,11 +36,11 @@ body {
     width: 100%;
     color: rgb(218, 160, 84);
     background:
-        #291e00 url(../images/wallpaper_notes.jpeg)
+    #001c29 url(../images/wallpaper_notes.jpeg)
         center center / cover
         repeat
         fixed;
-    background-blend-mode: color-burn;
+    background-blend-mode: darken;
 }
 
 .subheading-home {
@@ -55,7 +55,7 @@ body {
 }
 
 #button-container {
-    background: radial-gradient(#1a1a1a 10%, transparent, transparent);
+    background: radial-gradient(black 5%, transparent, transparent);
     width: 90%;
     max-width: 500px;
     border-radius: 7px;
