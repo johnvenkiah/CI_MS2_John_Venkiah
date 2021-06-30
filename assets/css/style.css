@@ -842,6 +842,7 @@ textarea {
         position: absolute;
         right: 3%;
         top: 250px;
+        margin: 0;
     }
 
     #youtube-logo {
