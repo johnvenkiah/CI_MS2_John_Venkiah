@@ -212,7 +212,7 @@ footer {
     width: 90%;
     max-width: 600px;
     max-height: 350px;
-    padding: 8%;
+    padding: 5%;
     margin: 55% auto;
     background-color: #2a2a2ae5;
     border-radius: 4px;
@@ -636,8 +636,7 @@ textarea {
     }
 
     #modal-window {
-        max-width: 450px;
-        padding: 5%;
+        margin: 65% auto;
     }
 
     .quiz-button {
@@ -709,6 +708,30 @@ textarea {
     }
 }
 
+@media only screen and (min-width: 1024px) and (min-height: 768px) {
+    .subheading-other {
+        margin: 120px auto 50px;
+    }
+
+    .button {
+        padding: 0;
+    }
+
+    #quiz-box {
+        max-width: 600px;
+    }
+
+    .staffbox {
+        width: 460px;
+        height: 230px;
+    }
+
+    #modal-window {
+        margin: 20% auto;
+        padding: 4%;
+    }
+}
+
 /* For tablet screens in portrait mode */
 
 @media only screen and (max-width: 1024px) and (min-height: 1024px) {
@@ -745,21 +768,13 @@ textarea {
     }
 
     #modal-window {
-        position: absolute;
-        width: 500px;
-        z-index: 1;
-        left: 50%;
-        margin-left: -250px;
-        height: 300px;
-        top: 50%;
-        margin-top: -150px;
-        padding: 3%;
+        margin: 40% auto;
     }
 
-    #modal-window h2,
+    /* #modal-window h2,
     h3 {
         padding: 5px 0 40px;
-    }
+    } */
 
     .staffbox {
         width: 450px;
@@ -837,34 +852,6 @@ textarea {
         margin-bottom: 7%;
     }
 
-}
-
-@media only screen and (min-width: 1024px) and (min-height: 768px) {
-    .subheading-other {
-        margin: 120px auto 50px;
-    }
-
-    .button {
-        padding: 0;
-    }
-
-    #quiz-box {
-        max-width: 600px;
-    }
-
-    #quizbox .staffbox {
-        width: initial;
-        height: initial;
-    }
-
-    .staffbox {
-        width: 500px;
-    }
-
-    #modal-window {
-        margin: 20% auto;
-        padding: 4%;
-    }
 }
 
 /* For laptop screens and larger */
