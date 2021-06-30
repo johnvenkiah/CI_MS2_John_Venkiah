@@ -293,7 +293,6 @@ span.space-right {
     position: relative;
     display: inline-flex;
     height: 25vh;
-    max-width: 800px;
     width: 95%;
     margin: 5% auto;
     border-radius: 1%;
@@ -760,6 +759,11 @@ textarea {
         height: 230px;
     }
 
+    #piano-container {
+        height: 32vh;
+        margin-top: 0;
+    }
+
     #modal-window {
         margin: 20% auto;
         padding: 4%;
@@ -812,11 +816,7 @@ textarea {
     .staffbox {
         width: 450px;
         height: 230px;
-        margin: 15% auto;
-    }
-
-    #quiz-box .staffbox {
-        margin: 20% auto;
+        margin: 60px auto;
     }
 
     .quiz-button {
@@ -828,7 +828,7 @@ textarea {
     }
 
     #piano-container {
-        margin-top: 30px;
+        margin-top: 100px;
     }
 
     #banner-learn {
