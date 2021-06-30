@@ -365,7 +365,7 @@ span.space-right {
 
 #learn-description {
     line-height: 1.5rem;
-    padding: 15px;
+    padding: 15px 0;
 }
 
 #main-video {
@@ -769,6 +769,15 @@ textarea {
         padding: 4%;
     }
 
+    #banner-learn {
+        position: relative;
+        margin-top: 10px;
+    }
+
+    #main-video, #videos-section {
+        margin-top: 15%;
+    }
+
     #form-div .input, textarea {
         margin: 2% auto 7%;
     }
@@ -834,6 +843,7 @@ textarea {
     #banner-learn {
         padding: 50px;
         position: fixed;
+        text-align: left;
         width: 100%;
     }
 

@@ -1,4 +1,4 @@
-let KEY = 'AIzaSyAxo6Budqc8DJUyp2mUnLZzMeDw1jCH2cE';
+let KEY = 'AIzaSyAXwLQ3QpA152YNY8Aa0A8pz_3w4fd1s6o';
 let navbar = document.querySelector('.navbar');
 
 // navbar.style.boxShadow = '2px 0 4px #2a2a2a';
