@@ -310,7 +310,7 @@ span.space-right {
 }
 
 .white {
-    --width: 6.66%;
+    width: 6.66%;
     background-color: rgb(224, 204, 182);
     border-radius: 0 0 4px 4px;
     border-right: 1px solid white;
@@ -323,7 +323,7 @@ span.space-right {
 }
 
 .black {
-    --width: 4.28%;
+    width: 4.28%;
     height: 63%;
     margin-left: -2.14%;
     margin-right: -2.14%;
@@ -390,9 +390,9 @@ iframe {
 }
 
 #videos-section {
-    background-color:rgba(60, 63, 46, 0.9);
+    background-color:rgba(60, 63, 46, 0.5);
     border-radius: 4px;
-    box-shadow: 1px 2px 4px solid black;
+    box-shadow: 1px 2px 4px black;
 }
 
 article {
@@ -402,7 +402,6 @@ article {
     text-align: justify;
     line-height: 1.3em;
     border-radius: 4px;
-    background-color: none;
     transition: all.2s ease-in-out;
 }
 
