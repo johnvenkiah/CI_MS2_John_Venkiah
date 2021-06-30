@@ -580,6 +580,8 @@ textarea {
 
 /* Media Queries */
 
+/* For smaller mobile devices, portrait mode */
+
 @media only screen and (max-height: 560px) {
     .button-home {
         padding: 5%;
@@ -616,6 +618,8 @@ textarea {
         margin-bottom: 2%;
     }
 }
+
+/* For larger mobile devices in portrait mode */
 
 @media only screen and (min-height: 680px) and (max-width: 450px) {
     #button-container {
@@ -661,6 +665,8 @@ textarea {
     }
 }
 
+/* Nav elements for mobile and tablet screens */
+
 @media only screen and (max-width: 768px) {
     .nav-menu {
         position: fixed;
@@ -701,6 +707,8 @@ textarea {
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+/* For tablet screens in portrait mode */
 
 @media only screen and (max-width: 1024px) and (min-height: 1024px) {
 
@@ -802,6 +810,8 @@ textarea {
     }
 }
 
+/* For Larger tablet screens in portrait mode */
+
 @media only screen and (min-height: 1025px) and (max-width: 1024px) {
     #quiz-box {
         margin: 10% auto;
@@ -828,6 +838,8 @@ textarea {
 
 }
 
+/* For laptop screens and larger */
+
 @media only screen and (min-width: 1280px) and (min-height: 802px) {
     #button-container {
         max-width: none;
@@ -842,10 +854,6 @@ textarea {
 
     #quiz-box {
         margin: 0 auto;
-    }
-
-    .staffbox {
-        /* margin: 1% auto 1% -225px; */
     }
 
     #piano-container {
@@ -875,6 +883,8 @@ textarea {
         background-color:rgba(60, 63, 46, 0.9)
     }
 }
+
+/* For mobile devices in landscape mode */
 
 @media only screen and (max-height: 420px) and (max-width: 840px) {
 
