@@ -756,7 +756,7 @@ textarea {
     }
 
     .staffbox {
-        width: 460px;
+        width: 450px;
         height: 230px;
     }
 
@@ -811,10 +811,9 @@ textarea {
 
     .staffbox {
         width: 450px;
-        top: 35%;
-        left: 50%;
         height: 230px;
-        margin-left: -225px;
+        /* left: 50%;
+        margin-left: -225px; */
     }
 
     .quiz-button {
