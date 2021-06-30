@@ -799,11 +799,6 @@ textarea {
         margin: 40% auto;
     }
 
-    /* #modal-window h2,
-    h3 {
-        padding: 5px 0 40px;
-    } */
-
     .staffbox {
         width: 450px;
         top: 35%;
@@ -979,7 +974,6 @@ textarea {
         left: 50%;
         margin: 5% auto 2% -20%;
     }
-    
 
     #quiz-box .staffbox {
         width: 40%;
@@ -987,8 +981,6 @@ textarea {
         left: 50%;
         margin: 0 auto 0 -20%;
     }
-
-   
 
     #answers-box {
         height: 20%;
@@ -1014,7 +1006,6 @@ textarea {
         width: 350px;
         top: 50%;
         margin-top: -90px;
-        padding: 5%;
     }
 
     #subheading-play {
