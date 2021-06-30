@@ -817,9 +817,9 @@ textarea {
     #quiz-box {
         margin: 10% auto;
     }
-    .staffbox {
+    /* .staffbox {
         margin: 15% auto;
-    }
+    } */
     #answers-box {
         margin-top: 10%;
     }
@@ -837,6 +837,34 @@ textarea {
         margin-bottom: 7%;
     }
 
+}
+
+@media only screen and (min-width: 1024px) and (min-height: 768px) {
+    .subheading-other {
+        margin: 120px auto 50px;
+    }
+
+    .button {
+        padding: 0;
+    }
+
+    #quiz-box {
+        max-width: 600px;
+    }
+
+    #quizbox .staffbox {
+        width: initial;
+        height: initial;
+    }
+
+    .staffbox {
+        width: 500px;
+    }
+
+    #modal-window {
+        margin: 20% auto;
+        padding: 4%;
+    }
 }
 
 /* For laptop screens and larger */
