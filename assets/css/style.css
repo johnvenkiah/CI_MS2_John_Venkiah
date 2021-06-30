@@ -36,7 +36,7 @@ body {
     width: 100%;
     color: rgb(218, 160, 84);
     background:
-        #2a2a2a url(../images/wallpaper_notes.jpeg)
+        #291e00 url(../images/wallpaper_notes.jpeg)
         center center / cover
         repeat
         fixed;
@@ -204,7 +204,7 @@ footer {
     height: 100vh;
     position: absolute;
     top: 0;
-    background-color: rgba(224, 204, 182, .7);
+    background-color: rgba(0, 0, 0, .6);
     z-index: 3;
 }
 
@@ -269,6 +269,7 @@ h3 {
     width: 30px;
     padding: 5px;
     margin: 8px 1px 0;
+    box-shadow: 1px 2px 4px black;
     text-shadow: none;
 }
 
