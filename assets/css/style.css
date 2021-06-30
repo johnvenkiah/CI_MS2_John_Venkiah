@@ -771,7 +771,7 @@ textarea {
 
     #banner-learn {
         position: relative;
-        margin-top: 10px;
+        top: 50px;
     }
 
     #main-video, #videos-section {
