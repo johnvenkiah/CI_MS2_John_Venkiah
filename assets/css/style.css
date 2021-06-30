@@ -735,12 +735,14 @@ textarea {
     }
 }
 
+/* Landscape mode for medium-sized tablets */
+
 @media only screen and (min-width: 1024px) and (min-height: 768px) {
     .subheading-other {
         margin: 120px auto 50px;
     }
 
-    .button {
+    .quiz-button {
         padding: 0;
     }
 
@@ -757,6 +759,12 @@ textarea {
         margin: 20% auto;
         padding: 4%;
     }
+
+    #form-div .input, textarea {
+        margin: 2% auto 7%;
+    }
+
+
 }
 
 /* For tablet screens in portrait mode */
