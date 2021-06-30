@@ -114,6 +114,7 @@ footer {
     bottom: 0;
     width: 100%;
     background: linear-gradient(transparent, black);
+    z-index: 2;
 }
 
 .footer-text {
