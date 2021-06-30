@@ -718,6 +718,22 @@ textarea {
     #modal-window {
         margin: 25% auto;
     }
+
+    #main-video {
+        position: sticky;
+        display: inline-block;
+        width: 60%;
+        vertical-align: top;
+        padding-top: 33.75%;
+        left: 0;
+        margin: 50px 3px 0 0;
+    }
+    #videos-section {
+        margin: 50px 0 0 3px;
+        display: inline-block;
+        position: relative;
+        width: 35%;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (min-height: 768px) {
