@@ -573,16 +573,10 @@ textarea {
 }
 
 .footer-logo {
-    width: 65px;
     height: 18px;
     border-radius: 2px;
     margin: 0 5px 0 5px;
     vertical-align: middle;
-}
-
-#w3-logo {
-    aspect-ratio: 2.84;
-    height: 18px;
 }
 
 /* Media Queries */
