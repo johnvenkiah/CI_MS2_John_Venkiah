@@ -6,7 +6,7 @@
 
 Musical Minds is a simple website with the main goal of making learning music theory fun.
 
-[Click here](https://johnvenkiah.github.io/CI_MS2_John_Venkiah/) to visit the deployed site.
+<a href="https://johnvenkiah.github.io/CI_MS2_John_Venkiah/" target="_blank">Click here</a> to visit the deployed site.
 
 ## Contents
 
