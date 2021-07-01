@@ -1,26 +1,4 @@
 let KEY = 'AIzaSyAXwLQ3QpA152YNY8Aa0A8pz_3w4fd1s6o';
-let navbar = document.querySelector('.navbar');
-
-// navbar.style.boxShadow = '2px 0 4px #2a2a2a';
-
-// var cors_api_host = 'cors-anywhere.herokuapp.com';
-// var cors_api_url = 'https://' + cors_api_host + '/';
-
-// (function() {
-//   var slice = [].slice;
-//   var origin = window.location.protocol + '//' + window.location.host;
-//   var open = XMLHttpRequest.prototype.open;
-//   XMLHttpRequest.prototype.open = function() {
-//       var args = slice.call(arguments);
-//       var targetOrigin = /^https?:\/\/([^\/]+)/i.exec(args[1]);
-//       if (targetOrigin && targetOrigin[0].toLowerCase() !== origin &&
-//           targetOrigin[1] !== cors_api_host) {
-//           args[1] = cors_api_url + args[1];
-//       }
-//       return open.apply(this, args);
-//   };
-//   console.log('cors setup complete');
-// })();
 
 fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=music%20theory%20beginners%20piano%20sight%20reading&relevanceLanguage=en&key=${KEY}`)
   .then(response => response.json())

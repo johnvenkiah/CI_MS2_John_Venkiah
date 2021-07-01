@@ -5,7 +5,7 @@
  */
 
 //declare form element variables
-const contactForm = document.querySelector('.contact-form')
+const contactForm = document.querySelector('.contact-form');
 
 //message to user once message is sent to confirm or to display error
 const sentMsg = document.querySelector('#sent-msg');
