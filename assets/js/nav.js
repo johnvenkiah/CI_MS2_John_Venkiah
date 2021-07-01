@@ -26,7 +26,7 @@ let navBar = `
             <a href="contact.html" class="nav-link">Contact</a>
         </li>
     </ul>
-    <button class="hamburger">
+    <button class="hamburger" aria-label="Menu-button">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
