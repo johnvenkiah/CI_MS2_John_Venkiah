@@ -53,10 +53,6 @@ function mobileMenu() {
     navMenu.classList.toggle("active");
 }
 
-// if (mobileMenu()) {
-//     console.log('tonk');
-//     document.addEventListener('click', closeMenu());
-// }
 // So hamburger closes when link is clicked
 
 let navLinks = document.querySelectorAll(".nav-link");

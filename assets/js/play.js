@@ -95,5 +95,5 @@ function displayNote(key) {
     let staff = document.getElementById('staff');
     staff.src = 'assets/images/play/' + notePath;
 
-    // Sean helped me here
+    // CI mentor Sean helped me with this one.
 }

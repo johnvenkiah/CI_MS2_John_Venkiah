@@ -3,9 +3,9 @@ let KEY = 'AIzaSyAXwLQ3QpA152YNY8Aa0A8pz_3w4fd1s6o';
 fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=music%20theory%20beginners%20piano%20sight%20reading&relevanceLanguage=en&key=${KEY}`)
   .then(response => response.json())
   .then(data => {
-    var vidId = data.items[0].id.videoId;
-    var vidTitle = data.items[0].snippet.title;
-    var vidDescr = data.items[0].snippet.description;   // fix this so title shows for each video
+    let vidId = data.items[0].id.videoId;
+    let vidTitle = data.items[0].snippet.title;
+    let vidDescr = data.items[0].snippet.description;
     
     mainVideo(vidId, vidTitle, vidDescr);
     videosList(data);
@@ -16,16 +16,15 @@ fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=
   });
 
 
-function mainVideo(vidId, vidTitle, vidDescr) {
-  let mainVidHtml = `<iframe src="https://www.youtube.com/embed/${vidId}"
-        title="${vidTitle}" frameborder="0" allow="accelerometer; autoplay;
+function mainVideo(newVidId, newVidTitle, newvidDescr) {
+  let mainVidHtml = `<iframe src="https://www.youtube.com/embed/${newVidId}"
+        title="${newVidTitle}" frameborder="0" allow="accelerometer; autoplay;
         clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
-    <h3 class="vid-title smaller-green-text">${vidTitle}</h3>
-    <p class="paragraph">${vidDescr}</p>`;
+    <h3 class="vid-title smaller-green-text">${newVidTitle}</h3>
+    <p class="paragraph">${newvidDescr}</p>`;
 
   document.querySelector('#main-video').innerHTML = mainVidHtml;
-  // console.log(vidId);
 
 }
 
@@ -52,11 +51,10 @@ function videosList(data) {
 
   articles.forEach(article => {
     article.addEventListener('click', function() {
-      VidId = article.dataset.id;
-      VidTitle = article.dataset.title;
-      vidDescr = article.dataset.descr;
-      mainVideo(VidId, VidTitle, vidDescr);
+      let newVidId = article.dataset.id;
+      let newVidTitle = article.dataset.title;
+      let newvidDescr = article.dataset.descr;
+      mainVideo(newVidId, newVidTitle, newvidDescr);
   });
 });
-
 }
