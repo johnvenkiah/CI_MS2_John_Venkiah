@@ -4,9 +4,10 @@ fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=
   .then(response => response.json())
   .then(data => {
     var vidId = data.items[0].id.videoId;
-    var vidTitle = data.items[0].snippet.title;   // fix this so title shows for each video
+    var vidTitle = data.items[0].snippet.title;
+    var vidDescr = data.items[0].snippet.description;   // fix this so title shows for each video
     
-    mainVideo(vidId, vidTitle);
+    mainVideo(vidId, vidTitle, vidDescr);
     videosList(data);
     
   })
@@ -15,8 +16,13 @@ fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=
   });
 
 
-function mainVideo(vidId, vidTitle) {
-  let mainVidHtml = `<iframe src="https://www.youtube.com/embed/${vidId}" title="${vidTitle}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+function mainVideo(vidId, vidTitle, vidDescr) {
+  let mainVidHtml = `<iframe src="https://www.youtube.com/embed/${vidId}"
+        title="${vidTitle}" frameborder="0" allow="accelerometer; autoplay;
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    <h3 class="vid-title smaller-green-text">${vidTitle}</h3>
+    <p class="paragraph">${vidDescr}</p>`;
 
   document.querySelector('#main-video').innerHTML = mainVidHtml;
   // console.log(vidId);
@@ -31,9 +37,7 @@ function videosList(data) {
     let description = item.snippet.description;
     let id = item.id.videoId;
 
-    // let i = 0; i < items.length; i++;
-
-    let vidsListHtml = `<article class="vid-article" data-id="${id}">
+    let vidsListHtml = `<article class="vid-article" data-id="${id}" data-title="${title}" data-descr="${description}">
     <h3 class="vid-title smaller-green-text">${title}</h3>
     <img class="thumbn" src="${thumbNail}"></img>
       <p>${description}</p>
@@ -42,16 +46,16 @@ function videosList(data) {
 
     let videosSection = document.querySelector('#videos-section');
     videosSection.insertAdjacentHTML('afterBegin', vidsListHtml);
-
   });
 
   let articles = document.querySelectorAll('.vid-article');
 
   articles.forEach(article => {
     article.addEventListener('click', function() {
-      let currentVidId = article.dataset.id;
-      // vidTitle = item.snippet.title;
-      mainVideo(currentVidId);
+      VidId = article.dataset.id;
+      VidTitle = article.dataset.title;
+      vidDescr = article.dataset.descr;
+      mainVideo(VidId, VidTitle, vidDescr);
   });
 });
 
