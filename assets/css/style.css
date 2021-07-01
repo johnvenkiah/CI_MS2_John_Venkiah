@@ -302,7 +302,6 @@ span.space-right {
 
 .key {
     height: 100%;
-    width: var(--width);
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -485,7 +484,6 @@ a:hover {
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: rgb(110, 141, 0);
 }
@@ -497,10 +495,6 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     z-index: 3;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .nav-item {
