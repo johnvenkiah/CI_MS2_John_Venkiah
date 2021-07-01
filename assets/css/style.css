@@ -580,6 +580,11 @@ textarea {
     vertical-align: middle;
 }
 
+#w3-logo {
+    aspect-ratio: 2.84;
+    height: 18px;
+}
+
 /* Media Queries */
 
 /* For smaller mobile devices, portrait mode */
