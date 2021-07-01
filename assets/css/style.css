@@ -723,6 +723,15 @@ textarea {
 }
 
 @media only screen and (min-width: 720px) and (min-height: 450px) {
+
+    .button-home {
+        width: 25%;
+    }
+
+    #button-container {
+        max-width: none;
+    }
+
     #modal-window {
         margin: 25% auto;
     }
