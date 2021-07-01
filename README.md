@@ -2,7 +2,7 @@
 
 ## Music theory learning fun for beginners
 
-![Mockup of Musical Minds on different devices]()
+![Mockup of Musical Minds on different devices](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/mockup/musical_minds_mockup.png)
 
 [Click here](https://johnvenkiah.github.io/CI_MS2_John_Venkiah/) to visit the deployed site.
 
