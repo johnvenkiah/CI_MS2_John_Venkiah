@@ -8,6 +8,7 @@ let soundGameStart = document.getElementById('sound-start-game');
 let soundGameEnd = document.getElementById('sound-finish-game');
 let soundCorrect = document.getElementById('sound-correct-answer');
 let soundWrong = document.getElementById('sound-wrong-answer');
+let playQuizButton = document.querySelector('.play-quiz-button');
 
 soundGameStart.volume = 0.1;
 soundGameEnd.volume = 0.1;
@@ -15,7 +16,8 @@ soundCorrect.volume = 0.1;
 soundWrong.volume = 0.1;
 
 function playQuiz() {
-    currentQuestion.style.fontSize = '1.3em'
+    removeModal();
+    currentQuestion.style.fontSize = '1.3em';
     soundGameStart.play();
     let resetTimer = startTimer(endGameModal);
 
@@ -42,7 +44,7 @@ function playQuiz() {
                 <div id="modal-window">
                     <h2 id="greeting">${endGreeting}</h2>
                     <h3>You scored ${points}!</h3>
-                    <button onclick="playQuiz(), removeModal()" class="play-quiz-button button quiz-button">Play Again</button>
+                    <button onclick="playQuiz()" class="play-quiz-button button quiz-button">Play Again</button>
                     <a href="quiz.html"><button class="button quiz-button close-button">Close</button></a>
                 </div>
             </div>
@@ -50,20 +52,21 @@ function playQuiz() {
 
         var modalDiv = document.getElementById('modal-div');
         modalDiv.innerHTML = modalHtml;
+
         clearInterval(resetTimer);
     }
 
     newQuestion();
 }
 
+playQuizButton.addEventListener('click', playQuiz);
+
 function buttonAnimation(target) {
     target.animate([
-            // keyframes
             { boxShadow: 'none' },
             { boxShadow: '0 0 6px red' },
             { boxShadow: 'none' }
         ], {
-            // timing options
             duration: 500
         });
           document.querySelector('#answer-4').animate([
@@ -87,7 +90,6 @@ function newQuestion() {
     currentQuestion.innerHTML = questions[questionsRandom].question;
     
     let buttonsHtml = `<button class="button quiz-button"`;
-    // let buttonsHtml = `<button onclick="newQuestion()" class="button quiz-button"`;
     let buttonsEndHtml = `</button>`;
 
     let buttons = [];

@@ -27,9 +27,7 @@ function clearText() {
 
 //Validation fired when clicking the "send" button
 
-sendButton.addEventListener('click', validateForm());
-
-function validateForm(event) {
+sendButton.addEventListener('click', function validateForm(event) {
   event.preventDefault();
   
   if (from_name.value !== "" && from_email.value.match(allowedEmail)) {
@@ -49,4 +47,4 @@ function validateForm(event) {
     sentMsg.setAttribute('style', 'color: darkred; background-color: lightpink; visibility: visible;');
   }
   clearText();
-}
+})
