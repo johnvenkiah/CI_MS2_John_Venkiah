@@ -379,6 +379,11 @@ span.space-right {
     z-index: 1;
 }
 
+#main-video > .vid-title, .paragraph {
+    text-align: justify;
+    margin: 2% 0;
+}
+
 iframe {
     height: 100%;
     width: 100%;
@@ -664,6 +669,10 @@ textarea {
     #contact-wrapper .subheading-other {
         margin-bottom: 15%;
     }
+
+    #main-video > .vid-title, .paragraph {
+        visibility: hidden;
+    }
 }
 
 /* Nav elements for mobile and tablet screens */
@@ -877,6 +886,10 @@ textarea {
         margin: 0 auto 0 3%;
     }
 
+    #main-video > .vid-title, .paragraph {
+        margin: 2% 0;
+    }
+
     #videos-section {
         width: 30%;
         position: absolute;
@@ -1082,6 +1095,10 @@ textarea {
         padding-top: 28.12%;
         left: 0;
         margin: 50px 3px 0 0;
+    }
+
+    #main-video > .paragraph {
+        visibility: hidden;
     }
 
     #videos-section {
