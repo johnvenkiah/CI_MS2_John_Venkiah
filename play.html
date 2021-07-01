@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Music Theory for Beginners">
+    <meta name="description" content="Music Theory for Beginners, Play page">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Grandstander&family=Newsreader&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
     <main>
         <h2 id="subheading-play" class="subheading-other">Play the piano</h2>
         <p class="paragraph">Play the piano by clicking or tapping the keys below, or with the keyboard keys:</p>
-        <div class="kb-keys">
+        <div class="kb-keys" aria-label="The keys to play the piano with on your computer keyboard">
             <div class="black-kb-keys">
                 <span>w</span>
                 <span class="space-right">e</span>
@@ -47,32 +47,32 @@
         <div class="staffbox">
             <img id="staff" src="assets/images/quiz/stave-empty.png" alt="An empty staff">
         </div>
-        <div id="piano-container">
-            <button data-note="c3" class="key white"></button>
-            <button data-note="csharp3" class="key black"></button>
-            <button data-note="d3" class="key white"></button>
-            <button data-note="dsharp3" class="key black"></button>
-            <button data-note="e3" class="key white"></button>
-            <button data-note="f3" class="key white"></button>
-            <button data-note="fsharp3" class="key black"></button>
-            <button data-note="g3" class="key white"></button>
-            <button data-note="gsharp3" class="key black"></button>
-            <button data-note="a3" class="key white"></button>
-            <button data-note="asharp3" class="key black"></button>
-            <button data-note="b3" class="key white"></button>
-            <button data-note="c4" class="key white"></button>
-            <button data-note="csharp4" class="key black"></button>
-            <button data-note="d4" class="key white"></button>
-            <button data-note="dsharp4" class="key black"></button>
-            <button data-note="e4" class="key white"></button>
-            <button data-note="f4" class="key white"></button>
-            <button data-note="fsharp4" class="key black"></button>
-            <button data-note="g4" class="key white"></button>
-            <button data-note="gsharp4" class="key black"></button>
-            <button data-note="a4" class="key white"></button>
-            <button data-note="asharp4" class="key black"></button>
-            <button data-note="b4" class="key white"></button>
-            <button data-note="c5" class="key white"></button>
+        <div id="piano-container" aria-label="The piano">
+            <button data-note="c3" class="key white" aria-label="Piano key C3"></button>
+            <button data-note="csharp3" class="key black" aria-label="Piano key C#3"></button>
+            <button data-note="d3" class="key white" aria-label="Piano key D3"></button>
+            <button data-note="dsharp3" class="key black" aria-label="Piano key D#3"></button>
+            <button data-note="e3" class="key white" aria-label="Piano key E3"></button>
+            <button data-note="f3" class="key white" aria-label="Piano key F3"></button>
+            <button data-note="fsharp3" class="key black" aria-label="Piano key F#3"></button>
+            <button data-note="g3" class="key white" aria-label="Piano key G3"></button>
+            <button data-note="gsharp3" class="key black" aria-label="Piano key G#3"></button>
+            <button data-note="a3" class="key white" aria-label="Piano key A3"></button>
+            <button data-note="asharp3" class="key black" aria-label="Piano key A#3"></button>
+            <button data-note="b3" class="key white" aria-label="Piano key B3"></button>
+            <button data-note="c4" class="key white" aria-label="Piano key C4"></button>
+            <button data-note="csharp4" class="key black" aria-label="Piano key C#4"></button>
+            <button data-note="d4" class="key white" aria-label="Piano key D4"></button>
+            <button data-note="dsharp4" class="key black" aria-label="Piano key D#4"></button>
+            <button data-note="e4" class="key white" aria-label="Piano key E4"></button>
+            <button data-note="f4" class="key white" aria-label="Piano key F4"></button>
+            <button data-note="fsharp4" class="key black" aria-label="Piano key F#4"></button>
+            <button data-note="g4" class="key white" aria-label="Piano key G4"></button>
+            <button data-note="gsharp4" class="key black" aria-label="Piano key G#4"></button>
+            <button data-note="a4" class="key white" aria-label="Piano key A4"></button>
+            <button data-note="asharp4" class="key black" aria-label="Piano key A#4"></button>
+            <button data-note="b4" class="key white" aria-label="Piano key B4"></button>
+            <button data-note="c5" class="key white" aria-label="Piano key C5"></button>
         </div>
         <audio id="c3" src="assets/audio/c3.mp3" aria-label="Music note C3"></audio>
         <audio id="csharp3" src="assets/audio/csharp3.mp3" aria-label="Music note C#3"></audio>
@@ -87,18 +87,18 @@
         <audio id="asharp3" src="assets/audio/asharp3.mp3" aria-label="Music note A#3"></audio>
         <audio id="b3" src="assets/audio/b3.mp3" aria-label="Music note B3"></audio>
         <audio id="c4" src="assets/audio/c4.mp3" aria-label="Music note C4"></audio>
-        <audio id="csharp4" src="assets/audio/csharp4.mp3" aria-label="Music note C#4"></audio>></audio>
-        <audio id="d4" src="assets/audio/d4.mp3"></audio aria-label="Music note D4"></audio>>
-        <audio id="dsharp4" src="assets/audio/dsharp4.mp3" aria-label="Music note D#4"></audio>></audio>
-        <audio id="e4" src="assets/audio/e4.mp3" aria-label="Music note E4"></audio>></audio>
-        <audio id="f4" src="assets/audio/f4.mp3"></audio aria-label="Music note F4"></audio>>
-        <audio id="fsharp4" src="assets/audio/fsharp4.mp3" aria-label="Music note F#4"></audio>></audio>
-        <audio id="g4" src="assets/audio/g4.mp3"></audio aria-label="Music note G4"></audio>>
-        <audio id="gsharp4" src="assets/audio/gsharp4.mp3" aria-label="Music note G#4"></audio>></audio>
-        <audio id="a4" src="assets/audio/a4.mp3"></audio aria-label="Music note A4"></audio>>
-        <audio id="asharp4" src="assets/audio/asharp4.mp3" aria-label="Music note A#4"></audio>></audio>
-        <audio id="b4" src="assets/audio/b4.mp3" aria-label="Music note B4"></audio>></audio>
-        <audio id="c5" src="assets/audio/c5.mp3" aria-label="Music note C5"></audio>></audio>
+        <audio id="csharp4" src="assets/audio/csharp4.mp3" aria-label="Music note C#4"></audio>
+        <audio id="d4" src="assets/audio/d4.mp3"></audio aria-label="Music note D4"></audio>
+        <audio id="dsharp4" src="assets/audio/dsharp4.mp3" aria-label="Music note D#4"></audio>
+        <audio id="e4" src="assets/audio/e4.mp3" aria-label="Music note E4"></audio>
+        <audio id="f4" src="assets/audio/f4.mp3"></audio aria-label="Music note F4"></audio>
+        <audio id="fsharp4" src="assets/audio/fsharp4.mp3" aria-label="Music note F#4"></audio>
+        <audio id="g4" src="assets/audio/g4.mp3"></audio aria-label="Music note G4"></audio>
+        <audio id="gsharp4" src="assets/audio/gsharp4.mp3" aria-label="Music note G#4"></audio>
+        <audio id="a4" src="assets/audio/a4.mp3"></audio aria-label="Music note A4"></audio>
+        <audio id="asharp4" src="assets/audio/asharp4.mp3" aria-label="Music note A#4"></audio>
+        <audio id="b4" src="assets/audio/b4.mp3" aria-label="Music note B4"></audio>
+        <audio id="c5" src="assets/audio/c5.mp3" aria-label="Music note C5"></audio>
     </main>
     <footer>
         <p class="footer-text">© 2021 John Venkiah</p>
