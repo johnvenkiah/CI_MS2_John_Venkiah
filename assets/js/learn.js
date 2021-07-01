@@ -12,7 +12,7 @@ fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=
   })
   .catch((err) => {
     console.error('Error: ', err);
-  })
+  });
 
 
 function mainVideo(vidId, vidTitle) {

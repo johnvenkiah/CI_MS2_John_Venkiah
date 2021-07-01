@@ -39,7 +39,6 @@ header.innerHTML = navBar;
 
 let hamburger = document.querySelector(".hamburger");
 let navMenu = document.querySelector(".nav-menu");
-let wrapper = document.querySelector('.wrapper-content');
 
 hamburger.addEventListener("click", mobileMenu);
 

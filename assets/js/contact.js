@@ -47,4 +47,4 @@ sendButton.addEventListener('click', function validateForm(event) {
     sentMsg.setAttribute('style', 'color: darkred; background-color: lightpink; visibility: visible;');
   }
   clearText();
-})
+});
