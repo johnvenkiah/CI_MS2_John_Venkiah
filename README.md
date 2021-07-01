@@ -4,6 +4,8 @@
 
 ![Mockup of Musical Minds on different devices](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/mockup/musical_minds_mockup.png)
 
+Musical Minds is a simple website with the main goal of making learning music theory fun.
+
 [Click here](https://johnvenkiah.github.io/CI_MS2_John_Venkiah/) to visit the deployed site.
 
 ## Contents
@@ -73,7 +75,7 @@ Target Audience
 5. Be presented with a well designed, user-friendly interface
 6. Get in touch with the site owner
 
-### Site owner goals/user requirements and expectations
+### Site owner goals
 
 The main goal is to create a web app that can be used for amusement but also in the early stages of music education.
 
@@ -84,6 +86,8 @@ The main goal is to create a web app that can be used for amusement but also in 
 3. Users should find it easy and fun to play the music quiz
 4. Users should have a page where they can play keys and see the note on a stave
 5. Users should be able to contact the owner should they wish
+
+### User requirements and expectations
 
 ## Scope
 
