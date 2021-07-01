@@ -18,7 +18,7 @@ fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=
 
 function mainVideo(newVidId, newVidTitle, newvidDescr) {
   let mainVidHtml = `<iframe src="https://www.youtube.com/embed/${newVidId}"
-        title="${newVidTitle}" labelledby="main-vid-title" frameborder="0" allow="accelerometer; autoplay;
+        title="${newVidTitle}" aria-labelledby="main-vid-title" frameborder="0" allow="accelerometer; autoplay;
         clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
     <h3 id="main-vid-title" class="vid-title smaller-green-text">${newVidTitle}</h3>
