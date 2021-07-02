@@ -1002,10 +1002,6 @@ textarea {
 
 @media only screen and (max-height: 450px) and (max-width: 840px) {
 
-    #main-logo, .subheading-other, #banner-learn {
-        margin-top: 5%;
-    }
-
     .subheading-home {
         margin: 2% auto;
     }
