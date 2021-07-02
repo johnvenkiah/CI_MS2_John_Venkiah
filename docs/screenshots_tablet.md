@@ -1,4 +1,4 @@
-# Screenshots, tablets - Musical Minds
+# Screenshots, tablet - Musical Minds
 
 ## Home
 
