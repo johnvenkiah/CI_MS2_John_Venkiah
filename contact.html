@@ -24,6 +24,7 @@
             </h2>
             <p class="paragraph">Send us a message via the form below and we'll be in touch as soon as possible!</p>
             <div id="form-div">
+                <!-- The form is sent via the email service EmailJS to my email and validated with Javascript in contact.js -->
                 <form class="contact-form">
                     <label for="name">
                         Name
@@ -45,15 +46,19 @@
         </div>
     </main>
     <footer>
+        <!-- The EmailJS-logo is from their website, which also links to it -->
         <p class="footer-text">Powered by
-            <a href="https://www.emailjs.com/" rel="noopener" target="_blank" aria-label="Link to the EmailJS website (opens a new window)">
-                <img class="footer-logo" src="assets/images/footer_images/emailjs_logo.jpg"
-                alt="EmailJS logo">
+            <a href="https://www.emailjs.com/" rel="noopener" target="_blank"
+                aria-label="Link to the EmailJS website (opens a new tab)">
+                <img class="footer-logo" src="assets/images/footer_images/emailjs_logo.jpg" alt="EmailJS logo">
             </a>© 2021 John Venkiah
         </p>
     </footer>
+    <!-- The Javascript file below injects the navbar into the header. -->
     <script src="assets/js/nav.js"></script>
+    <!-- The Javascript file below validates and sends the form with EmailJS. -->
     <script src="assets/js/contact.js"></script>
+    <!-- The Javascript file linked below is required for the service to work. -->
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 </body>
 
