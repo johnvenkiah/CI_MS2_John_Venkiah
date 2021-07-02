@@ -585,7 +585,6 @@ textarea {
 
 @media only screen and (max-height: 560px) {
     .button-home {
-        padding: 5%;
         font-size: 1.2em;
         width: 45%;
         margin: 2%;
@@ -665,6 +664,38 @@ textarea {
     }
 }
 
+@media only screen and (min-width: 540px) and (max-height: 1024px) and (orientation: portrait) {
+
+    article {
+        text-align: center;
+    }
+    .thumbn {
+        width: 45%;
+        display: inline-block;
+        padding: 10px 5px 0 0;
+    }
+    article p {
+        display: inline-block;
+        vertical-align: top;
+        text-align: justify;
+        width: 45%;
+        padding: 10px 0 0 5px;
+    }
+
+    #main-video {
+        width: 80%;
+        padding-top: 45%;
+    }
+
+    #main-video .vid-title {
+        visibility: hidden;
+    }
+
+    #main-video p {
+        visibility: hidden;
+    }
+}
+
 /* Nav elements for mobile and tablet screens */
 
 @media only screen and (max-width: 768px) {
@@ -708,24 +739,13 @@ textarea {
     }
 }
 
-@media only screen and (min-width: 540px) and (min-height: 720px) {
-    .quiz-button {
-        padding: 0;
-    }
-
-    #main-video > .paragraph, .vid-title {
-        visibility: hidden;
-    }
-
-    #contact-link {
-        bottom: 70px;
-    }
-}
+/* For smaller tablet devices sizes in landscape mode */
 
 @media only screen and (min-width: 720px) and (min-height: 450px) {
 
     .button-home {
         width: 25%;
+        margin: 6% 2% 0;
     }
 
     #button-container {
@@ -957,12 +977,6 @@ textarea {
 
     #main-video {
         position: sticky;
-        /* display: inline-block;
-        width: 60%;
-        vertical-align: top;
-        padding-top: 33.75%;
-        left: 0;
-        margin: 50px 3px 0 0; */
     }
 
     #videos-section {
@@ -1121,8 +1135,115 @@ textarea {
     }
 }
 
-@media only screen and (max-height: 840px) and (max-width: 450px){
-    #main-video > .vid-title, .paragraph {
+/* Larger mobile devices in portrait mode */
+
+@media only screen and (max-height: 840px) and (max-width: 450px) {
+    
+    #main-video .vid-title {
+        visibility: hidden;
+    }
+
+    #main-video .paragraph {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-height: 450px) and (min-width: 840px) {
+    
+    #button-container {
+        max-width: none;
+    }
+
+    .button-home {
+        width: 25%;
+    }
+
+    #contact-link {
+        position: relative;
+        left: 0;
+        margin-left: 0;
+    }
+
+    #modal-window {
+        margin: 13% auto;
+    }
+
+    #main-video {
+        display: inline-block;
+        width: 60%;
+        vertical-align: top;
+        padding-top: 33.75%;
+        left: 0;
+        margin: 50px 3px 0 0;
+    }
+
+    #videos-section {
+        margin: 50px 0 0 3px;
+        display: inline-block;
+        position: relative;
+        width: 35%;
+    }
+}
+/* For tablets with strange dimensions */
+@media only screen and (min-height: 451px) and (max-width: 719px) and (orientation: landscape) {
+    
+    .button-home {
+        width: 25%;
+    }
+
+    #button-container {
+        max-width: none;
+    }
+
+    #main-video {
+        display: inline-block;
+        width: 60%;
+        vertical-align: top;
+        padding-top: 33.75%;
+        left: 0;
+        margin: 50px 3px 0 0;
+    }
+
+    #videos-section {
+        margin: 50px 0 0 3px;
+        display: inline-block;
+        position: relative;
+        width: 35%;
+    }
+
+    #modal-window {
+        margin: 20% auto;
+    }
+}
+
+@media only screen and (min-width: 540px) and (min-height: 720px) {
+
+    .button-home {
+        width: 100%;
+    }
+    
+    .quiz-button {
+        padding: 0;
+    }
+
+    #contact-link {
+        bottom: 70px;
+    }
+
+    .staffbox {
+        height: 200px;
+        width: 390px;
+    }
+
+    .subheading-other {
+        margin-top: 130px;
+    }
+
+    #modal-window {
+        margin-top: 40%;
+    }
+
+    #main-video > .paragraph, .vid-title {
         visibility: hidden;
     }
 }
