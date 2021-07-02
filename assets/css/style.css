@@ -1002,6 +1002,14 @@ textarea {
     #videos-section {
         display: inline-block;
     }
+
+    article .thumbn {
+        width: 48%;
+    }
+
+    article p {
+        width: 48%;
+    }
 }
 
 /* For mobile devices in landscape mode */
