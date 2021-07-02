@@ -1239,8 +1239,14 @@ textarea {
 
     .button-home {
         width: 100%;
+        margin: 2% auto;
+        padding: 3%;
     }
-    
+
+    #button-container {
+        margin: 5% auto;
+    }
+
     .quiz-button {
         padding: 0;
     }
