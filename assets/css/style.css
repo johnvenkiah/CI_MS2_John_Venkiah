@@ -1208,6 +1208,7 @@ textarea {
     
     .button-home {
         width: 25%;
+        margin: 6% 2%;
     }
 
     #button-container {
@@ -1235,7 +1236,7 @@ textarea {
     }
 }
 
-@media only screen and (min-width: 540px) and (min-height: 720px) {
+@media only screen and (min-width: 540px) and (min-height: 720px) and (orientation: portrait) {
 
     .button-home {
         width: 100%;
