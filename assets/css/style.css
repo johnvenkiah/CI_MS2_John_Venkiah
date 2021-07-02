@@ -911,7 +911,9 @@ textarea {
     #main-video {
         position: fixed;
         top: 250px;
+        padding-top: 33.75%;
         margin: 0 auto 0 3%;
+        width: 60%;
     }
 
     #videos-section {
@@ -920,6 +922,22 @@ textarea {
         right: 3%;
         top: 250px;
         margin: 0;
+    }
+
+    .thumbn {
+        width: 100%;
+    }
+
+    article p {
+        width: 100%;
+    }
+
+    #main-video .vid-title {
+        visibility: visible;
+    }
+
+    #main-video .paragraph {
+        visibility: visible;
     }
 
     #youtube-logo {
