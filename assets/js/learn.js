@@ -16,16 +16,15 @@ fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=
   });
 
 
-function mainVideo(newVidId, newVidTitle, newvidDescr) {
-  let mainVidHtml = `<iframe src="https://www.youtube.com/embed/${newVidId}"
-        title="${newVidTitle}" aria-labelledby="main-vid-title" frameborder="0" allow="accelerometer; autoplay;
+function mainVideo(id, title, descr) {
+  let mainVidHtml = `<iframe src="https://www.youtube.com/embed/${id}"
+        title="${title}" aria-labelledby="main-vid-title" frameborder="0" allow="accelerometer; autoplay;
         clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
-    <h3 id="main-vid-title" class="vid-title smaller-green-text">${newVidTitle}</h3>
-    <p class="paragraph">${newvidDescr}</p>`;
+    <h3 id="main-vid-title" class="vid-title smaller-green-text">${title}</h3>
+    <p class="paragraph">${descr}</p>`;
 
   document.querySelector('#main-video').innerHTML = mainVidHtml;
-
 }
 
 function videosList(data) {
@@ -35,6 +34,12 @@ function videosList(data) {
     let title = item.snippet.title;
     let description = item.snippet.description;
     let id = item.id.videoId;
+
+    let screenSize = window.matchMedia('(max-width: 450px) and (max-height: 840px)');
+
+        if (screenSize.matches) {
+            description = description.substr(0, 80) + '...';
+        }
 
     let vidsListHtml = `<article class="vid-article" data-id="${id}" data-title="${title}" data-descr="${description}">
     <h3 class="vid-title smaller-green-text">${title}</h3>
@@ -53,8 +58,8 @@ function videosList(data) {
     article.addEventListener('click', function() {
       let newVidId = article.dataset.id;
       let newVidTitle = article.dataset.title;
-      let newvidDescr = article.dataset.descr;
-      mainVideo(newVidId, newVidTitle, newvidDescr);
+      let newVidDescr = article.dataset.descr;
+      mainVideo(newVidId, newVidTitle, newVidDescr);
   });
 });
 }
