@@ -10,15 +10,15 @@ Musical Minds is a simple website with the main goal of making learning music th
 
 ## Contents
 
-1. Project Goals
+1. [Project Goals](#Project Goals)
 
-2. User Goals
+2. [User Goals](#User Goals)
 
-3. User Stories
+3. [User Stories](#User Stories)
 
-4. Site Owner Goals
+4. [Site Owner Goals](#Site Owner Goals)
 
-5. User Requirements and Expectations
+5. [User Requirements and Expectations](#User Requirements and Expectations)
 
 6. Design choices
 
@@ -38,7 +38,7 @@ Musical Minds is a simple website with the main goal of making learning music th
 
 14. Deployment
 
-15. Acnowledgements
+15. Acknowledgements
 
 ## Strategy Plane
 
@@ -123,7 +123,16 @@ On the Contact page, users can fill in a simple contact form to get in touch.
 
 ### Wireframes
 
-Wireframes were made for both mobile device, tablet and desktop versions of the website. They can all be viewed [here](#).
+Wireframes were made for both mobile device, tablet and desktop versions of the website. They can all be in the section below.
+<details>
+  <summary>Click here to view them.</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
 
 ![Images of wireframes](#)
 
