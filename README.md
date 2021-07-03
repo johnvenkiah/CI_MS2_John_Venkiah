@@ -142,10 +142,11 @@ The main goal is to create a web app that can be used for amusement but also in 
 
 ### Wireframes
 
-Wireframes were made for both mobile device, tablet and desktop versions of the website. They can all be seen in link section below.
+Wireframes like the one below were made for both mobile device, tablet and desktop versions of the website in the application Balsamiq Wireframes.
 
+![Screenshot:](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/wireframes/wireframes_screenshot_home_mobile.png)
 
-![Images of wireframes](wireframes_screenshot_home_mobile)
+[Click here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/wireframes/all_wireframes_musical_minds.pdf) to view them
 
 ## Surface
 
