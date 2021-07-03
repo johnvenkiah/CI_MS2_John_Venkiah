@@ -422,7 +422,8 @@ span.space-right {
 }
 
 /* Data for main video are hidden in portrait view on mobile
-    devices so text doesn't clash. */
+    devices so text doesn't clash. The info can be read beside the
+    thumbnail of the relevant video. */
 
 #main-video .paragraph {
     text-align: justify;
@@ -1225,6 +1226,8 @@ textarea {
         margin: 50px 3px 0 0;
     }
 
+    /* In this view the description and thumbnail looks better at width 100%. */
+
     article p {
         width: 100%;
     }
@@ -1262,7 +1265,7 @@ textarea {
     }
 }
 
-/* Largest mobile devices in portrait mode */
+/* Styles for largest mobile devices in portrait mode */
 
 @media only screen and (max-height: 840px) and (max-width: 450px) {
     
@@ -1279,7 +1282,7 @@ textarea {
     }
 }
 
-/* For unusually long devices in landscape mode */
+/* Styles for unusually long mobile screens in landscape mode */
 
 @media only screen and (max-height: 450px) and (min-width: 840px) {
     
@@ -1317,7 +1320,9 @@ textarea {
         width: 35%;
     }
 }
-/* For tablets with strange dimensions */
+
+/* Styles for tablets with unusual dimensions */
+
 @media only screen and (min-height: 451px) and (max-width: 719px) and (orientation: landscape) {
     
     .button-home {
@@ -1350,7 +1355,7 @@ textarea {
     }
 }
 
-/* Even more strange dimensions */
+/* Styles for devices with other strange dimensions */
 
 @media only screen and (min-width: 540px) and (min-height: 720px) and (orientation: portrait) {
 
