@@ -368,12 +368,116 @@ Below are linked screenshots of all web pages on five different sizes.
 
 - [Desktop (1600 x 992)](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/screenshots_desktop.md)
 
-## Testing of User Stories
+Testing was also done on an iPhone XS and an iPad Pro 10.5"
 
+[ADD LINK HERE](#) are screenshots from iPhone XS running Safari and Chrome.
 
+[ADD LINK HERE](#) are screenshots from iPad Pro running Safari and Chrome.
+
+## Testing of User Stories/site owner goals
+
+### Testing of user stories
+
+1. Easily navigate the websites pages via the menu or links provided
 
 | Feature       | Action            | Expected result   | Actual result    |
- -------------- | :---------------- | ----------------- | ---------------- |
+| --------------| ----------------- | ----------------- | ---------------- |
+
+2. Be presented with a well designed, user-friendly interface
+
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
+
+3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
+
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
+
+4. Get responses and confirmation from the website by my interactions with it
+
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
+
+
+5. Be able to play a quiz on note names, symbols and note lengths
+
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
+
+
+6. Get points if I answer a question right
+
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
+
+
+7. See a timer ticking down from one minute
+
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
+
+
+8. See an end game screen alerting me of my score and how the quiz went
+
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
+
+
+9. Be able to choose to close the end game screen or play again
+
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
+
+
+10. Be able to play notes on a piano on the screen and see which tone is being played
+
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
+
+
+11. Be able to play the notes on the computer keyboard
+
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
+
+
+12. View videos to learn about music theory and sight reading
+
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
+
+
+13. Get in touch with the site owner
+
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
+
+
+14. View an errors page if I have entered an invalid url within the website
+
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
+
+
+### Testing of site owner goals
+
+15. Display simple clear options on the home page
+
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
+
+16. Display a menu in a navigation bar or popout menu at the top of the page
+
+17. Display a quiz for users to test their knowledge
+
+18. Display a learn page containing the results of a YouTube search dynamically updated, using YouTube API
+
+19. Display a page where users can play the piano and view the note played
+
+20. Be able to be contacted should the user wish to do so, through an emailing service to my private email address
+
+21. Have a website that contains validated HTML, CSS and JavaScript
+
 
 ### Bugs
 
