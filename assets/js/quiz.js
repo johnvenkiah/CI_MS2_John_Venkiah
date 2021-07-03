@@ -86,33 +86,48 @@ function playQuiz() {
         let modalDiv = document.getElementById('modal-div');
         modalDiv.innerHTML = modalHtml;
 
-        // Reset the timer
+        // Reset the timer to 0 by passing resetTimer as parameter
         clearInterval(resetTimer);
     }
 
-
+    // Triggers the function to display a new question
     newQuestion();
 }
 
+// Add event listener to play quiz button so playQuiz function fires when clicked
 playQuizButton.addEventListener('click', playQuiz);
 
+
+/**
+ * Button animation alerts user if question was wrong, together with sounds.
+ * Tips from here: https://drafts.csswg.org/web-animations/#dom-animatable-animate
+ * */
 function buttonAnimation(target) {
+
+    //animates button if answer is incorrect. Formatting so that info is clearer.
     target.animate([
             { boxShadow: 'none' },
             { boxShadow: '0 0 6px red' },
             { boxShadow: 'none' }
         ], {
             duration: 500
-        });
-          document.querySelector('#answer-4').animate([
+    });
+
+    //animates button if answer is correct.
+    document.querySelector('#answer-4').animate([
             { boxShadow: 'none' },
             { boxShadow: '0 0 4px green', transform: 'scale(1.6)'},
             { transform: 'scale(1)' }
         ], {
             duration: 300,
-        });
+    });
 }
 
+/**
+ * newQuestion makes sure that buttons appear, the correct image is displayed and
+ * 
+ * 
+ */
 function newQuestion() {
 
     answersBox.innerHTML='';
