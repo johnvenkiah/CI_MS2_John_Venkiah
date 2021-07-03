@@ -2,6 +2,13 @@
 
 // QUIZ.JS
 
+/**
+ * This file controls the functionality of the quiz page. This includes
+ * updating buttons and images, the clock that counts down, keeping score,
+ * playing sounds, animations, and an end game modal.
+ */
+
+// set variables for the needed elements for the quiz 
 let answersBox = document.querySelector('#answers-box');
 let currentScore = document.querySelector('#current-score');
 let points;
@@ -12,20 +19,40 @@ let soundCorrect = document.getElementById('sound-correct-answer');
 let soundWrong = document.getElementById('sound-wrong-answer');
 let playQuizButton = document.querySelector('.play-quiz-button');
 
+// Set a comfortable volume for the game sound effects
 soundGameStart.volume = 0.1;
 soundGameEnd.volume = 0.1;
 soundCorrect.volume = 0.1;
 soundWrong.volume = 0.1;
 
+/**
+ * The playQuiz function is a complex function that contains several functions.
+ * It is responsible for starting a new game, and is triggered by the 'lets play'
+ * and 'play again' buttons. Detailed functionality is explained below.
+ */
 function playQuiz() {
+
+    //Removes the modal when 'play again' is clicked
     removeModal();
+
+    // Set the style of the used element to display question
     currentQuestion.style.fontSize = '1.3em';
+
+    // Play start game sound effect
     soundGameStart.play();
+
+    // Variable to be passed to clearInterval function so timer goes to 0.
     let resetTimer = startTimer(endGameModal);
 
+    /**
+     * This function displays an end game modal screen to the user with an end greeting
+     * depending on the users score and options to play again or close the window.
+     */
     function endGameModal() {
+        // The end game sound effect
         soundGameEnd.play();
 
+        // Object containing values displayed, depending on score
         let endGreetings = {
             notgood: 'Aw, too bad...',
             ok: 'That went ok!',
@@ -34,13 +61,17 @@ function playQuiz() {
             excellent: 'Wow, outstanding!'
         };
 
+        /* Ternary operator to control greeting displayed depending on score.
+            tips: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator */
+
         let endGreeting = points > 250 ? endGreetings.excellent
                         : points > 170 ? endGreetings.great
                         : points > 110 ? endGreetings.good
                         : points > 60 ? endGreetings.ok
                         : endGreetings.notgood;
 
-        var modalHtml = `
+        // The HTML to fill the screen when the game ends to display the end game modal.
+        let modalHtml = `
             <div id="modal-container">
                 <div id="modal-window">
                     <h2 id="greeting">${endGreeting}</h2>
@@ -51,11 +82,14 @@ function playQuiz() {
             </div>
         `;
 
-        var modalDiv = document.getElementById('modal-div');
+        // Get modal div element and till it with the HTML.
+        let modalDiv = document.getElementById('modal-div');
         modalDiv.innerHTML = modalHtml;
 
+        // Reset the timer
         clearInterval(resetTimer);
     }
+
 
     newQuestion();
 }
