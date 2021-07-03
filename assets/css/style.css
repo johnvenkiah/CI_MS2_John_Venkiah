@@ -51,6 +51,13 @@ p {
     width: 90%;
 }
 
+.smaller-green-text {
+    font-size: 1.1em;
+    font-family: 'Grandstander', 'Trebuchet MS', cursive;
+    color: rgb(134, 172, 0);
+    padding: 10px 0;
+}
+
 /* I styled the buttons so they look as juicy as possible, with
     slight transparency, with different shaded borders and gradient to make them three dimensional.
     Contains a transition so buttons expand and turn slightly more transparent when hovering. */
@@ -100,6 +107,13 @@ footer {
     font-size: .8em;
     top: 50%;
     color: #666
+}
+
+.footer-logo {
+    height: 18px;
+    border-radius: 2px;
+    margin: 0 5px 0 5px;
+    vertical-align: middle;
 }
 
 /* Styles for index.html  */
@@ -446,16 +460,11 @@ article {
     transition: all.2s ease-in-out;
 }
 
+/* Animation on each article for interactive experience when navigating */
+
 article:hover {
     background-color: rgba(34, 34, 34, .6);
     transform: scale(1.01);
-}
-
-.smaller-green-text {
-    font-size: 1.1em;
-    font-family: 'Grandstander', 'Trebuchet MS', cursive;
-    color: rgb(134, 172, 0);
-    padding: 10px 0;
 }
 
 article p {
@@ -480,7 +489,9 @@ article p {
     text-align: left;
 }
 
-/* Hamburger Menu */
+/* Styles for hamburger Menu, based on walkthrough here:
+    https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci
+*/
 
 li {
     list-style: none;
@@ -512,7 +523,7 @@ a:hover {
     z-index: 2;
 }
 
-/* Hamburger Style */
+/* Style for hamburger button */
 
 .hamburger {
     display: none;
@@ -553,7 +564,7 @@ a:hover {
     text-shadow: 2px 2px 4px black;
 }
 
-/* contact.html */
+/* Styles for contact.html */
 
 #contact-wrapper .subheading-other {
     margin-bottom: 3%;
@@ -573,6 +584,8 @@ a:hover {
     display: inline-block;
     text-align: center;
 }
+
+/* Style of form elements so they don't seem flat */
 
 #form-div .input,
 textarea {
@@ -605,6 +618,10 @@ textarea {
     padding: 2%;
 }
 
+/* Greeting that appears when user clicks send
+    that either confirms the message was sent or
+    tells the user that more details are needed. */
+
 #sent-msg {
     padding: 10px;
     margin-top: 5%;
@@ -616,14 +633,7 @@ textarea {
     transition: all .4s ease-in-out;
 }
 
-.footer-logo {
-    height: 18px;
-    border-radius: 2px;
-    margin: 0 5px 0 5px;
-    vertical-align: middle;
-}
-
-/* 404-page */
+/* Styles for 404-page */
 
 #container-404 h2 {
     font-size: 1.7em;
@@ -635,7 +645,11 @@ textarea {
 
 /* Media Queries */
 
-/* For smaller mobile devices */
+/* I have gone with the mobile view first for this project,
+    as the pages are very simple and, although many queries were
+    implemented, I think it is a good approach. */
+
+/* Styles for smaller mobile devices */
 
 @media only screen and (max-height: 560px) {
     .button-home {
@@ -718,7 +732,7 @@ textarea {
     }
 }
 
-/* Nav elements for mobile and tablet screens */
+/* Nav elements for mobile and tablet screens. Based on this walkthrough: https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci  */
 
 @media only screen and (max-width: 768px) {
     .nav-menu {
