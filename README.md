@@ -36,103 +36,114 @@ Musical Minds is a simple website with the main goal of making learning music th
 
 13. [Bugs](#bugs)
 
-14. [Deployment](#deplayment)
+14. [Deployment](#deployment)
 
 15. [Acknowledgements](#acknowledgements)
 
-## Strategy Plane
+## User Experience
 
-### Project Goals
+### Strategy Plane
 
-The goal of this project is to create a web application for children or beginners to learn the basics of music theory. It is also a personal goal for me to implement JavaScript for the first time.
+#### Project Goals
 
-### User Goals
+The main goals of Musical Minds are:
 
-Users who visit this site want to learn basic music theory and have fun doing it. It is as simple as that!
+- Creating a fun website that users feel they want to learn more
+- Making users aware of how easy it is to learn sight reading
+- Personally, for me, learning to apply JavaScript to websites
 
-### User Experience
+#### Future Goals
+
+Schools and music institutions could in the future purchase licenses for Musical minds as a web application, and its functionality could be developed even further. 
+
+#### User Goals
+
+- Users who visit this site want to learn basic music theory and have fun doing it. It is as simple as that!
 
 The user should see straight away that the content of this web application is simple; lots of space and a user-friendly but elegant design makes it attracive for both children and adults.
 
 Target Audience
 
-* Children
-* People with learning difficulties
-* Beginners or parents
+- Children
+- People with learning difficulties
+- Beginners or parents
 
-### User Stories
+### Structure
 
-#### As a user of this website I would like to:
+This website has 5 pages, plus a 404 error page for when entering an invalid link. No libraries or frameworks were used. I wanted to keep the structure clear and simple. Buttons are large and a navigation bar or menu is visible at the top on all pages except the home page.
 
-1. Be able to play a quiz on note names, symbols, clefs and note lengths
-2. Get points if I answer a question right
-3. See a timer ticking down from one minute
-4. See an end game screen alerting me of my score
-5. Be able to choose to close the end game screen or play again
-6. Be able to play notes on a piano on the screen and see which tone is being played
-7. Also be able to play the notes on the computer keyboard
-8. Find resources to learn the basics of music theory
-5. Be presented with a well designed, user-friendly interface
-6. Get in touch with the site owner
-
-### Site owner goals
-
-The main goal is to create a web app that can be used for amusement but also in the early stages of music education.
-
-
-
-1. Users should feel welcome when entering the website
-2. Users should easily be able to navigate through the contents of the website
-3. Users should find it easy and fun to play the music quiz
-4. Users should have a page where they can play keys and see the note on a stave
-5. Users should be able to contact the owner should they wish
-
-### User requirements and expectations
-
-## Scope
-
-The website should have five pages:
+A footer is always visible with copyright info and relevant technologies depending on the page.
 
 1. Home
 
-Here, the user is given three main options;
-    * To play a quiz
-    * To learn about music theory
-    * To play the piano and see the notes played
+Here, the user is given three main options:
+
+- To play a quiz
+- To learn about music theory
+- To play the piano and see the notes played
+
 Users can also contact the website owner at the top right of the page.
 
 2. Quiz
 
-Here users can play a simple game where they are presented with notes or musical symbols and have to answer correctly to get a point. Users have to answer as many questions correctly in one minute.
+Here users can play a simple game where they are presented with notes or musical symbols and have to answer correctly to get a point. Users have to answer as many questions correctly in one minute and are then greeted with their score and a message of how the quiz went.
 
 3. Learn
 
-On this page, users will find the sites main text and picture content; here are the basic blocks of learning music theory; the notes, in treble and bass clef, the different clefs, note lengths, accidentals and rests.
+On this page, users can view videos implemented from YouTube API. There are two sections; a main video and a videos list. Users can click on the video in the list to view it in the main frame.
 
 4. Play
 
-This mainly a piano and a stave above. When the user clicks a key, they can see how the note looks on the stave and can hear it being played.
+This mainly a piano and a stave above. When the user clicks a key, they can see how the note looks on the stave and can hear it being played. Users can also play the notes with the computer keyboard.
 
 5. Contact
 
 On the Contact page, users can fill in a simple contact form to get in touch.
 
-## Structure
+6. 404
 
-## Skeleton
+This page is shown when users enter an invalid link, and contains the menu and links to get home or get in touch.
+
+### Scope
+
+#### User Stories
+
+##### As a new or existing user of this website I would like to:
+
+1. Easily navigate the websites pages via the menu or links provided
+2. Be presented with a well designed, user-friendly interface
+3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
+4. Get responses and confirmation on the website by my interactions with it
+5. Be able to play a quiz on note names, symbols, clefs and note lengths
+6. Get points if I answer a question right
+7. See a timer ticking down from one minute
+8. See an end game screen alerting me of my score and how the quiz went
+9. Be able to choose to close the end game screen or play again
+10. Be able to play notes on a piano on the screen and see which tone is being played
+11. Also be able to play the notes on the computer keyboard
+12. View videos from a YouTube search for music theory
+13. Get in touch with the site owner
+
+#### Site owner goals
+
+The main goal is to create a web app that can be used for amusement but also in the early stages of music education.
+
+##### As a site owner I would like to:
+
+14. Display simple clear options on the home page
+15. Display a menu in a navigation bar or popout menu at the top of the page
+15. Display a quiz for users to test their knowledge
+16. Display a learn page where users can view videos on music theory
+17. Display a page where users can play the piano
+18. Be able to be contacted should the user wish to do so
+19. Have a website that contains validated HTML, CSS and JavaScript
+
+### Skeleton
 
 ### Wireframes
 
-Wireframes were made for both mobile device, tablet and desktop versions of the website. They can all be in the section below.
-<details>
-  <summary>Click here to view them.</summary>
-  
-  ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
-</details>
+Wireframes were made for both mobile device, tablet and desktop versions of the website. They can all be seen in link section below.
+
 
 ![Images of wireframes](#)
 
