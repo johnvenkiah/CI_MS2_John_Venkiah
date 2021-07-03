@@ -80,7 +80,7 @@ function buttonAnimation(target) {
 
 function newQuestion() {
 
-    answersBox.innerHTML="";
+    answersBox.innerHTML='';
 
     let questionsRandom = Math.floor(Math.random() * questions.length);
 
@@ -89,8 +89,8 @@ function newQuestion() {
 
     currentQuestion.innerHTML = questions[questionsRandom].question;
     
-    let buttonsHtml = `<button class="button quiz-button"`;
-    let buttonsEndHtml = `</button>`;
+    let buttonsHtml = '<button class="button quiz-button"';
+    let buttonsEndHtml = '</button>';
 
     let buttons = [];
 
@@ -106,10 +106,10 @@ function newQuestion() {
 
         random = Math.floor(Math.random() * buttons.length);
 
-        if (buttons[random] !="selected") {
+        if (buttons[random] !='selected') {
 
             answersBox.insertAdjacentHTML('beforeend', buttons[random]);
-            buttons[random] = "selected";
+            buttons[random] = 'selected';
             i++;
         }
     }
@@ -184,5 +184,5 @@ function startTimer(callBack) {
 }
 
 function removeModal() {
-    document.getElementById('modal-div').innerHTML = "";
+    document.getElementById('modal-div').innerHTML = '';
 }

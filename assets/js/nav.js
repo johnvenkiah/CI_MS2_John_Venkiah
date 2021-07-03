@@ -37,10 +37,10 @@ let navBar = `
 let header = document.getElementsByClassName('header')[0];
 header.innerHTML = navBar;
 
-let hamburger = document.querySelector(".hamburger");
-let navMenu = document.querySelector(".nav-menu");
+let hamburger = document.querySelector('.hamburger');
+let navMenu = document.querySelector('.nav-menu');
 
-hamburger.addEventListener("click", mobileMenu);
+hamburger.addEventListener('click', mobileMenu);
 
 window.addEventListener('click', event => {
     if (!hamburger.contains(event.target) && (!navMenu.contains(event.target))) {
@@ -49,18 +49,17 @@ window.addEventListener('click', event => {
 });
 
 function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
 }
 
 // So hamburger closes when link is clicked
 
-let navLinks = document.querySelectorAll(".nav-link");
+let navLinks = document.querySelectorAll('.nav-link');
 
-navLinks.forEach(link => link.addEventListener("click", closeMenu));
+navLinks.forEach(link => link.addEventListener('click', closeMenu));
 
 function closeMenu() {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-    
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
 }
