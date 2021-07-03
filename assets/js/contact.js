@@ -8,19 +8,20 @@
  * address.
  */
 
-//declare form element variables
+// Declare form element variables
 const contactForm = document.querySelector('.contact-form');
 let sendButton = document.querySelector('.button');
 
-//message to user once message is sent to confirm or to display error
+/* Get element that displays greeting to user once message is sent
+    to confirm or to display error */
 const sentMsg = document.querySelector('#sent-msg');
 
-//name and email entered by user
+// Get name and email entered by user
 const from_name = document.querySelector('#name');
 const from_email = document.querySelector('#email');
 
-/* regex for valdation from w3 resource to validate email adresses
-at https://www.w3resource.com/javascript/form/email-validation.php */
+/* Regex for valdation from w3 resource to validate email adresses
+    at https://www.w3resource.com/javascript/form/email-validation.php */
 const allowedEmail = /(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])/;
 
 /**
@@ -49,13 +50,18 @@ sendButton.addEventListener('click', function validateForm(event) {
         emailjs.sendForm('gmail_jvenkiah', 'musical_minds', contactForm);
 
         /* make the greeting when form is sent or not visible when user clicks
-        send, populated and styled accordingly. */
+            send, populated and styled accordingly. */
         sentMsg.setAttribute('style', 'color: green; background-color: azure; visibility: visible;');
+
+        /* Set the inner HTML of the greeting 'sent-msg' to a template literal using
+            name input from user. */
         sentMsg.innerHTML = `
         Thanks ${from_name.value}, your message has been sent.
       `;
 
     } else {
+
+        // If information is missing, greeting and styling is different.
         sentMsg.innerHTML = `
     Name and email required!
   `;
