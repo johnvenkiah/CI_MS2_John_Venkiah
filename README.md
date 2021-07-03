@@ -116,8 +116,8 @@ ___
 1. Easily navigate the websites pages via the menu or links provided
 2. Be presented with a well designed, user-friendly interface
 3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
-4. Get responses and confirmation on the website by my interactions with it
-5. Be able to play a quiz on note names, symbols, clefs and note lengths
+4. Get responses and confirmation from the website by my interactions with it
+5. Be able to play a quiz on note names, symbols and note lengths
 6. Get points if I answer a question right
 7. See a timer ticking down from one minute
 8. See an end game screen alerting me of my score and how the quiz went
@@ -201,11 +201,11 @@ When on mobile, a hamburger is visible instead on the top right of the screen. C
 
 When viewing on mobile in landscape mode, the nav-menu is displayed vertically so users can still view the content. When open, the navmenu closes once a user either has tapped on a link or clicked anywhere on the screen, closing the menu.
 
-##### User stories/site-owner goals covered:
+**User stories/site-owner goals covered:**
 
 1. Easily navigate the websites pages via the menu or links provided
 3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
-4. Get responses and confirmation on the website by my interactions with it
+4. Get responses and confirmation from the website by my interactions with it
 15. Display a menu in a navigation bar or popout menu at the top of the page
 
 ___
@@ -213,7 +213,7 @@ ___
 
 The Home page has three big buttons, each containing a main feature of the site; Quiz, Learn and Play. Due to the simple nature of this site, there is little more here to distract, only the main logo, the contact link at the bottom and the footer.
 
-##### User stories/site-owner goals covered:
+**User stories/site-owner goals covered:**
 
 1. Easily navigate the websites pages via the menu or links provided
 2. Be presented with a well designed, user-friendly interface
@@ -222,7 +222,50 @@ The Home page has three big buttons, each containing a main feature of the site;
 
 #### Feature 2: The Quiz
 
-The "quiz" page features two main boxes, a questions-box and an answers-box. In the questions-box, a question and a picture will greet the user and they can then input their answer in the answers-box below. There, there is a text input and a submit button. The user gets points for answering correctly store in the top left corner and in the top right corner a timer keeps track of the clock, ticking down from 1 minute.
+The quiz is a seemingly simple feature, but with a lot of functionality. The user has 60 seconds to answer the most questions correctly.
+
+The quiz has several sub-features of its own:
+
+- The staffbox
+
+Displays an image of the note in question for the user to answer. When answered, the image is updated to display the next note in question.
+
+- The answers box
+
+On opening the page, the answers box contains one button: "Lets Play!"
+
+Clicking on this starts the quiz and displays four buttons, with three incorrect and one correct answer. The value of these buttons are updated for each question answered.
+
+If the user clicks on the incorrect answer button, the user is alerted that this was incorrect by sounds and animation, and the user is informed of the correct answer.
+
+If the user clicks on the correct answer-button, the user is greeted with a different sound and animation, and and the score above is incremented.
+
+- The Timer
+
+This keeps track of the time, once the user has clicked "Let's Play!"; the timer counts down from 60 to 0.
+
+- The Score
+
+Once a user has answered a question correctly, the score is incremented with 10 points. The score is then displayed in an end game modal.
+
+- The End Game Modal
+
+This is displayed once the 60 seconds are up, covering the screen. The user is greeted with one of five different greetings, depending on the score they have achieved.
+
+The modal window also displays two buttons with choices for the user; "Play Again" and "Close".
+
+**User stories/site-owner goals covered:**
+
+2. Be presented with a well designed, user-friendly interface
+3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
+4. Get responses and confirmation from the website by my interactions with it
+5. Be able to play a quiz on note names, symbols and note lengths
+6. Get points if I answer a question right
+7. See a timer ticking down from one minute
+8. See an end game screen alerting me of my score and how the quiz went
+9. Be able to choose to close the end game screen or play again
+15. Display a menu in a navigation bar or popout menu at the top of the page
+16. Display a quiz for users to test their knowledge
 
 
 #### Feature 3: The Piano (Play Page)
