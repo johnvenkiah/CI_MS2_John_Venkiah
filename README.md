@@ -206,7 +206,8 @@ When viewing on mobile in landscape mode, the nav-menu is displayed vertically s
 1. Easily navigate the websites pages via the menu or links provided
 3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
 4. Get responses and confirmation from the website by my interactions with it
-15. Display a menu in a navigation bar or popout menu at the top of the page
+16. Display a menu in a navigation bar or popout menu at the top of the page
+121. Have a website that contains validated HTML, CSS and JavaScript
 
 ___
 #### Feature 2: The Home Page
@@ -218,9 +219,10 @@ The Home page has three big buttons, each containing a main feature of the site;
 1. Easily navigate the websites pages via the menu or links provided
 2. Be presented with a well designed, user-friendly interface
 3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens.
+21. Have a website that contains validated HTML, CSS and JavaScript
 
 
-#### Feature 2: The Quiz
+#### Feature 3: The Quiz (Quiz Page)
 
 The quiz is a seemingly simple feature, but with a lot of functionality. The user has 60 seconds to answer the most questions correctly.
 
@@ -256,6 +258,7 @@ The modal window also displays two buttons with choices for the user; "Play Agai
 
 **User stories/site-owner goals covered:**
 
+1. Easily navigate the websites pages via the menu or links provided
 2. Be presented with a well designed, user-friendly interface
 3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
 4. Get responses and confirmation from the website by my interactions with it
@@ -264,32 +267,84 @@ The modal window also displays two buttons with choices for the user; "Play Agai
 7. See a timer ticking down from one minute
 8. See an end game screen alerting me of my score and how the quiz went
 9. Be able to choose to close the end game screen or play again
-15. Display a menu in a navigation bar or popout menu at the top of the page
-16. Display a quiz for users to test their knowledge
+16. Display a menu in a navigation bar or popout menu at the top of the page
+17. Display a quiz for users to test their knowledge
+21. Have a website that contains validated HTML, CSS and JavaScript
 
 
-#### Feature 3: The Piano (Play Page)
+#### Feature 4: The Piano (Play Page)
 
-The "play" page has two features, a miniature piano and a stave showing both the bass clef and treble clef. When the user clicks a key, the relevant note displays on the stave. The correct note is also heard when clicking it.
+The Play page has two sub-features;
+
+- A miniature piano that is clickable, or playable with the computer keys, that play the corresponding note
+- A box showing an image of a staff, with both the bass clef and treble clef. When the user clicks a key, the corresponding note displays on the stave, together with the note name. If the active key is black, both the sharp and the flat version are diaplayed.
+
+**User stories/site-owner goals covered:**
+
+1. Easily navigate the websites pages via the menu or links provided
+2. Be presented with a well designed, user-friendly interface
+3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
+4. Get responses and confirmation from the website by my interactions with it
+10. Be able to play notes on a piano on the screen and see which tone is being played
+11. Be able to play the notes on the computer keyboard
+16. Display a menu in a navigation bar or popout menu at the top of the page
+19. Display a page where users can play the piano and view the note played
+21. Have a website that contains validated HTML, CSS and JavaScript
 
 
-#### Feature 4: The Learn Page
+#### Feature 5: The Learn Page
 
-On the "learn" page, users can start learning the very basics of music theory from the beginning. Here, they learn the clefs, the stave, note names, and more. Pictures and text go hand in hand to teach the user the knowledge Which later can be tested in the quiz.
+The learn page features to main sections, which are features in themselves;
+
+- The videos list, containing data from a YouTube video search on "music theory beginners sight reading", each with their own article. Click the article and the corresponding video will appear in the main video section.
+
+- The main video section, contains the video clicked by the user in the videos list, also displaying the title and description data (depending on the screen-size and/or orientation).
+
+**User stories/site-owner goals covered:**
+
+1. Easily navigate the websites pages via the menu or links provided
+2. Be presented with a well designed, user-friendly interface
+3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
+4. Get responses and confirmation from the website by my interactions with it
+12. View videos to learn about music theory and sight reading
+16. Display a menu in a navigation bar or popout menu at the top of the page
+18. Display a learn page containing the results of a YouTube search dynamically updated, using YouTube API
+21. Have a website that contains validated HTML, CSS and JavaScript
 
 
-#### Feature 5: The Contact Page
+#### Feature 6: The Contact Page
 
-Finally, the "contact" page contains a simple form, where the user can fill in their name, email address and query, which they can send by clicking the submit-button.
+The contact page contains a simple form, where the user can fill in their name, email address and query, which they can send by clicking the submit-button.
+
+The form is validated with JavaScript so the form will only be sent if the adress is filled in correctly and there is a name in the name field.
+
+If the fields are incorrectly filled, a message appears and the user can enter their information again.
+If the fields are correctly filled, the user is greeted with a thankyou and their name, and that the message is sent.
+
+The form is posted from JavaScript and via the Email service EmailJS, which sends the message to my private inbox.
 
 
-#### Feature 6: The 404-error Page
+**User stories/site-owner goals covered:**
 
-Finally, the "contact" page contains a simple form, where the user can fill in their name, email address and query, which they can send by clicking the submit-button.
+1. Easily navigate the websites pages via the menu or links provided
+2. Be presented with a well designed, user-friendly interface
+3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
+4. Get responses and confirmation from the website by my interactions with it
+13. Get in touch with the site owner
+20. Be able to be contacted should the user wish to do so, through an emailing service to my private email address
+21. Have a website that contains validated HTML, CSS and JavaScript
 
-#### Feature 7: The Contact Page
 
-Finally, the "contact" page contains a simple form, where the user can fill in their name, email address and query, which they can send by clicking the submit-button.
+#### Feature 7: The 404-error Page
+
+The 404 page is displayed if the user has entered an old or invalid link on the page. This page only contains text and links to refer the user to the other pages on the website. The nav menu at the top is present here too.
+
+1. Easily navigate the websites pages via the menu or links provided
+14. View an errors page if I have entered an invalid url within the website
+16. Display a menu in a navigation bar or popout menu at the top of the page
+21. Have a website that contains validated HTML, CSS and JavaScript
+
+
 
 ### Features to be implemented
 ___
