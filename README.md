@@ -496,7 +496,9 @@ Testing was also done on an iPhone XS and an iPad Pro 10.5"
 | Feature       | Action            | Expected result   | Actual result    |
 | --------------| ----------------- | ----------------- | ---------------- |
 
-
+<details>
+  <summary>Bugs</summary>
+  
 ### Bugs
 
  - Bug: iPhone sometimes cuts off the beginning of the sound effects played on the quiz page, and they are sometimes not heard.
@@ -528,6 +530,11 @@ Testing was also done on an iPhone XS and an iPad Pro 10.5"
 
 - Bug: CORS error is shown when loading videos from YouTube API.
 - Fix: No fix for this; I have spent weeks trying to fix it but the best way is from the back end of which I have no experience yet. Mo, my mentor, explained that it should be ok, due to that the error has nothing to do with my code.
+![CORS-error](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/errors/Screenshot%202021-06-23%20at%2020.07.35.png)
+
+</details>
+
+
 
 
 
