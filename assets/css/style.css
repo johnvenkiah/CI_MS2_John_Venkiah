@@ -1,30 +1,19 @@
+/* Styles to all elements so margins and padding are correct. */
+
 * {
     margin: 0;
     padding: 0;
     border: none;
     box-sizing: border-box;
-    transition: opacity .5s ease-in-out;
 }
 
-.material-icons-outlined {
-    font-family: 'Material Icons';
-    font-size: 1.5em;
-}
-
-/* index.html  */
-
-#main-logo {
-    font-family: 'Grandstander', cursive;
-    font-size: 2em;
-    margin: 20px auto 0;
-    color: rgb(134, 172, 0);
-}
+/* Global styles to body, with standard font family and style set here.
+    Also, as the background is the same on all pages, I have set it here. */
 
 body {
     text-align: center;
-    font-family: 'Newsreader', serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    /* Font from Google Fonts */
+    font-family: 'Newsreader', Garamond, serif;
     letter-spacing: 0.01em;
     text-shadow: 2px 2px 7px black;
     height: 100%;
@@ -38,13 +27,23 @@ body {
     background-blend-mode: darken;
 }
 
-.subheading-home {
-    font-size: 1.4em;
-    margin: 5% auto 5%;
-}
-
 p {
     font-size: 1.05em;
+}
+
+/* Classes on several pages */
+
+.main-logo-other-pages {
+    /* Font from Google Fonts */
+    font-family: 'Grandstander', 'Trebuchet MS', cursive;
+    font-size: 1.5em;
+    margin: 5% auto;
+    color: rgb(134, 172, 0);
+}
+
+.subheading-other {
+    font-size: 1.4em;
+    margin: 70px auto 40px;
 }
 
 .paragraph {
@@ -53,14 +52,8 @@ p {
     width: 90%;
 }
 
-#button-container {
-    background: radial-gradient(black 5%, transparent, transparent);
-    width: 90%;
-    max-width: 500px;
-    border-radius: 7px;
-    padding: 0 5% 5%;
-    margin: 3% auto 0;
-}
+/* I styled the buttons so they look as juicy as possible, with
+    slight transparency, borders and gradient to make them seem three dimensional. */
 
 .button {
     margin: 6% auto 0;
@@ -76,6 +69,7 @@ p {
     box-shadow: 2px 1px 5px black;
     text-decoration: none;
     color: rgb(224, 204, 182);
+    /* Transition so buttons expand and turn slightly more transparent when hovering. */
     transition: transform .2s, opacity .2s ease-in-out;
 }
 
@@ -90,23 +84,7 @@ p {
     border-bottom: 1px solid rgb(104, 119, 38);
     background-image: linear-gradient(rgb(116, 150, 5), rgb(77, 99, 0));
 }
-
-.button-home {
-    display: inline-block;
-    width: 100%;
-    font-size: 1.4em;
-    padding: 9px;
-}
-
-#contact-link {
-    position: absolute;
-    margin: 0 auto;
-    bottom: 35px;
-    width: 100px;
-    left: 50%;
-    margin-left: -50px;
-}
-
+/* Footer contains copyright info and images/links to technologies used on the page. */
 footer {
     position: fixed;
     height: 7%;
@@ -123,18 +101,48 @@ footer {
     color: #666
 }
 
-/* On several pages */
+/* index.html  */
 
-.subheading-other {
-    font-size: 1.4em;
-    margin: 70px auto 40px;
+#main-logo {
+    font-family: 'Grandstander', cursive;
+    font-size: 2em;
+    margin: 20px auto 0;
+    color: rgb(134, 172, 0);
 }
 
-.main-logo-other-pages {
-    font-family: 'Grandstander', cursive;
+.subheading-home {
+    font-size: 1.4em;
+    margin: 5% auto 5%;
+}
+
+#button-container {
+    background: radial-gradient(black 5%, transparent, transparent);
+    width: 90%;
+    max-width: 500px;
+    border-radius: 7px;
+    padding: 0 5% 5%;
+    margin: 3% auto 0;
+}
+
+.material-icons-outlined {
+    font-family: 'Material Icons';
     font-size: 1.5em;
-    margin: 5% auto;
-    color: rgb(134, 172, 0);
+}
+
+.button-home {
+    display: inline-block;
+    width: 100%;
+    font-size: 1.4em;
+    padding: 9px;
+}
+
+#contact-link {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 35px;
+    width: 100px;
+    left: 50%;
+    margin-left: -50px;
 }
 
 /* Quiz Page */
