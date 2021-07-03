@@ -17,8 +17,7 @@
  * The HTML below is inserted within the header element on
  * on each page, to reduce html code.
  */
-let navBar = `
-<nav class="navbar">
+let navBar = `<nav class="navbar">
     <a href="index.html">
         <h1 class="main-logo-other-pages">Musical Minds</h1>
     </a>
@@ -44,8 +43,7 @@ let navBar = `
         <span class="bar"></span>
         <span class="bar"></span>
     </button>
-</nav>
-`;
+</nav>`;
 
 // Get the header
 let header = document.getElementsByClassName('header')[0];

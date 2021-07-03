@@ -44,9 +44,9 @@ function mainVideo(id, title, descr) {
     let mainVidHtml = `<iframe src="https://www.youtube.com/embed/${id}"
         title="${title}" aria-labelledby="main-vid-title" frameborder="0" allow="accelerometer; autoplay;
         clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
-    <h3 id="main-vid-title" class="vid-title smaller-green-text">${title}</h3>
-    <p class="paragraph">${descr}</p>`;
+        </iframe>
+        <h3 id="main-vid-title" class="vid-title smaller-green-text">${title}</h3>
+        <p class="paragraph">${descr}</p>`;
 
     // Set the inner HTML of the main video to the above
     document.querySelector('#main-video').innerHTML = mainVidHtml;

@@ -55,16 +55,12 @@ sendButton.addEventListener('click', function validateForm(event) {
 
         /* Set the inner HTML of the greeting 'sent-msg' to a template literal using
             name input from user. */
-        sentMsg.innerHTML = `
-        Thanks ${from_name.value}, your message has been sent.
-      `;
+        sentMsg.innerHTML = `Thanks ${from_name.value}, your message has been sent.`;
 
     } else {
 
         // If information is missing, greeting and styling is different.
-        sentMsg.innerHTML = `
-    Name and email required!
-  `;
+        sentMsg.innerHTML = `Name and email required!`;
         sentMsg.setAttribute('style', 'color: darkred; background-color: lightpink; visibility: visible;');
     }
     clearText();
