@@ -106,13 +106,13 @@ function buttonAnimation(target) {
 
     //animates button if answer is incorrect.
     target.animate([{
-            boxShadow: 'none'
+            backgroundColor: 'initial'
         },
         {
-            boxShadow: '0 0 6px red'
+            backgroundColor: 'red'
         },
         {
-            boxShadow: 'none'
+            backgroundColor: 'initial'
         }
     ], {
         duration: 500

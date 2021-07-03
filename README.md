@@ -123,9 +123,10 @@ ___
 8. See an end game screen alerting me of my score and how the quiz went
 9. Be able to choose to close the end game screen or play again
 10. Be able to play notes on a piano on the screen and see which tone is being played
-11. Also be able to play the notes on the computer keyboard
-12. View videos from a YouTube search for music theory
+11. Be able to play the notes on the computer keyboard
+12. View videos to learn about music theory and sight reading
 13. Get in touch with the site owner
+14. View an errors page if I have entered an invalid url within the website
 
 #### Site owner goals
 
@@ -133,13 +134,13 @@ The main goal is to create a web app that can be used for amusement but also in 
 
 ##### As a site owner I would like to:
 
-14. Display simple clear options on the home page
-15. Display a menu in a navigation bar or popout menu at the top of the page
-15. Display a quiz for users to test their knowledge
-16. Display a learn page where users can view videos on music theory
-17. Display a page where users can play the piano
-18. Be able to be contacted should the user wish to do so
-19. Have a website that contains validated HTML, CSS and JavaScript
+15. Display simple clear options on the home page
+16. Display a menu in a navigation bar or popout menu at the top of the page
+17. Display a quiz for users to test their knowledge
+18. Display a learn page containing the results of a YouTube search dynamically updated, using YouTube API
+19. Display a page where users can play the piano and view the note played
+20. Be able to be contacted should the user wish to do so, through an emailing service to my private email address
+21. Have a website that contains validated HTML, CSS and JavaScript
 
 ### Skeleton
 ___
@@ -206,8 +207,7 @@ When viewing on mobile in landscape mode, the nav-menu is displayed vertically s
 1. Easily navigate the websites pages via the menu or links provided
 3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
 4. Get responses and confirmation from the website by my interactions with it
-16. Display a menu in a navigation bar or popout menu at the top of the page
-121. Have a website that contains validated HTML, CSS and JavaScript
+15. Display a menu in a navigation bar or popout menu at the top of the page
 
 ___
 #### Feature 2: The Home Page
@@ -219,10 +219,9 @@ The Home page has three big buttons, each containing a main feature of the site;
 1. Easily navigate the websites pages via the menu or links provided
 2. Be presented with a well designed, user-friendly interface
 3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens.
-21. Have a website that contains validated HTML, CSS and JavaScript
 
 
-#### Feature 3: The Quiz (Quiz Page)
+#### Feature 2: The Quiz
 
 The quiz is a seemingly simple feature, but with a lot of functionality. The user has 60 seconds to answer the most questions correctly.
 
@@ -258,7 +257,6 @@ The modal window also displays two buttons with choices for the user; "Play Agai
 
 **User stories/site-owner goals covered:**
 
-1. Easily navigate the websites pages via the menu or links provided
 2. Be presented with a well designed, user-friendly interface
 3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
 4. Get responses and confirmation from the website by my interactions with it
@@ -267,84 +265,32 @@ The modal window also displays two buttons with choices for the user; "Play Agai
 7. See a timer ticking down from one minute
 8. See an end game screen alerting me of my score and how the quiz went
 9. Be able to choose to close the end game screen or play again
-16. Display a menu in a navigation bar or popout menu at the top of the page
-17. Display a quiz for users to test their knowledge
-21. Have a website that contains validated HTML, CSS and JavaScript
+15. Display a menu in a navigation bar or popout menu at the top of the page
+16. Display a quiz for users to test their knowledge
 
 
-#### Feature 4: The Piano (Play Page)
+#### Feature 3: The Piano (Play Page)
 
-The Play page has two sub-features;
-
-- A miniature piano that is clickable, or playable with the computer keys, that play the corresponding note
-- A box showing an image of a staff, with both the bass clef and treble clef. When the user clicks a key, the corresponding note displays on the stave, together with the note name. If the active key is black, both the sharp and the flat version are diaplayed.
-
-**User stories/site-owner goals covered:**
-
-1. Easily navigate the websites pages via the menu or links provided
-2. Be presented with a well designed, user-friendly interface
-3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
-4. Get responses and confirmation from the website by my interactions with it
-10. Be able to play notes on a piano on the screen and see which tone is being played
-11. Be able to play the notes on the computer keyboard
-16. Display a menu in a navigation bar or popout menu at the top of the page
-19. Display a page where users can play the piano and view the note played
-21. Have a website that contains validated HTML, CSS and JavaScript
+The "play" page has two features, a miniature piano and a stave showing both the bass clef and treble clef. When the user clicks a key, the relevant note displays on the stave. The correct note is also heard when clicking it.
 
 
-#### Feature 5: The Learn Page
+#### Feature 4: The Learn Page
 
-The learn page features to main sections, which are features in themselves;
-
-- The videos list, containing data from a YouTube video search on "music theory beginners sight reading", each with their own article. Click the article and the corresponding video will appear in the main video section.
-
-- The main video section, contains the video clicked by the user in the videos list, also displaying the title and description data (depending on the screen-size and/or orientation).
-
-**User stories/site-owner goals covered:**
-
-1. Easily navigate the websites pages via the menu or links provided
-2. Be presented with a well designed, user-friendly interface
-3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
-4. Get responses and confirmation from the website by my interactions with it
-12. View videos to learn about music theory and sight reading
-16. Display a menu in a navigation bar or popout menu at the top of the page
-18. Display a learn page containing the results of a YouTube search dynamically updated, using YouTube API
-21. Have a website that contains validated HTML, CSS and JavaScript
+On the "learn" page, users can start learning the very basics of music theory from the beginning. Here, they learn the clefs, the stave, note names, and more. Pictures and text go hand in hand to teach the user the knowledge Which later can be tested in the quiz.
 
 
-#### Feature 6: The Contact Page
+#### Feature 5: The Contact Page
 
-The contact page contains a simple form, where the user can fill in their name, email address and query, which they can send by clicking the submit-button.
-
-The form is validated with JavaScript so the form will only be sent if the adress is filled in correctly and there is a name in the name field.
-
-If the fields are incorrectly filled, a message appears and the user can enter their information again.
-If the fields are correctly filled, the user is greeted with a thankyou and their name, and that the message is sent.
-
-The form is posted from JavaScript and via the Email service EmailJS, which sends the message to my private inbox.
+Finally, the "contact" page contains a simple form, where the user can fill in their name, email address and query, which they can send by clicking the submit-button.
 
 
-**User stories/site-owner goals covered:**
+#### Feature 6: The 404-error Page
 
-1. Easily navigate the websites pages via the menu or links provided
-2. Be presented with a well designed, user-friendly interface
-3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
-4. Get responses and confirmation from the website by my interactions with it
-13. Get in touch with the site owner
-20. Be able to be contacted should the user wish to do so, through an emailing service to my private email address
-21. Have a website that contains validated HTML, CSS and JavaScript
+Finally, the "contact" page contains a simple form, where the user can fill in their name, email address and query, which they can send by clicking the submit-button.
 
+#### Feature 7: The Contact Page
 
-#### Feature 7: The 404-error Page
-
-The 404 page is displayed if the user has entered an old or invalid link on the page. This page only contains text and links to refer the user to the other pages on the website. The nav menu at the top is present here too.
-
-1. Easily navigate the websites pages via the menu or links provided
-14. View an errors page if I have entered an invalid url within the website
-16. Display a menu in a navigation bar or popout menu at the top of the page
-21. Have a website that contains validated HTML, CSS and JavaScript
-
-
+Finally, the "contact" page contains a simple form, where the user can fill in their name, email address and query, which they can send by clicking the submit-button.
 
 ### Features to be implemented
 ___
@@ -362,7 +308,7 @@ ___
 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
-### Applications, Tools and Platforms
+### Applications, Libraries and Platforms
 
 No libraries were used except for Google Fonts.
 
@@ -374,153 +320,14 @@ No libraries were used except for Google Fonts.
 
 - [Gitpod](https://gitpod.com/) - All code was written and tested with the Gitpod web-based IDE.
 
-- [Balsamiq](https://balsamiq.com/wireframes/) - Balsamiq Wireframes was used to create wireframe images of the website.
-
-- [Logic Pro](https://www.apple.com/logic-pro/) - Used to create the samples and sound-effects for play and quiz pages.
-
-- [MuseScore 3](https://musescore.org/en) - Used to create the images of notes displayed on play and quiz pages.
+- [Balsamiq](https://balsamiq.com/wireframes/) - Balsamiq Wireframes was used to create wireframe images of the website which you can view [here](#).
 
 ## Validation
 
-Below are the details of validation and tests performed on the website.
-
-<details>
-  <summary>HYML Validation</summary>
-
-### HTML Validation
-
-All pages passed the Valdation tests.
-![The results of W3C HTML validation of index.html](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/w3c/html/w3c_html_404.png)
-
-Two warnings were given on learn.html, due to that heading tags were not present.
-
-![results from HTML-validation, learn.html](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/w3c/html/w3c_html_learn.png)
-
-This is due to that the element containing these tags are in the learn.js file, implemented when the page is loaded.
-
-More screenshots can be viewed [here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/tree/master/docs/validation/w3c/html)
-
-</details>
-
-<details>
-
-<summary>CSS Validation</summary>
-
-### CSS Validation
-
-Musical Minds passed the test for CSS Validation. Here are the results:
-
-![Results, Jigsaw CSS-test](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/w3c/css_jigsaw/w3c_css_jigsaw.png)
-
-Warnings were given for using vendor prefixes for user-select, but using without them made user select non functional for me.
-
-![Warnings, CSS Validation](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/w3c/css_jigsaw/jigsaw_warnings.png)
-
-<details>
-
-
-### JavaScript Validation
-
-All JavaScript files were validated with JSHint. Only notifications I recieved were that variables were not used, which is incorrect, as they are used in other linked JavaScript-files.
-
-[Here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/jshint.md) are the results.
-
-<summary>HYML Validation</summary>
-
-### Accessibility
-
-<details>
-
-<summary>HYML Validation</summary>
-
-### Performance
-
-<details>
-
-<summary>HYML Validation</summary>
-
-### Device Testing
-
-<details>
-
-
-
 ### Testing of User Stories
 
-#### 1. Easily navigate the websites pages via the menu or links provided
-
 | Feature       | Action            | Expected result   | Actual result    |
-| ------------- | ----------------  | ----------------- | ---------------- |
-
-#### 2. Be presented with a well designed, user-friendly interface
-
-| Feature       | Action            | Expected result   | Actual result    |
-| ------------- | ----------------  | ----------------- | ---------------- |
-
-#### 3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
-
-| Feature       | Action            | Expected result   | Actual result    |
-| ------------- | ----------------  | ----------------- | ---------------- |
-
-#### 4. Get responses and confirmation from the website by my interactions with it
-
-| Feature       | Action            | Expected result   | Actual result    |
-| ------------- | ----------------  | ----------------- | ---------------- |
-
-#### 5. Be able to play a quiz on note names, symbols and note lengths
-
-| Feature       | Action            | Expected result   | Actual result    |
-| ------------- | ----------------  | ----------------- | ---------------- |
-
-#### 6. Get points if I answer a question right
-
-| Feature       | Action            | Expected result   | Actual result    |
-| ------------- | ----------------  | ----------------- | ---------------- |
-
-#### 7. See a timer ticking down from one minute
-
-| Feature       | Action            | Expected result   | Actual result    |
-| ------------- | ----------------  | ----------------- | ---------------- |
-
-#### 8. See an end game screen alerting me of my score and how the quiz went
-
-| Feature       | Action            | Expected result   | Actual result    |
-| ------------- | ----------------  | ----------------- | ---------------- |
-
-#### 9. Be able to choose to close the end game screen or play again
-
-| Feature       | Action            | Expected result   | Actual result    |
-| ------------- | ----------------  | ----------------- | ---------------- |
-
-#### 10. Be able to play notes on a piano on the screen and see which tone is being played
-
-| Feature       | Action            | Expected result   | Actual result    |
-| ------------- | ----------------  | ----------------- | ---------------- |
-
-#### 11. Be able to play the notes on the computer keyboard
-
-| Feature       | Action            | Expected result   | Actual result    |
-| ------------- | ----------------  | ----------------- | ---------------- |
-
-#### 12. View videos to learn about music theory and sight reading
-
-| Feature       | Action            | Expected result   | Actual result    |
-| ------------- | ----------------  | ----------------- | ---------------- |
-
-#### 13. Get in touch with the site owner
-
-| Feature       | Action            | Expected result   | Actual result    |
-| ------------- | ----------------  | ----------------- | ---------------- |
-
-#### 14. View an errors page if I have entered an invalid url within the website
-
-| Feature       | Action            | Expected result   | Actual result    |
-| ------------- | ----------------  | ----------------- | ---------------- |
-
-
-
-
-</details>
+ -------------- | :---------------- | ----------------- | ---------------- |
 
 ### Bugs
 
