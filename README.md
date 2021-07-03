@@ -157,9 +157,19 @@ ___
 
 #### Design choices
 
-I wanted the design to appeal to all sorts of people, and create a design that was unique. At the same time i wanted to keep things simple and not use too many colors.
+My goal was to let the design appeal to all sorts of people, and create a design that was unique. At the same time i wanted to keep things simple and not use too many colors.
 
-#### Fonts
+To make the site as friendly as possible, most elements have slightly rounded edges. The environment should seem playful but not childish or silly, which I accomplished with a combination of the colors, fonts and CSS styling.
+I have tried to create a three dimentional feeling, so I spent alot of time with borders, shadows, and gradients to create this.
+
+Hovering over the buttons makes them grow slightly larger, and more transparent.
+![Example:](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/to_show_design/zoom_in_home.png)
+
+Using the design has also bee inplemented with JavaScript to confirm user interaction, for example that a wrong answer in the quiz fires a red shadow around the button and the correct answer expands.
+
+For the bakground I chose a simple music symbols collage and filled it with my chosen background color.
+
+##### Fonts
 
 I have used two types of fonts;
 
@@ -168,11 +178,11 @@ I have used two types of fonts;
 
 ##### Colors
 
-I chose a bright green color (#86ac00) and different shades of it and a very dark brown grey color (#211d16) as contrast to it. Finally, smaller text like subheadings and paragraphs have a peachy beige color (#daa054).
+I chose a bright green color (#86ac00) and different shades of it for the main heading, buttons andd links. The colors can be viewed above in the screenshot.
 
-I wanted the environment to seem playful but not childish or silly.
+The background has a very dark brown color (#211d16) which contrasts well to it.
 
-![Example:](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/to_show_design/zoom_in_home.png)
+Finally, smaller text like subheadings and paragraphs have a peachy beige color (#daa054).
 
 ## Features
 
