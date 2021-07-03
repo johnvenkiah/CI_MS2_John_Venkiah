@@ -362,7 +362,7 @@ ___
 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
-### Applications, Libraries and Platforms
+### Applications, Tools and Platforms
 
 No libraries were used except for Google Fonts.
 
@@ -374,14 +374,153 @@ No libraries were used except for Google Fonts.
 
 - [Gitpod](https://gitpod.com/) - All code was written and tested with the Gitpod web-based IDE.
 
-- [Balsamiq](https://balsamiq.com/wireframes/) - Balsamiq Wireframes was used to create wireframe images of the website which you can view [here](#).
+- [Balsamiq](https://balsamiq.com/wireframes/) - Balsamiq Wireframes was used to create wireframe images of the website.
+
+- [Logic Pro](https://www.apple.com/logic-pro/) - Used to create the samples and sound-effects for play and quiz pages.
+
+- [MuseScore 3](https://musescore.org/en) - Used to create the images of notes displayed on play and quiz pages.
 
 ## Validation
 
+Below are the details of validation and tests performed on the website.
+
+<details>
+  <summary>HYML Validation</summary>
+
+### HTML Validation
+
+All pages passed the Valdation tests.
+![The results of W3C HTML validation of index.html](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/w3c/html/w3c_html_404.png)
+
+Two warnings were given on learn.html, due to that heading tags were not present.
+
+![results from HTML-validation, learn.html](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/w3c/html/w3c_html_learn.png)
+
+This is due to that the element containing these tags are in the learn.js file, implemented when the page is loaded.
+
+More screenshots can be viewed [here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/tree/master/docs/validation/w3c/html)
+
+</details>
+
+<details>
+
+<summary>CSS Validation</summary>
+
+### CSS Validation
+
+Musical Minds passed the test for CSS Validation. Here are the results:
+
+![Results, Jigsaw CSS-test](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/w3c/css_jigsaw/w3c_css_jigsaw.png)
+
+Warnings were given for using vendor prefixes for user-select, but using without them made user select non functional for me.
+
+![Warnings, CSS Validation](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/w3c/css_jigsaw/jigsaw_warnings.png)
+
+<details>
+
+
+### JavaScript Validation
+
+All JavaScript files were validated with JSHint. Only notifications I recieved were that variables were not used, which is incorrect, as they are used in other linked JavaScript-files.
+
+[Here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/jshint.md) are the results.
+
+<summary>HYML Validation</summary>
+
+### Accessibility
+
+<details>
+
+<summary>HYML Validation</summary>
+
+### Performance
+
+<details>
+
+<summary>HYML Validation</summary>
+
+### Device Testing
+
+<details>
+
+
+
 ### Testing of User Stories
 
+#### 1. Easily navigate the websites pages via the menu or links provided
+
 | Feature       | Action            | Expected result   | Actual result    |
- -------------- | :---------------- | ----------------- | ---------------- |
+| ------------- | ----------------  | ----------------- | ---------------- |
+
+#### 2. Be presented with a well designed, user-friendly interface
+
+| Feature       | Action            | Expected result   | Actual result    |
+| ------------- | ----------------  | ----------------- | ---------------- |
+
+#### 3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
+
+| Feature       | Action            | Expected result   | Actual result    |
+| ------------- | ----------------  | ----------------- | ---------------- |
+
+#### 4. Get responses and confirmation from the website by my interactions with it
+
+| Feature       | Action            | Expected result   | Actual result    |
+| ------------- | ----------------  | ----------------- | ---------------- |
+
+#### 5. Be able to play a quiz on note names, symbols and note lengths
+
+| Feature       | Action            | Expected result   | Actual result    |
+| ------------- | ----------------  | ----------------- | ---------------- |
+
+#### 6. Get points if I answer a question right
+
+| Feature       | Action            | Expected result   | Actual result    |
+| ------------- | ----------------  | ----------------- | ---------------- |
+
+#### 7. See a timer ticking down from one minute
+
+| Feature       | Action            | Expected result   | Actual result    |
+| ------------- | ----------------  | ----------------- | ---------------- |
+
+#### 8. See an end game screen alerting me of my score and how the quiz went
+
+| Feature       | Action            | Expected result   | Actual result    |
+| ------------- | ----------------  | ----------------- | ---------------- |
+
+#### 9. Be able to choose to close the end game screen or play again
+
+| Feature       | Action            | Expected result   | Actual result    |
+| ------------- | ----------------  | ----------------- | ---------------- |
+
+#### 10. Be able to play notes on a piano on the screen and see which tone is being played
+
+| Feature       | Action            | Expected result   | Actual result    |
+| ------------- | ----------------  | ----------------- | ---------------- |
+
+#### 11. Be able to play the notes on the computer keyboard
+
+| Feature       | Action            | Expected result   | Actual result    |
+| ------------- | ----------------  | ----------------- | ---------------- |
+
+#### 12. View videos to learn about music theory and sight reading
+
+| Feature       | Action            | Expected result   | Actual result    |
+| ------------- | ----------------  | ----------------- | ---------------- |
+
+#### 13. Get in touch with the site owner
+
+| Feature       | Action            | Expected result   | Actual result    |
+| ------------- | ----------------  | ----------------- | ---------------- |
+
+#### 14. View an errors page if I have entered an invalid url within the website
+
+| Feature       | Action            | Expected result   | Actual result    |
+| ------------- | ----------------  | ----------------- | ---------------- |
+
+
+
+
+</details>
 
 ### Bugs
 
