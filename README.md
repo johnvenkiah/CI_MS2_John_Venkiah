@@ -346,9 +346,21 @@ The JavaScript on the website was validated with JSHint. No errors were shown.
 
 The results can be viewed [here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/jshint.md)
 
+### Accessibility
+
+Accessibility was tested with the [WAVE Website](https://wave.webaim.org/) and passed all tests. [Here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/tree/master/docs/validation/wave) are the results.
+
+### Performance
+
+Google Chromes Lighthouse was used for testing the performance of the website. You can see the results [here]()
+
+### Devices
 
 
-### Testing of User Stories
+
+## Testing of User Stories
+
+
 
 | Feature       | Action            | Expected result   | Actual result    |
  -------------- | :---------------- | ----------------- | ---------------- |
