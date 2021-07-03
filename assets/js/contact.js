@@ -1,7 +1,9 @@
+// jshint esversion: 6
+
 /**
- * Validate Email and send though EmailJS
- * 
- * 
+ * This JavaScript file gets elements from the contact.html page and
+ * is responsible for validating and sending the form, via EmailJS to my email
+ * address.
  */
 
 //declare form element variables

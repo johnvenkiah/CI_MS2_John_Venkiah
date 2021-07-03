@@ -1,3 +1,5 @@
+// jshint esversion: 6
+
 // QUIZ
 
 let answersBox = document.querySelector('#answers-box');
@@ -23,7 +25,6 @@ function playQuiz() {
 
     function endGameModal() {
         soundGameEnd.play();
-        console.log('Game ended!');
 
         let endGreetings = {
             notgood: 'Aw, too bad...',

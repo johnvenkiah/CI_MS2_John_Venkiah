@@ -1,3 +1,5 @@
+// jshint esversion: 6
+
 let KEY = 'AIzaSyAXwLQ3QpA152YNY8Aa0A8pz_3w4fd1s6o';
 
 fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=music%20theory%20beginners%20piano%20sight%20reading&relevanceLanguage=en&key=${KEY}`)

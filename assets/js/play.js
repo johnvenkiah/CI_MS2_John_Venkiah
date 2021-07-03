@@ -1,3 +1,5 @@
+// jshint esversion: 6
+
 function touchDevice() {
     return ( 'ontouchstart' in window ) || 
            ( navigator.maxTouchPoints > 0 ) ||

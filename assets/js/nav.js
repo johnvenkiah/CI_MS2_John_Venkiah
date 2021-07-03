@@ -1,3 +1,5 @@
+// jshint esversion: 6
+
 /**
  * Navbar and hamburger menu:
  * The HTML below is inserted within the header
