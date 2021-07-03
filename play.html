@@ -21,7 +21,10 @@
     </header>
     <main>
         <h2 id="subheading-play" class="subheading-other">Play the piano</h2>
-        <p id="paragraph-piano" class="paragraph">Play the piano by clicking or tapping the keys below, or with the keyboard keys:</p>
+        <!-- Paragraph below and visibility of the kb-keys-class changes depending
+            on whether user has touch device or not -->
+        <p id="paragraph-piano" class="paragraph">Play the piano by clicking or tapping the keys below, or with the
+            keyboard keys:</p>
         <div class="kb-keys" aria-labelledby="paragraph-piano">
             <div class="black-kb-keys">
                 <span>w</span>
@@ -47,9 +50,16 @@
                 <span>[</span>
             </div>
         </div>
+        <!-- The staffbox contains an empty staff to begin with but displays the relevant
+            note when a key played with the help of the JavaScript file play.js.
+            The images were created by me in notationn software MuseScore.-->
         <div class="staffbox">
             <img id="staff" src="assets/images/quiz/stave-empty.png" alt="An empty staff">
         </div>
+        <!-- The piano keys, this feature is based in based on the piano from WDS in this tutorial:
+            https://www.youtube.com/watch?v=vjco5yKZpU8 
+            I decided to implement buttons instead of divs for accessibility.
+            The piano and displayed notes come to life with the help of the JavaScript file play.js-->
         <div id="piano-container">
             <button data-note="c3" class="key white" aria-label="Piano key C3"></button>
             <button data-note="csharp3" class="key black" aria-label="Piano key C#3"></button>
@@ -77,6 +87,8 @@
             <button data-note="b4" class="key white" aria-label="Piano key B4"></button>
             <button data-note="c5" class="key white" aria-label="Piano key C5"></button>
         </div>
+        <!-- The audio for the notes on the piano. I used samples and exported them myself from
+            the music production application Logic Pro -->
         <audio id="c3" src="assets/audio/c3.mp3" aria-label="Music note C3"></audio>
         <audio id="csharp3" src="assets/audio/csharp3.mp3" aria-label="Music note C#3"></audio>
         <audio id="d3" src="assets/audio/d3.mp3" aria-label="Music note D3"></audio>
@@ -106,6 +118,7 @@
     <footer>
         <p class="footer-text">© 2021 John Venkiah</p>
     </footer>
+    <!-- JavaScript files below for navbar and play piano/display note functionality. -->
     <script src="assets/js/nav.js"></script>
     <script src="assets/js/play.js"></script>
 </body>
