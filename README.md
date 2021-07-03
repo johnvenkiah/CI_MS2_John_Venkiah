@@ -326,7 +326,7 @@ No libraries were used except for Google Fonts.
 
 ### HTML Validation
 
-All pages passed the W3C Validation tests, and can be viewed [here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/tree/master/docs/validation/w3c/html)
+All pages passed the [W3C HTML Validation](https://validator.w3.org/) tests, and can be viewed [here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/tree/master/docs/validation/w3c/html)
 
 I received 2 warnings on learn.html, to add a headed tag to elements, which in fact are added but from the JavaScript file linked in the html.
 
@@ -334,7 +334,7 @@ I received 2 warnings on learn.html, to add a headed tag to elements, which in f
 
 ### CSS Validation
 
-The CSS on the website passed the W3C CSS Jigsaw validation:
+The CSS on the website passed the [W3C CSS Jigsaw](https://jigsaw.w3.org/css-validator/) validation:
 
 ![Results from CSS-validation](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/w3c/css_jigsaw/w3c_css_jigsaw.png)
 
@@ -342,9 +342,7 @@ Warnings were given for using prefix vendors for user-select: none to prevent se
 
 ### JavaScript Validation
 
-The JavaScript on the website was validated with JSHint. No errors were shown.
-
-The results can be viewed [here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/jshint.md)
+The JavaScript on the website was validated with [JSHint](https://jshint.com/). No errors were shown. The results can be viewed [here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/jshint.md)
 
 ### Accessibility
 
@@ -352,13 +350,13 @@ Accessibility was tested with the [WAVE Website](https://wave.webaim.org/) and p
 
 ### Performance
 
-Google Chromes Lighthouse was used for testing the performance of the website, which passed the tests on both desktop and mobile simulator. You can see the results [here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/tree/master/docs/validation/lighthouse)
+[Google Chromes Lighthouse](https://developers.google.com/web/tools/lighthouse) was used for testing the performance of the website, which passed the tests on both desktop and mobile simulator. You can see the results [here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/tree/master/docs/validation/lighthouse)
 
 ### Devices
 
 An Apple MacBook Pro 15" was used for testing, running Chrome and Safari. Chrome's DevTools provided simulators for 12 different device sizes, aswell as testing on a custom smallest size (320px x 480px, iPhone 4 size).
 
-Here are screenshots of all web pages on five different sizes.
+Below are linked screenshots of all web pages on five different sizes.
 
 - [Mobile (320 x 568)](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/screenshots_mobile.md)
 
