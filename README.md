@@ -189,15 +189,62 @@ Finally, smaller text like subheadings and paragraphs have a peachy beige color 
 ### Existing features
 ___
 
-This page consists of Five pages, each a feature in itself. As this is a page directed mostly to younger people, navigational links are limited on all pages, so the user can focus on that pages content. If the link is not visible, all the user needs to do is click home.
+#### Feature 1: The Navbar/Navmenu
 
-The Home page has three big buttons, each a main feature of the site. Quiz, Learn and Play. Due to the simple nature of this site, there is little more here to distract, only the main logo and a contact link at the top.
+This is the users way to get around the website. The navbar is part of the header, implemented by JavaScript on all pages except home, shich only consists of the buttons to navigate.
 
-The "quiz" page features two boxes, a questions-box and an answers-box. In the questions-box, a question and a picture will greet the user and they can then input their answer in the answers-box below. There, there is a text input and a submit button. The user gets points for answering correctly store in the top left corner and in the top right corner a timer keeps track of the clock, ticking down from 1 minute.
+As some users like to have a "home" link in the navmenu, as well as being able to get "home" by clicking the page title, users can get to the home page here by doing both.
+
+The Nav element is fixed at the top of the screen and displays links to the 5 pages of the website.
+
+When on mobile, a hamburger is visible instead on the top right of the screen. Clicking it will reveal the links to the five pages.
+
+When viewing on mobile in landscape mode, the nav-menu is displayed vertically so users can still view the content. When open, the navmenu closes once a user either has tapped on a link or clicked anywhere on the screen, closing the menu.
+
+##### User stories/site-owner goals covered:
+
+1. Easily navigate the websites pages via the menu or links provided
+3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
+4. Get responses and confirmation on the website by my interactions with it
+15. Display a menu in a navigation bar or popout menu at the top of the page
+
+___
+#### Feature 2: The Home Page
+
+The Home page has three big buttons, each containing a main feature of the site; Quiz, Learn and Play. Due to the simple nature of this site, there is little more here to distract, only the main logo, the contact link at the bottom and the footer.
+
+##### User stories/site-owner goals covered:
+
+1. Easily navigate the websites pages via the menu or links provided
+2. Be presented with a well designed, user-friendly interface
+3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens.
+
+
+#### Feature 2: The Quiz
+
+The "quiz" page features two main boxes, a questions-box and an answers-box. In the questions-box, a question and a picture will greet the user and they can then input their answer in the answers-box below. There, there is a text input and a submit button. The user gets points for answering correctly store in the top left corner and in the top right corner a timer keeps track of the clock, ticking down from 1 minute.
+
+
+#### Feature 3: The Piano (Play Page)
 
 The "play" page has two features, a miniature piano and a stave showing both the bass clef and treble clef. When the user clicks a key, the relevant note displays on the stave. The correct note is also heard when clicking it.
 
+
+#### Feature 4: The Learn Page
+
 On the "learn" page, users can start learning the very basics of music theory from the beginning. Here, they learn the clefs, the stave, note names, and more. Pictures and text go hand in hand to teach the user the knowledge Which later can be tested in the quiz.
+
+
+#### Feature 5: The Contact Page
+
+Finally, the "contact" page contains a simple form, where the user can fill in their name, email address and query, which they can send by clicking the submit-button.
+
+
+#### Feature 6: The 404-error Page
+
+Finally, the "contact" page contains a simple form, where the user can fill in their name, email address and query, which they can send by clicking the submit-button.
+
+#### Feature 7: The Contact Page
 
 Finally, the "contact" page contains a simple form, where the user can fill in their name, email address and query, which they can send by clicking the submit-button.
 
