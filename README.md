@@ -10,35 +10,35 @@ Musical Minds is a simple website with the main goal of making learning music th
 
 ## Contents
 
-1. [Project Goals](###project-goals)
+1. [Project Goals](#project-goals)
 
-2. [User Goals](#User Goals)
+2. [User Goals](#user-goals)
 
-3. [User Stories](#User Stories)
+3. [User Stories](#user-stories)
 
-4. [Site Owner Goals](#Site Owner Goals)
+4. [Site Owner Goals](#site-owner-goals)
 
-5. [User Requirements and Expectations](#User Requirements and Expectations)
+5. [User Requirements and Expectations](#user-requirements-and-expectations)
 
-6. Design choices
+6. [Design choices](#design-choices)
 
-7. Structure
+7. [Structure](#structure)
 
-8. Wireframes
+8. [Wireframes](#wireframes)
 
-9. Technologies used
+9. [Technologies used](#technologies-used)
 
-10. Features
+10. [Features](#features)
 
-11. Validation
+11. [Validation](#validation)
 
-12. Testing of User Stories
+12. [Testing of User Stories](#testing-of-user-stories)
 
-13. Bugs
+13. [Bugs](#bugs)
 
-14. Deployment
+14. [Deployment](#deplayment)
 
-15. [Acknowledgements](###acknowledgements)
+15. [Acknowledgements](#acknowledgements)
 
 ## Strategy Plane
 
@@ -189,7 +189,7 @@ This is a basic web application but could be expanded with all kinds of sections
 | Feature       | Action            | Expected result   | Actual result    |
  -------------- | :---------------- | ----------------- | ---------------- |
 
-
+### Bugs
 
 ## Deployment
 
