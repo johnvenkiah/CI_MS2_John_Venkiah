@@ -1,6 +1,6 @@
 // jshint esversion: 6
 
-/* LEARN.JS */
+// LEARN.JS
 
 let KEY = 'AIzaSyAXwLQ3QpA152YNY8Aa0A8pz_3w4fd1s6o';
 

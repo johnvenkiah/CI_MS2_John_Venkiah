@@ -1,6 +1,6 @@
 // jshint esversion: 6
 
-/* PLAY.JS */
+// PLAY.JS
 
 function touchDevice() {
     return ( 'ontouchstart' in window ) || 

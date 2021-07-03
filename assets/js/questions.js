@@ -1,4 +1,4 @@
-/* QUESTIONS.JS */
+// QUESTIONS.JS
 
 var questions = [
   
