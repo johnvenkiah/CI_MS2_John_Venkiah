@@ -29,26 +29,40 @@
                 <strong>Ready for the quiz? Click below to play!</strong>
             </p>
         </div>
+        <!-- The quiz-box is where the action happens. The lets play-button triggers the game to
+            begin and the JavaScript file quiz.js makes sure the note is displayed, and the buttons for four 
+            answers appear below. The score is kept to the right and a clock ticking down from 60 seconds
+            is seen to the left. A right answer gives 10 points. -->
         <div id="quiz-box">
             <p id="score">Score: <span id="current-score">0</span></p>
             <p id="clock"><span id="minutes">1</span>:<span id="seconds">00</span></p>
             <div class="staffbox">
+                <!-- The notes displayed below are also made by me in the notation sofware MuseScore. -->
                 <img id="staff-quiz" src="assets/images/quiz/stave-empty.png" alt="An empty staff">
             </div>
+            <!-- HTML for the buttons appear below in the answers-box and replace the play quiz-button -->
             <div id="answers-box">
                 <button class="play-quiz-button quiz-button button">Lets Play!</button>
             </div>
         </div>
         <div>
-            <audio id="sound-start-game" aria-label="Start game sound" src="assets/audio/sound-effects-quiz/game-started.mp3"></audio>
-            <audio id="sound-finish-game" aria-label="Finish game sound" src="assets/audio/sound-effects-quiz/game-finished.mp3"></audio>
-            <audio id="sound-correct-answer" aria-label="Correct answer sound" src="assets/audio/sound-effects-quiz/right-answer.mp3"></audio>
-            <audio id="sound-wrong-answer" aria-label="Wrong answer sound" src="assets/audio/sound-effects-quiz/wrong-answer.mp3"></audio>
+            <!-- Sounds that play when a new game begins, ends and for correct or incorrect answers.
+                These are recorded by me in Logic Pro -->
+            <audio id="sound-start-game" aria-label="Start game sound"
+                src="assets/audio/sound-effects-quiz/game-started.mp3"></audio>
+            <audio id="sound-finish-game" aria-label="Finish game sound"
+                src="assets/audio/sound-effects-quiz/game-finished.mp3"></audio>
+            <audio id="sound-correct-answer" aria-label="Correct answer sound"
+                src="assets/audio/sound-effects-quiz/right-answer.mp3"></audio>
+            <audio id="sound-wrong-answer" aria-label="Wrong answer sound"
+                src="assets/audio/sound-effects-quiz/wrong-answer.mp3"></audio>
         </div>
     </main>
     <footer>
         <p class="footer-text">© 2021 John Venkiah</p>
     </footer>
+    <!-- The Javascript files for navbar, a seperate file with all question data and a file for the
+        quiz functionality. -->
     <script src="assets/js/nav.js"></script>
     <script src="assets/js/questions.js"></script>
     <script src="assets/js/quiz.js"></script>
