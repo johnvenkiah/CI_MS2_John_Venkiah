@@ -164,10 +164,19 @@ function newQuestion() {
     // Empty array to fill with buttons
     let buttons = [];
 
-    // This creates the four answer buttons, the 4th being the correct one.
-    buttons[0] = buttonsHtml + '>' + questions[questionsRandom].a + buttonsEndHtml;
-    buttons[1] = buttonsHtml + '>' + questions[questionsRandom].b + buttonsEndHtml;
-    buttons[2] = buttonsHtml + '>' + questions[questionsRandom].c + buttonsEndHtml;
+    // object with answer values corresponding with values in questions.js
+    let answ = {
+        0: 'a',
+        1: 'b',
+        2: 'c'
+    }
+
+    // For loop fills the array with the incorrect answers 1 -3
+    for (let i = 0; i < 4; i++) {
+        buttons[i] = buttonsHtml + '>' + questions[questionsRandom][answ[i]] + buttonsEndHtml;
+    }
+
+    // The last button is the correct one so it needs to be filled differently.
     buttons[3] = buttonsHtml + ' id="answer-4">' + questions[questionsRandom].correct + buttonsEndHtml;
 
     /* To make the game genuine, the correct answer can't appear in the same
