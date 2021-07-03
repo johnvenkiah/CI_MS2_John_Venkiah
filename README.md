@@ -166,7 +166,7 @@ I have tried to create a three dimentional feeling, so I spent alot of time with
 Hovering over the buttons makes them grow slightly larger, and more transparent.
 ![Example:](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/to_show_design/zoom_in_home.png)
 
-Using the design has also bee inplemented with JavaScript to confirm user interaction, for example that a wrong answer in the quiz fires a red shadow around the button and the correct answer expands.
+Using the design has also bee inplemented with JavaScript to confirm user interaction, for example that a wrong answer in the quiz gives the button go slighly red and the correct answer button expands.
 
 For the bakground I chose a simple music symbols collage and filled it with my chosen background color.
 
@@ -323,6 +323,30 @@ No libraries were used except for Google Fonts.
 - [Balsamiq](https://balsamiq.com/wireframes/) - Balsamiq Wireframes was used to create wireframe images of the website which you can view [here](#).
 
 ## Validation
+
+### HTML Validation
+
+All pages passed the W3C Validation tests, and can be viewed [here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/tree/master/docs/validation/w3c/html)
+
+I received 2 warnings on learn.html, to add a headed tag to elements, which in fact are added but from the JavaScript file linked in the html.
+
+![Warnings html validation](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/w3c/html/w3c_html_learn.png)
+
+### CSS Validation
+
+The CSS on the website passed the W3C CSS Jigsaw validation:
+
+![Results from CSS-validation](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/w3c/css_jigsaw/w3c_css_jigsaw.png)
+
+Warnings were given for using prefix vendors for user-select: none to prevent selecting the piano keys when playing on play page. Removing them made user-select: none not work for me so I decided to keep them.
+
+### JavaScript Validation
+
+The JavaScript on the website was validated with JSHint. No errors were shown.
+
+The results can be viewed [here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/jshint.md)
+
+
 
 ### Testing of User Stories
 
