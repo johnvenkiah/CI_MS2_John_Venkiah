@@ -526,6 +526,11 @@ Testing was also done on an iPhone XS and an iPad Pro 10.5"
 - Bug: Video text not showing up in main video on learn page on certain devices/orientations and visible on others where it should not be
 - Fix: fix this in several media queries, so portrait doesn't display text under video but landscape does on all devices smaller than tablet
 
+- Bug: CORS error is shown when loading videos from YouTube API.
+- Fix: No fix for this; I have spent weeks trying to fix it but the best way is from the back end of which I have no experience yet. Mo, my mentor, explained that it should be ok, due to that the error has nothing to do with my code.
+
+
+
 
 ## Deployment
 
