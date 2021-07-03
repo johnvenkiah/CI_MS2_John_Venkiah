@@ -29,7 +29,7 @@ let kbKeys = document.querySelectorAll('.kb-keys');
 
 // Removes unwanted characters from paragraph and ends sentance with a !
 if (touchDevice()) {
-    paragraphHtml = paragraphHtml.substr(0, 52);
+    paragraphHtml = paragraphHtml.substr(0, 65);
     paragraph.innerHTML = paragraphHtml + '!';
 
     // Removes kb-keys from view.
