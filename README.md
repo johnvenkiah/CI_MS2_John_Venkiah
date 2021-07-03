@@ -43,6 +43,7 @@ Musical Minds is a simple website with the main goal of making learning music th
 ## User Experience
 
 ### Strategy Plane
+___
 
 #### Project Goals
 
@@ -69,12 +70,13 @@ Target Audience
 - Beginners or parents
 
 ### Structure
+___
 
 This website has 5 pages, plus a 404 error page for when entering an invalid link. No libraries or frameworks were used. I wanted to keep the structure clear and simple. Buttons are large and a navigation bar or menu is visible at the top on all pages except the home page.
 
 A footer is always visible with copyright info and relevant technologies depending on the page.
 
-1. Home
+#### 1. Home
 
 Here, the user is given three main options:
 
@@ -84,27 +86,28 @@ Here, the user is given three main options:
 
 Users can also contact the website owner at the top right of the page.
 
-2. Quiz
+#### 2. Quiz
 
 Here users can play a simple game where they are presented with notes or musical symbols and have to answer correctly to get a point. Users have to answer as many questions correctly in one minute and are then greeted with their score and a message of how the quiz went.
 
-3. Learn
+#### 3. Learn
 
 On this page, users can view videos implemented from YouTube API. There are two sections; a main video and a videos list. Users can click on the video in the list to view it in the main frame.
 
-4. Play
+#### 4. Play
 
 This mainly a piano and a stave above. When the user clicks a key, they can see how the note looks on the stave and can hear it being played. Users can also play the notes with the computer keyboard.
 
-5. Contact
+#### 5. Contact
 
 On the Contact page, users can fill in a simple contact form to get in touch.
 
-6. 404
+#### 6. 404
 
 This page is shown when users enter an invalid link, and contains the menu and links to get home or get in touch.
 
 ### Scope
+___
 
 #### User Stories
 
@@ -139,22 +142,29 @@ The main goal is to create a web app that can be used for amusement but also in 
 19. Have a website that contains validated HTML, CSS and JavaScript
 
 ### Skeleton
+___
 
-### Wireframes
+#### Wireframes
 
-Wireframes like the one below were made for both mobile device, tablet and desktop versions of the website in the application Balsamiq Wireframes.
+Wireframes like the one below were made for both mobile device, tablet and desktop versions of the website in the application [Balsamiq Wireframes](https://balsamiq.com/).
 
 ![Screenshot:](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/wireframes/wireframes_screenshot_home_mobile.png)
 
 [Click here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/wireframes/all_wireframes_musical_minds.pdf) to view them
 
-## Surface
+### Surface
+___
 
-### Design choices
+#### Design choices
+
+##### Colors
+
+
 
 ## Features
 
 ### Existing features
+___
 
 This page consists of Five pages, each a feature in itself. As this is a page directed mostly to younger people, navigational links are limited on all pages, so the user can focus on that pages content. If the link is not visible, all the user needs to do is click home.
 
@@ -169,12 +179,14 @@ On the "learn" page, users can start learning the very basics of music theory fr
 Finally, the "contact" page contains a simple form, where the user can fill in their name, email address and query, which they can send by clicking the submit-button.
 
 ### Features to be implemented
+___
 
 This is a basic web application but could be expanded with all kinds of sections and functions. For example, there could be a play-by-ear section, where notes are played and the user has to answer which note. There could also be a chords-section, introducing chords and their uses in music. I am sure this platform will be expanded in the future.
 
 ## Technologies used
 
 ### Languages
+___
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
@@ -183,6 +195,8 @@ This is a basic web application but could be expanded with all kinds of sections
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Applications, Libraries and Platforms
+
+No libraries were used except for Google Fonts.
 
 - [Google Fonts](https://fonts.google.com/) - Were used for all fonts and icons in this project.
 
