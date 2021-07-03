@@ -406,7 +406,10 @@ span.space-right {
 }
 
 /* Main video, containing an iframe and meta data corresponding
-    with the article clicked on in the videos section */
+    with the article clicked on in the videos section. videos and
+    thumbnails have height 0 and padding-top according to width in order
+    to retain aspect ratio. Main video has position - sticky so it only moves
+    to the top of the screen. */
 
 #main-video {
     width: 100%;
@@ -417,6 +420,9 @@ span.space-right {
     padding-top: 56.25%;
     z-index: 1;
 }
+
+/* Data for main video are hidden in portrait view on mobile
+    devices so text doesn't clash. */
 
 #main-video .paragraph {
     text-align: justify;
@@ -466,6 +472,9 @@ article:hover {
     background-color: rgba(34, 34, 34, .6);
     transform: scale(1.01);
 }
+
+/* In mobile portait mode, the article consists of thumbnail to the left and
+    description to the right. */
 
 article p {
     display: inline-block;
@@ -523,7 +532,7 @@ a:hover {
     z-index: 2;
 }
 
-/* Style for hamburger button */
+/* Style for hamburger button, which is hidden by default. */
 
 .hamburger {
     display: none;
@@ -732,7 +741,9 @@ textarea {
     }
 }
 
-/* Nav elements for mobile and tablet screens. Based on this walkthrough: https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci  */
+/* Nav elements for mobile and tablet screens. Based on this walkthrough:
+    https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci
+    Nav element is hidden by default. */
 
 @media only screen and (max-width: 768px) {
     .nav-menu {
@@ -746,7 +757,7 @@ textarea {
         text-align: center;
         transition: 0.15s;
     }
-
+    /* Active makes the nav-menu visible. */
     .nav-menu.active {
         left: 0;
     }
@@ -760,7 +771,7 @@ textarea {
         cursor: pointer;
     }
 
-    /* for animation */
+    /* For hamburger animation, turning the bars into an X. */
 
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
@@ -775,7 +786,7 @@ textarea {
     }
 }
 
-/* For smaller tablet devices sizes in landscape mode */
+/* Styles for smaller tablet devices sizes in landscape mode */
 
 @media only screen and (min-width: 720px) and (min-height: 450px) {
 
@@ -792,6 +803,10 @@ textarea {
         margin: 25% auto;
     }
 
+    /* On the learn page, the layout changes with larger screens,
+        so main video doesn't cover whole screen. Main video and
+        videos section are level. */
+
     #main-video {
         display: inline-block;
         width: 60%;
@@ -801,6 +816,9 @@ textarea {
         margin: 50px 3px 0 0;
     }
 
+    /* Now the main video data is visible, because the videos section
+        is now to the right, and doesn't interfere. */
+
     #main-video .vid-title {
         visibility: visible;
         font-size: 1.3em;
@@ -809,6 +827,9 @@ textarea {
     #main-video .paragraph {
         visibility: visible;
     }
+
+    /* For this screen size and orientation I prefer to display thumbnail
+        and description on top of one another. */
 
     article .thumbn {
         width: 100%;
@@ -834,7 +855,8 @@ textarea {
     }
 }
 
-/* Landscape mode for medium-sized tablets */
+/* Styles for medium-sized tablets in landscape mode which are similar
+    to the ones above but with custom margins and offsets. */
 
 @media only screen and (min-width: 1024px) and (min-height: 768px) {
 
@@ -888,7 +910,9 @@ textarea {
     }
 }
 
-/* For tablet screens in portrait mode */
+/* Styls for normal sized tablet screens in portrait mode
+    also similar to portrait mobile view but with custom sizing
+    and margins/offsets. */
 
 @media only screen and (max-width: 1024px) and (min-height: 1024px) {
 
@@ -962,6 +986,9 @@ textarea {
         width: 100%;
     }
 
+    /* Here the main video is fixed, which is better
+        for this screen size/orientation. */
+
     #main-video {
         position: fixed;
         top: 250px;
@@ -1008,7 +1035,7 @@ textarea {
     }
 }
 
-/* For laptop screens and larger */
+/* Styles for laptop screens and larger */
 
 @media only screen and (min-width: 1280px) and (min-height: 802px) {
 
@@ -1043,6 +1070,10 @@ textarea {
         position: sticky;
     }
 
+    /* The videos section has the split layout again, with
+        the thumbnail not covering the whole width and allowing the user
+        to see more info at the same time. */
+
     #videos-section {
         display: inline-block;
     }
@@ -1056,7 +1087,7 @@ textarea {
     }
 }
 
-/* For mobile devices in landscape mode */
+/* Styles for mobile devices in landscape mode */
 
 @media only screen and (max-height: 450px) and (max-width: 840px) {
 
@@ -1073,6 +1104,9 @@ textarea {
         padding: 2%;
         width: 23%;
     }
+
+    /* Nav menu is hoizontal now, not to cover the
+        whole screen in landscape mode. */
 
     .nav-menu {
         flex-direction: row;
@@ -1177,6 +1211,10 @@ textarea {
     #learn-description {
         padding: 7px 0;
     }
+
+    /* Redesigned learn page for mobile landscape view so relevant info
+        is visible and design is still appealing. Main video title is
+        visible but not description, as screen is not high enough. */
 
     #main-video {
         display: inline-block;
