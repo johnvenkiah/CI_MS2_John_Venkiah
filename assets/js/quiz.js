@@ -1,6 +1,6 @@
 // jshint esversion: 6
 
-// QUIZ
+/* QUIZ.JS */
 
 let answersBox = document.querySelector('#answers-box');
 let currentScore = document.querySelector('#current-score');

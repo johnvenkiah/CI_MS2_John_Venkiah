@@ -1,5 +1,7 @@
 // jshint esversion: 6
 
+/* PLAY.JS */
+
 function touchDevice() {
     return ( 'ontouchstart' in window ) || 
            ( navigator.maxTouchPoints > 0 ) ||
