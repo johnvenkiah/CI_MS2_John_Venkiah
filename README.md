@@ -523,6 +523,10 @@ Testing was also done on an iPhone XS and an iPad Pro 10.5"
 - Bug: Contact details still there after clicking "Send" on contact page
 - Fix: Fix error in JavaScript file
 
+- Bug: Video text not showing up in main video on learn page on certain devices/orientations and visible on others where it should not be
+- Fix: fix this in several media queries, so portrait doesn't display text under video but landscape does on all devices smaller than tablet
+
+
 ## Deployment
 
 ### GitHub Pages
