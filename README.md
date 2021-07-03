@@ -157,9 +157,22 @@ ___
 
 #### Design choices
 
+I wanted the design to appeal to all sorts of people, and create a design that was unique. At the same time i wanted to keep things simple and not use too many colors.
+
+#### Fonts
+
+I have used two types of fonts;
+
+- Grandstander (with Trebuchet MS and cursive as backup fonts) for titles, buttons and links
+- Newsreader, (with Garamond and serif as backup fonts) for subheadings and paragraphs. They can both be viewed above in the screenshot.
+
 ##### Colors
 
+I chose a bright green color (#86ac00) and different shades of it and a very dark brown grey color (#211d16) as contrast to it. Finally, smaller text like subheadings and paragraphs have a peachy beige color (#daa054).
 
+I wanted the environment to seem playful but not childish or silly.
+
+![Example:](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/to_show_design/zoom_in_home.png)
 
 ## Features
 
