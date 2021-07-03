@@ -145,7 +145,7 @@ The main goal is to create a web app that can be used for amusement but also in 
 Wireframes were made for both mobile device, tablet and desktop versions of the website. They can all be seen in link section below.
 
 
-![Images of wireframes](#)
+![Images of wireframes](wireframes_screenshot_home_mobile)
 
 ## Surface
 
