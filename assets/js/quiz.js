@@ -109,7 +109,7 @@ function buttonAnimation(target) {
             backgroundColor: 'initial'
         },
         {
-            backgroundColor: 'red'
+            backgroundColor: 'red', color: 'red'
         },
         {
             backgroundColor: 'initial'
@@ -118,7 +118,7 @@ function buttonAnimation(target) {
         duration: 500
     });
 
-    //animates button if answer is correct.
+    //animates correct answer button so user knows which answer was right.
     document.querySelector('#answer-4').animate([{
             boxShadow: 'none'
         },
