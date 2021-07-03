@@ -38,7 +38,7 @@ Musical Minds is a simple website with the main goal of making learning music th
 
 14. Deployment
 
-15. Acknowledgements
+15. [Acknowledgements](###acknowledgements)
 
 ## Strategy Plane
 
@@ -226,6 +226,6 @@ To make a clone, or 'Fork' this repository, follow the steps below.
 7. Press Enter.
 8. You now have a local clone.
 
-## Acnowledgements
+## Acknowledgements
 
 The tutors at Code Institute, especially John and Sean, gave me very good advice.
