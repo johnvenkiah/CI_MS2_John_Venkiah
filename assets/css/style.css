@@ -8,11 +8,11 @@
 }
 
 /* Global styles to body, with standard font family and style set here.
-    Also, as the background is the same on all pages, I have set it here. */
+    Also, as the background is the same on all pages, I have set it here.
+    Fonts from Google Fonts are used throughout the website. */
 
 body {
     text-align: center;
-    /* Font from Google Fonts */
     font-family: 'Newsreader', Garamond, serif;
     letter-spacing: 0.01em;
     text-shadow: 2px 2px 7px black;
@@ -31,10 +31,9 @@ p {
     font-size: 1.05em;
 }
 
-/* Classes on several pages */
+/* Styles for classes on several pages */
 
 .main-logo-other-pages {
-    /* Font from Google Fonts */
     font-family: 'Grandstander', 'Trebuchet MS', cursive;
     font-size: 1.5em;
     margin: 5% auto;
@@ -53,7 +52,8 @@ p {
 }
 
 /* I styled the buttons so they look as juicy as possible, with
-    slight transparency, borders and gradient to make them seem three dimensional. */
+    slight transparency, with different shaded borders and gradient to make them three dimensional.
+    Contains a transition so buttons expand and turn slightly more transparent when hovering. */
 
 .button {
     margin: 6% auto 0;
@@ -61,7 +61,7 @@ p {
     padding: 5% 0;
     justify-content: space-around;
     font-size: 1em;
-    font-family: 'Grandstander', cursive;
+    font-family: 'Grandstander', 'Trebuchet MS', cursive;
     text-shadow: 1px 1px .5px #2a2a2a;
     border-top: 1px solid rgb(176, 202, 61);
     border-bottom: 1px solid rgb(42, 63, 19);
@@ -69,7 +69,6 @@ p {
     box-shadow: 2px 1px 5px black;
     text-decoration: none;
     color: rgb(224, 204, 182);
-    /* Transition so buttons expand and turn slightly more transparent when hovering. */
     transition: transform .2s, opacity .2s ease-in-out;
 }
 
@@ -84,7 +83,9 @@ p {
     border-bottom: 1px solid rgb(104, 119, 38);
     background-image: linear-gradient(rgb(116, 150, 5), rgb(77, 99, 0));
 }
+
 /* Footer contains copyright info and images/links to technologies used on the page. */
+
 footer {
     position: fixed;
     height: 7%;
@@ -101,10 +102,10 @@ footer {
     color: #666
 }
 
-/* index.html  */
+/* Styles for index.html  */
 
 #main-logo {
-    font-family: 'Grandstander', cursive;
+    font-family: 'Grandstander', 'Trebuchet MS', cursive;
     font-size: 2em;
     margin: 20px auto 0;
     color: rgb(134, 172, 0);
@@ -115,6 +116,8 @@ footer {
     margin: 5% auto 5%;
 }
 
+/* A radial gradient underneath the main buttons to create a floating effect. */
+
 #button-container {
     background: radial-gradient(black 5%, transparent, transparent);
     width: 90%;
@@ -123,6 +126,8 @@ footer {
     padding: 0 5% 5%;
     margin: 3% auto 0;
 }
+
+/* Styles for the Google Fonts icons. */
 
 .material-icons-outlined {
     font-family: 'Material Icons';
@@ -160,12 +165,6 @@ footer {
     left: 20%;
 }
 
-/* #current-score {
-    position: absolute;
-    margin: 0 auto;
-    padding: 0 1% 0;
-} */
-
 #clock {
     float: right;
     right: 20%;
@@ -174,6 +173,8 @@ footer {
 #score, #clock {
     margin: 15px auto;
 }
+
+/* Staffbox appears both on the play and quiz pages. */
 
 .staffbox {
     clear: both;
@@ -203,7 +204,7 @@ footer {
     max-width: 200px;
 }
 
-/* MODAL FOR END GAME, QUIZ */
+/* Modal screen for end game, quiz page */
 
 #modal-container {
     width: 100vw;
@@ -252,11 +253,15 @@ footer {
 
 }
 
-/* play.html */
+/* Styles for play.html */
 
 #subheading-play {
     margin-bottom: 10px;
 }
+
+/* The kb-keys, showing wkich computer keys that trigger the piano keys
+    are designed to look like keys on a computer keyboard but black
+    and white to resemble the piano */
 
 .kb-keys {
     padding: 3px;
@@ -299,6 +304,10 @@ span.space-right {
     margin-right: 20px;
 }
 
+/* The piano, based on the piano from WDS in this tutorial:
+    https://www.youtube.com/watch?v=vjco5yKZpU8 but with a more sophisticated look
+    (the red velvet at the top, for instance). */
+
 #piano-container {
     position: relative;
     display: inline-flex;
@@ -308,6 +317,12 @@ span.space-right {
     border-radius: 1%;
     border-top: 3px solid rgb(173, 0, 0);
 }
+
+/* I added touch action - manipulation to the keys so double
+    tapping on mobile won't zoom in on mobile devices. Also, user
+    select - none which needed vendor prefixes after testing. Credit:
+    https://stackoverflow.com/questions/10614481/disable-double-tap-zoom-option-in-browser-on-touch-devices
+    https://css-tricks.com/almanac/properties/u/user-select/*/
 
 .key {
     height: 100%;
@@ -346,7 +361,7 @@ span.space-right {
     background-color: #1f1f1f;
 }
 
-/* learn.html */
+/* Styles for learn.html */
 
 #container-learn {
     width: 96%;
@@ -357,6 +372,8 @@ span.space-right {
     margin: 5px auto;
     height: 30px;
 }
+
+/* The banner contains the h2 element and the YouTube logo */
 
 #banner-learn h2 {
     position: relative;
@@ -373,6 +390,9 @@ span.space-right {
     line-height: 1.5rem;
     padding: 15px 0;
 }
+
+/* Main video, containing an iframe and meta data corresponding
+    with the article clicked on in the videos section */
 
 #main-video {
     width: 100%;
@@ -406,11 +426,15 @@ iframe {
     box-shadow: 2px 2px 4px black;
 }
 
+/* The list of videos that the YouTube API search results in */
+
 #videos-section {
     background-color:rgba(60, 63, 46, 0.5);
     border-radius: 4px;
     box-shadow: 1px 2px 4px black;
 }
+
+/* Each article contains a thumbnail, title and video description.  */
 
 article {
     width: 100%;
@@ -429,7 +453,7 @@ article:hover {
 
 .smaller-green-text {
     font-size: 1.1em;
-    font-family: 'Grandstander', cursive;
+    font-family: 'Grandstander', 'Trebuchet MS', cursive;
     color: rgb(134, 172, 0);
     padding: 10px 0;
 }
@@ -465,7 +489,7 @@ li {
 a {
     text-decoration: none;
     color: rgb(134, 172, 0);
-    font-family: 'Grandstander', cursive;
+    font-family: 'Grandstander', 'Trebuchet MS', cursive;
 }
 
 a:hover {
@@ -525,7 +549,7 @@ a:hover {
 
 .nav-link {
     font-size: 1.3rem;
-    font-family: 'Grandstander', cursive;
+    font-family: 'Grandstander', 'Trebuchet MS', cursive;
     text-shadow: 2px 2px 4px black;
 }
 
@@ -917,7 +941,8 @@ textarea {
     }
 
     #banner-learn {
-        padding: 50px;
+        top: 8%;
+        left: 3%;
         position: fixed;
         text-align: left;
         width: 100%;
