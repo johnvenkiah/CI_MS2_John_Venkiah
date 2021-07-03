@@ -468,18 +468,60 @@ Testing was also done on an iPhone XS and an iPad Pro 10.5"
 
 16. Display a menu in a navigation bar or popout menu at the top of the page
 
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
+
 17. Display a quiz for users to test their knowledge
+
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
 
 18. Display a learn page containing the results of a YouTube search dynamically updated, using YouTube API
 
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
+
 19. Display a page where users can play the piano and view the note played
+
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
 
 20. Be able to be contacted should the user wish to do so, through an emailing service to my private email address
 
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
+
 21. Have a website that contains validated HTML, CSS and JavaScript
+
+| Feature       | Action            | Expected result   | Actual result    |
+| --------------| ----------------- | ----------------- | ---------------- |
 
 
 ### Bugs
+
+ - Bug: iPhone sometimes cuts off the beginning of the sound effects played on the quiz page, and they are sometimes not heard.
+ - Fix: Tried to downsize to smaller samples. Still same problem. No fix yet.
+
+- Bug: Contact link appearing on top of button on home page.
+- Fix: change dimensions of buttons and button container, home page.
+
+- Bug: Red Shadow barely visible for wrong answer animation.
+- Fix: Change so bakcground color and font color are red instead when answer is wrong.
+
+- Bug: Videos not displaying in learn page.
+- Fix: Update API key, YouTube API
+
+- Bug: Main video covering whole screen on mobile devices in landscape mode, so navigation is disabled.
+- Fix: Style video so it covers half the window in landscape mode, and the videos list in the other half.
+
+- Bug: Quiz not displaying buttons
+- Fix: Error in JavaScript was fixed
+
+- Bug: controls not working on main video in learn page when viewed with DevTools on tablet view.
+- Fix. Refresh page, cross check with real tablet/mobile, bug is not there
+
+- Bug: Contact details still there after clicking "Send" on contact page
+- Fix: Fix error in JavaScript file
 
 ## Deployment
 
