@@ -23,6 +23,9 @@
 body {
     text-align: center;
     font-family: 'Newsreader', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.01em;
     text-shadow: 2px 2px 7px black;
     height: 100%;
     width: 100%;
@@ -38,6 +41,10 @@ body {
 .subheading-home {
     font-size: 1.4em;
     margin: 5% auto 5%;
+}
+
+p {
+    font-size: 1.05em;
 }
 
 .paragraph {
@@ -111,7 +118,7 @@ footer {
 
 .footer-text {
     position: relative;
-    font-size: .7em;
+    font-size: .8em;
     top: 50%;
     color: #666
 }
@@ -121,7 +128,6 @@ footer {
 .subheading-other {
     font-size: 1.4em;
     margin: 70px auto 40px;
-    /* color:rgb(218, 160, 84); */
 }
 
 .main-logo-other-pages {
@@ -422,7 +428,6 @@ article:hover {
 
 article p {
     display: inline-block;
-    font-size: 1em;
     vertical-align: top;
     text-align: justify;
     width: 48%;
@@ -524,7 +529,6 @@ a:hover {
 
 #contact-wrapper p {
     margin-top: 0;
-    font-size: 1em;
 }
 
 #form-div {
@@ -753,6 +757,7 @@ textarea {
 
     #main-video .vid-title {
         visibility: visible;
+        font-size: 1.3em;
     }
 
     #main-video .paragraph {

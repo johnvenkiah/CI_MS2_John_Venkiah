@@ -42,7 +42,7 @@ function videosList(data) {
         }
 
     let vidsListHtml = `<article class="vid-article" data-id="${id}" data-title="${title}" data-descr="${description}">
-    <h3 class="vid-title smaller-green-text">${title}</h3>
+    <h4 class="vid-title smaller-green-text">${title}</h4>
     <img class="thumbn" src="${thumbNail}" alt="click to view the video in the main window"></img>
       <p aria-label="Description for video">${description}</p>
     </div>
