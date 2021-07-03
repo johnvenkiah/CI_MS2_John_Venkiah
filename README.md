@@ -10,7 +10,7 @@ Musical Minds is a simple website with the main goal of making learning music th
 
 ## Contents
 
-1. [Project Goals](#Project Goals)
+1. [Project Goals](###project-goals)
 
 2. [User Goals](#User Goals)
 
