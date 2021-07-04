@@ -832,8 +832,11 @@ User stories are tested with the features that cover them. All user stories pass
 - Fix: fix this in several media queries, so portrait doesn't display text under video but landscape does on all devices smaller than tablet
 
 - Bug: CORS error is shown when loading videos from YouTube API.
-- Fix: No fix for this; I have spent weeks trying to fix it but the best way is from the back end of which I have no experience yet. Mo, my mentor, explained that it should be ok, due to that the error has nothing to do with my code.
+- Fix: No fix for this; I have spent weeks trying to fix it but the best way is from the back end of which I have no experience yet. Mo, my mentor, explained that it should be ok, due to that the error has nothing to do with my code. Above all, it doesn't affect the functionality of the page.
 ![CORS-error](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/errors_bugs/cors_error.png)
+
+- Bug: [Cohort warning](https://github.blog/changelog/2021-04-27-github-pages-permissions-policy-interest-cohort-header-added-to-all-pages-sites/) apparently to all GitHub Pages.
+- Fix: none.
 
 </details>
 
@@ -862,7 +865,7 @@ To make a clone, or 'Fork' this repository, follow the steps below.
 2. Click on 'Fork' on the top right of the page.
 3. You will find a copy of the repository in your own Github account.
 
-## Making a Local Clone
+### Making a Local Clone
 
 1. Access your GitHub account and find the relevant repository.
 2. Click the 'Code' button next to 'Add file'.
@@ -873,6 +876,107 @@ To make a clone, or 'Fork' this repository, follow the steps below.
 7. Press Enter.
 8. You now have a local clone.
 
-## Acknowledgements
+### YouTube API
+
+### EmailJS
+
+
+
+## Credits
+
+Here are links to websites that had the answers when I didn't. I have written most of the code myself and the parts I have not written are credited below.
+
+All images are royalty free.
+
+Background:
+
+https://www.123rf.com/photo_91583290_stock-vector-music-note-seamless-pattern-vector-illustration-hand-drawn-sketched-doodle-music-notes-symbols-.html
+
+YouTube logos:
+https://www.youtube.com/about/brand-resources/#logos-icons-colors
+https://www.youtube.com/about/brand-resources/#api-device-partners
+
+Collapse in markdown:
+https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab
+
+Pdf-compress: (for smaller PDF-files to upload to GitHub)
+https://smallpdf.com/result#r=a2d783f28bb928fa77b9c573862cdbcf&t=compress
+
+
+Disable double-tap for zoom (manipulation)
+https://stackoverflow.com/questions/10614481/disable-double-tap-zoom-option-in-browser-on-touch-devices
+
+Media queries JS:
+https://www.w3schools.com/howto/howto_js_media_queries.asp
+
+Cut off too long text:
+https://stackoverflow.com/questions/5454235/shorten-string-without-cutting-words-in-javascript
+
+Cohort warning:
+https://github.blog/changelog/2021-04-27-github-pages-permissions-policy-interest-cohort-header-added-to-all-pages-sites/
+
+Animation tips
+https://drafts.csswg.org/web-animations/#dom-animatable-animate
+
+Favicon:
+https://www.iconsdb.com/green-icons/note-icon.html
+
+Overflow: wrap:
+https://css-tricks.com/almanac/properties/o/overflow-wrap/
+
+Click anywhere to remove menu:
+https://stackoverflow.com/questions/49158756/how-to-close-menu-when-clicking-outside-of-the-div
+
+Using JS to detect touch device:
+https://www.geeksforgeeks.org/how-to-detect-touch-screen-device-using-javascript/
+
+Inspiration and tips for hamburger menu:
+
+https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci
+
+Note material: created in MuseScore
+
+https://www.techiedelight.com/define-multiple-css-attributes-javascript/#:~:text=In%20JavaScript%2C%20you%20can%20target,styles%20in%20the%20style%20attribute.
+
+Randomizing buttons:
+
+http://www.javascriptkit.com/javatutors/randomorder.shtml''
+
+Insert Adjacent HTML:
+
+https://stackoverflow.com/questions/27079598/error-failed-to-execute-appendchild-on-node-parameter-1-is-not-of-type-no
+
+Callback;:
+
+https://www.w3schools.com/js/js_callback.asp
+
+Timer:
+
+https://www.w3schools.com/js/js_timing.asp
+
+Event-listener for target instead of individual elements:
+
+https://flaviocopes.com/how-to-add-event-listener-multiple-elements-javascript/
+
+CSS:
+
+Style text with gradient: https://fossheim.io/writing/posts/css-text-gradient/
+
+BUG:
+
+iPhone displays buttons with full transparency, though not visible in devTools.
+
+Fix partially (transparency is greater on iPhone but not a problem):
+
+https://stackoverflow.com/questions/54006038/background-colorrgba-safari-transparency-css-bug
+
+user-select-none:
+https://css-tricks.com/almanac/properties/u/user-select/
+
+YouTube API:
+
+https://www.youtube.com/watch?v=9sWEecNUW-o&t=2241s
+
+And Matt Rudge’s lessons on fetch API, also Google API’s documentation
 
 The tutors at Code Institute, especially John and Sean, gave me very good advice.
