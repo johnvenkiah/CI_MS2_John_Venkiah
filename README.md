@@ -165,7 +165,7 @@ I have tried to create a three dimentional feeling, so I spent alot of time with
 
 Hovering over the buttons makes them grow slightly larger, and more transparent.
 
-![Example:](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/to_show_design/zoom_in_home.png)
+![Example:](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/features/zoom_in_home.png)
 
 Design freatures were also inplemented with JavaScript to confirm user interaction, for example that a wrong answer in the quiz turns the button red and the correct answer button expands.
 
@@ -193,7 +193,7 @@ ___
 
 #### Feature 1: The Navbar/Navmenu
 
-![Navbar](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/features/feature_one_navbar_landscape.png.png)
+![Navbar](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/features/feature_one_navbar_landscape.png)
 
 This is the users way to get around the website. The navbar is part of the header, implemented by JavaScript on all pages except home, shich only consists of the buttons to navigate.
 
