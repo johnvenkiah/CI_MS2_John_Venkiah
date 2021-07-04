@@ -470,9 +470,11 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 | --------------| ----------------- | ----------------- | ---------------- |
 
 | Navmenu       | Click on the links at the top of all pages other than Home on large screens, on mobile, click on the hamburger button          | To get to the page clicked on links | Works as intended |
+| --------------| ----------------- | ----------------- | ---------------- |
 
 | Home page     | Click on any of the buttons or the contact link below
 | To get to the page clicked on     | Works as intended |
+| --------------| ----------------- | ----------------- | ---------------- |
 
 
 2. Be presented with a well designed, user-friendly interface
@@ -481,14 +483,18 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 | --------------| ----------------- | ----------------- | ---------------- |
 
 | The Home Page | General navigation, and experience of the home page | Page feels well balanced and attractive to use | Works as intended |
+| --------------| ----------------- | ----------------- | ---------------- |
 
 | The Nav Menu | The clicking and navigating ia the nav menu | Animations, positioning and feel of the menu should appeal to user | Works as intended |
+| --------------| ----------------- | ----------------- | ---------------- |
 
 | The Quiz      | Clicking "Let's Play!" | Experience well designed elements with sounds and animation to appeal to user | Works as intended |
+| --------------| ----------------- | ----------------- | ---------------- |
 
 | The Piano     | Playing keys on the piano by clicking the keys or playing on the keyboard | User is informed by "keys" on screen which keys on computer keyboard to press to play piano. Piano notes played are heard and seen. | Works as intended |
-
+| --------------| ----------------- | ----------------- | ---------------- |
 | The Learn Page | User navigates and clicks on videos to play them | User enjoys the layout and content on the learn page | Works as intended |
+| --------------| ----------------- | ----------------- | ---------------- |
 
 | The Contact Page | 
 
