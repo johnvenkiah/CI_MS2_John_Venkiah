@@ -544,7 +544,7 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 - Actual Result: Works as intended
 
-**Play Page**
+**The Piano**
 
 - Action: User plays the piano on any device
 
@@ -552,7 +552,7 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 - Actual Result: Works as intended
 
-**Quiz Page**
+**The Quiz**
 
 - Action: User plays the quiz on any device
 
@@ -578,7 +578,7 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 4. **Get responses and confirmation from the website by my interactions with it**
 
-**Play Page**
+**The Piano**
 
 - Action: User interacts by playing keys on the piano
 
@@ -586,7 +586,7 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 - Actual Result: Works as intended
 
-**Quiz Page**
+**The Quiz**
 
 - Action: User interacts by clicking the buttons in the quiz
 
@@ -613,7 +613,7 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 5. **Be able to play a quiz on note names, symbols and note lengths**
 
-**Quiz Page**
+**The Quiz**
 
 - Action: User navigates to the Quiz page and clicks on the "Let's Play!" button
 
@@ -623,7 +623,7 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 6. **Get points if I answer a question right**
 
-**Quiz Page**
+**The Quiz**
 
 - Action: User answers a question correctly
 
@@ -633,7 +633,7 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 7. **See a timer ticking down from one minute**
 
-**Quiz Page**
+**The Quiz**
 
 - Action: User play quiz
 
@@ -643,7 +643,7 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 8. **See an end game screen alerting me of my score and how the quiz went**
 
-**Quiz Page**
+**The Quiz**
 
 - Action: User play quiz, which then ends
 
@@ -662,7 +662,7 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 10. **Be able to play notes on a piano on the screen and see which tone is being played**
 
-**Play Page**
+**The Piano**
 
 - Action: User opens the play page, and plays on the piano keys
 
@@ -672,7 +672,7 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 11. **Be able to play the notes on the computer keyboard**
 
-**Play Page**
+**The Piano**
 
 - Action: User opens the play page, and triggers the piano keys with the keyboard
 
@@ -699,6 +699,18 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 - Expected Result: The video that the user clicks on is viewed in the main window
 
 - Actual Result: Works as intended
+
+14. **View an errors page if I have entered an invalid url within the website**
+
+**404 Page**
+
+- Action: User enters an invalid URL within the website
+
+- Expected Result: The user is taken to the 404-error page, where user can navigate home or elsewhere on the website
+
+- Actual Result: Works as intended
+
+### Testing 
 
 
 | Feature       | Action            | Expected result   | Actual result    |
@@ -753,7 +765,7 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 | --------------| ----------------- | ----------------- | ---------------- |
 
 
-14. View an errors page if I have entered an invalid url within the website
+
 
 | Feature       | Action            | Expected result   | Actual result    |
 | --------------| ----------------- | ----------------- | ---------------- |
