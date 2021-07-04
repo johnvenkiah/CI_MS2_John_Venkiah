@@ -470,7 +470,6 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 |:--------------|:----------------- |:----------------- |:----------------|
 
 | Navmenu       | Click on the links at the top of all pages other than Home on large screens, on mobile, click on the hamburger button          | To get to the page clicked on links | Works as intended |
-| --------------| ----------------- | ----------------- | ---------------- |
 
 | Home page     | Click on any of the buttons or the contact link below | To get to the page clicked on | Works as intended |
 
