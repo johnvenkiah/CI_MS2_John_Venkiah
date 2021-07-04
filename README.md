@@ -510,7 +510,7 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 **The Piano**
 
-- Action: Playing keys on the piano by clicking the keys or playing on the keyboard
+- Action: *Playing keys on the piano by clicking the keys or playing on the keyboard*
 
 - Expected Result: *User is informed by "keys" on screen which keys on computer keyboard to press to play piano. Piano notes played are heard and seen.*
 
@@ -724,6 +724,63 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 16. **Display a menu in a navigation bar or popout menu at the top of the page**
 
+**Nav Menu**
+
+- Action: *User views a page or clicks on the hamburger button*
+
+- Expected Result: *The nav menu appears (if it isn't already visible as on larger screens)*
+
+- Actual Result: *Works as intended*
+
+17. **Display a quiz for users to test their knowledge**
+
+**The Quiz**
+
+- Action: *User navigates to the Quiz page and clicks "Let's Play!"*
+
+- Expected Result: *The user is able to play the quiz*
+
+- Actual Result: *Works as intended*
+
+18. **Display a learn page containing the results of a YouTube search dynamically updated, using YouTube API**
+
+**Learn Page**
+
+- Action: *User navigates to the learn page*
+
+- Expected Result: *The Videos list is dynamically updated with YouTube API and loaded into the videos section*
+
+- Actual Result: *Works as intended*
+
+19. **Display a page where users can play the piano and view the note played**
+
+**The Piano**
+
+- Action: *User navigates to the learn page*
+
+- Expected Result: *The Videos list is dynamically updated with YouTube API and loaded into the videos section*
+
+- Actual Result: *Works as intended*
+
+20. **Be able to be contacted should the user wish to do so, through an emailing service to my private email address**
+
+**Contact Page**
+
+- Action: *User fills in the form on Contact page and clicks send*
+
+- Expected Result: *The form data is sent to the site owner via EmailJS*
+
+- Actual Result: *Works as intended*
+
+21. **Have a website that contains validated HTML, CSS and JavaScript**
+
+**ALL PAGES**
+
+- Action: *Have users who care about well written code, validation, etc visiting the site*
+
+- Expected Result: *The website passes all valdation tests*
+
+- Actual Result: *All tests passed*
 
 
 | Feature       | Action            | Expected result   | Actual result    |
