@@ -466,6 +466,12 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 1. Easily navigate the websites pages via the menu or links provided
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 | Feature       | Action            | Expected result   | Actual result   |
 |:--------------|:----------------- |:----------------- |:----------------|
 
