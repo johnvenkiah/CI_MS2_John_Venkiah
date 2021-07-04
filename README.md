@@ -482,12 +482,22 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 | The Home Page | General navigation, and experience of the home page | Page feels well balanced and attractive to use | Works as intended |
 
-| 
+| The Nav Menu | The clicking and navigating ia the nav menu | Animations, positioning and feel of the menu should appeal to user | Works as intended |
+
+| The Quiz      | Clicking "Let's Play!" | Experience well designed elements with sounds and animation to appeal to user | Works as intended |
+
+| The Piano     | Playing keys on the piano by clicking the keys or playing on the keyboard | User is informed by "keys" on screen which keys on computer keyboard to press to play piano. Piano notes played are heard and seen. | Works as intended |
+
+| The Learn Page | User navigates and clicks on videos to play them | User enjoys the layout and content on the learn page | Works as intended |
+
+| The Contact Page | 
 
 3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
 
 | Feature       | Action            | Expected result   | Actual result    |
 | --------------| ----------------- | ----------------- | ---------------- |
+
+
 
 4. Get responses and confirmation from the website by my interactions with it
 
