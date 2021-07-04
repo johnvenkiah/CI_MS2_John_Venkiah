@@ -488,7 +488,7 @@ Testing was also done on an iPhone XS and an iPad Pro 10.5"
 
 [Here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/tree/master/docs/screenshots/screenshots_ipad) are screenshots from iPad Pro
 
-**Tests made on devices**
+**Tests Made on Devices:**
 
 - Nav link works and is displayed as intended
 - All buttons and links on all pages work and link to the correct source
@@ -524,6 +524,8 @@ User stories are tested with the features that cover them. All user stories pass
  - Expected result: *To get to the page clicked on by user*
 
  - Actual result: *Works as intended*
+
+ 
 
  **Home page Feature**
 
