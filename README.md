@@ -164,9 +164,10 @@ To make the site as friendly as possible, most elements have slightly rounded ed
 I have tried to create a three dimentional feeling, so I spent alot of time with borders, shadows, and gradients to create this.
 
 Hovering over the buttons makes them grow slightly larger, and more transparent.
+
 ![Example:](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/to_show_design/zoom_in_home.png)
 
-Using the design has also bee inplemented with JavaScript to confirm user interaction, for example that a wrong answer in the quiz gives the button go slighly red and the correct answer button expands.
+Design freatures were also inplemented with JavaScript to confirm user interaction, for example that a wrong answer in the quiz turns the button red and the correct answer button expands.
 
 For the bakground I chose a simple music symbols collage and filled it with my chosen background color.
 
