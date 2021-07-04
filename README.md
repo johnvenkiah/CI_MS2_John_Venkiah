@@ -563,7 +563,7 @@ User stories are tested with the features that cover them. All user stories pass
 *
 - Actual Results: *Works as intended*
 
-
+![Nav-Desktop](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/desktop/desktop_nav.png)
 
 **The Quiz Feature**
 
@@ -571,6 +571,8 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Expected Result: *Experience well designed elements with sounds and animation to appeal to user*
 - Actual Result: *Works as intended*
+
+![Quiz](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/mobile_large/mobile_large_quiz.png)
 
 **The Piano Feature**
 
@@ -580,6 +582,8 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
+![Play desktop](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/laptop/laptop_play.png)
+
 **The Learn Page Feature**
 
 - Action: *User navigates and clicks on videos to play them*
@@ -588,6 +592,7 @@ User stories are tested with the features that cover them. All user stories pass
 
 - *Works as intended* (for the people I have tested the website on too)
 
+![Learn page](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/mobile/mobile_learn_landscape.png)
 
 
 #### User story 3:
@@ -602,6 +607,8 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
+(The nav menu can be viewed on several devices in the images above)
+
 **Home Page Feature**
 
 - Action: *The user viewing and navigating within the home page on any device*
@@ -609,6 +616,8 @@ User stories are tested with the features that cover them. All user stories pass
 - Expected Result: *The design of the home page looks good on all devices*
 
 - Actual Result: *Works as intended*
+
+![Home mobile](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/mobile/mobile_home.png)
 
 **The Piano Feature**
 
@@ -618,6 +627,8 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
+![Play page](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/mobile_large/mobile_large_play.png)
+
 **The Quiz Feature**
 
 - Action: *User plays the quiz on any device*
@@ -625,6 +636,8 @@ User stories are tested with the features that cover them. All user stories pass
 - Expected Result: *The quiz elements are displayed well on all devices*
 
 - Actual Result: *Works as intended*
+
+![Quiz](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/tablet/tablet_quiz_landscape.png)
 
 **Learn Page Feature**
 
@@ -634,6 +647,10 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
+![Learn page](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/tablet/tablet_learn.png)
+
+![Learn page mobile](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/mobile/mobile_learn.png)
+
 **Contact Page Feature**
 
 - Action: *User fills in the form on any device*
@@ -641,6 +658,8 @@ User stories are tested with the features that cover them. All user stories pass
 - Expected Result: *Form is displayed properly and looks good on all devices.*
 
 - Actual Result: *Works as intended*
+
+![contact](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/mobile/mobile_contact_landscape.png)
 
 
 #### User story 4:
@@ -655,6 +674,8 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
+![](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/desktop/desktop_play.png)
+
 **The Quiz Feature**
 
 - Action: 'User interacts by clicking the buttons in the quiz
@@ -662,6 +683,10 @@ User stories are tested with the features that cover them. All user stories pass
 - Expected Result: *Website confirms and give user feedback in the form of sounds, animations and displaying new questions. This depending on whether the user has answered the question correctly or incorrectly*
 
 - Actual Result: *Works as intended*
+
+![Quiz ipad](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/screenshots_ipad/quiz_ipad.png)
+
+![Quiz mobile](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/screenshots_iphone/quiz_iphone.png)
 
 **Learn Page Feature**
 
@@ -671,13 +696,17 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-**Learn Page Feature**
+![Learn mobile](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/screenshots_iphone/learn_iphone_landscape.png)
+
+**Contact Page Feature**
 
 - Action: *User clicks on the "Send" button*
 
 - Expected Result: *The users interaction is confirmed by the website via a message below the send button, letting the user know if the message was sent or if the information in incomplete*
 
 - Actual Result: *Works as intended*
+
+![](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/mobile/mobile_contact_landscape.png)
 
 
 #### User story 5:
@@ -692,6 +721,9 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
+![Quiz mobile](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/screenshots_iphone/quiz_iphone.png)
+
+
 
 #### User story 6:
 
@@ -704,6 +736,8 @@ User stories are tested with the features that cover them. All user stories pass
 - Expected Result: *The score on the quiz page is incremented along with an animation the emphasizes this*
 
 - Actual Result: *Works as intended*
+
+
 
 #### User story 7:
 
