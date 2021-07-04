@@ -645,8 +645,8 @@ textarea {
 
 /* Styles for 404-page */
 
-#container-404 h2 {
-    font-size: 1.7em;
+#container-404 .main-logo-other-pages {
+    font-size: 2.5em;
 }
 
 #subheading-2-404 {
