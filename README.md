@@ -292,7 +292,7 @@ The modal window also displays two buttons with choices for the user; "Play Agai
 
 #### Feature 4: The Piano (Play Page)
 
-The play page has two sub-features, a miniature piano and a stave showing both the bass clef and treble clef. When the user clicks a key, the relevant note displays on the stave. The correct note is also heard when clicking it.
+The play page has two sub-features, a miniature piano and a stave showing both the bass clef and treble clef. When the user clicks a key, the relevant note displays on the stave together with the note name. The correct note is also heard when clicking it.
 
 **User stories/site-owner goals covered:**
 
