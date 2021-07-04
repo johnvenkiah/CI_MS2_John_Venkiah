@@ -193,6 +193,8 @@ ___
 
 #### Feature 1: The Navbar/Navmenu
 
+![Navbar](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/features/feature_one_navbar_landscape.png.png)
+
 This is the users way to get around the website. The navbar is part of the header, implemented by JavaScript on all pages except home, shich only consists of the buttons to navigate.
 
 As some users like to have a "home" link in the navmenu, as well as being able to get "home" by clicking the page title, users can get to the home page here by doing both.
@@ -216,6 +218,8 @@ When viewing on mobile in landscape mode, the nav-menu is displayed vertically s
 ___
 #### Feature 2: The Home Page
 
+![Home Page](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/features/feature_two_desktop.png)
+
 The Home page has three big buttons, each containing a main feature of the site; Quiz, Learn and Play. Due to the simple nature of this site, there is little more here to distract, only the main logo, the contact link at the bottom and the footer.
 
 **User stories/site-owner goals covered:**
@@ -227,7 +231,7 @@ The Home page has three big buttons, each containing a main feature of the site;
 3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens.
 
 
-#### Feature 2: The Quiz
+#### Feature 3: The Quiz
 
 The quiz is a seemingly simple feature, but with a lot of functionality. The user has 60 seconds to answer the most questions correctly.
 
@@ -286,7 +290,7 @@ The modal window also displays two buttons with choices for the user; "Play Agai
 21. Have a website that contains validated HTML, CSS and JavaScript
 
 
-#### Feature 3: The Piano (Play Page)
+#### Feature 4: The Piano (Play Page)
 
 The play page has two sub-features, a miniature piano and a stave showing both the bass clef and treble clef. When the user clicks a key, the relevant note displays on the stave. The correct note is also heard when clicking it.
 
@@ -307,7 +311,7 @@ The play page has two sub-features, a miniature piano and a stave showing both t
 21. Have a website that contains validated HTML, CSS and JavaScript
 
 
-#### Feature 4: The Learn Page
+#### Feature 5: The Learn Page
 
 Here, the user can navigate through a list of videos generated a search by the YouTube API, updating the list dynamically.
 
@@ -330,7 +334,7 @@ Users can click on a video and view it in the main viewing window, located eithe
 21. Have a website that contains validated HTML, CSS and JavaScript
 
 
-#### Feature 5: The Contact Page
+#### Feature 6: The Contact Page
 
 The "contact" page contains a simple form, where the user can fill in their name, email address and message, which they can send by clicking the submit-button.
 
@@ -349,7 +353,7 @@ The form is validated by the contact.js JavaScript file, and sent via the Email 
 21. Have a website that contains validated HTML, CSS and JavaScript
 
 
-#### Feature 6: The 404-error Page
+#### Feature 7: The 404-error Page
 
 The 404-error page is displayed when a user enters an invalid link within the website. From here, users can easily navigate to the other pages of the website.
 
@@ -366,7 +370,7 @@ The 404-error page is displayed when a user enters an invalid link within the we
 ### Features to be implemented
 ___
 
-This is a basic web application but could be expanded with all kinds of sections and functions. For example, there could be a play-by-ear section, where notes are played and the user has to answer which note. There could also be a chords-section, introducing chords and their uses in music. I am sure this platform will be expanded in the future.
+This is a basic web application but could be expanded with all kinds of sections and functions. For example, there could be a play-by-ear section, where notes are played and the user has to answer which note. There could also be a chords-section, introducing chords and their uses in music. Users could create a profile, save videos they like, compete in high scores and a lot more.
 
 ## Technologies used
 
@@ -381,7 +385,7 @@ ___
 
 ### Applications, Libraries and Platforms
 
-No libraries were used except for Google Fonts.
+No libraries or frameworks were used except for Google Fonts.
 
 - [Google Fonts](https://fonts.google.com/) - Were used for all fonts and icons in this project.
 
@@ -391,7 +395,7 @@ No libraries were used except for Google Fonts.
 
 - [Gitpod](https://gitpod.com/) - All code was written and tested with the Gitpod web-based IDE.
 
-- [Balsamiq](https://balsamiq.com/wireframes/) - Balsamiq Wireframes was used to create wireframe images of the website which you can view [here](#).
+- [Balsamiq](https://balsamiq.com/wireframes/) - Balsamiq Wireframes was used to create wireframe images of the website which you can view [here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/wireframes/all_wireframes_musical_minds.pdf).
 
 ## Validation
 
