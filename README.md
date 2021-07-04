@@ -938,7 +938,7 @@ The learn page can be viewed above. It is highly responsive, and works even on t
 
 (Images of contact page are visible above)
 
-#### User story 20:
+#### User story 21:
 
 **As a site owner, i would like to have a website that contains validated HTML, CSS and JavaScript**
 
