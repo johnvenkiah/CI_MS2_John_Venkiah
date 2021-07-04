@@ -10,7 +10,40 @@ Musical Minds is a simple website with the main goal of making learning music th
 
 ## Contents
 
-1. [Project Goals](#project-goals)
+1. [User Experience](#project-goals)
+    1. [Strategy Plane](#strategy-plane)
+        1. [Project Goals](#project-goals)
+        2. [Future Goals](#future-goals)
+        3. [User Goals][#user-goals]
+
+    2. [Structure](#structure)
+        1. [Home](#home)
+        2. [Quiz](#quiz)
+        3. [Learn](#learn)
+        4. [Play](#play)
+        5. [Contact](#contact)
+        6. [404](#404)
+
+    3. [Scope](#scope)
+        1. [User Stories](#user-stories)
+        2. [Site Owner Goals](#site-owner-goals)
+    
+    4. [Skeleton](#skeleton)
+        1. [Wireframes](#wireframes)
+
+    5. [Surface](#surface)
+        1. [Design Choices](#design-choices)
+        2. [Fonts](#fonts)
+        3. [Colors](#colors)
+
+2. [Features](#features)
+    1. [Existing Features](#existing-features)
+        1. [Feature 1](#feature-1)
+        2. [Feature 2](#feature-2)
+        3. [Feature 3](#feature-3)
+
+    2. 
+
 
 2. [User Goals](#user-goals)
 
@@ -241,11 +274,13 @@ The quiz has several sub-features of its own:
 
 - The staffbox
 
-
+![Staffbox](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/features/staffbox.png)
 
 Displays an image of the note in question for the user to answer. When answered, the image is updated to display the next note in question.
 
 - The answers box
+
+
 
 On opening the page, the answers box contains one button: "Lets Play!"
 
