@@ -484,9 +484,9 @@ Below are linked screenshots of all web pages on five different sizes.
 
 Testing was also done on an iPhone XS and an iPad Pro 10.5"
 
-[ADD LINK HERE](#) are screenshots from iPhone XS running Safari and Chrome.
+[ADD LINK HERE](#) are screenshots from iPhone XS
 
-[ADD LINK HERE](#) are screenshots from iPad Pro running Safari and Chrome.
+[ADD LINK HERE](#) are screenshots from iPad Pro
 
 **Tests made on devices**
 
