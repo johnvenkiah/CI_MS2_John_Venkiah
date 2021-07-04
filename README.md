@@ -737,7 +737,7 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-
+![score](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/features/score.png)
 
 #### User story 7:
 
@@ -750,6 +750,8 @@ User stories are tested with the features that cover them. All user stories pass
 - Expected Result: *The clock starts ticking down from 60 to 0*
 
 - Actual Result: *Works as intended*
+
+![timer](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/features/timer.png)
 
 #### User story 8
 
@@ -773,6 +775,7 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
+![modal](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/tablet/tablet_quiz_modal.png)
 
 #### User story 10:
 
@@ -786,6 +789,8 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
+(The piano can be viewed in the images above)
+
 #### User story 11:
 
 **As a user, i would like to be able to play the notes on the computer keyboard**
@@ -797,6 +802,8 @@ User stories are tested with the features that cover them. All user stories pass
 - Expected Result: *The note played is both heard and seen on the screen*
 
 - Actual Result: *Works as intended*
+
+(The piano can be viewed in the images above)
 
 #### User story 12:
 
@@ -810,6 +817,8 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
+![learn](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/laptop/laptop_learn.png)
+
 #### User story 13:
 
 **As a user, i would like to be able to get in touch with the site owner**
@@ -822,6 +831,8 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
+![Contact tablet](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/tablet/tablet_contact_landscape.png)
+
 #### User story 14:
 
 **As a user, i would like to view an 404-error page if I have entered an invalid url within the website**
@@ -833,6 +844,8 @@ User stories are tested with the features that cover them. All user stories pass
 - Expected Result: *The user is taken to the 404-error page, where user can navigate home or elsewhere on the website
 *
 - Actual Result: *Works as intended*
+
+![404](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/screenshots_iphone/404_iphone.png)
 
 </details>
 
@@ -853,6 +866,8 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
+![home iphone](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/screenshots_iphone/home_iphon.png)
+
 #### User story 16:
 
 **As a site owner, i would like to display a menu in a navigation bar or popout menu at the top of the page**
@@ -864,6 +879,8 @@ User stories are tested with the features that cover them. All user stories pass
 - Expected Result: *The nav menu appears (if it isn't already visible as on larger screens)*
 
 - Actual Result: *Works as intended*
+
+![nav menu](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/screenshots_iphone/navmenu_iphone.png)
 
 #### User story 17:
 
@@ -877,6 +894,8 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
+(Quiz images are visible above)
+
 #### User story 18:
 
 **As a site owner, i would like to display a learn page containing the results of a YouTube search dynamically updated, using YouTube API**
@@ -888,6 +907,8 @@ User stories are tested with the features that cover them. All user stories pass
 - Expected Result: *The Videos list is dynamically updated with YouTube API and loaded into the videos section*
 
 - Actual Result: *Works as intended*
+
+The learn page can be viewed above. It is highly responsive, and works even on the smallest devices.
 
 #### User story 19:
 
@@ -901,6 +922,8 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
+(Images from play page are visible above)
+
 #### User story 20:
 
 **As a site owner, i would like to be able to be contacted should the user wish to do so, through an emailing service to my private email address**
@@ -913,6 +936,8 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
+(Images of contact page are visible above)
+
 #### User story 20:
 
 **As a site owner, i would like to have a website that contains validated HTML, CSS and JavaScript**
@@ -924,6 +949,8 @@ User stories are tested with the features that cover them. All user stories pass
 - Expected Result: *The website passes all valdation tests*
 
 - Actual Result: *All tests passed without errors*
+
+Validation results can be seen [here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/tree/master/docs/validation)
 
 </details>
 
