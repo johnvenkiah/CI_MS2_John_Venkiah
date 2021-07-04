@@ -130,7 +130,7 @@ ___
 
 #### Site owner goals
 
-The main goal is to create a web app that can be used for amusement but also in the early stages of music education.
+The main goal is to create a web app that can be used for educational and amusement purposes.
 
 ##### As a site owner I would like to:
 
@@ -151,7 +151,7 @@ Wireframes like the one below were made for both mobile device, tablet and deskt
 
 ![Screenshot:](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/wireframes/wireframes_screenshot_home_mobile.png)
 
-[Click here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/wireframes/all_wireframes_musical_minds.pdf) to view them
+[Click here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/wireframes/all_wireframes_musical_minds.pdf) to view them.
 
 ### Surface
 ___
@@ -361,9 +361,6 @@ The 404-error page is displayed when a user enters an invalid link within the we
 21. Have a website that contains validated HTML, CSS and JavaScript
 
 
-#### Feature 7: The Contact Page
-
-Finally, the "contact" page contains a simple form, where the user can fill in their name, email address and query, which they can send by clicking the submit-button.
 
 ### Features to be implemented
 ___
