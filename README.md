@@ -455,7 +455,9 @@ Testing was also done on an iPhone XS and an iPad Pro 10.5"
 - Modal window 
 - Piano plays and displays notes with mouse, screen tap or kwyboard
 - Learn page displays videos and videos are viewable
-- 404 page 
+- 404 page
+
+Musical Minds passed all tests made on all devices, with a few minor acceptances noted in [bugs]#bugs)
 
 
 ## Testing of User Stories/site owner goals
