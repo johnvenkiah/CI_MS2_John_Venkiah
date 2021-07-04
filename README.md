@@ -38,40 +38,29 @@ Musical Minds is a simple website with the main goal of making learning music th
 
 2. [Features](#features)
     1. [Existing Features](#existing-features)
-        1. [Feature 1 The Navigation Menu](#feature-1-the-navigation-menu)
-        2. [Feature 2](#feature-2)
-        3. [Feature 3](#feature-3)
+        1. [Feature 1: The Navigation Menu](#feature-1-the-navigation-menu)
+        2. [Feature 2: The Home Page](#feature-2-the-home-page)
+        3. [Feature 3: The Quiz](#feature-3-the-quiz)
+        4. [Feature 4: The Piano](#feature-4-the-piano)
+        5. [Feature 5: The Learn Page](#feature-5-the-learn-page)
+        6. [Feature 6: The Contact Page](#feature-6-the-contact-page))
+        7. [Feature 7: The 404-Error Page](#feature-7-the-404-error-page)
+    2. [Features To Be Implemented](#features-to-be-implemented)
+3. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Applications, Libraries and Platforms](#applications-libraries-and-platforms)
 
-    2. 
+4. [Validation](#validation)
 
 
-2. [User Goals](#user-goals)
 
-3. [User Stories](#user-stories)
-
-4. [Site Owner Goals](#site-owner-goals)
-
-5. [User Requirements and Expectations](#user-requirements-and-expectations)
-
-6. [Design choices](#design-choices)
-
-7. [Structure](#structure)
-
-8. [Wireframes](#wireframes)
-
-9. [Technologies used](#technologies-used)
-
-10. [Features](#features)
-
-11. [Validation](#validation)
-
-12. [Testing of User Stories](#testing-of-user-stories)
+<!-- 12. [Testing of User Stories](#testing-of-user-stories)
 
 13. [Bugs](#bugs)
 
 14. [Deployment](#deployment)
 
-15. [Acknowledgements](#acknowledgements)
+15. [Acknowledgements](#acknowledgements) -->
 
 ## User Experience
 
