@@ -205,8 +205,11 @@ When viewing on mobile in landscape mode, the nav-menu is displayed vertically s
 **User stories/site-owner goals covered:**
 
 1. Easily navigate the websites pages via the menu or links provided
+
 3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
+
 4. Get responses and confirmation from the website by my interactions with it
+
 15. Display a menu in a navigation bar or popout menu at the top of the page
 
 ___
@@ -217,7 +220,9 @@ The Home page has three big buttons, each containing a main feature of the site;
 **User stories/site-owner goals covered:**
 
 1. Easily navigate the websites pages via the menu or links provided
+
 2. Be presented with a well designed, user-friendly interface
+
 3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens.
 
 
@@ -258,15 +263,25 @@ The modal window also displays two buttons with choices for the user; "Play Agai
 **User stories/site-owner goals covered:**
 
 2. Be presented with a well designed, user-friendly interface
+
 3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
+
 4. Get responses and confirmation from the website by my interactions with it
+
 5. Be able to play a quiz on note names, symbols and note lengths
+
 6. Get points if I answer a question right
+
 7. See a timer ticking down from one minute
+
 8. See an end game screen alerting me of my score and how the quiz went
+
 9. Be able to choose to close the end game screen or play again
+
 16. Display a menu in a navigation bar or popout menu at the top of the page
-17. Display a quiz for users to test their 
+
+17. Display a quiz for users to test their knowledge
+
 21. Have a website that contains validated HTML, CSS and JavaScript
 
 
@@ -277,11 +292,17 @@ The play page has two sub-features, a miniature piano and a stave showing both t
 **User stories/site-owner goals covered:**
 
 2. Be presented with a well designed, user-friendly interface
+
 3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
+
 4. Get responses and confirmation from the website by my interactions with it
+
 10. Be able to play notes on a piano on the screen and see which tone is being played
+
 11. Be able to play the notes on the computer keyboard
+
 19. Display a page where users can play the piano and view the note played
+
 21. Have a website that contains validated HTML, CSS and JavaScript
 
 
@@ -296,21 +317,49 @@ Users can click on a video and view it in the main viewing window, located eithe
 **User stories/site-owner goals covered:**
 
 2. Be presented with a well designed, user-friendly interface
+
 3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
+
 4. Get responses and confirmation from the website by my interactions with it
+
 12. View videos to learn about music theory and sight reading
+
 18. Display a learn page containing the results of a YouTube search dynamically updated, using YouTube API
+
 21. Have a website that contains validated HTML, CSS and JavaScript
 
 
 #### Feature 5: The Contact Page
 
-Finally, the "contact" page contains a simple form, where the user can fill in their name, email address and query, which they can send by clicking the submit-button.
+The "contact" page contains a simple form, where the user can fill in their name, email address and message, which they can send by clicking the submit-button.
+
+The form is validated by the contact.js JavaScript file, and sent via the Email web service [EmailJS](https://www.emailjs.com/) to my email inbox.
+
+**User stories/site-owner goals covered:**
+
+3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
+
+4. Get responses and confirmation from the website by my interactions with it
+
+13. Get in touch with the site owner
+
+20. Be able to be contacted should the user wish to do so, through an emailing service to my private email address
+
+21. Have a website that contains validated HTML, CSS and JavaScript
 
 
 #### Feature 6: The 404-error Page
 
-Finally, the "contact" page contains a simple form, where the user can fill in their name, email address and query, which they can send by clicking the submit-button.
+The 404-error page is displayed when a user enters an invalid link within the website. From here, users can easily navigate to the other pages of the website.
+
+**User stories/site-owner goals covered:**
+
+3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
+
+14. View an errors page if I have entered an invalid url within the website
+
+21. Have a website that contains validated HTML, CSS and JavaScript
+
 
 #### Feature 7: The Contact Page
 
