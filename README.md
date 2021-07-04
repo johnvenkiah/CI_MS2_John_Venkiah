@@ -468,61 +468,61 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 **Navmenu**
 
- - Action: Click on the links at the top of all pages other than Home on large screens, on mobile, click on the hamburger button
+ - Action: *Click on the links at the top of all pages other than Home on large screens, on mobile, click on the hamburger button*
 
- - Expected result: To get to the page clicked on by user
+ - Expected result: *To get to the page clicked on by user*
 
- - Actual result: Works as intended
+ - Actual result: *Works as intended*
 
  **Home page**
 
-- Action: Click on any of the buttons or the contact link below | To get to the page clicked on
+- Action: *Click on any of the buttons or the contact link below | To get to the page clicked on*
 
-- Expected result: To get to the page clicked on
+- Expected result: *To get to the page clicked on*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 
 2. **Be presented with a well designed, user-friendly interface**
 
 **Home page**
 
-- Action: General navigation, and experience of the home page
+- Action: *General navigation, and experience of the home page*
 
-- Expected Result: Page feels well balanced and attractive to use
+- Expected Result: *Page feels well balanced and attractive to use*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 **Nav Menu**
 
-- Action: The clicking and navigating in the nav menu
+- Action: *The clicking and navigating in the nav menu*
 
-- Expected Result: Animations, positioning and feel of the menu appeal to user
-
-- Actual Results: Works as intended
+- Expected Result: *Animations, positioning and feel of the menu appeal to user
+*
+- Actual Results: *Works as intended*
 
 **The Quiz**
 
-- Action: Clicking "Let's Play!"
+- Action: *Clicking "Let's Play!"*
 
-- Expected Result: Experience well designed elements with sounds and animation to appeal to user
-- Actual Result: Works as intended
+- Expected Result: *Experience well designed elements with sounds and animation to appeal to user*
+- Actual Result: *Works as intended*
 
 **The Piano**
 
 - Action: Playing keys on the piano by clicking the keys or playing on the keyboard
 
-- Expected Result: User is informed by "keys" on screen which keys on computer keyboard to press to play piano. Piano notes played are heard and seen.
+- Expected Result: *User is informed by "keys" on screen which keys on computer keyboard to press to play piano. Piano notes played are heard and seen.*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 **The Learn Page**
 
-- Action: User navigates and clicks on videos to play them
+- Action: *User navigates and clicks on videos to play them*
 
-- Expected Result: User enjoys the layout and content on the learn page
+- Expected Result: *User enjoys the layout and content on the learn page*
 
-- Works as intended (for the people I have tested the website on too)
+- *Works as intended* (for the people I have tested the website on too)
 
 
 
@@ -530,175 +530,175 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 **Nav Menu**
 
-- Action: The user viewing and navigating in the nav menu on any device
+- Action: *The user viewing and navigating in the nav menu on any device*
 
-- Expected Result: The menu being displayed well, and design appealing
+- Expected Result: *The menu being displayed well, and design appealing*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 **Home Page**
 
-- Action: The user viewing and navigating within the home page on any device
+- Action: *The user viewing and navigating within the home page on any device*
 
-- Expected Result: The design of the home page looks good on all devices
+- Expected Result: *The design of the home page looks good on all devices*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 **The Piano**
 
-- Action: User plays the piano on any device
+- Action: *User plays the piano on any device*
 
-- Expected Result: The design of the piano and displayed notes is well balanced on all devices
+- Expected Result: *The design of the piano and displayed notes is well balanced on all devices*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 **The Quiz**
 
-- Action: User plays the quiz on any device
+- Action: *User plays the quiz on any device*
 
-- Expected Result: The quiz elements are displayed well on all devices
+- Expected Result: *The quiz elements are displayed well on all devices*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 **Learn Page**
 
-- Action: User navigates and watches videos on any device
+- Action: *User navigates and watches videos on any device*
 
-- Expected Result: The design of the video sections adapt to the screens viewing the page.
+- Expected Result: *The design of the video sections adapt to the screens viewing the page.*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 **Contact Page**
 
-- Action: User fills in the form on any device
+- Action: *User fills in the form on any device*
 
-- Expected Result: Form is displayed properly and looks good on all devices.
+- Expected Result: *Form is displayed properly and looks good on all devices.*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 4. **Get responses and confirmation from the website by my interactions with it**
 
 **The Piano**
 
-- Action: User interacts by playing keys on the piano
+- Action: *User interacts by playing keys on the piano*
 
-- Expected Result: notes are heard and seen from the website, depending on user input
+- Expected Result: *Notes are heard and seen from the website, depending on user input*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 **The Quiz**
 
-- Action: User interacts by clicking the buttons in the quiz
+- Action: 'User interacts by clicking the buttons in the quiz
+'
+- Expected Result: *Website confirms and give user feedback in the form of sounds, animations and displaying new questions. This depending on whether the user has answered the question correctly or incorrectly*
 
-- Expected Result: Website confirms and give user feedback in the form of sounds, animations and displaying new questions. This depending on whether the user has answered the question correctly or incorrectly
-
-- Actual Result: Works as intended
-
-**Learn Page**
-
-- Action: User interacts by navigating the videos section
-
-- Expected Result: The main window displays the video with data the user has clicked on
-
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 **Learn Page**
 
-- Action: User clicks on the "Send" button
+- Action: *User interacts by navigating the videos section*
 
-- Expected Result: The users interaction is confirmed by the website via a message below the send button, letting the user know if the message was sent or if the information in incomplete
+- Expected Result: *The main window displays the video with data the user has clicked on*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
+
+**Learn Page**
+
+- Action: *User clicks on the "Send" button*
+
+- Expected Result: *The users interaction is confirmed by the website via a message below the send button, letting the user know if the message was sent or if the information in incomplete*
+
+- Actual Result: *Works as intended*
 
 
 5. **Be able to play a quiz on note names, symbols and note lengths**
 
 **The Quiz**
 
-- Action: User navigates to the Quiz page and clicks on the "Let's Play!" button
+- Action: *User navigates to the Quiz page and clicks on the "Let's Play!" button*
 
-- Expected Result: The quiz begins and the user answers by clicking one of four buttons
+- Expected Result: *The quiz begins and the user answers by clicking one of four buttons*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 6. **Get points if I answer a question right**
 
 **The Quiz**
 
-- Action: User answers a question correctly
+- Action: *User answers a question correctly*
 
-- Expected Result: The score on the quiz page is incremented along with an animation the emphasizes this
+- Expected Result: *The score on the quiz page is incremented along with an animation the emphasizes this*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 7. **See a timer ticking down from one minute**
 
 **The Quiz**
 
-- Action: User play quiz
+- Action: *User play quiz*
 
-- Expected Result: The clock starts ticking down from 60 to 0
+- Expected Result: *The clock starts ticking down from 60 to 0*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 8. **See an end game screen alerting me of my score and how the quiz went**
 
 **The Quiz**
 
-- Action: User play quiz, which then ends
+- Action: *User play quiz, which then ends*
 
-- Expected Result: A modal covers the screen ending the game
+- Expected Result: *A modal covers the screen ending the game*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 9. **Be able to choose to close the end game screen or play again**
 
-- Action: User play quiz, which then ends
+- Action: *User play quiz, which then ends*
 
-- Expected Result: The modal window contains two buttons, one to close and one to play again.
+- Expected Result: *The modal window contains two buttons, one to close and one to play again.*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 
 10. **Be able to play notes on a piano on the screen and see which tone is being played**
 
 **The Piano**
 
-- Action: User opens the play page, and plays on the piano keys
+- Action: *User opens the play page, and plays on the piano keys*
 
-- Expected Result: The note played is both heard and seen on the screen
+- Expected Result: *The note played is both heard and seen on the screen*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 11. **Be able to play the notes on the computer keyboard**
 
 **The Piano**
 
-- Action: User opens the play page, and triggers the piano keys with the keyboard
+- Action: *User opens the play page, and triggers the piano keys with the keyboard*
 
-- Expected Result: The note played is both heard and seen on the screen
+- Expected Result: *The note played is both heard and seen on the screen*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 12. **View videos to learn about music theory and sight reading**
 
 **Learn Page**
 
-- Action: User opens the learn page, and clicks on a video to view it
+- Action: *User opens the learn page, and clicks on a video to view it*
 
-- Expected Result: The video that the user clicks on is viewed in the main window
+- Expected Result: *The video that the user clicks on is viewed in the main window*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 13. **Get in touch with the site owner**
 
 **Contact Page**
 
-- Action: User opens the learn page, and clicks on a video to view it
+- Action: *User opens the learn page, and clicks on a video to view it*
 
-- Expected Result: The video that the user clicks on is viewed in the main window
+- Expected Result: *The video that the user clicks on is viewed in the main window*
 
-- Actual Result: Works as intended
+- Actual Result: *Works as intended*
 
 14. **View an errors page if I have entered an invalid url within the website**
 
@@ -706,11 +706,24 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 - Action: User enters an invalid URL within the website
 
-- Expected Result: The user is taken to the 404-error page, where user can navigate home or elsewhere on the website
+- Expected Result: *The user is taken to the 404-error page, where user can navigate home or elsewhere on the website
+*
+- Actual Result: *Works as intended*
 
-- Actual Result: Works as intended
+### Testing of site owner goals
 
-### Testing 
+15. **Display simple clear options on the home page**
+
+**Home page**
+
+- Action: *User visits the home page*
+
+- Expected Result: *The options to navigate all the pages of the site are there and clear*
+
+- Actual Result: *Works as intended*
+
+16. **Display a menu in a navigation bar or popout menu at the top of the page**
+
 
 
 | Feature       | Action            | Expected result   | Actual result    |
