@@ -292,6 +292,8 @@ The modal window also displays two buttons with choices for the user; "Play Agai
 
 #### Feature 4: The Piano (Play Page)
 
+![The Piano](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/features/feature_4_piano_desktop.png)
+
 The play page has two sub-features, a miniature piano and a stave showing both the bass clef and treble clef. When the user clicks a key, the relevant note displays on the stave together with the note name. The correct note is also heard when clicking it.
 
 **User stories/site-owner goals covered:**
@@ -313,8 +315,9 @@ The play page has two sub-features, a miniature piano and a stave showing both t
 
 #### Feature 5: The Learn Page
 
-Here, the user can navigate through a list of videos generated a search by the YouTube API, updating the list dynamically.
 
+
+Here, the user can navigate through a list of videos generated a search by the YouTube API, updating the list dynamically.
 In the list, title, thumbnail and decription data is displayed for each video in the list.
 
 Users can click on a video and view it in the main viewing window, located either to the left of the screen or at the top for mobile devices in portrait mode.
