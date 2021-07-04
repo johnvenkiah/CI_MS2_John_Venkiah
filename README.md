@@ -462,7 +462,12 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 ## Testing of User Stories/site owner goals
 
+User stories are tested with the features that cover them. All user stories passed the tests.
+
 ### Testing of user stories
+
+<details>
+  <summary>View user story tests</summary>
 
 1. **Easily navigate the websites pages via the menu or links provided**
 
@@ -712,6 +717,11 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 ### Testing of site owner goals
 
+</details>
+
+<details>
+  <summary>View siteowner goal tests</summary>
+
 15. **Display simple clear options on the home page**
 
 **Home page**
@@ -782,101 +792,7 @@ Musical Minds passed all tests made on all devices, with a few minor acceptances
 
 - Actual Result: *All tests passed*
 
-
-| Feature       | Action            | Expected result   | Actual result    |
-| --------------| ----------------- | ----------------- | ---------------- |
-
-
-6. Get points if I answer a question right
-
-| Feature       | Action            | Expected result   | Actual result    |
-| --------------| ----------------- | ----------------- | ---------------- |
-
-
-7. See a timer ticking down from one minute
-
-| Feature       | Action            | Expected result   | Actual result    |
-| --------------| ----------------- | ----------------- | ---------------- |
-
-
-8. See an end game screen alerting me of my score and how the quiz went
-
-| Feature       | Action            | Expected result   | Actual result    |
-| --------------| ----------------- | ----------------- | ---------------- |
-
-
-9. Be able to choose to close the end game screen or play again
-
-| Feature       | Action            | Expected result   | Actual result    |
-| --------------| ----------------- | ----------------- | ---------------- |
-
-
-
-
-| Feature       | Action            | Expected result   | Actual result    |
-| --------------| ----------------- | ----------------- | ---------------- |
-
-
-
-
-| Feature       | Action            | Expected result   | Actual result    |
-| --------------| ----------------- | ----------------- | ---------------- |
-
-
-
-
-| Feature       | Action            | Expected result   | Actual result    |
-| --------------| ----------------- | ----------------- | ---------------- |
-
-
-
-
-| Feature       | Action            | Expected result   | Actual result    |
-| --------------| ----------------- | ----------------- | ---------------- |
-
-
-
-
-| Feature       | Action            | Expected result   | Actual result    |
-| --------------| ----------------- | ----------------- | ---------------- |
-
-
-### Testing of site owner goals
-
-15. Display simple clear options on the home page
-
-| Feature       | Action            | Expected result   | Actual result    |
-| --------------| ----------------- | ----------------- | ---------------- |
-
-16. Display a menu in a navigation bar or popout menu at the top of the page
-
-| Feature       | Action            | Expected result   | Actual result    |
-| --------------| ----------------- | ----------------- | ---------------- |
-
-17. Display a quiz for users to test their knowledge
-
-| Feature       | Action            | Expected result   | Actual result    |
-| --------------| ----------------- | ----------------- | ---------------- |
-
-18. Display a learn page containing the results of a YouTube search dynamically updated, using YouTube API
-
-| Feature       | Action            | Expected result   | Actual result    |
-| --------------| ----------------- | ----------------- | ---------------- |
-
-19. Display a page where users can play the piano and view the note played
-
-| Feature       | Action            | Expected result   | Actual result    |
-| --------------| ----------------- | ----------------- | ---------------- |
-
-20. Be able to be contacted should the user wish to do so, through an emailing service to my private email address
-
-| Feature       | Action            | Expected result   | Actual result    |
-| --------------| ----------------- | ----------------- | ---------------- |
-
-21. Have a website that contains validated HTML, CSS and JavaScript
-
-| Feature       | Action            | Expected result   | Actual result    |
-| --------------| ----------------- | ----------------- | ---------------- |
+</details>
 
 ### Bugs
 
