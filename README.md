@@ -38,7 +38,7 @@ Musical Minds is a simple website with the main goal of making learning music th
 
 2. [Features](#features)
     1. [Existing Features](#existing-features)
-        1. [Feature 1: The Navbar/Navmenu](#feature-1-the-navbar-navmenu)
+        1. [Feature 1 The Navigation Menu](#feature-1-the-navigation-menu)
         2. [Feature 2](#feature-2)
         3. [Feature 3](#feature-3)
 
@@ -224,7 +224,7 @@ Finally, smaller text like subheadings and paragraphs have a peachy beige color 
 ### Existing features
 ___
 
-#### Feature 1: The Navbar/Navmenu
+#### Feature 1 The Navigation Menu
 
 ![Navbar](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/features/feature_one_navbar_landscape.png)
 
