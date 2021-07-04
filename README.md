@@ -10,8 +10,8 @@ Musical Minds is a simple website with the main goal of making learning music th
 
 ## Contents
 
-1. [User Experience](#project-goals)
-    1. [Strategy Plane](#strategy-plane)
+1. [User Experience Design](#user-experience-design)
+    1. [Strategy](#strategy)
         1. [Project Goals](#project-goals)
         2. [Future Goals](#future-goals)
         3. [User Goals](#user-goals)
@@ -43,7 +43,7 @@ Musical Minds is a simple website with the main goal of making learning music th
         3. [Feature 3: The Quiz](#feature-3-the-quiz)
         4. [Feature 4: The Piano](#feature-4-the-piano)
         5. [Feature 5: The Learn Page](#feature-5-the-learn-page)
-        6. [Feature 6: The Contact Page](#feature-6-the-contact-page))
+        6. [Feature 6: The Contact Page](#feature-6-the-contact-page)
         7. [Feature 7: The 404-Error Page](#feature-7-the-404-error-page)
     2. [Features To Be Implemented](#features-to-be-implemented)
 3. [Technologies Used](#technologies-used)
@@ -51,20 +51,30 @@ Musical Minds is a simple website with the main goal of making learning music th
     2. [Applications, Libraries and Platforms](#applications-libraries-and-platforms)
 
 4. [Validation](#validation)
+    1. [HTML validation](#html-validation)
+    2. [CSS validation](#css-validation)
+    3. [JavaScript validation](#javascript-validation)
+    4. [Accessibility](#accessibility)
+    5. [Performance](#performance)
+    6. [Devices](#devices)
 
+4. [Testing of User Stories/Site Owner Goals(testing-of-user-stories/site-owner-goals)
+    1. Testing of User Stories
+    2. Testing of Site Owner Goals
 
+5. [Bugs](#bugs)
 
-<!-- 12. [Testing of User Stories](#testing-of-user-stories)
+6. [Deployment](#deployment)
+    1. [GitHub Pages](#github-pages)
+    2. [Forking the GitHub Repository](#forking-the-github-repository)
+    3. [Making a Local Clone](#making-a-local-clone)
+    4. [YouTube API](#youtube-api)
+    5. [EmailJS](#emailjs)
+7. [Credits](#credits)
 
-13. [Bugs](#bugs)
+## User Experience Design
 
-14. [Deployment](#deployment)
-
-15. [Acknowledgements](#acknowledgements) -->
-
-## User Experience
-
-### Strategy Plane
+### Strategy
 ___
 
 #### Project Goals
@@ -434,15 +444,11 @@ No libraries or frameworks were used except for Google Fonts.
 
 ### HTML Validation
 
-All pages passed the [W3C HTML Validation](https://validator.w3.org/) tests, and can be viewed [here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/tree/master/docs/validation/w3c/html)
-
-I received 2 warnings on learn.html, to add a headed tag to elements, which in fact are added but from the JavaScript file linked in the html.
-
-![Warnings html validation](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/w3c/html/w3c_html_learn.png)
+All pages passed the [W3C HTML Validation](https://validator.w3.org/) tests with 0 errors, and can be viewed [here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/tree/master/docs/validation/w3c/html)
 
 ### CSS Validation
 
-The CSS on the website passed the [W3C CSS Jigsaw](https://jigsaw.w3.org/css-validator/) validation:
+The CSS on the website passed the [W3C CSS Jigsaw](https://jigsaw.w3.org/css-validator/) validation with 0 errors:
 
 ![Results from CSS-validation](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/validation/w3c/css_jigsaw/w3c_css_jigsaw.png)
 
@@ -498,7 +504,7 @@ Testing was also done on an iPhone XS and an iPad Pro 10.5"
 Musical Minds passed all tests made on all devices, with a few minor acceptances noted in [bugs]#bugs)
 
 
-## Testing of User Stories/site owner goals
+## Testing of User Stories/Site Owner Goals
 
 User stories are tested with the features that cover them. All user stories passed the tests.
 
