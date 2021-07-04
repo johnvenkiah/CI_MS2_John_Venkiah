@@ -1257,11 +1257,10 @@ textarea {
     }
 
     #container-404 #contact-link {
-        position: absolute;
+        position: relative;
         width: 30%;
         left: 50%;
-        bottom: 10%;
-        margin-left: -15%;
+        margin: 10% auto 10% -15%;
     }
 }
 

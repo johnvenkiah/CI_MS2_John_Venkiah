@@ -374,6 +374,20 @@ Testing was also done on an iPhone XS and an iPad Pro 10.5"
 
 [ADD LINK HERE](#) are screenshots from iPad Pro running Safari and Chrome.
 
+**Tests made on devices**
+
+- Nav link works and is displayed as intended
+- All buttons and links on all pages work and link to the correct source
+- All sizes of elements are appropriate and no elements appear on top of each other
+- Width is set accordingly so no sideways scrolling bug is there in portrait mode
+- Animations, colors and fonts appear as they should
+- Quiz functions as intended, with sounds and functionality
+- Modal window 
+- Piano plays and displays notes with mouse, screen tap or kwyboard
+- Learn page displays videos and videos are viewable
+- 404 page 
+
+
 ## Testing of User Stories/site owner goals
 
 ### Testing of user stories
@@ -496,10 +510,10 @@ Testing was also done on an iPhone XS and an iPad Pro 10.5"
 | Feature       | Action            | Expected result   | Actual result    |
 | --------------| ----------------- | ----------------- | ---------------- |
 
-<details>
-  <summary>Bugs</summary>
-  
 ### Bugs
+
+<details>
+  <summary>View bugs here</summary>
 
  - Bug: iPhone sometimes cuts off the beginning of the sound effects played on the quiz page, and they are sometimes not heard.
  - Fix: Tried to downsize to smaller samples. Still same problem. No fix yet.
