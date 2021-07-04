@@ -838,6 +838,9 @@ User stories are tested with the features that cover them. All user stories pass
 - Bug: [Cohort warning](https://github.blog/changelog/2021-04-27-github-pages-permissions-policy-interest-cohort-header-added-to-all-pages-sites/) apparently to all GitHub Pages.
 - Fix: none.
 
+- Bug: Loading videos in iframes producing warnings about adding non-passive event listeners to scroll blocking 'touchstart' event. These listeners are in a base.js JavaScript file that is linked in the iframe, and I have not found a fix for this.
+Fix: none.
+
 </details>
 
 
@@ -878,7 +881,34 @@ To make a clone, or 'Fork' this repository, follow the steps below.
 
 ### YouTube API
 
+Here's how you can set up your own API:
+
+1. Login or create a Google account and navigate to https://console.cloud.google.com/
+2. Create a new Project by clicking on the New Project icon
+3. Add Project Name
+4. Create a credential (API-key) for the project
+5. Restrict the API to the websites that will be using them to prevent misuse
+6. Navigate to https://developers.google.com/youtube/v3
+7. Click on "Search for content" (if it is a search you want to perform")
+8. Click the relevant use case (list (by keyword) was my choice)
+9. Go to the bottom of the page and enter the search information for your needs.
+10. Click "execute" or "show code"
+11. copy the URL at the top of the page
+12. Perform a GET or Fetch request in JavaScript to the URL, and enter the API key in the space implied.
+13. Add code to use results!
+
+
+
 ### EmailJS
+
+Here's how to make use of EmailjS
+
+1. Create an account at https://www.emailjs.com/
+2. Click "add new service" and enter the email provider of your choice
+3. Create an email-template
+4. Use the example code given on the website or use your own in your JavaScript file
+5. Use your Servide ID in services, and template ID the template you want to use.
+6. Done!
 
 
 
