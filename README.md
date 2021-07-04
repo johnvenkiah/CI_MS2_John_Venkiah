@@ -518,8 +518,13 @@ Testing was also done on an iPhone XS and an iPad Pro 10.5"
  - Bug: iPhone sometimes cuts off the beginning of the sound effects played on the quiz page, and they are sometimes not heard.
  - Fix: Tried to downsize to smaller samples. Still same problem. No fix yet.
 
+- Bug: Contact link appears above other text on 404 page
+- Fix: Make link position relative so it is scrollable to see
+
+![Contact link bug](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/errors/Screenshot%202021-06-23%20at%2020.07.35.png)
+
 - Bug: Contact link appearing on top of button on home page.
-- Fix: change dimensions of buttons and button container, home page.
+- Fix: Change dimensions of buttons and button container, home page.
 
 - Bug: Red Shadow barely visible for wrong answer animation.
 - Fix: Change so bakcground color and font color are red instead when answer is wrong.
