@@ -158,7 +158,7 @@ ___
 11. Be able to play the notes on the computer keyboard
 12. View videos to learn about music theory and sight reading
 13. Get in touch with the site owner
-14. View an errors page if I have entered an invalid url within the website
+14. View a 404-error page if I have entered an invalid url within the website
 
 #### Site owner goals
 
@@ -484,9 +484,9 @@ Below are linked screenshots of all web pages on five different sizes.
 
 Testing was also done on an iPhone XS and an iPad Pro 10.5"
 
-[ADD LINK HERE](#) are screenshots from iPhone XS
+[Here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/tree/master/docs/screenshots/screenshots_iphone) are screenshots from iPhone XS
 
-[ADD LINK HERE](#) are screenshots from iPad Pro
+[Here](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/tree/master/docs/screenshots/screenshots_ipad) are screenshots from iPad Pro
 
 **Tests made on devices**
 
@@ -501,7 +501,7 @@ Testing was also done on an iPhone XS and an iPad Pro 10.5"
 - Learn page displays videos and videos are viewable
 - 404 page
 
-Musical Minds passed all tests made on all devices, with a few minor acceptances noted in [bugs]#bugs)
+Musical Minds passed all tests made on all devices, with a few minor acceptances noted in [bugs](#bugs)
 
 
 ## Testing of User Stories/Site Owner Goals
@@ -513,9 +513,11 @@ User stories are tested with the features that cover them. All user stories pass
 <details>
   <summary>View user story tests</summary>
 
-1. **Easily navigate the websites pages via the menu or links provided**
+#### User story 1:
 
-**Navmenu**
+**As a user, i would like to easily navigate the websites pages via the menu or links provided**
+
+**Navmenu Feature**
 
  - Action: *Click on the links at the top of all pages other than Home on large screens, on mobile, click on the hamburger button*
 
@@ -523,7 +525,7 @@ User stories are tested with the features that cover them. All user stories pass
 
  - Actual result: *Works as intended*
 
- **Home page**
+ **Home page Feature**
 
 - Action: *Click on any of the buttons or the contact link below | To get to the page clicked on*
 
@@ -532,9 +534,11 @@ User stories are tested with the features that cover them. All user stories pass
 - Actual Result: *Works as intended*
 
 
-2. **Be presented with a well designed, user-friendly interface**
+#### User story 2:
 
-**Home page**
+**As a user, i would like to be presented with a well designed, user-friendly interface**
+
+**Home page Feature**
 
 - Action: *General navigation, and experience of the home page*
 
@@ -542,7 +546,7 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-**Nav Menu**
+**Nav Menu Feature**
 
 - Action: *The clicking and navigating in the nav menu*
 
@@ -550,14 +554,14 @@ User stories are tested with the features that cover them. All user stories pass
 *
 - Actual Results: *Works as intended*
 
-**The Quiz**
+**The Quiz Feature**
 
 - Action: *Clicking "Let's Play!"*
 
 - Expected Result: *Experience well designed elements with sounds and animation to appeal to user*
 - Actual Result: *Works as intended*
 
-**The Piano**
+**The Piano Feature**
 
 - Action: *Playing keys on the piano by clicking the keys or playing on the keyboard*
 
@@ -565,7 +569,7 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-**The Learn Page**
+**The Learn Page Feature**
 
 - Action: *User navigates and clicks on videos to play them*
 
@@ -575,7 +579,9 @@ User stories are tested with the features that cover them. All user stories pass
 
 
 
-3. **Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens**
+#### User story 3:
+
+**As a user, i would like to experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens**
 
 **Nav Menu**
 
@@ -585,7 +591,7 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-**Home Page**
+**Home Page Feature**
 
 - Action: *The user viewing and navigating within the home page on any device*
 
@@ -593,7 +599,7 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-**The Piano**
+**The Piano Feature**
 
 - Action: *User plays the piano on any device*
 
@@ -601,7 +607,7 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-**The Quiz**
+**The Quiz Feature**
 
 - Action: *User plays the quiz on any device*
 
@@ -609,7 +615,7 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-**Learn Page**
+**Learn Page Feature**
 
 - Action: *User navigates and watches videos on any device*
 
@@ -617,7 +623,7 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-**Contact Page**
+**Contact Page Feature**
 
 - Action: *User fills in the form on any device*
 
@@ -625,9 +631,12 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-4. **Get responses and confirmation from the website by my interactions with it**
 
-**The Piano**
+#### User story 4:
+
+**As a user, i would like to get responses and confirmation from the website by my interactions with it**
+
+**The Piano Feature**
 
 - Action: *User interacts by playing keys on the piano*
 
@@ -635,7 +644,7 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-**The Quiz**
+**The Quiz Feature**
 
 - Action: 'User interacts by clicking the buttons in the quiz
 '
@@ -643,7 +652,7 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-**Learn Page**
+**Learn Page Feature**
 
 - Action: *User interacts by navigating the videos section*
 
@@ -651,7 +660,7 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-**Learn Page**
+**Learn Page Feature**
 
 - Action: *User clicks on the "Send" button*
 
@@ -660,9 +669,11 @@ User stories are tested with the features that cover them. All user stories pass
 - Actual Result: *Works as intended*
 
 
-5. **Be able to play a quiz on note names, symbols and note lengths**
+#### User story 5:
 
-**The Quiz**
+**As a user, i would like to be able to play a quiz on note names, symbols and note lengths**
+
+**The Quiz Feature**
 
 - Action: *User navigates to the Quiz page and clicks on the "Let's Play!" button*
 
@@ -670,9 +681,12 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-6. **Get points if I answer a question right**
 
-**The Quiz**
+#### User story 6:
+
+**As a user, i would like to get points if I answer a question right**
+
+**The Quiz Feature**
 
 - Action: *User answers a question correctly*
 
@@ -680,9 +694,11 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-7. **See a timer ticking down from one minute**
+#### User story 7:
 
-**The Quiz**
+**As a user, i would like to see a timer ticking down from one minute**
+
+**The Quiz Feature**
 
 - Action: *User play quiz*
 
@@ -690,9 +706,11 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-8. **See an end game screen alerting me of my score and how the quiz went**
+#### User story 8
 
-**The Quiz**
+**As a user, i would like to see an end game screen alerting me of my score and how the quiz went**
+
+**The Quiz Feature**
 
 - Action: *User play quiz, which then ends*
 
@@ -700,7 +718,9 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-9. **Be able to choose to close the end game screen or play again**
+#### User story 9:
+
+**As a user, i would like to be able to choose to close the end game screen or play again**
 
 - Action: *User play quiz, which then ends*
 
@@ -709,9 +729,11 @@ User stories are tested with the features that cover them. All user stories pass
 - Actual Result: *Works as intended*
 
 
-10. **Be able to play notes on a piano on the screen and see which tone is being played**
+#### User story 10:
 
-**The Piano**
+**As a user, i would like to be able to play notes on a piano on the screen and see which tone is being played**
+
+**The Piano Feature**
 
 - Action: *User opens the play page, and plays on the piano keys*
 
@@ -719,9 +741,11 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-11. **Be able to play the notes on the computer keyboard**
+#### User story 11:
 
-**The Piano**
+**As a user, i would like to be able to play the notes on the computer keyboard**
+
+**The Piano Feature**
 
 - Action: *User opens the play page, and triggers the piano keys with the keyboard*
 
@@ -729,19 +753,11 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-12. **View videos to learn about music theory and sight reading**
+#### User story 12:
 
-**Learn Page**
+**As a user, i would like to be able to view videos to learn about music theory and sight reading**
 
-- Action: *User opens the learn page, and clicks on a video to view it*
-
-- Expected Result: *The video that the user clicks on is viewed in the main window*
-
-- Actual Result: *Works as intended*
-
-13. **Get in touch with the site owner**
-
-**Contact Page**
+**Learn Page Feature**
 
 - Action: *User opens the learn page, and clicks on a video to view it*
 
@@ -749,9 +765,23 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-14. **View an errors page if I have entered an invalid url within the website**
+#### User story 13:
 
-**404 Page**
+**As a user, i would like to be able to get in touch with the site owner**
+
+**Contact Page Feature**
+
+- Action: *User opens the learn page, and clicks on a video to view it*
+
+- Expected Result: *The video that the user clicks on is viewed in the main window*
+
+- Actual Result: *Works as intended*
+
+#### User story 14:
+
+**As a user, i would like to view an 404-error page if I have entered an invalid url within the website**
+
+**404 Page Feature**
 
 - Action: User enters an invalid URL within the website
 
@@ -759,16 +789,18 @@ User stories are tested with the features that cover them. All user stories pass
 *
 - Actual Result: *Works as intended*
 
-### Testing of site owner goals
-
 </details>
+
+### Testing of site owner goals
 
 <details>
   <summary>View siteowner goal tests</summary>
 
-15. **Display simple clear options on the home page**
+#### User story 15:
 
-**Home page**
+**As a site owner, i would like to display simple clear options on the home page**
+
+**Home Page Feature**
 
 - Action: *User visits the home page*
 
@@ -776,9 +808,11 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-16. **Display a menu in a navigation bar or popout menu at the top of the page**
+#### User story 16:
 
-**Nav Menu**
+**As a site owner, i would like to display a menu in a navigation bar or popout menu at the top of the page**
+
+**Nav Menu Feature**
 
 - Action: *User views a page or clicks on the hamburger button*
 
@@ -786,9 +820,11 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-17. **Display a quiz for users to test their knowledge**
+#### User story 17:
 
-**The Quiz**
+**As a site owner, i would like to display a quiz for users to test their knowledge**
+
+**The Quiz Feature**
 
 - Action: *User navigates to the Quiz page and clicks "Let's Play!"*
 
@@ -796,19 +832,11 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-18. **Display a learn page containing the results of a YouTube search dynamically updated, using YouTube API**
+#### User story 18:
 
-**Learn Page**
+**As a site owner, i would like to display a learn page containing the results of a YouTube search dynamically updated, using YouTube API**
 
-- Action: *User navigates to the learn page*
-
-- Expected Result: *The Videos list is dynamically updated with YouTube API and loaded into the videos section*
-
-- Actual Result: *Works as intended*
-
-19. **Display a page where users can play the piano and view the note played**
-
-**The Piano**
+**Learn Page Feature**
 
 - Action: *User navigates to the learn page*
 
@@ -816,9 +844,23 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-20. **Be able to be contacted should the user wish to do so, through an emailing service to my private email address**
+#### User story 19:
 
-**Contact Page**
+**As a site owner, i would like to display a page where users can play the piano and view the note played**
+
+**The Piano Feature**
+
+- Action: *User navigates to the learn page*
+
+- Expected Result: *The Videos list is dynamically updated with YouTube API and loaded into the videos section*
+
+- Actual Result: *Works as intended*
+
+#### User story 20:
+
+**As a site owner, i would like to be able to be contacted should the user wish to do so, through an emailing service to my private email address**
+
+**Contact Page Feature**
 
 - Action: *User fills in the form on Contact page and clicks send*
 
@@ -826,7 +868,9 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
-21. **Have a website that contains validated HTML, CSS and JavaScript**
+#### User story 20:
+
+**As a site owner, i would like to have a website that contains validated HTML, CSS and JavaScript**
 
 **ALL PAGES**
 
@@ -834,11 +878,11 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Expected Result: *The website passes all valdation tests*
 
-- Actual Result: *All tests passed*
+- Actual Result: *All tests passed without errors*
 
 </details>
 
-### Bugs
+## Bugs
 
 <details>
   <summary>View bugs here</summary>
