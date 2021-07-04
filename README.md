@@ -936,7 +936,7 @@ The learn page can be viewed above. It is highly responsive, and works even on t
 
 - Actual Result: *Works as intended*
 
-(Images of contact page are visible above)
+![Mail from emailJS](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/features/emailjs.jpeg)
 
 #### User story 21:
 
