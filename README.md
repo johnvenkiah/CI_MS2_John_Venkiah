@@ -521,7 +521,7 @@ Testing was also done on an iPhone XS and an iPad Pro 10.5"
 - Bug: Contact link appears above other text on 404 page
 - Fix: Make link position relative so it is scrollable to see
 
-![Contact link bug](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/errors/contact_link_error.png)
+![Contact link bug](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/errors_bugs/contact_link_error.png)
 
 - Bug: Contact link appearing on top of button on home page.
 - Fix: Change dimensions of buttons and button container, home page.
@@ -549,7 +549,7 @@ Testing was also done on an iPhone XS and an iPad Pro 10.5"
 
 - Bug: CORS error is shown when loading videos from YouTube API.
 - Fix: No fix for this; I have spent weeks trying to fix it but the best way is from the back end of which I have no experience yet. Mo, my mentor, explained that it should be ok, due to that the error has nothing to do with my code.
-![CORS-error](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/errors/cors_error.png)
+![CORS-error](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/errors_bugs/cors_error.png)
 
 </details>
 
