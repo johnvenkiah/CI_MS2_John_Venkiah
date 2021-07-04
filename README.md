@@ -525,7 +525,9 @@ User stories are tested with the features that cover them. All user stories pass
 
  - Actual result: *Works as intended*
 
- 
+![Navmenu](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/screenshots_iphone/navmenu_iphone.png)
+
+![Navmenu](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/features/feature_one_navbar_landscape.png)
 
  **Home page Feature**
 
@@ -534,6 +536,8 @@ User stories are tested with the features that cover them. All user stories pass
 - Expected result: *To get to the page clicked on*
 
 - Actual Result: *Works as intended*
+
+![Screenshot of home](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/mobile/mobile_home_landscape.png)
 
 
 #### User story 2:
@@ -548,6 +552,9 @@ User stories are tested with the features that cover them. All user stories pass
 
 - Actual Result: *Works as intended*
 
+![home](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/features/feature_two_desktop.png)
+
+
 **Nav Menu Feature**
 
 - Action: *The clicking and navigating in the nav menu*
@@ -555,6 +562,8 @@ User stories are tested with the features that cover them. All user stories pass
 - Expected Result: *Animations, positioning and feel of the menu appeal to user
 *
 - Actual Results: *Works as intended*
+
+
 
 **The Quiz Feature**
 
