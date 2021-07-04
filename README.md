@@ -265,8 +265,9 @@ The modal window also displays two buttons with choices for the user; "Play Agai
 7. See a timer ticking down from one minute
 8. See an end game screen alerting me of my score and how the quiz went
 9. Be able to choose to close the end game screen or play again
-15. Display a menu in a navigation bar or popout menu at the top of the page
-16. Display a quiz for users to test their knowledge
+16. Display a menu in a navigation bar or popout menu at the top of the page
+17. Display a quiz for users to test their 
+21. Have a website that contains validated HTML, CSS and JavaScript
 
 
 #### Feature 3: The Piano (Play Page)
@@ -396,6 +397,13 @@ Testing was also done on an iPhone XS and an iPad Pro 10.5"
 
 | Feature       | Action            | Expected result   | Actual result    |
 | --------------| ----------------- | ----------------- | ---------------- |
+
+| Navmenu       | Click on the links at the top of all pages other than Home on large screens, on mobile, click on the hamburger button          | To get to the page clicked on links | Functions as expected |
+
+| Home page     | Click on any of the buttons or the contact link below
+| To get to the page clicked on     | Functions as expected |
+
+| 
 
 2. Be presented with a well designed, user-friendly interface
 
@@ -552,10 +560,6 @@ Testing was also done on an iPhone XS and an iPad Pro 10.5"
 ![CORS-error](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/errors_bugs/cors_error.png)
 
 </details>
-
-
-
-
 
 
 ## Deployment
