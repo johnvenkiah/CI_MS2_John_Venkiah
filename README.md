@@ -272,12 +272,35 @@ The modal window also displays two buttons with choices for the user; "Play Agai
 
 #### Feature 3: The Piano (Play Page)
 
-The "play" page has two features, a miniature piano and a stave showing both the bass clef and treble clef. When the user clicks a key, the relevant note displays on the stave. The correct note is also heard when clicking it.
+The play page has two sub-features, a miniature piano and a stave showing both the bass clef and treble clef. When the user clicks a key, the relevant note displays on the stave. The correct note is also heard when clicking it.
+
+**User stories/site-owner goals covered:**
+
+2. Be presented with a well designed, user-friendly interface
+3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
+4. Get responses and confirmation from the website by my interactions with it
+10. Be able to play notes on a piano on the screen and see which tone is being played
+11. Be able to play the notes on the computer keyboard
+19. Display a page where users can play the piano and view the note played
+21. Have a website that contains validated HTML, CSS and JavaScript
 
 
 #### Feature 4: The Learn Page
 
-On the "learn" page, users can start learning the very basics of music theory from the beginning. Here, they learn the clefs, the stave, note names, and more. Pictures and text go hand in hand to teach the user the knowledge Which later can be tested in the quiz.
+Here, the user can navigate through a list of videos generated a search by the YouTube API, updating the list dynamically.
+
+In the list, title, thumbnail and decription data is displayed for each video in the list.
+
+Users can click on a video and view it in the main viewing window, located either to the left of the screen or at the top for mobile devices in portrait mode.
+
+**User stories/site-owner goals covered:**
+
+2. Be presented with a well designed, user-friendly interface
+3. Experience the same quality in design, user interaction and structure on small mobile devices, tablets as on larger screens
+4. Get responses and confirmation from the website by my interactions with it
+12. View videos to learn about music theory and sight reading
+18. Display a learn page containing the results of a YouTube search dynamically updated, using YouTube API
+21. Have a website that contains validated HTML, CSS and JavaScript
 
 
 #### Feature 5: The Contact Page
