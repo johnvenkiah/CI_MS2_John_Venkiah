@@ -14,7 +14,7 @@ Musical Minds is a simple website with the main goal of making learning music th
     1. [Strategy Plane](#strategy-plane)
         1. [Project Goals](#project-goals)
         2. [Future Goals](#future-goals)
-        3. [User Goals][#user-goals]
+        3. [User Goals](#user-goals)
 
     2. [Structure](#structure)
         1. [Home](#home)
@@ -38,7 +38,7 @@ Musical Minds is a simple website with the main goal of making learning music th
 
 2. [Features](#features)
     1. [Existing Features](#existing-features)
-        1. [Feature 1](#feature-1)
+        1. [Feature 1: The Navbar/Navmenu](#feature-1:-the-navbar/navmenu)
         2. [Feature 2](#feature-2)
         3. [Feature 3](#feature-3)
 
