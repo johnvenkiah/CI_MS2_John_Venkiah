@@ -38,7 +38,7 @@ Musical Minds is a simple website with the main goal of making learning music th
 
 2. [Features](#features)
     1. [Existing Features](#existing-features)
-        1. [Feature 1: The Navbar/Navmenu](#feature-1:-the-navbar/navmenu)
+        1. [Feature 1: The Navbar/Navmenu](#feature-1-the-navbar-navmenu)
         2. [Feature 2](#feature-2)
         3. [Feature 3](#feature-3)
 
