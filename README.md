@@ -233,11 +233,15 @@ The Home page has three big buttons, each containing a main feature of the site;
 
 #### Feature 3: The Quiz
 
+![The Quiz](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/features/feature_3_quiz_mobile.png)
+
 The quiz is a seemingly simple feature, but with a lot of functionality. The user has 60 seconds to answer the most questions correctly.
 
 The quiz has several sub-features of its own:
 
 - The staffbox
+
+
 
 Displays an image of the note in question for the user to answer. When answered, the image is updated to display the next note in question.
 
@@ -338,6 +342,8 @@ Users can click on a video and view it in the main viewing window, located eithe
 
 
 #### Feature 6: The Contact Page
+
+![Contact Page](https://github.com/johnvenkiah/CI_MS2_John_Venkiah/blob/master/docs/screenshots/features/feature_6_contact_mobile.png)
 
 The "contact" page contains a simple form, where the user can fill in their name, email address and message, which they can send by clicking the submit-button.
 
